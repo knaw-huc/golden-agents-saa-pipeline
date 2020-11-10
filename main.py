@@ -35,6 +35,10 @@ INDICES = [("08953f2f-309c-baf9-e5b1-0cefe3891b37",
            ("9823b7a8-ab79-a098-4ab0-26e799ea5659",
             "SAA-ID-008_SAA_Index_op_begraafregisters_voor_1811")]
 
+# type2uri = {
+#     'other: T
+# }
+
 with open('data/uri2notary.json') as infile:
     uri2notary = json.load(infile)
 
@@ -45,6 +49,15 @@ with open('data/uri2notary.json') as infile:
 
 
 def unique(*args):
+    """Function to generate a unique BNode based on a series of arguments.
+
+    Uses the uuid5 function to generate a uuid from one or multiple ordered 
+    arguments. This way, the BNode function of rdflib can be used, without the 
+    need to filter strange characters or spaces that will break the serialization. 
+
+    Returns:
+        BNode: Blank node with identifier that is based on the function's input.
+    """
 
     identifier = "".join(str(i) for i in args)  # order matters
 
@@ -53,7 +66,24 @@ def unique(*args):
     return BNode(unique_id)
 
 
-def main(eadfolder="data/ead", a2afolder="data/a2a", outfile='roar.trig'):
+def bindNS(g):
+
+    g.bind('rdf', RDF)
+    g.bind('rdfs', RDFS)
+    g.bind('roar', roar)
+    g.bind('pnv', pnv)
+    g.bind('sem', sem)
+    g.bind('dcterms', DCTERMS)
+    g.bind('file', 'https://archief.amsterdam/inventarissen/file/')
+
+    return g
+
+
+def main(eadfolder="data/ead",
+         a2afolder="data/a2a",
+         outfile='roar.trig',
+         splitFile=True,
+         splitSize=100):
 
     ds = Dataset()
 
@@ -65,19 +95,46 @@ def main(eadfolder="data/ead", a2afolder="data/a2a", outfile='roar.trig'):
     for dirpath, dirname, filenames in os.walk(eadfolder):
         for n, f in enumerate(sorted(filenames), 1):
             print(f"{n}/{len(filenames)} {f}")
-            if f.endswith('.xml'):
+            if f.endswith('.xml') and '5001' in f:
                 identifier2book = convertEAD(os.path.join(dirpath, f),
                                              g,
                                              identifier2book=identifier2book)
+            else:
+                continue
+
+            if splitFile:
+                path = f"trig/{f}.trig"
+                print("Serializing to", path)
+
+                g = bindNS(g)
+                g.serialize(path, format='trig')
+                ds.remove_graph(g)
+                g = rdfSubject.db = ds.graph(identifier=ga.term('saa/ead/'))
 
     # A2A
     print("A2A parsing!")
     g = rdfSubject.db = ds.graph(identifier=ga.term('saa/a2a/'))
     for dirpath, dirname, filenames in os.walk(a2afolder):
-        for f in sorted(filenames)[:20]:  # test on 20 files per index
-            if f.endswith('.xml'):
+        nSplit = 0
+        for n, f in enumerate(sorted(filenames),
+                              1):  # test on 20 files per index
+            if f.endswith('.xml') and 'ondertrouw' in dirpath:
                 path = os.path.abspath(os.path.join(dirpath, f))
-                convertXML(path, g, identifier2book)
+                convertXML(path, ds, identifier2book)
+            else:
+                continue
+
+            if splitFile and (n % splitSize == 0 or n == len(filenames)):
+                nSplit += 1
+
+                foldername = dirpath.rsplit('/')[-1]
+                path = f"trig/{foldername}_{str(nSplit).zfill(4)}.trig"
+                print("Serializing to", path)
+
+                g = bindNS(g)
+                g.serialize(path, format='trig')
+                ds.remove_graph(g)
+                g = rdfSubject.db = ds.graph(identifier=ga.term('saa/a2a/'))
 
     # HTR
     #print("HTR parsing!")
@@ -85,15 +142,15 @@ def main(eadfolder="data/ead", a2afolder="data/a2a", outfile='roar.trig'):
 
     ## Finished!
 
-    ds.bind('rdf', RDF)
-    ds.bind('rdfs', RDFS)
-    ds.bind('roar', roar)
-    ds.bind('sem', sem)
-    ds.bind('dcterms', DCTERMS)
-    ds.bind('file', 'https://archief.amsterdam/inventarissen/file/')
+    ds = bindNS(ds)
 
-    print(f'Serializing to {outfile}')
-    ds.serialize('roar.trig', format='trig')
+    if not splitFile:
+        print(f'Serializing to {outfile}')
+        ds.serialize('trig/roar.trig', format='trig')
+    else:
+        # ontology only
+        g = rdfSubject.db = ds.graph(identifier=roar)
+        g.serialize('trig/roar.trig', format='trig')
 
 
 def convertEAD(xmlfile, g, identifier2book=defaultdict(dict)):
@@ -318,7 +375,7 @@ def getGroupingCriteria(sourceType=[],
     return criteria
 
 
-def convertXML(xmlfile, g, identifier2book):
+def convertXML(xmlfile, ds, identifier2book):
     c = A2ADocumentCollection(xmlfile)
 
     for d in c:
@@ -344,61 +401,93 @@ def convertXML(xmlfile, g, identifier2book):
                           createdBy=createdByUris,
                           createdAt=createdAtDate)
 
-        # # events
-        # for e in d.events:
-        #     if e.EventDate and e.EventDate.date:
-        #         eventDate = Literal(str(e.EventDate), datatype=XSD.date)
-        #     else:
-        #         eventDate = None
-        #     event = Event(BNode(d.source.guid + e.id),
-        #                   eventType=EventType(safeBnode(e.EventType),
-        #                                       label=[e.EventType]),
-        #                   hasTimeStamp=eventDate)
+        # events
+        events = []
+        for e in d.events:
 
-        # # persons
-        # for p in d.persons:
+            eventTypeName = e.EventType.replace('other: ',
+                                                '').title().replace(' ', '')
 
-        #     pn = PersonName(
-        #         None,
-        #         givenName=p.PersonName.PersonNameFirstName,
-        #         surnamePrefix=p.PersonName.PersonNamePrefixLastName,
-        #         baseSurname=p.PersonName.PersonNameLastName)
+            # Switch to ontology graph
+            g = rdfSubject.db = ds.graph(identifier=roar)
+            EventClass = type(e.EventType, (Event, ),
+                              {"rdf_type": roar.term(eventTypeName)})
 
-        #     label = " ".join([i for i in p.PersonName])
-        #     pn.label = label
+            eType = EventType(roar.term(eventTypeName),
+                              subClassOf=roar.Event,
+                              label=[eventTypeName])
 
-        #     person = PersonObservation(
-        #         saaDeed.term(d.source.guid + '?person=' +
-        #                      p.id.replace('Person:', '')),
-        #         documentedIn=source,
-        #         event=[event],
-        #         hasName=[pn],
-        #         label=[label])
+            # Switch to A2A graph
+            g = rdfSubject.db = ds.graph(identifier=a2a)
 
-        #     for r in p.relations:
-        #         if e := getattr(r, 'event'):
+            if e.EventDate and e.EventDate.date:
+                eventDate = e.EventDate.date
+            else:
+                eventDate = None
 
-        #             actor = Role(None,
-        #                          roleType=RoleType(safeBnode(r.RelationType),
-        #                                            label=[r.RelationType]))
+            event = EventClass(
+                a2a.term(d.source.guid + '#' + e.id),
+                hasTimeStamp=eventDate,
+                label=[
+                    f"{eventTypeName} ({eventDate.isoformat() if eventDate else '?'})"
+                ])
+            events.append(event)
 
-        #             Event(BNode(d.source.guid + e.id)).hasActor = [actor]
-        #             # event.hasActor.append(actor)
+        # persons and roles
+        for p in d.persons:
 
-        #     # Remarks
-        #     for remark in p.Remarks['diversen']:
-        #         if remark == 'Adres':
-        #             adres = p.Remarks['diversen']['Adres']
-        #             locObs = LocationObservation(safeBnode(adres),
-        #                                          label=[adres])
+            pn = PersonName(
+                None,
+                givenName=p.PersonName.PersonNameFirstName,
+                surnamePrefix=p.PersonName.PersonNamePrefixLastName,
+                baseSurname=p.PersonName.PersonNameLastName)
 
-        #             person.hasLocation = [
-        #                 StructuredValue(None,
-        #                                 value=locObs,
-        #                                 role="resident",
-        #                                 hasLatestBeginTimeStamp=eventDate,
-        #                                 hasEarliestEndTimeStamp=eventDate)
-        #             ]
+            label = " ".join([i for i in p.PersonName])
+            pn.label = label
+            pn.literalName = label
+
+            person = Person(a2a.term(d.source.guid + '#' + p.id),
+                            participatesIn=events,
+                            hasName=[pn],
+                            label=[label])
+
+            for r in p.relations:
+                if e := getattr(r, 'event'):
+
+                    relationTypeName = r.RelationType.replace(
+                        'other: ', '').title().replace(' ', '')
+
+                    # Switch to ontology graph
+                    g = rdfSubject.db = ds.graph(identifier=roar)
+                    RoleClass = type(r.RelationType, (Role, ),
+                                     {"rdf_type": roar.term(relationTypeName)})
+
+                    rType = RoleType(roar.term(r.RelationType),
+                                     subClassOf=roar.Role,
+                                     label=[r.RelationType])
+
+                    # Switch to A2A graph
+                    g = rdfSubject.db = ds.graph(identifier=a2a)
+                    eUri = a2a.term(d.source.guid + '#' + e.id)
+                    role = RoleClass(None,
+                                     carriedIn=eUri,
+                                     carriedBy=[person],
+                                     label=[r.RelationType])
+
+            # # Remarks
+            # for remark in p.Remarks['diversen']:
+            #     if remark == 'Adres':
+            #         adres = p.Remarks['diversen']['Adres']
+            #         locObs = LocationObservation(safeBnode(adres),
+            #                                      label=[adres])
+
+            #         person.hasLocation = [
+            #             StructuredValue(None,
+            #                             value=locObs,
+            #                             role="resident",
+            #                             hasLatestBeginTimeStamp=eventDate,
+            #                             hasEarliestEndTimeStamp=eventDate)
+            #         ]
 
 
 if __name__ == "__main__":

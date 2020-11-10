@@ -70,8 +70,47 @@ class Entity(rdfSubject):
     depiction = rdfMultiple(foaf.depiction)
 
 
-class Agent(Entity):
+class Individual(Entity):
+    rdf_type = roar.Individual
+
+
+class RoleBearer(Individual):
+    rdf_type = roar.RoleBearer
+
+    participatesIn = rdfMultiple(roar.participatesIn)
+
+
+class Agent(RoleBearer):
     rdf_type = roar.Agent
+
+
+class Person(Agent):
+    rdf_type = roar.Person
+
+    hasName = rdfMultiple(pnv.hasName, range_type=pnv.PersonName)  # resource
+
+
+class PersonName(Entity):
+    rdf_type = pnv.PersonName
+    label = rdfSingle(RDFS.label)
+
+    # These map to A2A
+    literalName = rdfSingle(pnv.literalName)
+    givenName = rdfSingle(pnv.givenName)
+    surnamePrefix = rdfSingle(pnv.surnamePrefix)
+    baseSurname = rdfSingle(pnv.baseSurname)
+
+    # These do not
+    prefix = rdfSingle(pnv.prefix)
+    disambiguatingDescription = rdfSingle(pnv.disambiguatingDescription)
+    patronym = rdfSingle(pnv.patronym)
+    surname = rdfSingle(pnv.surname)
+
+    # # Extra for the notarial acts
+    # personId = rdfSingle(saa.personId)
+    # scanName = rdfSingle(saa.scanName)
+    # scanPosition = rdfSingle(saa.scanPosition)
+    # uuidName = rdfSingle(saa.uuidName)
 
 
 class Document(Entity):
@@ -85,6 +124,9 @@ class Document(Entity):
 
     createdBy = rdfMultiple(roar.createdBy)
     createdAt = rdfSingle(roar.createdAt)
+
+    #temp
+    event = rdfMultiple(roar.event)
 
 
 class DocumentCollection(Document):
@@ -119,11 +161,21 @@ class Event(Entity):
     hasOutput = rdfMultiple(roar.hasOutput)
 
 
+class EventType(Entity):
+    rdf_type = roar.EventType
+    subClassOf = rdfSingle(RDFS.subClassOf)
+
+
 class Role(Entity):
     rdf_type = roar.Role
 
     carriedIn = rdfSingle(roar.carriedIn)
     carriedBy = rdfMultiple(roar.carriedBy)
+
+
+class RoleType(Entity):
+    rdf_type = roar.RoleType
+    subClassOf = rdfSingle(RDFS.subClassOf)
 
 
 class CollectionCreation(Event):
@@ -264,60 +316,12 @@ class Organisation(Entity):
     label = rdfMultiple(RDFS.label)
 
 
-class Person(Entity):
-    rdf_type = saa.Person
-
-    hasName = rdfMultiple(pnv.hasName, range_type=pnv.PersonName)  # resource
-
-    scanName = rdfSingle(saa.scanName)
-    scanPosition = rdfSingle(saa.scanPosition)
-
-    birth = rdfSingle(bio.birth)
-    death = rdfSingle(bio.death)
-    event = rdfMultiple(bio.event)
-
-    gender = rdfSingle(schema.gender)
-
-    mother = rdfSingle(bio.mother)
-    father = rdfSingle(bio.father)
-    child = rdfSingle(bio.child)
-
-    spouse = rdfMultiple(schema.spouse)
-    parent = rdfMultiple(schema.parent)
-    children = rdfMultiple(schema.children)
-
-    hasOccupation = rdfMultiple(schema.hasOccupation)
-
-
 class Notary(Person):
     rdf_type = saa.Notary
     collaboratesWith = rdfMultiple(rel.collaboratesWith, range_type=saa.Person)
 
     notaryOfSectionNumber = rdfSingle(saa.notaryOfSectionNumber)
     notaryOfInventoryNumber = rdfMultiple(saa.notaryOfInventoryNumber)
-
-
-class PersonName(Entity):
-    rdf_type = pnv.PersonName
-    label = rdfSingle(RDFS.label)
-
-    # These map to A2A
-    literalName = rdfSingle(pnv.literalName)
-    givenName = rdfSingle(pnv.givenName)
-    surnamePrefix = rdfSingle(pnv.surnamePrefix)
-    baseSurname = rdfSingle(pnv.baseSurname)
-
-    # These do not
-    prefix = rdfSingle(pnv.prefix)
-    disambiguatingDescription = rdfSingle(pnv.disambiguatingDescription)
-    patronym = rdfSingle(pnv.patronym)
-    surname = rdfSingle(pnv.surname)
-
-    # Extra for the notarial acts
-    personId = rdfSingle(saa.personId)
-    scanName = rdfSingle(saa.scanName)
-    scanPosition = rdfSingle(saa.scanPosition)
-    uuidName = rdfSingle(saa.uuidName)
 
 
 class Occupation(Entity):

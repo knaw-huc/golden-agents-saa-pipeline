@@ -1,7 +1,10 @@
-from collections import defaultdict
+import multiprocessing
+
 import os
 import json
 import uuid
+from collections import defaultdict
+
 from rdflib.namespace import DCTERMS
 
 from rdflib.term import BNode
@@ -35,9 +38,9 @@ INDICES = [("08953f2f-309c-baf9-e5b1-0cefe3891b37",
            ("9823b7a8-ab79-a098-4ab0-26e799ea5659",
             "SAA-ID-008_SAA_Index_op_begraafregisters_voor_1811")]
 
-# type2uri = {
-#     'other: T
-# }
+# Global dictionaries
+identifier2book = defaultdict(dict)
+identifier2physicalBook = defaultdict(dict)
 
 with open('data/uri2notary.json') as infile:
     uri2notary = json.load(infile)
@@ -74,7 +77,7 @@ def bindNS(g):
     g.bind('pnv', pnv)
     g.bind('sem', sem)
     g.bind('dcterms', DCTERMS)
-    g.bind('file', 'https://archief.amsterdam/inventarissen/file/')
+    g.bind('file', file)
 
     return g
 
@@ -83,11 +86,9 @@ def main(eadfolder="data/ead",
          a2afolder="data/a2a",
          outfile='roar.trig',
          splitFile=True,
-         splitSize=100):
+         splitSize=5):
 
     ds = Dataset()
-
-    identifier2book = defaultdict(dict)
 
     # EAD
     print("EAD parsing!")
@@ -95,19 +96,17 @@ def main(eadfolder="data/ead",
     for dirpath, dirname, filenames in os.walk(eadfolder):
         for n, f in enumerate(sorted(filenames), 1):
             print(f"{n}/{len(filenames)} {f}")
-            if f.endswith('.xml') and '5001' in f:
-                identifier2book = convertEAD(os.path.join(dirpath, f),
-                                             g,
-                                             identifier2book=identifier2book)
+            if f.endswith('.xml'):
+                convertEAD(os.path.join(dirpath, f), g)
             else:
                 continue
 
             if splitFile:
                 path = f"trig/{f}.trig"
-                print("Serializing to", path)
-
                 g = bindNS(g)
-                g.serialize(path, format='trig')
+
+                print("Serializing to", path)
+                # g.serialize(path, format='trig')
                 ds.remove_graph(g)
                 g = rdfSubject.db = ds.graph(identifier=ga.term('saa/ead/'))
 
@@ -115,26 +114,50 @@ def main(eadfolder="data/ead",
     print("A2A parsing!")
     g = rdfSubject.db = ds.graph(identifier=ga.term('saa/a2a/'))
     for dirpath, dirname, filenames in os.walk(a2afolder):
-        nSplit = 0
-        for n, f in enumerate(sorted(filenames),
-                              1):  # test on 20 files per index
-            if f.endswith('.xml') and 'ondertrouw' in dirpath:
-                path = os.path.abspath(os.path.join(dirpath, f))
-                convertXML(path, ds, identifier2book)
-            else:
-                continue
 
-            if splitFile and (n % splitSize == 0 or n == len(filenames)):
+        if 'ondertrouw' not in dirpath:
+            continue
+
+        nSplit = 1
+        filenames = [
+            os.path.abspath(os.path.join(dirpath, i))
+            for i in sorted(filenames) if i.endswith('.xml')
+        ]
+
+        chunks = []
+        foldername = dirpath.rsplit('/')[-1]
+        fns = []
+        for n, f in enumerate(filenames, 1):
+            if n % splitSize == 0:
                 nSplit += 1
-
-                foldername = dirpath.rsplit('/')[-1]
                 path = f"trig/{foldername}_{str(nSplit).zfill(4)}.trig"
-                print("Serializing to", path)
+                chunks.append((fns, path))
+                fns = []
+            fns.append(f)
 
-                g = bindNS(g)
-                g.serialize(path, format='trig')
-                ds.remove_graph(g)
-                g = rdfSubject.db = ds.graph(identifier=ga.term('saa/a2a/'))
+        with multiprocessing.Pool(processes=12) as pool:
+
+            ontologyGraphs = pool.starmap(convertA2A, chunks)
+
+        for og in ontologyGraphs:
+            g = ds.graph(identifier=roar)
+            g += og
+        # for n, f in enumerate(filenames, 1):
+
+        #     path = os.path.abspath(os.path.join(dirpath, f))
+        #     convertA2A(path, ds)
+
+        #     if splitFile and (n % splitSize == 0 or n == len(filenames)):
+        #         nSplit += 1
+
+        #
+        #         path = f"trig/{foldername}_{str(nSplit).zfill(4)}.trig"
+        #         print("Serializing to", path)
+
+        #         g = bindNS(g)
+        #         g.serialize(path, format='trig')
+        #         ds.remove_graph(g)
+        #         g = rdfSubject.db = ds.graph(identifier=ga.term('saa/a2a/'))
 
     # HTR
     #print("HTR parsing!")
@@ -153,50 +176,72 @@ def main(eadfolder="data/ead",
         g.serialize('trig/roar.trig', format='trig')
 
 
-def convertEAD(xmlfile, g, identifier2book=defaultdict(dict)):
+def convertEAD(xmlfile, g):
 
-    ead = parseEAD(xmlfile)
+    eadDocument = parseEAD(xmlfile)
 
-    c = ead.collection[0]
+    c = eadDocument.collection[0]
 
     uri = URIRef(f"https://archief.amsterdam/inventarissen/file/{c.id}")
-    collection, identifier2book = getCollection(
-        c, uri, identifier2book=identifier2book)  # top collection
+    physicalUri = ead.term(c.id)
 
-    return identifier2book
+    # top collection, create a physical collection
+    getCollection(c, uri, physicalUri=physicalUri)
 
 
-def cToRdf(c,
-           identifier2book,
-           parent=None,
-           collectionNumber=None,
-           scanNamespace=None):
-
-    # if collectionNumber:
-    #     saaCollection = Namespace(
-    #         f"https://data.goldenagents.org/datasets/SAA/{collectionNumber}/")
-    # else:
-    #     saaCollection = ga
+def cToRdf(c, parent=None, collectionNumber=None, scanNamespace=None):
 
     uri = URIRef(f"https://archief.amsterdam/inventarissen/file/{c.id}")
 
     if c.level == 'file':
         # Then this is a book --> InventoryBook
 
-        collection = Book(uri,
-                          label=[c.name] if c.name else [c.identifier],
-                          description=[c.description] if c.description else [],
-                          identifier=c.identifier,
-                          temporal=c.date.get('temporal'))
-        # hasTimeStamp=c.date.get('hasTimeStamp'),
-        # hasBeginTimeStamp=c.date.get('hasBeginTimeStamp'),
-        # hasEndTimeStamp=c.date.get('hasEndTimeStamp'),
-        # hasEarliestBeginTimeStamp=c.date.get('hasEarliestBeginTimeStamp'),
-        # hasLatestBeginTimeStamp=c.date.get('hasLatestBeginTimeStamp'),
-        # hasEarliestEndTimeStamp=c.date.get('hasEarliestEndTimeStamp'),
-        # hasLatestEndTimeStamp=c.date.get('hasLatestEndTimeStamp'))
+        if c.name:
+            label = [Literal(c.name, lang='nl')]
+        else:
+            label = [Literal(f"Inventaris {c.identifier}", lang='nl')]
 
-        return collection, 'file', identifier2book
+        indexBook = IndexBook(
+            uri,
+            label=label,
+            description=[c.description] if c.description else [],
+            identifier=c.identifier,
+            temporal=c.date.get('temporal'))
+
+        physicalBook = InventoryBook(ead.term(c.id),
+                                     createdBy=uri2notary.get(uri, []),
+                                     createdAt=TimeInterval(None,
+                                                            start=None,
+                                                            end=None))
+
+        indexBook.indexOf = physicalBook
+
+        creationEvent = DocumentCreation(
+            ead.term(f"{c.id}#creation"),
+            hasInput=[],
+            hasOutput=[physicalBook],
+            hasTimeStamp=c.date.get('hasTimeStamp'),
+            hasBeginTimeStamp=c.date.get('hasBeginTimeStamp'),
+            hasEndTimeStamp=c.date.get('hasEndTimeStamp'),
+            hasEarliestBeginTimeStamp=c.date.get('hasEarliestBeginTimeStamp'),
+            hasLatestBeginTimeStamp=c.date.get('hasLatestBeginTimeStamp'),
+            hasEarliestEndTimeStamp=c.date.get('hasEarliestEndTimeStamp'),
+            hasLatestEndTimeStamp=c.date.get('hasLatestEndTimeStamp'))
+
+        if notaryUris := uri2notary.get(uri, []):
+            for notaryUri in notaryUris:
+                notaryRole = NotaryRole(None,
+                                        carriedIn=creationEvent,
+                                        carriedBy=[notaryUri])
+
+                Agent(notaryUri).participatesIn = [creationEvent]
+
+        creationIndexEvent = DocumentCreation(
+            ead.term(f"{c.id}#indexCreation"),
+            hasInput=[physicalBook],
+            hasOutput=[indexBook])
+
+        return indexBook, physicalBook, 'file'
 
     else:
         # Not yet reached the end of the tree
@@ -205,15 +250,14 @@ def cToRdf(c,
         ):  # these ids in the middle are not unique
             uri = None
 
-        collection, identifier2book = getCollection(
-            c, uri, identifier2book=identifier2book)
+        collection = getCollection(c, uri)
 
-        return collection, 'collection', identifier2book
+        return collection, None, 'collection'
 
 
-def getCollection(c, uri, identifier2book=defaultdict(dict)):
+def getCollection(c, uri, physicalUri=None):
 
-    collection = DocumentCollection(
+    collection = IndexCollection(
         uri,
         label=[c.name] if c.name else [c.identifier],
         description=[c.description] if c.description else [],
@@ -222,11 +266,12 @@ def getCollection(c, uri, identifier2book=defaultdict(dict)):
 
     if hasattr(c, 'language'):
         language = [c.language]
-        collection.language = language
+        collection.language = language  # find dcterm alternative + iso
     else:
         language = []
 
     repositories = []
+    authorities = []
     if hasattr(c, 'repository'):
         if type(c.repository) != list:
             repository = [c.repository]
@@ -237,13 +282,17 @@ def getCollection(c, uri, identifier2book=defaultdict(dict)):
             if 'corpname' in c.repository:
                 name = c.repository['corpname']
                 repository = Agent(unique(name), label=[name])
+                authority = name
             else:
                 repository = c.repository
+                authority = c.repository
+            authorities.append(authority)
             repositories.append(repository)
 
-    collection.repository = repositories
+    collection.authority = authorities
 
     originations = []
+    creators = []
     if hasattr(c, 'origination'):
         if type(c.origination) != list:
             origination = [c.origination]
@@ -254,15 +303,18 @@ def getCollection(c, uri, identifier2book=defaultdict(dict)):
             if 'corpname' in i:
                 name = i['corpname']
                 org = Agent(unique(name), label=[name])
+                creator = name
             else:
                 org = i
+                creator = i
+            creators.append(creator)
             originations.append(org)
 
     if uri2notary.get(uri):  # specifically for collection 5075
         for n in uri2notary[uri]:
             originations.append(Agent(n))
 
-    collection.origination = originations
+    collection.creator = creators
 
     groupingCriteria = getGroupingCriteria(sourceType=[roar.Inventory],
                                            sourceDate=c.date,
@@ -273,25 +325,27 @@ def getCollection(c, uri, identifier2book=defaultdict(dict)):
     subcollections = []
     parts = []
     for ch in c.children:
-        ch, chtype, identifier2book = cToRdf(ch,
-                                             identifier2book,
-                                             parent=collection)
+        chIndex, chPhysical, chtype = cToRdf(ch, parent=collection)
 
         if chtype == 'collection':
-            subcollections.append(ch)
+            subcollections.append(chIndex)
         elif chtype == 'file':
-            parts.append(ch)
+            parts.append(chIndex)
 
     collection.hasSubCollection = subcollections
     collection.hasMember = parts
 
     # Creation event
 
-    allUris, allIdentifiers = getAllChildren(c)
+    allUris, allIdentifiers = getAllChildren(c, ns=file)
+    allUrisPhysical, allIdentifiersPhysical = getAllChildren(c, ns=ead)
     collectionIdentifier = getParentIdentifier(c)
 
     for u, i in zip(allUris, allIdentifiers):
         identifier2book[collectionIdentifier][i] = u
+
+    for u, i in zip(allUrisPhysical, allIdentifiersPhysical):
+        identifier2physicalBook[collectionIdentifier][i] = u
 
     creationEvent = CollectionCreation(None,
                                        hasInput=allUris,
@@ -305,22 +359,26 @@ def getCollection(c, uri, identifier2book=defaultdict(dict)):
                                                 carriedIn=creationEvent,
                                                 carriedBy=[collection])
 
-    return collection, identifier2book
+    if physicalUri:
+        physicalCollection = InventoryCollection(physicalUri,
+                                                 hasMember=allUrisPhysical)
+        collection.indexOf = physicalCollection
+
+        return collection, physicalCollection
+    else:
+        return collection
 
 
-def getAllChildren(c):
+def getAllChildren(c, ns):
 
     uris = []
     identifiers = []
     for child in c.children:
         if child.level == 'file':
-            uris.append(
-                URIRef(
-                    f"https://archief.amsterdam/inventarissen/file/{child.id}")
-            )
+            uris.append(ns.term(child.id))
             identifiers.append(child.identifier)
         else:
-            urisNew, identifiersNew = getAllChildren(child)
+            urisNew, identifiersNew = getAllChildren(child, ns=ns)
             uris += urisNew
             identifiers += identifiersNew
 
@@ -366,113 +424,208 @@ def getGroupingCriteria(sourceType=[],
                                       hasFilterValue=sourceAuthor)
         criteria.append(criterion)
 
-    if sourceLanguage:
+    if sourceLanguage:  # iso code?
         criterion = GroupingCriterion(None,
-                                      hasFilter=roar.createdBy,
+                                      hasFilter=roar.language,
                                       hasFilterValue=sourceLanguage)
         criteria.append(criterion)
 
     return criteria
 
 
-def convertXML(xmlfile, ds, identifier2book):
-    c = A2ADocumentCollection(xmlfile)
+def convertA2A(filenames, path):
 
-    for d in c:
+    ontologyGraph = Graph(identifier=roar)
+    graph = Graph(identifier=a2a)
 
-        collection = d.source.SourceReference.Archive
-        inventory = d.source.SourceReference.RegistryNumber
-        partOfUri = URIRef(identifier2book[collection][inventory])
+    #     path = os.path.abspath(os.path.join(dirpath, f))
+    #     convertA2A(path, ds)
 
-        createdByUris = []
-        if uri2notary.get(partOfUri):  # specifically for collection 5075
-            for n in uri2notary[partOfUri]:
-                createdByUris.append(Agent(n))
+    #     if splitFile and (n % splitSize == 0 or n == len(filenames)):
+    #         nSplit += 1
 
-        if hasattr(d.source, 'SourceDate'):
-            createdAtDate = d.source.SourceDate.date
-        else:
-            createdAtDate = None
+    #         foldername = dirpath.rsplit('/')[-1]
+    #         path = f"trig/{foldername}_{str(nSplit).zfill(4)}.trig"
+    #         print("Serializing to", path)
 
-        # source
-        source = Document(a2a.term(d.source.guid),
-                          label=[d.source.SourceType],
-                          partOf=partOfUri,
-                          createdBy=createdByUris,
-                          createdAt=createdAtDate)
+    #         g = bindNS(g)
+    #         g.serialize(path, format='trig')
+    #         ds.remove_graph(g)
+    #         g = rdfSubject.db = ds.graph(identifier=ga.term('saa/a2a/'))
 
-        # events
-        events = []
-        for e in d.events:
+    for xmlfile in filenames:
 
-            eventTypeName = e.EventType.replace('other: ',
-                                                '').title().replace(' ', '')
+        c = A2ADocumentCollection(xmlfile)
+
+        for d in c:
+
+            collection = d.source.SourceReference.Archive
+            inventory = d.source.SourceReference.RegistryNumber
+            partOfUri = identifier2physicalBook[collection][inventory]
+            partOfIndexUri = identifier2book[collection][inventory]
+
+            createdByUris = []
+            if creators := uri2notary.get(
+                    partOfIndexUri):  # specifically for collection 5075
+                for n in creators:
+                    createdByUris.append(Agent(n))
+
+            if hasattr(d.source, 'SourceDate'):
+                createdAtDate = d.source.SourceDate.date
+            else:
+                createdAtDate = None
+
+            if hasattr(d.source, 'SourcePlace'):
+                name = d.source.SourcePlace.Place
+                createdInPlace = Place(unique(name), label=[name])
+            else:
+                createdInPlace = None
+
+            # source remarks
+            try:
+                if comment := d.source.Remarks['Opmerking']['Opmerking']:
+                    comments = [Literal(comment, lang='nl')]
+                else:
+                    comments = []
+            except:
+                comments = []
+
+            # source
+
+            sourceTypeName = d.source.SourceType.lower().replace(
+                'other: ', '').title().replace(' ', '')
 
             # Switch to ontology graph
-            g = rdfSubject.db = ds.graph(identifier=roar)
-            EventClass = type(e.EventType, (Event, ),
-                              {"rdf_type": roar.term(eventTypeName)})
+            g = rdfSubject.db = ontologyGraph
+            SourceClass = type(d.source.SourceType, (Document, ),
+                               {"rdf_type": roar.term(sourceTypeName)})
 
-            eType = EventType(roar.term(eventTypeName),
-                              subClassOf=roar.Event,
-                              label=[eventTypeName])
+            sType = DocumentType(roar.term(sourceTypeName),
+                                 subClassOf=roar.Document,
+                                 label=[sourceTypeName])
 
             # Switch to A2A graph
-            g = rdfSubject.db = ds.graph(identifier=a2a)
+            g = rdfSubject.db = graph
 
-            if e.EventDate and e.EventDate.date:
-                eventDate = e.EventDate.date
-            else:
-                eventDate = None
+            # Physical deed
+            physicalUri = partOfUri + '#' + d.source.guid
+            source = SourceClass(physicalUri,
+                                 partOf=partOfUri,
+                                 createdBy=createdByUris,
+                                 createdAt=createdAtDate,
+                                 createdIn=createdInPlace)
 
-            event = EventClass(
-                a2a.term(d.source.guid + '#' + e.id),
-                hasTimeStamp=eventDate,
-                label=[
-                    f"{eventTypeName} ({eventDate.isoformat() if eventDate else '?'})"
-                ])
-            events.append(event)
+            # Index document
+            indexUri = deed.term(d.source.guid)
+            sourceIndex = IndexDocument(indexUri,
+                                        label=[sourceTypeName],
+                                        description=comments,
+                                        indexOf=source)
 
-        # persons and roles
-        for p in d.persons:
+            ## scans
+            scans = []
 
-            pn = PersonName(
-                None,
-                givenName=p.PersonName.PersonNameFirstName,
-                surnamePrefix=p.PersonName.PersonNamePrefixLastName,
-                baseSurname=p.PersonName.PersonNameLastName)
+            for scan in d.source.scans:
 
-            label = " ".join([i for i in p.PersonName])
-            pn.label = label
-            pn.literalName = label
+                identifier = scan.Uri.rsplit('/')[-1].replace('.jpg', '')
 
-            person = Person(a2a.term(d.source.guid + '#' + p.id),
-                            participatesIn=events,
-                            hasName=[pn],
-                            label=[label])
+                scanUri = deed.term(
+                    d.source.guid) + '?scan=' + scan.OrderSequenceNumber.zfill(
+                        3)
+                s = Scan(scanUri,
+                         identifier=identifier,
+                         depiction=[URIRef(scan.Uri)])
+                scans.append(s)
 
-            for r in p.relations:
-                if e := getattr(r, 'event'):
+            # scanCollection = ScanCollection(None, hasMember=scans)
 
-                    relationTypeName = r.RelationType.replace(
-                        'other: ', '').title().replace(' ', '')
+            # events
+            events = []
+            for e in d.events:
 
-                    # Switch to ontology graph
-                    g = rdfSubject.db = ds.graph(identifier=roar)
-                    RoleClass = type(r.RelationType, (Role, ),
-                                     {"rdf_type": roar.term(relationTypeName)})
+                eventTypeName = e.EventType.lower().replace(
+                    'other: ', '').title().replace(' ', '')
 
-                    rType = RoleType(roar.term(r.RelationType),
-                                     subClassOf=roar.Role,
-                                     label=[r.RelationType])
+                # Switch to ontology graph
+                g = rdfSubject.db = ontologyGraph
+                EventClass = type(e.EventType, (Event, ),
+                                  {"rdf_type": roar.term(eventTypeName)})
 
-                    # Switch to A2A graph
-                    g = rdfSubject.db = ds.graph(identifier=a2a)
-                    eUri = a2a.term(d.source.guid + '#' + e.id)
-                    role = RoleClass(None,
-                                     carriedIn=eUri,
-                                     carriedBy=[person],
-                                     label=[r.RelationType])
+                eType = EventType(roar.term(eventTypeName),
+                                  subClassOf=roar.Event,
+                                  label=[eventTypeName])
+
+                # Switch to A2A graph
+                g = rdfSubject.db = graph
+
+                if e.EventDate and e.EventDate.date:
+                    eventDate = e.EventDate.date
+                else:
+                    eventDate = None
+
+                event = EventClass(
+                    deed.term(d.source.guid + '?event=' + e.id),
+                    hasTimeStamp=eventDate,
+                    label=[
+                        f"{eventTypeName} ({eventDate.isoformat() if eventDate else '?'})"
+                    ])
+                events.append(event)
+
+            # persons and roles
+            persons = []
+            for p in d.persons:
+
+                pn = PersonName(
+                    None,
+                    givenName=p.PersonName.PersonNameFirstName,
+                    surnamePrefix=p.PersonName.PersonNamePrefixLastName,
+                    baseSurname=p.PersonName.PersonNameLastName)
+
+                pLabel = " ".join([i for i in p.PersonName])
+                pn.label = pLabel
+                pn.literalName = pLabel
+
+                person = Person(deed.term(d.source.guid + '?person=' +
+                                          p.id.replace("Person:", '')),
+                                participatesIn=events,
+                                hasName=[pn],
+                                label=[pLabel])
+
+                for r in p.relations:
+                    if e := getattr(r, 'event'):
+
+                        relationTypeName = r.RelationType.lower().replace(
+                            'other: ', '').title().replace(' ', '')
+
+                        # Switch to ontology graph
+                        g = rdfSubject.db = ontologyGraph
+                        RoleClass = type(
+                            r.RelationType, (Role, ),
+                            {"rdf_type": roar.term(relationTypeName)})
+
+                        rType = RoleType(roar.term(relationTypeName),
+                                         subClassOf=roar.Role,
+                                         label=[relationTypeName])
+
+                        # Switch to A2A graph
+                        g = rdfSubject.db = graph
+                        eUri = deed.term(d.source.guid + '#' + e.id)
+                        role = RoleClass(
+                            None,
+                            carriedIn=eUri,
+                            carriedBy=[person],
+                            label=[
+                                Literal(
+                                    f"{pLabel} in de rol van {r.RelationType}",
+                                    lang='nl')
+                            ])
+
+                persons.append(person)
+
+            # temp connection
+            sourceIndex.event = events
+            sourceIndex.person = persons
+            sourceIndex.scan = scans
 
             # # Remarks
             # for remark in p.Remarks['diversen']:
@@ -488,6 +641,11 @@ def convertXML(xmlfile, ds, identifier2book):
             #                             hasLatestBeginTimeStamp=eventDate,
             #                             hasEarliestEndTimeStamp=eventDate)
             #         ]
+
+    graph = bindNS(graph)
+    graph.serialize(path, format='trig')
+
+    return ontologyGraph
 
 
 if __name__ == "__main__":

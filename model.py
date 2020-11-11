@@ -43,7 +43,10 @@ sem = Namespace("http://semanticweb.cs.vu.nl/2009/11/sem/")
 skos = Namespace('http://www.w3.org/2004/02/skos/core#')
 
 roar = Namespace("https://data.goldenagents.org/ontology/roar/")
+ead = Namespace("https://data.goldenagents.org/datasets/saa/ead/")
 a2a = Namespace("https://data.goldenagents.org/datasets/saa/a2a/")
+deed = Namespace("https://archief.amsterdam/indexen/deeds/")
+file = Namespace('https://archief.amsterdam/inventarissen/file/')
 
 
 ########
@@ -54,7 +57,7 @@ class Entity(rdfSubject):
 
     label = rdfMultiple(RDFS.label)
     description = rdfMultiple(RDFS.comment)
-    identifier = rdfSingle(roar.identifier)
+    identifier = rdfSingle(DCTERMS.identifier)
 
     isInRecord = rdfSingle(saa.isInRecord)
     wasDerivedFrom = rdfMultiple(prov.wasDerivedFrom)
@@ -113,6 +116,17 @@ class PersonName(Entity):
     # uuidName = rdfSingle(saa.uuidName)
 
 
+class TimeInterval(Entity):
+    rdf_type = roar.TimeInterval
+
+    start = rdfSingle(roar.start)
+    end = rdfSingle(roar.end)
+
+
+class Place(Entity):
+    rdf_type = roar.Place
+
+
 class Document(Entity):
     rdf_type = roar.Document
 
@@ -124,25 +138,51 @@ class Document(Entity):
 
     createdBy = rdfMultiple(roar.createdBy)
     createdAt = rdfSingle(roar.createdAt)
+    createdIn = rdfSingle(roar.createdIn)
+
+    indexOf = rdfSingle(roar.indexOf)
 
     #temp
+    person = rdfMultiple(roar.person)
+    object = rdfMultiple(roar.object)
     event = rdfMultiple(roar.event)
+    scan = rdfMultiple(roar.scan)
 
 
-class DocumentCollection(Document):
-    rdf_type = roar.DocumentCollection
+class IndexDocument(Document):
+    rdf_type = roar.IndexDocument
 
-    language = rdfMultiple(roar.language)
-    repository = rdfMultiple(roar.repository)
-    origination = rdfMultiple(roar.origination)
+
+class Collection(Document):
+    rdf_type = roar.Collection
+
+    language = rdfMultiple(DCTERMS.language)
+    authority = rdfMultiple(DCTERMS.authority)
+    creator = rdfMultiple(DCTERMS.creator)
 
     hasGroupingCriteria = rdfMultiple(roar.hasGroupingCriteria)
     hasSubCollection = rdfMultiple(roar.hasSubCollection)
     hasMember = rdfMultiple(roar.hasMember)
 
 
-class Book(DocumentCollection):
-    rdf_type = roar.Book
+class InventoryCollection(Collection):
+    rdf_type = roar.InventoryCollection
+
+
+class IndexCollection(Collection):
+    rdf_type = roar.IndexCollection
+
+
+class ScanCollection(Collection):
+    rdf_type = roar.ScanCollection
+
+
+class IndexBook(IndexCollection):
+    rdf_type = roar.IndexBook
+
+
+class InventoryBook(InventoryCollection):
+    rdf_type = roar.InventoryBook
 
 
 class GroupingCriterion(Entity):
@@ -159,6 +199,15 @@ class Event(Entity):
 
     hasInput = rdfMultiple(roar.hasInput)
     hasOutput = rdfMultiple(roar.hasOutput)
+
+
+class DocumentCreation(Event):
+    rdf_type = roar.DocumentCreation
+
+
+class DocumentType(Entity):
+    rdf_type = roar.DocumentType
+    subClassOf = rdfSingle(RDFS.subClassOf)
 
 
 class EventType(Entity):
@@ -178,6 +227,11 @@ class RoleType(Entity):
     subClassOf = rdfSingle(RDFS.subClassOf)
 
 
+class NotaryRole(Role):
+    rdf_type = roar.NotaryRole
+    subClassOf = roar.Role
+
+
 class CollectionCreation(Event):
     rdf_type = roar.DocumentCreation, roar.DocumentArchiving
 
@@ -188,6 +242,32 @@ class ArchiverAndCreatorRole(Role):
 
 class ArchivalDocumentRole(Role):
     rdf_type = roar.ArchivalDocument
+
+
+# Scans
+
+
+class Scan(Entity):
+    rdf_type = roar.Scan
+
+    # # partOf a collection
+
+    # depiction = rdfSingle(foaf.depiction)
+    # url = rdfSingle(saa.url)
+
+    # imageFilename = rdfSingle(saa.imageFilename)
+    # imageWidth = rdfSingle(saa.imageWidth)
+    # imageHeight = rdfSingle(saa.imageHeight)
+
+    # regions = rdfMultiple(saa.regions)
+
+    # items = rdfList(AS.items)  # rdf:Collection
+    # prev = rdfSingle(AS.prev)
+    # next = rdfSingle(AS.next)
+
+
+class SpreadScan(Scan):
+    rdf_type = roar.SpreadScan
 
 
 #############
@@ -539,23 +619,6 @@ class Beraad(IndexOpNotarieelArchief):
 ###############
 # Annotations #
 ###############
-class Scan(Entity):
-    rdf_type = (saa.Scan, AS.OrderedCollectionPage)
-
-    # partOf a collection
-
-    depiction = rdfSingle(foaf.depiction)
-    url = rdfSingle(saa.url)
-
-    imageFilename = rdfSingle(saa.imageFilename)
-    imageWidth = rdfSingle(saa.imageWidth)
-    imageHeight = rdfSingle(saa.imageHeight)
-
-    regions = rdfMultiple(saa.regions)
-
-    items = rdfList(AS.items)  # rdf:Collection
-    prev = rdfSingle(AS.prev)
-    next = rdfSingle(AS.next)
 
 
 class Annotation(Entity):

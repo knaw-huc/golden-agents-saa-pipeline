@@ -47,6 +47,7 @@ ead = Namespace("https://data.goldenagents.org/datasets/saa/ead/")
 a2a = Namespace("https://data.goldenagents.org/datasets/saa/a2a/")
 deed = Namespace("https://archief.amsterdam/indexen/deeds/")
 file = Namespace('https://archief.amsterdam/inventarissen/file/')
+thes = Namespace("https://data.goldenagents.org/thesaurus/")
 
 
 ########
@@ -127,6 +128,10 @@ class Place(Entity):
     rdf_type = roar.Place
 
 
+class Religion(Entity):
+    rdf_type = roar.Religion
+
+
 class Document(Entity):
     rdf_type = roar.Document
 
@@ -199,6 +204,11 @@ class Event(Entity):
 
     hasInput = rdfMultiple(roar.hasInput)
     hasOutput = rdfMultiple(roar.hasOutput)
+
+    occursAt = rdfSingle(roar.occursAt)
+
+    # temp
+    religion = rdfSingle(roar.religion)
 
 
 class DocumentCreation(Event):

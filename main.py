@@ -3,6 +3,7 @@ import multiprocessing
 import os
 import json
 import uuid
+import unidecode
 from collections import defaultdict
 
 from rdflib.namespace import DCTERMS
@@ -54,9 +55,9 @@ with open('data/uri2notary.json') as infile:
 def unique(*args):
     """Function to generate a unique BNode based on a series of arguments.
 
-    Uses the uuid5 function to generate a uuid from one or multiple ordered 
-    arguments. This way, the BNode function of rdflib can be used, without the 
-    need to filter strange characters or spaces that will break the serialization. 
+    Uses the uuid5 function to generate a uuid from one or multiple ordered
+    arguments. This way, the BNode function of rdflib can be used, without the
+    need to filter strange characters or spaces that will break the serialization.
 
     Returns:
         BNode: Blank node with identifier that is based on the function's input.
@@ -67,6 +68,28 @@ def unique(*args):
     unique_id = uuid.uuid5(uuid.NAMESPACE_X500, identifier)
 
     return BNode(unique_id)
+
+
+def thesaurus(name, ClassType, g):
+
+    if not name:
+        return None
+
+    namenorm = unidecode.unidecode(name)
+    namenorm = namenorm.title()
+    namenorm = "".join(
+        [i for i in namenorm if i.lower() in 'abcdefghijklmnopqrstuvwxyz'])
+
+    if not namenorm:  # if no characters are left
+        return None
+
+    newGraph = rdfSubject.db = Graph(identifier=thes)
+
+    uri = ClassType(thes.term(namenorm), label=[name])
+
+    g = rdfSubject.db = g  # restore graph
+
+    return uri
 
 
 def bindNS(g):
@@ -86,7 +109,7 @@ def main(eadfolder="data/ead",
          a2afolder="data/a2a",
          outfile='roar.trig',
          splitFile=True,
-         splitSize=5):
+         splitSize=50):
 
     ds = Dataset()
 
@@ -115,7 +138,7 @@ def main(eadfolder="data/ead",
     g = rdfSubject.db = ds.graph(identifier=ga.term('saa/a2a/'))
     for dirpath, dirname, filenames in os.walk(a2afolder):
 
-        if 'ondertrouw' not in dirpath:
+        if 'doop' not in dirpath:
             continue
 
         nSplit = 1
@@ -135,7 +158,7 @@ def main(eadfolder="data/ead",
                 fns = []
             fns.append(f)
 
-        with multiprocessing.Pool(processes=12) as pool:
+        with multiprocessing.Pool(processes=11) as pool:
 
             ontologyGraphs = pool.starmap(convertA2A, chunks)
 
@@ -171,9 +194,13 @@ def main(eadfolder="data/ead",
         print(f'Serializing to {outfile}')
         ds.serialize('trig/roar.trig', format='trig')
     else:
-        # ontology only
+        # ontology
         g = rdfSubject.db = ds.graph(identifier=roar)
         g.serialize('trig/roar.trig', format='trig')
+
+        # thesaurus
+        g = rdfSubject.db = ds.graph(identifier=thes)
+        g.serialize('trig/thesaurus.trig', format='trig')
 
 
 def convertEAD(xmlfile, g):
@@ -477,14 +504,23 @@ def convertA2A(filenames, path):
 
             if hasattr(d.source, 'SourcePlace'):
                 name = d.source.SourcePlace.Place
-                createdInPlace = Place(unique(name), label=[name])
+                createdInPlace = thesaurus(name, Place, graph)
             else:
                 createdInPlace = None
 
             # source remarks
             try:
                 if comment := d.source.Remarks['Opmerking']['Opmerking']:
-                    comments = [Literal(comment, lang='nl')]
+                    comments = [Literal(comment, lang='nl')]  # otr
+                else:
+                    comments = []
+            except:
+                comments = []
+
+            try:
+                if comment := d.source.Remarks['Opmerking'][
+                        'Relatie informatie']:
+                    comments = [Literal(comment, lang='nl')]  # begraaf
                 else:
                     comments = []
             except:
@@ -563,8 +599,34 @@ def convertA2A(filenames, path):
                 else:
                     eventDate = None
 
+                # eventPlace for begraaf + doop
+                if eventTypeName == 'Begraven':
+                    if type(d.source.Remarks['Opmerking']) != str:
+                        eventPlaceName = d.source.Remarks['Opmerking'].get(
+                            'Begraafplaats')
+                        eventPlace = thesaurus(eventPlaceName, Place, graph)
+                    else:
+                        eventPlace = None
+                elif eventTypeName == 'Doop':
+                    if type(d.source.Remarks['Opmerking']) != str:
+                        eventPlaceName = d.source.Remarks['Opmerking'].get(
+                            'Kerk')
+                        eventPlace = thesaurus(eventPlaceName, Place, graph)
+                    else:
+                        eventPlace = None
+                else:
+                    eventPlace = None
+
+                # religion
+                if hasattr(e, 'EventReligion'):
+                    eventReligion = thesaurus(e.EventReligion, Religion, graph)
+                else:
+                    eventReligion = None
+
                 event = EventClass(
                     deed.term(d.source.guid + '?event=' + e.id),
+                    occursAt=eventPlace,
+                    religion=eventReligion,
                     hasTimeStamp=eventDate,
                     label=[
                         f"{eventTypeName} ({eventDate.isoformat() if eventDate else '?'})"

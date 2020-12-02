@@ -6,14 +6,10 @@ import uuid
 import unidecode
 from collections import defaultdict
 
-from rdflib.namespace import DCTERMS
-
-from rdflib.term import BNode
-
 from eadParser import parseEAD
 from pya2a import DocumentCollection as A2ADocumentCollection
 
-from rdflib import Dataset, Namespace, Literal, XSD, RDF, RDFS, URIRef
+from rdflib import Dataset, Namespace, Literal, BNode, XSD, RDF, RDFS, URIRef, DCTERMS
 from rdfalchemy import rdfSubject
 
 import rdflib.graph
@@ -51,6 +47,9 @@ with open('data/uri2notary.json') as infile:
         for k, v in uri2notary.items()
     }
 
+with open('data/scanid2name_5075.json') as infile:
+    scanid2name = json.load(infile)
+
 
 def unique(*args):
     """Function to generate a unique BNode based on a series of arguments.
@@ -70,7 +69,7 @@ def unique(*args):
     return BNode(unique_id)
 
 
-def thesaurus(name, ClassType, g):
+def thesaurus(name, ClassType, defaultGraph, thesaurusGraph):
 
     if not name:
         return None
@@ -83,11 +82,11 @@ def thesaurus(name, ClassType, g):
     if not namenorm:  # if no characters are left
         return None
 
-    newGraph = rdfSubject.db = Graph(identifier=thes)
+    g = rdfSubject.db = thesaurusGraph
 
     uri = ClassType(thes.term(namenorm), label=[name])
 
-    g = rdfSubject.db = g  # restore graph
+    g = rdfSubject.db = defaultGraph  # restore graph
 
     return uri
 
@@ -101,6 +100,8 @@ def bindNS(g):
     g.bind('sem', sem)
     g.bind('dcterms', DCTERMS)
     g.bind('file', file)
+    g.bind('foaf', foaf)
+    g.bind('oa', oa)
 
     return g
 
@@ -109,7 +110,7 @@ def main(eadfolder="data/ead",
          a2afolder="data/a2a",
          outfile='roar.trig',
          splitFile=True,
-         splitSize=50):
+         splitSize=100):
 
     ds = Dataset()
 
@@ -133,38 +134,52 @@ def main(eadfolder="data/ead",
                 ds.remove_graph(g)
                 g = rdfSubject.db = ds.graph(identifier=ga.term('saa/ead/'))
 
+    # with open('data/concordance/identifier2physicalBook.json', 'w') as outfile:
+    #     json.dump(identifier2physicalBook, outfile)
+
+    # return
+
     # A2A
     print("A2A parsing!")
     g = rdfSubject.db = ds.graph(identifier=ga.term('saa/a2a/'))
     for dirpath, dirname, filenames in os.walk(a2afolder):
 
-        if 'doop' not in dirpath:
+        # # DTB
+        # if 'doop' not in dirpath and 'trouw' not in dirpath and 'begraaf' not in dirpath:
+        #     continue
+
+        # Notarieel
+        if 'nota' not in dirpath:
             continue
 
-        nSplit = 1
+        nSplit = 0
         filenames = [
             os.path.abspath(os.path.join(dirpath, i))
             for i in sorted(filenames) if i.endswith('.xml')
-        ]
+        ][:1]
 
         chunks = []
         foldername = dirpath.rsplit('/')[-1]
         fns = []
         for n, f in enumerate(filenames, 1):
-            if n % splitSize == 0:
+            fns.append(f)
+
+            if n % splitSize == 0 or n == len(filenames):
                 nSplit += 1
                 path = f"trig/{foldername}_{str(nSplit).zfill(4)}.trig"
                 chunks.append((fns, path))
                 fns = []
-            fns.append(f)
 
-        with multiprocessing.Pool(processes=11) as pool:
+        with multiprocessing.Pool(processes=10) as pool:
 
-            ontologyGraphs = pool.starmap(convertA2A, chunks)
+            graphs = pool.starmap(convertA2A, chunks)
 
-        for og in ontologyGraphs:
-            g = ds.graph(identifier=roar)
-            g += og
+        for og, tg in graphs:
+            ontologyGraph = ds.graph(identifier=roar)
+            thesaurusGraph = ds.graph(identifier=thes)
+            ontologyGraph += og
+            thesaurusGraph += tg
+
         # for n, f in enumerate(filenames, 1):
 
         #     path = os.path.abspath(os.path.join(dirpath, f))
@@ -463,6 +478,7 @@ def getGroupingCriteria(sourceType=[],
 def convertA2A(filenames, path):
 
     ontologyGraph = Graph(identifier=roar)
+    thesaurusGraph = Graph(identifier=thes)
     graph = Graph(identifier=a2a)
 
     #     path = os.path.abspath(os.path.join(dirpath, f))
@@ -504,7 +520,7 @@ def convertA2A(filenames, path):
 
             if hasattr(d.source, 'SourcePlace'):
                 name = d.source.SourcePlace.Place
-                createdInPlace = thesaurus(name, Place, graph)
+                createdInPlace = thesaurus(name, Place, graph, thesaurusGraph)
             else:
                 createdInPlace = None
 
@@ -561,15 +577,21 @@ def convertA2A(filenames, path):
             ## scans
             scans = []
 
-            for scan in d.source.scans:
+            for n, scan in enumerate(d.source.scans, 1):
 
                 identifier = scan.Uri.rsplit('/')[-1].replace('.jpg', '')
+                if label := scanid2name.get(identifier, []):
+                    label = [label.upper()]
 
-                scanUri = deed.term(
-                    d.source.guid) + '?scan=' + scan.OrderSequenceNumber.zfill(
-                        3)
+                    scanUri = partOfUri + '#' + identifier
+                else:
+                    scanUri = deed.term(
+                        d.source.guid
+                    ) + '?scan=' + scan.OrderSequenceNumber.zfill(3)
+
                 s = Scan(scanUri,
                          identifier=identifier,
+                         label=label,
                          depiction=[URIRef(scan.Uri)])
                 scans.append(s)
 
@@ -604,14 +626,16 @@ def convertA2A(filenames, path):
                     if type(d.source.Remarks['Opmerking']) != str:
                         eventPlaceName = d.source.Remarks['Opmerking'].get(
                             'Begraafplaats')
-                        eventPlace = thesaurus(eventPlaceName, Place, graph)
+                        eventPlace = thesaurus(eventPlaceName, Place, graph,
+                                               thesaurusGraph)
                     else:
                         eventPlace = None
                 elif eventTypeName == 'Doop':
                     if type(d.source.Remarks['Opmerking']) != str:
                         eventPlaceName = d.source.Remarks['Opmerking'].get(
                             'Kerk')
-                        eventPlace = thesaurus(eventPlaceName, Place, graph)
+                        eventPlace = thesaurus(eventPlaceName, Place, graph,
+                                               thesaurusGraph)
                     else:
                         eventPlace = None
                 else:
@@ -619,7 +643,8 @@ def convertA2A(filenames, path):
 
                 # religion
                 if hasattr(e, 'EventReligion'):
-                    eventReligion = thesaurus(e.EventReligion, Religion, graph)
+                    eventReligion = thesaurus(e.EventReligion, Religion, graph,
+                                              thesaurusGraph)
                 else:
                     eventReligion = None
 
@@ -635,7 +660,7 @@ def convertA2A(filenames, path):
 
             # persons and roles
             persons = []
-            for p in d.persons:
+            for n, p in enumerate(d.persons, 1):
 
                 pn = PersonName(
                     None,
@@ -647,11 +672,59 @@ def convertA2A(filenames, path):
                 pn.label = pLabel
                 pn.literalName = pLabel
 
+                ## Annotation PersonName on scan (Notarial)
+
+                if hasattr(p, 'Remarks'):
+                    if scanData := p.Remarks.get('diversen'):
+                        scanName = scanData['Positie op scan']['scan']
+                        scanPosition = scanData['Positie op scan']['positie']
+                        coordinates = scanPosition.replace(' ', '')
+
+                        an = Annotation(
+                            None,
+                            hasBody=pn,
+                            hasTarget=SpecificResource(
+                                None,
+                                hasSource=scanName,  #TODO
+                                hasSelector=FragmentSelector(
+                                    None,
+                                    conformsTo=URIRef(
+                                        "http://www.w3.org/TR/media-frags/"),
+                                    value=coordinates)),
+                            # depiction=depiction,
+                            label=[pLabel])
+
+                ##
+
                 person = Person(deed.term(d.source.guid + '?person=' +
                                           p.id.replace("Person:", '')),
                                 participatesIn=events,
                                 hasName=[pn],
                                 label=[pLabel])
+
+                # birth in A2A defined
+                if bd := getattr(p, 'BirthDate'):
+
+                    birthDate = bd.date
+                    birthLabel = [
+                        Literal(
+                            f"Geboorte van {pLabel} ({birthDate.toisoformat() if birthDate else '?'})"
+                        )
+                    ]
+
+                    birthEvent = Geboorte(deed.term(d.source.guid +
+                                                    '?event=birth'),
+                                          hasTimeStamp=birthDate,
+                                          label=birthLabel)
+
+                    role = ChildRole(None,
+                                     carriedIn=birthEvent,
+                                     carriedBy=person,
+                                     label=[
+                                         Literal(
+                                             f"{pLabel} in de rol van kind",
+                                             lang='nl')
+                                     ])
 
                 for r in p.relations:
                     if e := getattr(r, 'event'):
@@ -671,7 +744,7 @@ def convertA2A(filenames, path):
 
                         # Switch to A2A graph
                         g = rdfSubject.db = graph
-                        eUri = deed.term(d.source.guid + '#' + e.id)
+                        eUri = deed.term(d.source.guid + '?event=' + e.id)
                         role = RoleClass(
                             None,
                             carriedIn=eUri,
@@ -684,10 +757,39 @@ def convertA2A(filenames, path):
 
                 persons.append(person)
 
+            # locations and roles
+            locations = []
+            try:
+
+                if locationremarks := d.source.Remarks['Opmerking'][
+                        'Locatieomschrijving']:
+
+                    if type(locationremarks) == str:
+                        locationremarks = [locationremarks]
+
+                    for n, locName in enumerate(locationremarks, 1):
+                        uri = deed.term(d.source.guid + '?location=' + str(n))
+                        location = Location(uri, label=[locName])  # notarieel
+
+                        locationRole = LocationRole(
+                            None,
+                            carriedIn=event,
+                            carriedBy=[location],
+                            label=[
+                                Literal(
+                                    f"{locName} in de rol van Locatieomschrijving",
+                                    lang='nl')
+                            ])
+
+                        locations.append(location)
+            except:
+                pass
+
             # temp connection
             sourceIndex.event = events
             sourceIndex.person = persons
             sourceIndex.scan = scans
+            sourceIndex.location = locations
 
             # # Remarks
             # for remark in p.Remarks['diversen']:
@@ -707,7 +809,7 @@ def convertA2A(filenames, path):
     graph = bindNS(graph)
     graph.serialize(path, format='trig')
 
-    return ontologyGraph
+    return ontologyGraph, thesaurusGraph
 
 
 if __name__ == "__main__":

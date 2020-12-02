@@ -88,6 +88,10 @@ class Agent(RoleBearer):
     rdf_type = roar.Agent
 
 
+class Location(RoleBearer):
+    rdf_type = roar.Location
+
+
 class Person(Agent):
     rdf_type = roar.Person
 
@@ -152,6 +156,7 @@ class Document(Entity):
     object = rdfMultiple(roar.object)
     event = rdfMultiple(roar.event)
     scan = rdfMultiple(roar.scan)
+    location = rdfMultiple(roar.location)
 
 
 class IndexDocument(Document):
@@ -225,6 +230,10 @@ class EventType(Entity):
     subClassOf = rdfSingle(RDFS.subClassOf)
 
 
+class Geboorte(Event):
+    rdf_type = roar.Geboorte
+
+
 class Role(Entity):
     rdf_type = roar.Role
 
@@ -238,8 +247,16 @@ class RoleType(Entity):
 
 
 class NotaryRole(Role):
-    rdf_type = roar.NotaryRole
+    rdf_type = roar.Notaris
     subClassOf = roar.Role
+
+
+class ChildRole(Role):
+    rdf_type = roar.Kind
+
+
+class LocationRole(Role):
+    rdf_type = roar.Locatieomschrijving
 
 
 class CollectionCreation(Event):
@@ -452,11 +469,11 @@ class CategoryCodeSet(Entity):
 #############
 # Locations #
 #############
-class Location(Entity):
-    rdf_type = saa.Location
+# class Location(Entity):
+#     rdf_type = saa.Location
 
-    altLabel = rdfMultiple(skos.altLabel)
-    sameAs = rdfMultiple(OWL.sameAs)
+#     altLabel = rdfMultiple(skos.altLabel)
+#     sameAs = rdfMultiple(OWL.sameAs)
 
 
 class Street(Location):

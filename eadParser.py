@@ -130,11 +130,18 @@ def parseCollection(ead):
 
     archdesc = ead['archdesc']
 
+    if archdesc['did'].get('abstract'):
+        if type(archdesc['did']['abstract']) == str:
+            description = archdesc['did']['abstract']
+        else:
+            description = archdesc['did']['abstract']['#text']
+    else:
+        description = ""
+
     collection = Collection(
         id=archdesc['did']['unitid']['@identifier'],
         name=archdesc['did']['unittitle']['#text'],
-        description=archdesc['did']['abstract']['#text']
-        if archdesc['did'].get('abstract') else "",
+        description=description,
         identifier=archdesc['did']['unitid']['#text'],
         date=parseDate(archdesc['did']['unitdate'].get('@normal')),
         language=archdesc['did']['langmaterial'],

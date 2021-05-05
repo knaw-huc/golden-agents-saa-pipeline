@@ -73,6 +73,8 @@ class Entity(rdfSubject):
 
     depiction = rdfMultiple(foaf.depiction)
 
+    memberOf = rdfSingle(roar.memberOf)
+
 
 class Individual(Entity):
     rdf_type = roar.Individual
@@ -151,12 +153,14 @@ class Document(Entity):
 
     indexOf = rdfSingle(roar.indexOf)
 
-    #temp
-    person = rdfMultiple(roar.person)
-    object = rdfMultiple(roar.object)
-    event = rdfMultiple(roar.event)
-    scan = rdfMultiple(roar.scan)
-    location = rdfMultiple(roar.location)
+    mentionsPerson = rdfMultiple(roar.mentionsPerson)
+    mentionsObject = rdfMultiple(roar.mentionsObject)
+    mentionsEvent = rdfMultiple(roar.mentionsEvent)
+    mentionsLocation = rdfMultiple(roar.mentionsLocation)
+    mentionsOccupation = rdfMultiple(roar.mentionsOccupation)
+    mentionsReligion = rdfMultiple(roar.mentionsReligion)
+
+    hasScan = rdfMultiple(roar.hasScan)
 
 
 class IndexDocument(Document):
@@ -187,8 +191,8 @@ class ScanCollection(Collection):
     rdf_type = roar.ScanCollection
 
 
-class IndexBook(IndexCollection):
-    rdf_type = roar.IndexBook
+class BookIndex(IndexCollection):
+    rdf_type = roar.BookIndex
 
 
 class InventoryBook(InventoryCollection):
@@ -213,7 +217,13 @@ class Event(Entity):
     occursAt = rdfSingle(roar.occursAt)
 
     # temp
-    religion = rdfSingle(roar.religion)
+    hasReligion = rdfSingle(roar.hasReligion)
+
+
+class RegistrationEvent(Event):
+    rdf_type = roar.RegistrationEvent
+
+    registers = rdfSingle(roar.registers, range_type=roar.Event)
 
 
 class DocumentCreation(Event):
@@ -253,10 +263,30 @@ class NotaryRole(Role):
 
 class ChildRole(Role):
     rdf_type = roar.Kind
+    subClassOf = roar.Role
+
+
+class EarlierHusband(Role):
+    rdf_type = roar.EerdereMan
+    subClassOf = roar.Role
+
+
+class EarlierWife(Role):
+    rdf_type = roar.EerdereVrouw
+    subClassOf = roar.Role
+
+
+class OccupationRole(Role):
+    rdf_type = roar.Beroep
+    subClassOf = roar.Role
 
 
 class LocationRole(Role):
     rdf_type = roar.Locatieomschrijving
+
+
+class OriginRole(Role):
+    rdf_type = roar.Herkomstomschrijving
 
 
 class CollectionCreation(Event):

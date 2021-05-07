@@ -1,5 +1,5 @@
 """
-SAA ontology to be used in direct conversion from SAA to Golden Agents. 
+SAA ontology to be used in direct conversion from SAA to Golden Agents.
 """
 
 from rdflib import Dataset, Graph, Namespace
@@ -159,6 +159,7 @@ class Document(Entity):
     mentionsLocation = rdfMultiple(roar.mentionsLocation)
     mentionsOccupation = rdfMultiple(roar.mentionsOccupation)
     mentionsReligion = rdfMultiple(roar.mentionsReligion)
+    mentionsRelation = rdfMultiple(roar.mentionsRelation)
 
     hasScan = rdfMultiple(roar.hasScan)
 
@@ -250,10 +251,27 @@ class Role(Entity):
     carriedIn = rdfSingle(roar.carriedIn)
     carriedBy = rdfMultiple(roar.carriedBy)
 
+    hasRelation = rdfMultiple(roar.hasRelation)
+    hasLocation = rdfMultiple(roar.hasLocation)
+    hasReligion = rdfMultiple(roar.hasReligion)
+    hasOccupation = rdfMultiple(roar.hasOccupation)
+
+    age = rdfSingle(roar.age)
+    literate = rdfSingle(roar.literate)
+
 
 class RoleType(Entity):
     rdf_type = roar.RoleType
     subClassOf = rdfSingle(RDFS.subClassOf)
+
+
+class PersonReligionRole(Role):
+    rdf_type = roar.PersonReligion
+    subClassOf = roar.Role
+
+
+class Relation(Entity):
+    rdf_type = roar.Relation
 
 
 class NotaryRole(Role):
@@ -276,6 +294,21 @@ class EarlierWife(Role):
     subClassOf = roar.Role
 
 
+class Bruid(Role):
+    rdf_type = roar.Bruid
+    subClassOf = roar.Role
+
+
+class Bruidegom(Role):
+    rdf_type = roar.Bruidegom
+    subClassOf = roar.Role
+
+
+class Getuige(Role):
+    rdf_type = roar.Getuige
+    subClassOf = roar.Role
+
+
 class OccupationRole(Role):
     rdf_type = roar.Beroep
     subClassOf = roar.Role
@@ -287,6 +320,16 @@ class LocationRole(Role):
 
 class OriginRole(Role):
     rdf_type = roar.Herkomstomschrijving
+
+
+class AddressRole(Role):
+    rdf_type = roar.Adresomschrijving
+
+
+class RelationRole(Role):
+    rdf_type = roar.Relatieomschrijving
+
+    relatedTo = rdfSingle(roar.relatedTo)
 
 
 class CollectionCreation(Event):

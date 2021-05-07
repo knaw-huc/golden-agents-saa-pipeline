@@ -146,15 +146,20 @@ def parsePersonName(nameString, identifier=None, index=None):
     pns = []
     labels = []
 
-    baseSurname, givenName = nameString.split(', ')
+    if ', ' in nameString:
+        baseSurname, givenName = nameString.rsplit(', ', 1)
 
-    if '[' in givenName:
-        givenName, surnamePrefix = givenName.split('[')
+        if '[' in givenName:
+            givenName, surnamePrefix = givenName.split('[')
 
-        givenName = givenName.strip()
-        surnamePrefix = surnamePrefix[:-1]
+            givenName = givenName.strip()
+            surnamePrefix = surnamePrefix[:-1]
+        else:
+            surnamePrefix = None
     else:
+        givenName = None
         surnamePrefix = None
+        baseSurname = nameString
 
     literalName = " ".join(i for i in [givenName, surnamePrefix, baseSurname]
                            if i)
@@ -191,7 +196,7 @@ def main(eadfolder="data/ead",
          a2afolder="data/a2a",
          outfile='roar.trig',
          splitFile=True,
-         splitSize=1,
+         splitSize=100,
          temporal=False,
          window=10,
          shift=5):
@@ -236,6 +241,9 @@ def main(eadfolder="data/ead",
         # DTB
         # if 'doopreg' not in dirpath and 'trouw' not in dirpath:
         #     continue
+
+        if 'begraafregisters' in dirpath or 'doopregisters' in dirpath or 'lidmatenregister' in dirpath or 'werk_spinhuis' in dirpath or 'kwijtscheldingen' in dirpath or 'confessieboeken' in dirpath or 'averijgrossen' in dirpath or 'boedelpapieren' in dirpath:
+            continue
 
         # # Notarieel
         # if 'nota' not in dirpath:
@@ -288,8 +296,8 @@ def main(eadfolder="data/ead",
                     chunks.append((fns, path, indexCollection, temp))
                     fns = []
 
-                    # TEMP BREAK
-                    break
+                    # # TEMP BREAK
+                    # break
 
         with multiprocessing.Pool(processes=10) as pool:
 
@@ -647,8 +655,14 @@ def convertA2A(filenames, path, indexCollection, temporal=False):
 
             collection = d.source.SourceReference.Archive
             inventory = d.source.SourceReference.RegistryNumber
-            partOfUri = identifier2physicalBook[collection][inventory]
-            partOfIndexUri = identifier2book[collection][inventory]
+            partOfUri = identifier2physicalBook[collection].get(
+                inventory,
+                URIRef("https://data.goldenagents.org/NOTHINGFOUNDHERE"))
+            partOfIndexUri = identifier2book[collection].get(
+                inventory,
+                URIRef("https://data.goldenagents.org/NOTHINGFOUNDHERE"))
+            # partOfUri = identifier2physicalBook[collection][inventory]
+            # partOfIndexUri = identifier2book[collection][inventory]
 
             createdByUris = []
             if creators := uri2notary.get(

@@ -49,6 +49,9 @@ deed = Namespace("https://archief.amsterdam/indexen/deeds/")
 file = Namespace('https://archief.amsterdam/inventarissen/file/')
 thes = Namespace("https://data.goldenagents.org/thesaurus/")
 
+class SchemaPlace(rdfSubject):
+    rdf_type = schema.Place
+    label = rdfMultiple(RDFS.label)
 
 ########
 # ROAR #
@@ -57,6 +60,10 @@ class Entity(rdfSubject):
     rdf_type = prov.Entity
 
     label = rdfMultiple(RDFS.label)
+
+    prefLabel = rdfMultiple(skos.prefLabel)
+    altLabel = rdfMultiple(skos.altLabel)
+
     description = rdfMultiple(RDFS.comment)
     identifier = rdfSingle(DCTERMS.identifier)
 
@@ -75,6 +82,14 @@ class Entity(rdfSubject):
 
     memberOf = rdfSingle(roar.memberOf)
 
+    sameAs = rdfMultiple(OWL.sameAs)
+
+class Observation(Entity):
+    rdf_type = roar.Observation
+
+class Reconstruction(Entity):
+    rdf_type = roar.Reconstruction
+
 
 class Individual(Entity):
     rdf_type = roar.Individual
@@ -91,8 +106,13 @@ class Agent(RoleBearer):
 
 
 class Location(RoleBearer):
-    rdf_type = roar.Location
+    rdf_type = roar.Location, roar
 
+class LocationObservation(RoleBearer, Observation):
+    rdf_type = roar.Location, roar.Observation
+
+class LocationReconstruction(RoleBearer, Reconstruction):
+    rdf_type = roar.Location, roar.Reconstruction
 
 class Person(Agent):
     rdf_type = roar.Person

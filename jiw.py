@@ -1,6 +1,6 @@
 import json
 
-from main import thesaurus, bindNS
+from main import thesaurus, bindNS, unique
 from model import *
 
 jiw = Namespace("https://data.goldenagents.org/datasets/jaikwil/")
@@ -10,9 +10,12 @@ class Ondertrouwregister(Document):
     rdf_type = thes.Ondertrouwregister
 
 
-def main(infile, path):
+def main(datafile, path):
 
-    with open(infile) as infile:
+    with open('data/jiw/id2ecartico_places_groom.json') as infile:
+        id2ecartico_places_groom = json.load(infile)
+
+    with open(datafile) as infile:
         data = json.load(infile)
 
     indexCollection = IndexCollection(
@@ -25,6 +28,9 @@ def main(infile, path):
     allIndexDocuments = []
 
     for n, d in enumerate(data, 1):
+
+        # if n == 1000:
+        #     break
 
         if n % 100 == 0:
             print(f"{n}/{len(data)}", end='\r')
@@ -61,6 +67,8 @@ def main(infile, path):
         registrationEvent = URIRef(d['mentionsRegistrationEvent'])
         mentionedEvents.append(registrationEvent)
 
+        groomLocations = []
+
         pnGroom = PersonName(
             URIRef(d['groom']['id'] + '-pn'),
             givenName=d['groom']['hasName']['givenName'],
@@ -85,8 +93,8 @@ def main(infile, path):
 
         if d['groom']['origin']:
             locName = d['groom']['origin']
-            location = Location(URIRef(d['groom']['id'] + '-origin'),
-                                label=[locName])
+            locURIstr = d['groom']['id'] + '-origin'
+            location = LocationObservation(URIRef(locURIstr), label=[locName])
 
             locationRole = OriginRole(
                 URIRef(d['groom']['id'] + '-origin-role'),
@@ -94,14 +102,26 @@ def main(infile, path):
                 carriedBy=[location],
                 label=[Literal(f"{locName} (herkomst)", lang='nl')])
 
-            groomRole.hasLocation = [locationRole]
-
+            groomLocations.append(locationRole)
             mentionedLocations.append(location)
+
+            # Reconstruction
+            if ecarticoPlace := id2ecartico_places_groom.get(locURIstr):
+
+                place = SchemaPlace(URIRef(ecarticoPlace['@id']),
+                                    label=[ecarticoPlace['label']])
+
+                reconstruction = LocationReconstruction(
+                    unique(ecarticoPlace['@id']),
+                    wasDerivedFrom=[location],
+                    sameAs=[place],
+                    prefLabel=[ecarticoPlace['label']])
 
         if d['groom']['homeLocation']:
             locName = d['groom']['homeLocation']
-            location = Location(URIRef(d['groom']['id'] + '-address'),
-                                label=[locName])
+            location = LocationObservation(URIRef(d['groom']['id'] +
+                                                  '-address'),
+                                           label=[locName])
 
             locationRole = AddressRole(
                 URIRef(d['groom']['id'] + '-address-role'),
@@ -109,8 +129,7 @@ def main(infile, path):
                 carriedBy=[location],
                 label=[Literal(f"{locName} (adres)", lang='nl')])
 
-            groomRole.hasLocation = [locationRole]
-
+            groomLocations.append(locationRole)
             mentionedLocations.append(location)
 
         if d['groom']['occupation']:
@@ -200,7 +219,7 @@ def main(infile, path):
                     URIRef(w['id'] + '-relation-role'),
                     carriedIn=registrationEvent,
                     carriedBy=[relation],
-                    relatedTo=witness,
+                    relatedTo=witnessRole,
                     label=[
                         Literal(f"{w['relation']} ({pnWitness.label})",
                                 lang='nl')
@@ -211,6 +230,8 @@ def main(infile, path):
                 mentionedRelations.append(relation)
 
             mentionedPersons.append(witness)
+
+        brideLocations = []
 
         pnBride = PersonName(
             URIRef(d['bride']['id'] + '-pn'),
@@ -234,8 +255,9 @@ def main(infile, path):
 
         if d['bride']['origin']:
             locName = d['bride']['origin']
-            location = Location(URIRef(d['bride']['id'] + '-origin'),
-                                label=[locName])
+            location = LocationObservation(URIRef(d['bride']['id'] +
+                                                  '-origin'),
+                                           label=[locName])
 
             locationRole = OriginRole(
                 URIRef(d['bride']['id'] + '-origin-role'),
@@ -243,14 +265,14 @@ def main(infile, path):
                 carriedBy=[location],
                 label=[Literal(f"{locName} (herkomst)", lang='nl')])
 
-            brideRole.hasLocation = [locationRole]
-
+            brideLocations.append(locationRole)
             mentionedLocations.append(location)
 
         if d['bride']['homeLocation']:
             locName = d['bride']['homeLocation']
-            location = Location(URIRef(d['bride']['id'] + '-address'),
-                                label=[locName])
+            location = LocationObservation(URIRef(d['bride']['id'] +
+                                                  '-address'),
+                                           label=[locName])
 
             locationRole = AddressRole(
                 URIRef(d['bride']['id'] + '-address-role'),
@@ -258,9 +280,8 @@ def main(infile, path):
                 carriedBy=[location],
                 label=[Literal(f"{locName} (adres)", lang='nl')])
 
+            brideLocations.append(locationRole)
             mentionedLocations.append(location)
-
-            brideRole.hasLocation = [locationRole]
 
         mentionedPersons.append(bride)
 
@@ -350,7 +371,7 @@ def main(infile, path):
                     URIRef(w['id'] + '-relation-role'),
                     carriedIn=registrationEvent,
                     carriedBy=[relation],
-                    relatedTo=witness,
+                    relatedTo=witnessRole,
                     label=[
                         Literal(f"{w['relation']} ({pnWitness.label})",
                                 lang='nl')
@@ -361,6 +382,9 @@ def main(infile, path):
                 mentionedRelations.append(relation)
 
             mentionedPersons.append(witness)
+
+        groomRole.hasLocation = groomLocations
+        brideRole.hasLocation = brideLocations
 
         sourceIndex.mentionsPerson = mentionedPersons
         sourceIndex.mentionsLocation = mentionedLocations

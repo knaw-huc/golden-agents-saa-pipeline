@@ -4,6 +4,7 @@ from main import thesaurus, bindNS, unique
 from model import *
 
 jiw = Namespace("https://data.goldenagents.org/datasets/jaikwil/")
+nsHisco = Namespace("https://iisg.amsterdam/resource/hisco/code/hisco/")
 
 
 class Ondertrouwregister(Document):
@@ -29,8 +30,8 @@ def main(datafile, path):
 
     for n, d in enumerate(data, 1):
 
-        # if n == 1000:
-        #     break
+        if n == 1000:
+            break
 
         if n % 100 == 0:
             print(f"{n}/{len(data)}", end='\r')
@@ -134,8 +135,9 @@ def main(datafile, path):
 
         if d['groom']['occupation']:
             occName = d['groom']['occupation']
-            occupation = Occupation(URIRef(d['groom']['id'] + '-occupation'),
-                                    label=[occName])
+            occupation = OccupationObservation(URIRef(d['groom']['id'] +
+                                                      '-occupation'),
+                                               label=[occName])
 
             occupationRole = OccupationRole(
                 URIRef(d['groom']['id'] + '-occupation-role'),
@@ -146,6 +148,22 @@ def main(datafile, path):
             groomRole.hasOccupation = [occupationRole]
 
             mentionedOccupations.append(occupation)
+
+            # Reconstruction
+            sdoOcc = SchemaOccupation(unique(d['groom']['occupation_modern'],
+                                             d['groom']['occupation_hisco'],
+                                             'schema'),
+                                      label=[d['groom']['occupation_modern']])
+
+            if hisco := d['groom']['occupation_hisco']:
+                sdoOcc.occupationalCategory = [nsHisco.term(str(hisco))]
+
+            reconstruction = OccupationReconstruction(
+                unique(d['groom']['occupation_modern'],
+                       d['groom']['occupation_hisco']),
+                wasDerivedFrom=[occupation],
+                sameAs=[sdoOcc],
+                prefLabel=[d['groom']['occupation_modern']])
 
         if d['groom']['religion']:
             religionName = d['groom']['religion']
@@ -287,8 +305,9 @@ def main(datafile, path):
 
         if d['bride']['occupation']:
             occName = d['bride']['occupation']
-            occupation = Occupation(URIRef(d['bride']['id'] + '-occupation'),
-                                    label=[occName])
+            occupation = OccupationObservation(URIRef(d['bride']['id'] +
+                                                      '-occupation'),
+                                               label=[occName])
 
             occupationRole = OccupationRole(
                 URIRef(d['bride']['id'] + '-occupation-role'),
@@ -299,6 +318,22 @@ def main(datafile, path):
             brideRole.hasOccupation = [occupationRole]
 
             mentionedOccupations.append(occupation)
+
+            # Reconstruction
+            sdoOcc = SchemaOccupation(unique(d['bride']['occupation_modern'],
+                                             d['bride']['occupation_hisco'],
+                                             'schema'),
+                                      label=[d['bride']['occupation_modern']])
+
+            if hisco := d['bride']['occupation_hisco']:
+                sdoOcc.occupationalCategory = [nsHisco.term(str(hisco))]
+
+            reconstruction = OccupationReconstruction(
+                unique(d['bride']['occupation_modern'],
+                       d['bride']['occupation_hisco']),
+                wasDerivedFrom=[occupation],
+                sameAs=[sdoOcc],
+                prefLabel=[d['bride']['occupation_modern']])
 
         if d['bride']['religion']:
             religionName = d['bride']['religion']

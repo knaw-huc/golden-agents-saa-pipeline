@@ -49,9 +49,11 @@ deed = Namespace("https://archief.amsterdam/indexen/deeds/")
 file = Namespace('https://archief.amsterdam/inventarissen/file/')
 thes = Namespace("https://data.goldenagents.org/thesaurus/")
 
+
 class SchemaPlace(rdfSubject):
     rdf_type = schema.Place
     label = rdfMultiple(RDFS.label)
+
 
 ########
 # ROAR #
@@ -84,8 +86,10 @@ class Entity(rdfSubject):
 
     sameAs = rdfMultiple(OWL.sameAs)
 
+
 class Observation(Entity):
     rdf_type = roar.Observation
+
 
 class Reconstruction(Entity):
     rdf_type = roar.Reconstruction
@@ -108,11 +112,22 @@ class Agent(RoleBearer):
 class Location(RoleBearer):
     rdf_type = roar.Location, roar
 
+
 class LocationObservation(RoleBearer, Observation):
     rdf_type = roar.Location, roar.Observation
 
+
+class OccupationObservation(RoleBearer, Observation):
+    rdf_type = roar.Occupation, roar.Observation
+
+
 class LocationReconstruction(RoleBearer, Reconstruction):
     rdf_type = roar.Location, roar.Reconstruction
+
+
+class OccupationReconstruction(RoleBearer, Reconstruction):
+    rdf_type = roar.Occupation, roar.Reconstruction
+
 
 class Person(Agent):
     rdf_type = roar.Person
@@ -524,8 +539,8 @@ class Notary(Person):
     notaryOfInventoryNumber = rdfMultiple(saa.notaryOfInventoryNumber)
 
 
-class Occupation(Entity):
-    rdf_type = saa.Occupation
+class SchemaOccupation(Entity):
+    rdf_type = schema.Occupation
 
     occupationalCategory = rdfMultiple(schema.occupationalCategory,
                                        range_type=schema.CategoryCode)

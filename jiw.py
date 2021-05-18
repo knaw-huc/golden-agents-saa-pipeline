@@ -30,8 +30,8 @@ def main(datafile, path):
 
     for n, d in enumerate(data, 1):
 
-        if n == 1000:
-            break
+        # if n == 1000:
+        #     break
 
         if n % 100 == 0:
             print(f"{n}/{len(data)}", end='\r')
@@ -150,20 +150,28 @@ def main(datafile, path):
             mentionedOccupations.append(occupation)
 
             # Reconstruction
-            sdoOcc = SchemaOccupation(unique(d['groom']['occupation_modern'],
-                                             d['groom']['occupation_hisco'],
-                                             'schema'),
-                                      label=[d['groom']['occupation_modern']])
+            if d['groom']['occupation_modern'] or d['groom'][
+                    'occupation_hisco']:
+                sdoOcc = SchemaOccupation(unique(
+                    d['groom']['occupation_modern'],
+                    d['groom']['occupation_hisco'], 'schema'),
+                                          label=[
+                                              d['groom']['occupation_modern']
+                                              or d['groom']['occupation']
+                                          ])
 
-            if hisco := d['groom']['occupation_hisco']:
-                sdoOcc.occupationalCategory = [nsHisco.term(str(hisco))]
+                if hisco := d['groom']['occupation_hisco']:
+                    sdoOcc.occupationalCategory = [nsHisco.term(str(hisco))]
 
-            reconstruction = OccupationReconstruction(
-                unique(d['groom']['occupation_modern'],
-                       d['groom']['occupation_hisco']),
-                wasDerivedFrom=[occupation],
-                sameAs=[sdoOcc],
-                prefLabel=[d['groom']['occupation_modern']])
+                reconstruction = OccupationReconstruction(
+                    unique(d['groom']['occupation_modern'],
+                           d['groom']['occupation_hisco']),
+                    wasDerivedFrom=[occupation],
+                    sameAs=[sdoOcc],
+                    prefLabel=[
+                        d['groom']['occupation_modern']
+                        or d['groom']['occupation']
+                    ])
 
         if d['groom']['religion']:
             religionName = d['groom']['religion']
@@ -320,20 +328,28 @@ def main(datafile, path):
             mentionedOccupations.append(occupation)
 
             # Reconstruction
-            sdoOcc = SchemaOccupation(unique(d['bride']['occupation_modern'],
-                                             d['bride']['occupation_hisco'],
-                                             'schema'),
-                                      label=[d['bride']['occupation_modern']])
+            if d['bride']['occupation_modern'] or d['bride'][
+                    'occupation_hisco']:
+                sdoOcc = SchemaOccupation(unique(
+                    d['bride']['occupation_modern'],
+                    d['bride']['occupation_hisco'], 'schema'),
+                                          label=[
+                                              d['bride']['occupation_modern']
+                                              or d['bride']['occupation']
+                                          ])
 
-            if hisco := d['bride']['occupation_hisco']:
-                sdoOcc.occupationalCategory = [nsHisco.term(str(hisco))]
+                if hisco := d['bride']['occupation_hisco']:
+                    sdoOcc.occupationalCategory = [nsHisco.term(str(hisco))]
 
-            reconstruction = OccupationReconstruction(
-                unique(d['bride']['occupation_modern'],
-                       d['bride']['occupation_hisco']),
-                wasDerivedFrom=[occupation],
-                sameAs=[sdoOcc],
-                prefLabel=[d['bride']['occupation_modern']])
+                reconstruction = OccupationReconstruction(
+                    unique(d['bride']['occupation_modern'],
+                           d['bride']['occupation_hisco']),
+                    wasDerivedFrom=[occupation],
+                    sameAs=[sdoOcc],
+                    prefLabel=[
+                        d['bride']['occupation_modern']
+                        or d['bride']['occupation']
+                    ])
 
         if d['bride']['religion']:
             religionName = d['bride']['religion']
@@ -435,6 +451,7 @@ def main(datafile, path):
     graph.bind(
         'jiwRec',
         URIRef("https://data.goldenagents.org/datasets/jaikwil/records/"))
+    graph.bind('hisco', nsHisco)
 
     print("Serializing!")
     graph.serialize(path, format='trig')

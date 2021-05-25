@@ -46,6 +46,7 @@ def main(datafile, path):
         mentionedOccupations = []
         mentionedRelations = []
         mentionedReligions = []
+        mentionedStatuses = []
 
         # Physical deed
         physicalDocument = Ondertrouwregister(
@@ -60,6 +61,7 @@ def main(datafile, path):
             URIRef(d['id']),
             label=[Literal(f"Index: Ondertrouwregister", lang='nl')],
             description=[d['comments']] if d['comments'] else [],
+            cancelled=True if d['cancelled'] else False,
             indexOf=physicalDocument,
             memberOf=indexCollection)
 
@@ -91,6 +93,20 @@ def main(datafile, path):
             label=[
                 Literal(f"{pnGroom.label} in de rol van Bruidegom", lang='nl')
             ])
+
+        # status
+        if maritalStatusName := d['groom']['marital_status_modern']:
+            status, statusName = thesaurus(maritalStatusName, Status, graph,
+                                           thesaurusGraph)
+
+            statusRole = HuwelijkseStaat(
+                URIRef(d['groom']['id'] + '-status-role'),
+                carriedIn=registrationEvent,
+                carriedBy=[status],
+                label=[Literal(f"{statusName} (Huwelijkse staat)", lang='nl')])
+
+            groomRole.hasStatus = [statusRole]
+            mentionedStatuses.append(status)
 
         if d['groom']['origin']:
             locName = d['groom']['origin']
@@ -279,6 +295,20 @@ def main(datafile, path):
             carriedBy=[bride],
             label=[Literal(f"{pnBride.label} in de rol van Bruid", lang='nl')])
 
+        # status
+        if maritalStatusName := d['bride']['marital_status_modern']:
+            status, statusName = thesaurus(maritalStatusName, Status, graph,
+                                           thesaurusGraph)
+
+            statusRole = HuwelijkseStaat(
+                URIRef(d['bride']['id'] + '-status-role'),
+                carriedIn=registrationEvent,
+                carriedBy=[status],
+                label=[Literal(f"{statusName} (Huwelijkse staat)", lang='nl')])
+
+            brideRole.hasStatus = [statusRole]
+            mentionedStatuses.append(status)
+
         if d['bride']['origin']:
             locName = d['bride']['origin']
             location = LocationObservation(URIRef(d['bride']['id'] +
@@ -444,6 +474,7 @@ def main(datafile, path):
         sourceIndex.mentionsOccupation = mentionedOccupations
         sourceIndex.mentionsRelation = mentionedRelations
         sourceIndex.mentionsReligion = mentionedReligions
+        sourceIndex.mentionsStatus = mentionedStatuses
 
     indexCollection.hasMember = allIndexDocuments
 

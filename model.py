@@ -129,6 +129,10 @@ class OccupationReconstruction(RoleBearer, Reconstruction):
     rdf_type = roar.Occupation, roar.Reconstruction
 
 
+class Status(RoleBearer):
+    rdf_type = roar.Status
+
+
 class Person(Agent):
     rdf_type = roar.Person
 
@@ -195,12 +199,15 @@ class Document(Entity):
     mentionsOccupation = rdfMultiple(roar.mentionsOccupation)
     mentionsReligion = rdfMultiple(roar.mentionsReligion)
     mentionsRelation = rdfMultiple(roar.mentionsRelation)
+    mentionsStatus = rdfMultiple(roar.mentionsStatus)
 
     hasScan = rdfMultiple(roar.hasScan)
 
 
 class IndexDocument(Document):
     rdf_type = roar.IndexDocument
+
+    cancelled = rdfSingle(roar.cancelled)
 
 
 class Collection(Document):
@@ -290,6 +297,7 @@ class Role(Entity):
     hasLocation = rdfMultiple(roar.hasLocation)
     hasReligion = rdfMultiple(roar.hasReligion)
     hasOccupation = rdfMultiple(roar.hasOccupation)
+    hasStatus = rdfMultiple(roar.hasStatus)
 
     age = rdfSingle(roar.age)
     literate = rdfSingle(roar.literate)
@@ -346,6 +354,12 @@ class Getuige(Role):
 
 class OccupationRole(Role):
     rdf_type = roar.Beroep
+    subClassOf = roar.Role
+
+
+class HuwelijkseStaat(Role):
+    rdf_type = roar.HuwelijkseStaat
+
     subClassOf = roar.Role
 
 

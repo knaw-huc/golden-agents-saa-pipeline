@@ -239,11 +239,11 @@ def main(eadfolder="data/ead",
             continue
 
         # DTB
-        # if 'doopreg' not in dirpath and 'trouw' not in dirpath:
-        #     continue
-
-        if 'begraafregisters' in dirpath or 'doopregisters' in dirpath or 'lidmatenregister' in dirpath or 'werk_spinhuis' in dirpath or 'kwijtscheldingen' in dirpath or 'confessieboeken' in dirpath or 'averijgrossen' in dirpath or 'boedelpapieren' in dirpath:
+        if 'begraafregisters' not in dirpath:
             continue
+
+        # if 'begraafregisters' in dirpath or 'doopregisters' in dirpath or 'lidmatenregister' in dirpath or 'werk_spinhuis' in dirpath or 'kwijtscheldingen' in dirpath or 'confessieboeken' in dirpath or 'averijgrossen' in dirpath or 'boedelpapieren' in dirpath:
+        #     continue
 
         # # Notarieel
         # if 'nota' not in dirpath:
@@ -640,6 +640,8 @@ def convertA2A(filenames, path, indexCollection, temporal=False):
 
         for d in c:
 
+            cancelled = None
+
             if hasattr(d.source, 'SourceDate'):
                 registrationDate = d.source.SourceDate.date
             else:
@@ -681,15 +683,13 @@ def convertA2A(filenames, path, indexCollection, temporal=False):
             try:
                 if comment := d.source.Remarks['Opmerking']['Opmerking']:
                     comments = [Literal(comment, lang='nl')]  # otr
-                else:
-                    comments = []
-            except:
-                comments = []
 
-            try:
-                if comment := d.source.Remarks['Opmerking'][
-                        'Relatie informatie']:
-                    comments = [Literal(comment, lang='nl')]  # begraaf
+                    if 'Ondertrouwregister' in d.source.sourceType:
+                        if 'doorgehaald' in comment:
+                            cancelled = True
+                        else:
+                            cancelled = False
+
                 else:
                     comments = []
             except:
@@ -734,6 +734,7 @@ def convertA2A(filenames, path, indexCollection, temporal=False):
                 indexUri,
                 label=[Literal(f"Index: {sourceTypeName}", lang='nl')],
                 description=comments,
+                cancelled=cancelled,
                 indexOf=physicalDocument,
                 memberOf=indexCollection)
 
@@ -1091,9 +1092,35 @@ def convertA2A(filenames, path, indexCollection, temporal=False):
             except:
                 pass
 
+            # relations and roles
+            relations = []
+            try:
+                if relatieinformatie := d.source.Remarks['Opmerking'][
+                        'Relatie informatie']:
+
+                    uri = deed.term(d.source.guid + '?relation=' + 'Relation1')
+                    relation = Relation(uri, label=[relatieinformatie])
+
+                    relationRole = RelationRole(
+                        None,
+                        carriedIn=registrationEvent,
+                        carriedBy=[relation],
+                        # relatedTo=witnessRole, # TODO
+                        label=[
+                            Literal(
+                                f"{relatieinformatie} in de rol van relatie-informatie",
+                                lang='nl')
+                        ])
+
+                    relations.append(relation)
+
+            except:
+                pass
+
             sourceIndex.mentionsEvent = events
             sourceIndex.mentionsPerson = persons
             sourceIndex.mentionsLocation = locations
+            sourceIndex.mentionsRelation = relations
 
             # # Remarks
             # for remark in p.Remarks['diversen']:

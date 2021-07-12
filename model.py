@@ -86,6 +86,8 @@ class Entity(rdfSubject):
 
     sameAs = rdfMultiple(OWL.sameAs)
 
+    position = rdfSingle(roar.position)
+
 
 class Observation(Entity):
     rdf_type = roar.Observation
@@ -201,7 +203,10 @@ class Document(Entity):
     mentionsRelation = rdfMultiple(roar.mentionsRelation)
     mentionsStatus = rdfMultiple(roar.mentionsStatus)
 
-    hasScan = rdfMultiple(roar.hasScan)
+    hasScan = rdfMultiple(roar.hasScan)  # physical document
+    onScan = rdfMultiple(roar.onScan)  # index document
+
+    onPage = rdfSingle(roar.onPage)
 
 
 class IndexDocument(Document):
@@ -440,8 +445,6 @@ class IndexRecord(Entity):
     sourceReference = rdfSingle(saa.sourceReference)
     urlScan = rdfMultiple(saa.urlScan)
 
-    description = rdfSingle(saa.description)
-
     mentionsRegisteredName = rdfMultiple(saa.mentionsRegisteredName)
     mentionsLocation = rdfMultiple(saa.mentionsLocation,
                                    range_type=saa.Location)
@@ -480,7 +483,7 @@ class IndexOpOndertrouwregisters(IndexRecord):
     mentionsEarlierHusbandName = rdfMultiple(saa.mentionsEarlierHusbandName)
     mentionsEarlierWifeName = rdfMultiple(saa.mentionsEarlierWifeName)
 
-    cancelled = rdfSingle(saa.cancelled)
+    # cancelled = rdfSingle(saa.cancelled)
 
 
 class IndexOpKwijtscheldingen(IndexRecord):

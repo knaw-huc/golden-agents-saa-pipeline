@@ -143,7 +143,7 @@ def parseCollection(ead):
         name=archdesc['did']['unittitle']['#text'],
         description=description,
         identifier=archdesc['did']['unitid']['#text'],
-        date=parseDate(archdesc['did']['unitdate'].get('@normal')),
+        date=parseDate(archdesc['did'].get('unitdate', dict()).get('@normal')),
         language=archdesc['did']['langmaterial'],
         repository=archdesc['did']['repository']['corpname'],
         origination=archdesc['did']['origination'],

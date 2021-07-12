@@ -84,6 +84,9 @@ with open('data/uri2notary.json') as infile:
         for k, v in uri2notary.items()
     }
 
+with open('data/concordance/bg_mapping_index_guid.json') as infile:
+    bg_guid2index = json.load(infile)
+
 # with open('data/scanid2name_5075.json') as infile:
 #     scanid2name = json.load(infile)
 
@@ -219,7 +222,7 @@ def main(eadfolder="data/ead",
                 g = bindNS(g)
 
                 print("Serializing to", path)
-                # g.serialize(path, format='trig')
+                # g.serialize(path, format='trig')  # TEMPORARY
                 ds.remove_graph(g)
                 g = rdfSubject.db = ds.graph(identifier=ga.term('saa/ead/'))
             else:
@@ -235,15 +238,16 @@ def main(eadfolder="data/ead",
     g = rdfSubject.db = ds.graph(identifier=ga.term('saa/a2a/'))
     for dirpath, dirname, filenames in os.walk(a2afolder):
 
-        if dirpath == 'data/a2a':
+        if dirpath == 'data/a2a':  # one level deeper
             continue
 
         # DTB
-        if 'begraafregisters' not in dirpath:
-            continue
-
-        # if 'begraafregisters' in dirpath or 'doopregisters' in dirpath or 'lidmatenregister' in dirpath or 'werk_spinhuis' in dirpath or 'kwijtscheldingen' in dirpath or 'confessieboeken' in dirpath or 'averijgrossen' in dirpath or 'boedelpapieren' in dirpath:
+        # if 'begraafre' not in dirpath:
         #     continue
+
+        # DTB for now
+        if 'begraafreg' not in dirpath and 'ondertrouwregisters' not in dirpath and 'doopregisters' not in dirpath:
+            continue
 
         # # Notarieel
         # if 'nota' not in dirpath:
@@ -657,6 +661,10 @@ def convertA2A(filenames, path, indexCollection, temporal=False):
 
             collection = d.source.SourceReference.Archive
             inventory = d.source.SourceReference.RegistryNumber
+            if hasattr(d.source.SourceReference, 'Folio'):
+                folio = d.source.SourceReference.Folio
+            else:
+                folio = None
             partOfUri = identifier2physicalBook[collection].get(
                 inventory,
                 URIRef("https://data.goldenagents.org/NOTHINGFOUNDHERE"))
@@ -682,9 +690,10 @@ def convertA2A(filenames, path, indexCollection, temporal=False):
             # source remarks
             try:
                 if comment := d.source.Remarks['Opmerking']['Opmerking']:
+
                     comments = [Literal(comment, lang='nl')]  # otr
 
-                    if 'Ondertrouwregister' in d.source.sourceType:
+                    if 'Ondertrouwregister' in d.source.SourceType:
                         if 'doorgehaald' in comment:
                             cancelled = True
                         else:
@@ -763,6 +772,9 @@ def convertA2A(filenames, path, indexCollection, temporal=False):
 
             scanCollection.hasMember = scans
             physicalDocument.hasScan = scans
+
+            sourceIndex.onScan = scans
+            sourceIndex.onPage = folio
 
             # events
             events = []
@@ -860,6 +872,7 @@ def convertA2A(filenames, path, indexCollection, temporal=False):
 
             # persons and roles
             persons = []
+            guid_roles = defaultdict(list)
             for n, p in enumerate(d.persons, 1):
 
                 pEvents = [registrationEvent]
@@ -911,8 +924,8 @@ def convertA2A(filenames, path, indexCollection, temporal=False):
                         if 'Beroep' in scanData:
 
                             occupation, occupationName = thesaurus(
-                                scanData['Beroep'], Occupation, graph,
-                                thesaurusGraph)
+                                scanData['Beroep'], OccupationObservation,
+                                graph, thesaurusGraph)
 
                             occupationRole = OccupationRole(
                                 None,
@@ -994,9 +1007,8 @@ def convertA2A(filenames, path, indexCollection, temporal=False):
                             personnames += pnVariants
 
                 ##
-
-                person = Person(deed.term(d.source.guid + '?person=' +
-                                          p.id.replace("Person:", '')),
+                pid = p.id.replace("Person:", '')
+                person = Person(deed.term(d.source.guid + '?person=' + pid),
                                 hasName=personnames,
                                 label=[pLabel])
 
@@ -1059,6 +1071,7 @@ def convertA2A(filenames, path, indexCollection, temporal=False):
                                 Literal(f"{pLabel} in de rol van {rTypeName}",
                                         lang='nl')
                             ])
+                        guid_roles[pid].append(role)
 
                 person.participatesIn = pEvents
                 persons.append(person)
@@ -1098,23 +1111,50 @@ def convertA2A(filenames, path, indexCollection, temporal=False):
                 if relatieinformatie := d.source.Remarks['Opmerking'][
                         'Relatie informatie']:
 
+                    r1, r2 = None, None
+
                     uri = deed.term(d.source.guid + '?relation=' + 'Relation1')
                     relation = Relation(uri, label=[relatieinformatie])
+
+                    for pid, roles in guid_roles.items():
+                        if len(roles) == 1:
+                            role = roles[0]
+                        else:
+                            print("More than 1 or no role for this person!")
+                            continue
+
+                        if bg_guid2index[pid] == 1:
+                            r1 = role
+                            role.position = 1
+                        elif bg_guid2index[pid] == 2:
+                            r2 = role
+                            role.position = 2
+
+                    # Relation in SAA is from p1 to p2 (p1 is husband of p2)
+                    # We do it the other way round: p2 has husband p1
+                    # Relations are bound to the person role
+
+                    if r1:
+                        pLabel = r1.carriedBy[0].hasName[0].literalName
+                    else:
+                        pLabel = "Onbekend"
 
                     relationRole = RelationRole(
                         None,
                         carriedIn=registrationEvent,
                         carriedBy=[relation],
-                        # relatedTo=witnessRole, # TODO
+                        relatedTo=r1,
                         label=[
-                            Literal(
-                                f"{relatieinformatie} in de rol van relatie-informatie",
-                                lang='nl')
+                            Literal(f"{relatieinformatie} ({pLabel})",
+                                    lang='nl')
                         ])
+
+                    if r2:
+                        r2.hasRelation = [relationRole]
 
                     relations.append(relation)
 
-            except:
+            except KeyError:
                 pass
 
             sourceIndex.mentionsEvent = events

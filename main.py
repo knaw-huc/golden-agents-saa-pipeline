@@ -246,12 +246,12 @@ def main(eadfolder="data/ead",
         #     continue
 
         # DTB for now
-        if 'begraafreg' not in dirpath and 'ondertrouwregisters' not in dirpath and 'doopregisters' not in dirpath:
-            continue
+        # if 'begraafreg' not in dirpath and 'ondertrouwregisters' not in dirpath and 'doopregisters' not in dirpath:
+        #     continue
 
         # # Notarieel
-        # if 'nota' not in dirpath:
-        #     continue
+        if 'nota' not in dirpath:
+            continue
 
         filenames = [
             os.path.abspath(os.path.join(dirpath, i))
@@ -688,21 +688,35 @@ def convertA2A(filenames, path, indexCollection, temporal=False):
                 registrationPlace = None
 
             # source remarks
+            comments = []
             try:
                 if comment := d.source.Remarks['Opmerking']['Opmerking']:
 
-                    comments = [Literal(comment, lang='nl')]  # otr
+                    comments.append(Literal(comment, lang='nl'))  # otr
 
                     if 'Ondertrouwregister' in d.source.SourceType:
                         if 'doorgehaald' in comment:
                             cancelled = True
                         else:
                             cancelled = False
-
-                else:
-                    comments = []
             except:
-                comments = []
+                pass
+
+            try:
+                if comment := d.source.Remarks['Opmerking'][
+                        'Onderwerpsomschrijving']:
+
+                    comments.append(Literal(comment, lang='nl'))  # Notarieel
+            except:
+                pass
+
+            inLanguage = None
+            try:
+                if language := d.source.Remarks['Opmerking']['Taal']:
+
+                    inLanguage = Literal(language, lang='nl')  # Notarieel
+            except:
+                pass
 
             # source
 
@@ -743,6 +757,7 @@ def convertA2A(filenames, path, indexCollection, temporal=False):
                 indexUri,
                 label=[Literal(f"Index: {sourceTypeName}", lang='nl')],
                 description=comments,
+                inLanguage=inLanguage,
                 cancelled=cancelled,
                 indexOf=physicalDocument,
                 memberOf=indexCollection)
@@ -845,10 +860,24 @@ def convertA2A(filenames, path, indexCollection, temporal=False):
                 else:
                     eventReligion = None
 
+                if type(registrationDate) == str and len(
+                        registrationDate) == 4:
+                    registrationDateLiteral = Literal(registrationDate,
+                                                      datatype=XSD.gYear)
+                elif type(registrationDate) == str and len(
+                        registrationDate) == 7:
+                    registrationDateLiteral = Literal(registrationDate,
+                                                      datatype=XSD.gYearMonth)
+                elif registrationDate:
+                    registrationDateLiteral = Literal(registrationDate,
+                                                      datatype=XSD.date)
+                else:
+                    registrationDateLiteral = None
+
                 registrationEvent = RegistrationEventClass(
                     deed.term(d.source.guid + '?event=' + e.id),
                     occursAt=registrationPlace,
-                    hasTimeStamp=registrationDate,
+                    hasTimeStamp=registrationDateLiteral,
                     hasOutput=[physicalDocument],
                     label=[
                         Literal(
@@ -857,9 +886,19 @@ def convertA2A(filenames, path, indexCollection, temporal=False):
                     ])
                 events.append(registrationEvent)
 
+                if type(eventDate) == str and len(eventDate) == 4:
+                    eventDateLiteral = Literal(eventDate, datatype=XSD.gYear)
+                elif type(eventDate) == str and len(eventDate) == 7:
+                    eventDateLiteral = Literal(eventDate,
+                                               datatype=XSD.gYearMonth)
+                elif eventDate:
+                    eventDateLiteral = Literal(eventDate, datatype=XSD.date)
+                else:
+                    eventDateLiteral = None
+
                 event = Event(
                     None,
-                    hasTimeStamp=eventDate,
+                    hasTimeStamp=eventDateLiteral,
                     occursAt=eventPlace,
                     hasReligion=eventReligion,
                     label=[
@@ -976,6 +1015,8 @@ def convertA2A(filenames, path, indexCollection, temporal=False):
                                         lang='nl')
                                 ])
 
+                            persons.append(earlierHusband)
+
                         if 'Eerdere vrouw' in scanData:
 
                             earlierWifeName = scanData['Eerdere vrouw']
@@ -998,6 +1039,8 @@ def convertA2A(filenames, path, indexCollection, temporal=False):
                                         f"{labelsEarlierWife[0]} in de rol van eerdere vrouw",
                                         lang='nl')
                                 ])
+
+                            persons.append(earlierWife)
 
                         if 'Naamsvariant' in scanData:
 

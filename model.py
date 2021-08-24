@@ -208,6 +208,8 @@ class Document(Entity):
 
     onPage = rdfSingle(roar.onPage)
 
+    inLanguage = rdfSingle(roar.inLanguage)
+
 
 class IndexDocument(Document):
     rdf_type = roar.IndexDocument

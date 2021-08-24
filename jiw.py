@@ -6,6 +6,8 @@ from model import *
 jiw = Namespace("https://data.goldenagents.org/datasets/jaikwil/")
 nsHisco = Namespace("https://iisg.amsterdam/resource/hisco/code/hisco/")
 
+# TODO: relatiereconstructies
+
 
 class Ondertrouwregister(Document):
     rdf_type = thes.Ondertrouwregister
@@ -82,7 +84,8 @@ def main(datafile, path):
 
         groom = Person(URIRef(d['groom']['id']),
                        hasName=[pnGroom],
-                       label=[pnGroom.label])
+                       label=[pnGroom.label],
+                       participatesIn=[registrationEvent])
 
         groomRole = Bruidegom(
             URIRef(d['groom']['id'] + '-role'),
@@ -218,7 +221,8 @@ def main(datafile, path):
 
             exWife = Person(URIRef(d['groom']['exWife']['id']),
                             hasName=[pnExWife],
-                            label=[pnExWife.label])
+                            label=[pnExWife.label],
+                            participatesIn=[registrationEvent])
 
             exWifeRole = EarlierWife(
                 URIRef(d['groom']['exWife']['id'] + '-role'),
@@ -241,7 +245,8 @@ def main(datafile, path):
                                    label=w['hasName']['literalName'])
             witness = Person(URIRef(w['id']),
                              hasName=[pnWitness],
-                             label=[pnWitness.label])
+                             label=[pnWitness.label],
+                             participatesIn=[registrationEvent])
 
             witnessRole = Getuige(
                 URIRef(w['id'] + '-role'),
@@ -285,7 +290,8 @@ def main(datafile, path):
 
         bride = Person(URIRef(d['bride']['id']),
                        hasName=[pnBride],
-                       label=[pnBride.label])
+                       label=[pnBride.label],
+                       participatesIn=[registrationEvent])
 
         brideRole = Bruid(
             URIRef(d['bride']['id'] + '-role'),
@@ -409,7 +415,8 @@ def main(datafile, path):
 
             exHusband = Person(URIRef(d['bride']['exHusband']['id']),
                                hasName=[pnExHusband],
-                               label=[pnExHusband.label])
+                               label=[pnExHusband.label],
+                               participatesIn=[registrationEvent])
 
             exHusbandRole = EarlierHusband(
                 URIRef(d['bride']['exHusband']['id'] + '-role'),
@@ -432,7 +439,8 @@ def main(datafile, path):
                                    label=w['hasName']['literalName'])
             witness = Person(URIRef(w['id']),
                              hasName=[pnWitness],
-                             label=[pnWitness.label])
+                             label=[pnWitness.label],
+                             participatesIn=[registrationEvent])
 
             witnessRole = Getuige(
                 URIRef(w['id'] + '-role'),

@@ -221,7 +221,7 @@ class Collection(Document):
     rdf_type = roar.Collection
 
     language = rdfMultiple(DCTERMS.language)
-    authority = rdfMultiple(DCTERMS.authority)
+    # authority = rdfMultiple(DCTERMS.authority)
     creator = rdfMultiple(DCTERMS.creator)
 
     hasGroupingCriteria = rdfMultiple(roar.hasGroupingCriteria)

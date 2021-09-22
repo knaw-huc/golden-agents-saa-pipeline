@@ -18,6 +18,8 @@ from model import *
 ga = Namespace("https://data.goldenagents.org/datasets/")
 rdflib.graph.DATASET_DEFAULT_GRAPH_ID = ga
 
+gaPersonName = Namespace("https://data.goldenagents.org/datasets/personname/")
+
 index2name = {
     '08953f2f-309c-baf9-e5b1-0cefe3891b37':
     'SAA-ID-001_SAA_Index_op_notarieel_archief',
@@ -97,7 +99,7 @@ with open('data/concordance/bg_mapping_index_guid.json') as infile:
 #     collection2scansname = json.load(infile)
 
 
-def unique(*args):
+def unique(*args, sep="", ns=None):
     """Function to generate a unique BNode based on a series of arguments.
 
     Uses the uuid5 function to generate a uuid from one or multiple ordered
@@ -112,7 +114,10 @@ def unique(*args):
 
     unique_id = uuid.uuid5(uuid.NAMESPACE_X500, identifier)
 
-    return BNode(unique_id)
+    if ns:
+        return ns.term(unique_id)
+    else:
+        return BNode(unique_id)
 
 
 def thesaurus(name, ClassType, defaultGraph, thesaurusGraph, subClassOf=None):
@@ -141,7 +146,7 @@ def thesaurus(name, ClassType, defaultGraph, thesaurusGraph, subClassOf=None):
     return classType, name
 
 
-def parsePersonName(nameString, identifier=None, index=None):
+def parsePersonName(nameString=None, givenName=None, surnamePrefix=None, baseSurname=None):
     """
 
     """
@@ -149,25 +154,29 @@ def parsePersonName(nameString, identifier=None, index=None):
     pns = []
     labels = []
 
-    if ', ' in nameString:
-        baseSurname, givenName = nameString.rsplit(', ', 1)
+    if nameString and givenName is None and surnamePrefix is None and baseSurname is None:
 
-        if '[' in givenName:
-            givenName, surnamePrefix = givenName.split('[')
+        if ', ' in nameString:
+            baseSurname, givenName = nameString.rsplit(', ', 1)
 
-            givenName = givenName.strip()
-            surnamePrefix = surnamePrefix[:-1]
+            if '[' in givenName:
+                givenName, surnamePrefix = givenName.split('[')
+
+                givenName = givenName.strip()
+                surnamePrefix = surnamePrefix[:-1]
+            else:
+                surnamePrefix = None
         else:
+            givenName = None
             surnamePrefix = None
-    else:
-        givenName = None
-        surnamePrefix = None
-        baseSurname = nameString
+            baseSurname = nameString
+     
 
     literalName = " ".join(i for i in [givenName, surnamePrefix, baseSurname]
                            if i)
 
-    pn = PersonName(None,
+    # Attempt to limit the number of bNodes. Use our own uri. 
+    pn = PersonName(unique(givenName, surnamePrefix, baseSurname, sep='@ga@', ns=gaPersonName),
                     literalName=literalName if literalName else "Unknown",
                     label=literalName if literalName else "Unknown",
                     givenName=givenName,
@@ -242,16 +251,16 @@ def main(eadfolder="data/ead",
             continue
 
         # DTB
-        # if 'begraafre' not in dirpath:
-        #     continue
+        if 'begraafre' not in dirpath:
+            continue
 
         # DTB for now
         # if 'begraafreg' not in dirpath and 'ondertrouwregisters' not in dirpath and 'doopregisters' not in dirpath:
         #     continue
 
         # # Notarieel
-        if 'nota' not in dirpath:
-            continue
+        # if 'nota' not in dirpath:
+        #     continue
 
         filenames = [
             os.path.abspath(os.path.join(dirpath, i))
@@ -916,17 +925,10 @@ def convertA2A(filenames, path, indexCollection, temporal=False):
 
                 pEvents = [registrationEvent]
 
-                pn = PersonName(
-                    None,
+                personnames, pLabels = parsePersonName(
                     givenName=p.PersonName.PersonNameFirstName,
                     surnamePrefix=p.PersonName.PersonNamePrefixLastName,
                     baseSurname=p.PersonName.PersonNameLastName)
-
-                pLabel = " ".join([i for i in p.PersonName])
-                pn.label = pLabel
-                pn.literalName = pLabel
-
-                personnames = [pn]
 
                 ## Annotation PersonName on scan (Notarial)
 
@@ -947,7 +949,7 @@ def convertA2A(filenames, path, indexCollection, temporal=False):
 
                             an = Annotation(
                                 None,
-                                hasBody=pn,
+                                hasBody=personnames[0],
                                 hasTarget=SpecificResource(
                                     None,
                                     hasSource=scanUri,
@@ -958,7 +960,7 @@ def convertA2A(filenames, path, indexCollection, temporal=False):
                                         ),
                                         value=coordinates)),
                                 # depiction=depiction,
-                                label=[pLabel])
+                                label=pLabels)
 
                         if 'Beroep' in scanData:
 
@@ -1000,7 +1002,7 @@ def convertA2A(filenames, path, indexCollection, temporal=False):
                                 earlierHusbandName)
 
                             earlierHusband = Person(
-                                None,  # TODO URI
+                                deed.term(d.source.guid + '?person=' + 'EerdereMan'
                                 participatesIn=[registrationEvent],
                                 hasName=pnsEarlierHusband,
                                 label=[labelsEarlierHusband[0]])
@@ -1025,7 +1027,7 @@ def convertA2A(filenames, path, indexCollection, temporal=False):
                                 earlierWifeName)
 
                             earlierWife = Person(
-                                None,  # TODO URI
+                                deed.term(d.source.guid + '?person=' + 'EerdereVrouw'
                                 participatesIn=[registrationEvent],
                                 hasName=pnsEarlierWife,
                                 label=[labelsEarlierWife[0]])
@@ -1150,55 +1152,55 @@ def convertA2A(filenames, path, indexCollection, temporal=False):
 
             # relations and roles
             relations = []
-            try:
-                if relatieinformatie := d.source.Remarks['Opmerking'][
-                        'Relatie informatie']:
 
-                    r1, r2 = None, None
+            if relatieinformatie := d.source.Remarks['Opmerking'][
+                    'Relatie informatie']:
 
-                    uri = deed.term(d.source.guid + '?relation=' + 'Relation1')
-                    relation = Relation(uri, label=[relatieinformatie])
+                r1, r2 = None, None
 
-                    for pid, roles in guid_roles.items():
-                        if len(roles) == 1:
-                            role = roles[0]
-                        else:
-                            print("More than 1 or no role for this person!")
-                            continue
+                uri = deed.term(d.source.guid + '?relation=' + 'Relation1')
+                relation = Relation(uri, label=[relatieinformatie])
 
-                        if bg_guid2index[pid] == 1:
-                            r1 = role
-                            role.position = 1
-                        elif bg_guid2index[pid] == 2:
-                            r2 = role
-                            role.position = 2
-
-                    # Relation in SAA is from p1 to p2 (p1 is husband of p2)
-                    # We do it the other way round: p2 has husband p1
-                    # Relations are bound to the person role
-
-                    if r1:
-                        pLabel = r1.carriedBy[0].hasName[0].literalName
+                for pid, roles in guid_roles.items():
+                    if len(roles) == 1:
+                        role = roles[0]
                     else:
-                        pLabel = "Onbekend"
+                        print("More than 1 or no role for this person!")
+                        continue
 
-                    relationRole = RelationRole(
-                        None,
-                        carriedIn=registrationEvent,
-                        carriedBy=[relation],
-                        relatedTo=r1,
-                        label=[
-                            Literal(f"{relatieinformatie} ({pLabel})",
-                                    lang='nl')
-                        ])
+                    if bg_guid2index.get(pid) == 1:
+                        r1 = role
+                        role.position = 1
+                    elif bg_guid2index.get(pid) == 2:
+                        r2 = role
+                        role.position = 2
+                    else:
+                        # If there is only one person, but still a relation info
+                        r2 = role
+                        role.position = 1
 
-                    if r2:
-                        r2.hasRelation = [relationRole]
+                # Relation in SAA is from p1 to p2 (p1 is husband of p2)
+                # We do it the other way round: p2 has husband p1
+                # Relations are bound to the person role
 
-                    relations.append(relation)
+                if r1:
+                    pLabel = r1.carriedBy[0].hasName[0].literalName
+                else:
+                    pLabel = "Onbekend"
 
-            except KeyError:
-                pass
+                relationRole = RelationRole(
+                    None,
+                    carriedIn=registrationEvent,
+                    carriedBy=[relation],
+                    relatedTo=r1,
+                    label=[
+                        Literal(f"{relatieinformatie} ({pLabel})", lang='nl')
+                    ])
+
+                if r2:
+                    r2.hasRelation = [relationRole]
+
+                relations.append(relation)
 
             sourceIndex.mentionsEvent = events
             sourceIndex.mentionsPerson = persons

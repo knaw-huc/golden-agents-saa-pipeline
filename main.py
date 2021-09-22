@@ -115,7 +115,7 @@ def unique(*args, sep="", ns=None):
     unique_id = uuid.uuid5(uuid.NAMESPACE_X500, identifier)
 
     if ns:
-        return ns.term(unique_id)
+        return ns.term(str(unique_id))
     else:
         return BNode(unique_id)
 
@@ -146,7 +146,10 @@ def thesaurus(name, ClassType, defaultGraph, thesaurusGraph, subClassOf=None):
     return classType, name
 
 
-def parsePersonName(nameString=None, givenName=None, surnamePrefix=None, baseSurname=None):
+def parsePersonName(nameString=None,
+                    givenName=None,
+                    surnamePrefix=None,
+                    baseSurname=None):
     """
 
     """
@@ -170,13 +173,16 @@ def parsePersonName(nameString=None, givenName=None, surnamePrefix=None, baseSur
             givenName = None
             surnamePrefix = None
             baseSurname = nameString
-     
 
     literalName = " ".join(i for i in [givenName, surnamePrefix, baseSurname]
                            if i)
 
-    # Attempt to limit the number of bNodes. Use our own uri. 
-    pn = PersonName(unique(givenName, surnamePrefix, baseSurname, sep='@ga@', ns=gaPersonName),
+    # Attempt to limit the number of bNodes. Use our own uri.
+    pn = PersonName(unique(givenName,
+                           surnamePrefix,
+                           baseSurname,
+                           sep='@ga@',
+                           ns=gaPersonName),
                     literalName=literalName if literalName else "Unknown",
                     label=literalName if literalName else "Unknown",
                     givenName=givenName,
@@ -1002,7 +1008,8 @@ def convertA2A(filenames, path, indexCollection, temporal=False):
                                 earlierHusbandName)
 
                             earlierHusband = Person(
-                                deed.term(d.source.guid + '?person=' + 'EerdereMan'
+                                deed.term(d.source.guid + '?person=' +
+                                          'EerdereMan'),
                                 participatesIn=[registrationEvent],
                                 hasName=pnsEarlierHusband,
                                 label=[labelsEarlierHusband[0]])
@@ -1027,7 +1034,8 @@ def convertA2A(filenames, path, indexCollection, temporal=False):
                                 earlierWifeName)
 
                             earlierWife = Person(
-                                deed.term(d.source.guid + '?person=' + 'EerdereVrouw'
+                                deed.term(d.source.guid + '?person=' +
+                                          'EerdereVrouw'),
                                 participatesIn=[registrationEvent],
                                 hasName=pnsEarlierWife,
                                 label=[labelsEarlierWife[0]])
@@ -1055,7 +1063,7 @@ def convertA2A(filenames, path, indexCollection, temporal=False):
                 pid = p.id.replace("Person:", '')
                 person = Person(deed.term(d.source.guid + '?person=' + pid),
                                 hasName=personnames,
-                                label=[pLabel])
+                                label=pLabels)
 
                 # birth in A2A defined
                 if bd := getattr(p, 'BirthDate'):
@@ -1063,7 +1071,7 @@ def convertA2A(filenames, path, indexCollection, temporal=False):
                     birthDate = bd.date
                     birthLabel = [
                         Literal(
-                            f"Geboorte van {pLabel} ({birthDate.isoformat() if birthDate else '?'})"
+                            f"Geboorte van {pLabels[0]} ({birthDate.isoformat() if birthDate else '?'})"
                         )
                     ]
 
@@ -1072,14 +1080,14 @@ def convertA2A(filenames, path, indexCollection, temporal=False):
                                           hasTimeStamp=birthDate,
                                           label=birthLabel)
 
-                    role = ChildRole(None,
-                                     carriedIn=birthEvent,
-                                     carriedBy=[person],
-                                     label=[
-                                         Literal(
-                                             f"{pLabel} in de rol van Kind",
-                                             lang='nl')
-                                     ])
+                    role = ChildRole(
+                        None,
+                        carriedIn=birthEvent,
+                        carriedBy=[person],
+                        label=[
+                            Literal(f"{pLabels[0]} in de rol van Kind",
+                                    lang='nl')
+                        ])
 
                     pEvents.append(birthEvent)
 
@@ -1113,8 +1121,9 @@ def convertA2A(filenames, path, indexCollection, temporal=False):
                             carriedIn=eUri,
                             carriedBy=[person],
                             label=[
-                                Literal(f"{pLabel} in de rol van {rTypeName}",
-                                        lang='nl')
+                                Literal(
+                                    f"{pLabels[0]} in de rol van {rTypeName}",
+                                    lang='nl')
                             ])
                         guid_roles[pid].append(role)
 

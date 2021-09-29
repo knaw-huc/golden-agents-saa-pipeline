@@ -200,6 +200,7 @@ def bindNS(g):
     g.bind('rdf', RDF)
     g.bind('rdfs', RDFS)
     g.bind('roar', roar)
+    g.bind('thes', thes)
     g.bind('pnv', pnv)
     g.bind('sem', sem)
     g.bind('dcterms', DCTERMS)
@@ -257,7 +258,7 @@ def main(eadfolder="data/ead",
             continue
 
         # DTB
-        if 'begraafre' not in dirpath:
+        if 'ondertr' not in dirpath:
             continue
 
         # DTB for now

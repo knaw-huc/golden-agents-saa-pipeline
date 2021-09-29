@@ -325,65 +325,75 @@ class Relation(Entity):
 
 
 class NotaryRole(Role):
-    rdf_type = roar.Notaris
+    rdf_type = thes.Notaris
     subClassOf = roar.Role
 
 
 class ChildRole(Role):
-    rdf_type = roar.Kind
+    rdf_type = thes.Kind
     subClassOf = roar.Role
 
 
 class EarlierHusband(Role):
-    rdf_type = roar.EerdereMan
+    rdf_type = thes.EerdereMan
     subClassOf = roar.Role
 
 
 class EarlierWife(Role):
-    rdf_type = roar.EerdereVrouw
+    rdf_type = thes.EerdereVrouw
     subClassOf = roar.Role
 
 
 class Bruid(Role):
-    rdf_type = roar.Bruid
+    rdf_type = thes.Bruid
     subClassOf = roar.Role
 
 
 class Bruidegom(Role):
-    rdf_type = roar.Bruidegom
+    rdf_type = thes.Bruidegom
     subClassOf = roar.Role
 
 
 class Getuige(Role):
-    rdf_type = roar.Getuige
+    rdf_type = thes.Getuige
     subClassOf = roar.Role
 
 
 class OccupationRole(Role):
-    rdf_type = roar.Beroep
+    rdf_type = thes.Beroep
     subClassOf = roar.Role
 
 
 class HuwelijkseStaat(Role):
-    rdf_type = roar.HuwelijkseStaat
+    rdf_type = thes.HuwelijkseStaat
 
     subClassOf = roar.Role
 
 
 class LocationRole(Role):
-    rdf_type = roar.Locatieomschrijving
+    rdf_type = thes.Locatieomschrijving
+
+    subClassOf = roar.Role
 
 
 class OriginRole(Role):
-    rdf_type = roar.Herkomstomschrijving
+    rdf_type = thes.Herkomstlocatie
+
+    subClassOf = roar.Role
+
+
+class WorkLocationRole(Role):
+    rdf_type = thes.Werklocatie
+
+    subClassOf = roar.Role
 
 
 class AddressRole(Role):
-    rdf_type = roar.Adresomschrijving
+    rdf_type = thes.Adresomschrijving
 
 
 class RelationRole(Role):
-    rdf_type = roar.Relatieomschrijving
+    rdf_type = thes.Relatieomschrijving
 
     relatedTo = rdfSingle(roar.relatedTo)
 

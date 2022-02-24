@@ -9,10 +9,11 @@ from collections import defaultdict
 from eadParser import parseEAD
 from pya2a import DocumentCollection as A2ADocumentCollection
 
-from rdflib import Dataset, Namespace, Literal, BNode, XSD, RDF, RDFS, URIRef, DCTERMS
+from rdflib import Dataset, Namespace, Literal, BNode, XSD, RDF, RDFS, URIRef
 from rdfalchemy import rdfSubject
 
 import rdflib.graph
+from rdflib.term import skolem_genid
 from model import *
 
 ga = Namespace("https://data.goldenagents.org/datasets/")
@@ -34,7 +35,7 @@ index2name = {
     'c53f836b-d7f0-fcd0-fc99-09192ccb17ad':
     'SAA-ID-006_SAA_Index_op_confessieboeken',
     'd46628d6-2ed4-95a0-cafc-4cdbb4174263':
-    'SAA-ID-007-SAA_Index_op_boetes_op_trouwen_en_begraven',
+    'SAA-ID-007_SAA_Index_op_boetes_op_trouwen_en_begraven',
     '9823b7a8-ab79-a098-4ab0-26e799ea5659':
     'SAA-ID-008_SAA_Index_op_begraafregisters_voor_1811',
     "8137be5e-1977-9c2b-1ead-b031fe39ed1e":
@@ -60,7 +61,7 @@ name2index = {
     '23d6fddb-4839-f080-2b0a-05a21c6162e8',
     'SAA-ID-006_SAA_Index_op_confessieboeken':
     'c53f836b-d7f0-fcd0-fc99-09192ccb17ad',
-    'SAA-ID-007-SAA_Index_op_boetes_op_trouwen_en_begraven':
+    'SAA-ID-007_SAA_Index_op_boetes_op_trouwen_en_begraven':
     'd46628d6-2ed4-95a0-cafc-4cdbb4174263',
     'SAA-ID-008_SAA_Index_op_begraafregisters_voor_1811':
     '9823b7a8-ab79-a098-4ab0-26e799ea5659',
@@ -203,13 +204,17 @@ def bindNS(g):
     g.bind('thes', thes)
     g.bind('pnv', pnv)
     g.bind('sem', sem)
-    g.bind('dcterms', DCTERMS)
+    g.bind('dcterms', dcterms)
     g.bind('file', file)
     g.bind('foaf', foaf)
     g.bind('oa', oa)
 
     return g
 
+def skolemize(g):
+
+    new_g = Graph(identifier=g.identifier)
+    g = g.skolemize(new_graph=new_g, authority=ga, basepath=skolem_genid)
 
 def main(eadfolder="data/ead",
          a2afolder="data/a2a",
@@ -244,10 +249,13 @@ def main(eadfolder="data/ead",
             else:
                 pass  # nobody wants a single file
 
-    # with open('data/concordance/identifier2physicalBook.json', 'w') as outfile:
+    # with open('data/concordance/5001_identifier2physicalBook.json',
+    #           'w') as outfile:
     #     json.dump(identifier2physicalBook, outfile)
 
-    # return
+    # with open('data/concordance/5001_identifier2book.json', 'w') as outfile:
+    #     json.dump(identifier2book, outfile)
+
 
     # A2A
     print("A2A parsing!")
@@ -257,17 +265,17 @@ def main(eadfolder="data/ead",
         if dirpath == 'data/a2a':  # one level deeper
             continue
 
-        # DTB
-        if 'ondertr' not in dirpath:
-            continue
+        # # DTB
+        # if 'ondertr' not in dirpath:
+        #     continue
 
         # DTB for now
         # if 'begraafreg' not in dirpath and 'ondertrouwregisters' not in dirpath and 'doopregisters' not in dirpath:
         #     continue
 
-        # # Notarieel
-        # if 'nota' not in dirpath:
-        #     continue
+        # Notarieel
+        if 'nota' not in dirpath:
+            continue
 
         filenames = [
             os.path.abspath(os.path.join(dirpath, i))
@@ -1133,8 +1141,7 @@ def convertA2A(filenames, path, indexCollection, temporal=False):
 
             # locations and roles
             locations = []
-            try:
-
+            if d.source.Remarks['Opmerking']:
                 if locationremarks := d.source.Remarks['Opmerking'][
                         'Locatieomschrijving']:
 
@@ -1144,7 +1151,9 @@ def convertA2A(filenames, path, indexCollection, temporal=False):
                     for n, locName in enumerate(locationremarks, 1):
                         uri = deed.term(d.source.guid + '?location=' +
                                         'Location' + str(n))
-                        location = Location(uri, label=[locName])  # notarieel
+                        location = LocationObservation(uri,
+                                                       label=[locName
+                                                              ])  # notarieel
 
                         locationRole = LocationRole(
                             None,
@@ -1157,8 +1166,6 @@ def convertA2A(filenames, path, indexCollection, temporal=False):
                             ])
 
                         locations.append(location)
-            except:
-                pass
 
             # relations and roles
             relations = []
@@ -1235,6 +1242,7 @@ def convertA2A(filenames, path, indexCollection, temporal=False):
     indexCollection.hasMember = allIndexDocuments
 
     graph = bindNS(graph)
+    graph = skolemize(graph)
     graph.serialize(path, format='trig')
 
     return ontologyGraph, thesaurusGraph

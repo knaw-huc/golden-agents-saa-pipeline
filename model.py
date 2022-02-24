@@ -18,35 +18,33 @@ geos = Namespace("http://www.opengis.net/ont/geosparql#")
 hg = Namespace("http://rdf.histograph.io/")
 iiif = Namespace("https://iiif.leonvanwissen.nl/iiif/2/")  # why not
 oa = Namespace("http://www.w3.org/ns/oa#")
-pnv = Namespace('https://w3id.org/pnv#')
+pnv = Namespace("https://w3id.org/pnv#")
 prov = Namespace("http://www.w3.org/ns/prov#")
 rel = Namespace("http://purl.org/vocab/relationship/")
 saaLocation = Namespace("https://data.goldenagents.org/datasets/SAA/Location/")
 saa = Namespace("https://data.goldenagents.org/datasets/SAA/ontology/")
 # saaNotary = Namespace("https://data.goldenagents.org/datasets/SAA/Notary/")
-saaOccupation = Namespace(
-    "https://data.goldenagents.org/datasets/SAA/Occupation/")
-saaOrganisation = Namespace(
-    "https://data.goldenagents.org/datasets/SAA/Organisation/")
-saaPersonName = Namespace(
-    "https://data.goldenagents.org/datasets/SAA/PersonName/")
+saaOccupation = Namespace("https://data.goldenagents.org/datasets/SAA/Occupation/")
+saaOrganisation = Namespace("https://data.goldenagents.org/datasets/SAA/Organisation/")
+saaPersonName = Namespace("https://data.goldenagents.org/datasets/SAA/PersonName/")
 saaPerson = Namespace("https://data.goldenagents.org/datasets/SAA/Person/")
 saaProperty = Namespace("https://data.goldenagents.org/datasets/SAA/Property/")
 
 saaScan = Namespace("https://data.goldenagents.org/datasets/SAA/Scan/")
 saaStreet = Namespace("https://data.goldenagents.org/datasets/SAA/Street/")
 saaIntendedMarriage = Namespace(
-    "https://data.goldenagents.org/datasets/SAA/IntendedMarriage/")
+    "https://data.goldenagents.org/datasets/SAA/IntendedMarriage/"
+)
 saaMarriage = Namespace("https://data.goldenagents.org/datasets/SAA/Marriage/")
-schema = Namespace('http://schema.org/')
+schema = Namespace("http://schema.org/")
 sem = Namespace("http://semanticweb.cs.vu.nl/2009/11/sem/")
-skos = Namespace('http://www.w3.org/2004/02/skos/core#')
+skos = Namespace("http://www.w3.org/2004/02/skos/core#")
 
 roar = Namespace("https://data.goldenagents.org/ontology/roar/")
 ead = Namespace("https://data.goldenagents.org/datasets/saa/ead/")
 a2a = Namespace("https://data.goldenagents.org/datasets/saa/a2a/")
 deed = Namespace("https://archief.amsterdam/indexen/deeds/")
-file = Namespace('https://archief.amsterdam/inventarissen/file/')
+file = Namespace("https://archief.amsterdam/inventarissen/file/")
 thes = Namespace("https://data.goldenagents.org/thesaurus/")
 
 
@@ -112,7 +110,7 @@ class Agent(RoleBearer):
 
 
 class Location(RoleBearer):
-    rdf_type = roar.Location, roar
+    rdf_type = roar.Location
 
 
 class LocationObservation(RoleBearer, Observation):
@@ -291,7 +289,7 @@ class EventType(Entity):
 
 
 class Geboorte(Event):
-    rdf_type = roar.Geboorte
+    rdf_type = thes.Geboorte
 
 
 class Role(Entity):
@@ -316,7 +314,7 @@ class RoleType(Entity):
 
 
 class PersonReligionRole(Role):
-    rdf_type = roar.PersonReligion
+    rdf_type = thes.Persoonsreligie
     subClassOf = roar.Role
 
 
@@ -365,7 +363,7 @@ class OccupationRole(Role):
 
 
 class HuwelijkseStaat(Role):
-    rdf_type = thes.HuwelijkseStaat
+    rdf_type = thes.Huwelijksestaat
 
     subClassOf = roar.Role
 
@@ -458,8 +456,7 @@ class IndexRecord(Entity):
     urlScan = rdfMultiple(saa.urlScan)
 
     mentionsRegisteredName = rdfMultiple(saa.mentionsRegisteredName)
-    mentionsLocation = rdfMultiple(saa.mentionsLocation,
-                                   range_type=saa.Location)
+    mentionsLocation = rdfMultiple(saa.mentionsLocation, range_type=saa.Location)
 
     hasEvent = rdfMultiple(saa.hasEvent)
 
@@ -571,8 +568,9 @@ class Notary(Person):
 class SchemaOccupation(Entity):
     rdf_type = schema.Occupation
 
-    occupationalCategory = rdfMultiple(schema.occupationalCategory,
-                                       range_type=schema.CategoryCode)
+    occupationalCategory = rdfMultiple(
+        schema.occupationalCategory, range_type=schema.CategoryCode
+    )
 
 
 class CategoryCode(Entity):
@@ -834,7 +832,7 @@ class TextPositionSelector(Selector):
 class Geometry(Entity):
     rdf_type = geos.Geometry
 
-    #geosparql
+    # geosparql
     asWKT = rdfSingle(geos.asWKT)
 
     hasTimeStamp = rdfSingle(sem.hasTimeStamp)

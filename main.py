@@ -2,6 +2,7 @@ import multiprocessing
 
 import os
 import json
+import gzip
 import uuid
 import unidecode
 from collections import defaultdict
@@ -216,6 +217,8 @@ def skolemize(g):
     new_g = Graph(identifier=g.identifier)
     g = g.skolemize(new_graph=new_g, authority=ga, basepath=skolem_genid)
 
+    return g
+
 def main(eadfolder="data/ead",
          a2afolder="data/a2a",
          outfile='roar.trig',
@@ -269,13 +272,13 @@ def main(eadfolder="data/ead",
         # if 'ondertr' not in dirpath:
         #     continue
 
-        # DTB for now
-        # if 'begraafreg' not in dirpath and 'ondertrouwregisters' not in dirpath and 'doopregisters' not in dirpath:
-        #     continue
+        # DTB + NA for now
+        if 'begraafreg' not in dirpath and 'ondertrouwregisters' not in dirpath and 'doopregisters' not in dirpath and 'nota' not in dirpath:
+            continue
 
         # Notarieel
-        if 'nota' not in dirpath:
-            continue
+        # if 'nota' not in dirpath:
+        #     continue
 
         filenames = [
             os.path.abspath(os.path.join(dirpath, i))
@@ -632,7 +635,7 @@ def getGroupingCriteria(sourceType=[],
     return criteria
 
 
-def convertA2A(filenames, path, indexCollection, temporal=False):
+def convertA2A(filenames, path, indexCollection, temporal=False, gz=True):
 
     ontologyGraph = Graph(identifier=roar)
     thesaurusGraph = Graph(identifier=thes)
@@ -1243,7 +1246,13 @@ def convertA2A(filenames, path, indexCollection, temporal=False):
 
     graph = bindNS(graph)
     graph = skolemize(graph)
-    graph.serialize(path, format='trig')
+
+    # gzip
+    if gz:
+        with gzip.open(path + '.gz', 'wb') as outfile:
+            outfile.write(graph.serialize(format='trig').encode())
+    else:
+        graph.serialize(path, format='trig')
 
     return ontologyGraph, thesaurusGraph
 

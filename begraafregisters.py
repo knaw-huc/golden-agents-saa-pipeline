@@ -1,13 +1,13 @@
+import gzip
 import os
 import json
-import uuid
 
 import unidecode
 
 import multiprocessing
 
-from rdflib.graph import ConjunctiveGraph
-from main import skolemize, bindNS, unique, parsePersonName
+from rdflib import Graph
+from main import skolemize, bindNS, parsePersonName
 from model import *
 
 from lxml import etree as ET
@@ -55,13 +55,14 @@ def thesaurus(name):
     return place, name
 
 
-def parse_xml(xml_file):
+def parse_xml(xml_file, gz=True):
     """
     Parse the old style XML data of the Amsterdam City Archives' Burial
     Registries in the new ROAR++ format. Writes every file to a TriG file.
 
     Args:
         xml_file (str): Path to the XML file to parse.
+        gz (bool): Whether the TriG file should be gzipped.
     """
 
     print(f"Parsing {xml_file}")
@@ -285,7 +286,17 @@ def parse_xml(xml_file):
     g = bindNS(g)
 
     print("Serializing...")
-    g.serialize(xml_file.replace(".xml", ".trig"), format="trig")
+
+    filename = os.path.split(xml_file)[1]
+    filename = filename.replace(".xml", ".trig")
+    path = f"trig/{filename}"
+
+    # gzip
+    if gz:
+        with gzip.open(path + ".gz", "wb") as outfile:
+            outfile.write(g.serialize(format="trig").encode())
+    else:
+        g.serialize(path, format="trig")
 
 
 if __name__ == "__main__":

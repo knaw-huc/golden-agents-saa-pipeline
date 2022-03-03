@@ -205,10 +205,14 @@ def bindNS(g):
     g.bind('thes', thes)
     g.bind('pnv', pnv)
     g.bind('sem', sem)
-    g.bind('dcterms', dcterms)
+    g.bind('dcterms', DCTERMS)
     g.bind('file', file)
-    g.bind('foaf', foaf)
+    g.bind('foaf', FOAF)
     g.bind('oa', oa)
+    g.bind('as', AS)
+    g.bind('deed', deed)
+    g.bind('skos', SKOS)
+
 
     return g
 
@@ -223,7 +227,7 @@ def main(eadfolder="data/ead",
          a2afolder="data/a2a",
          outfile='roar.trig',
          splitFile=True,
-         splitSize=100,
+         splitSize=50,
          temporal=False,
          window=10,
          shift=5):
@@ -273,12 +277,12 @@ def main(eadfolder="data/ead",
         #     continue
 
         # DTB + NA for now
-        if 'begraafreg' not in dirpath and 'ondertrouwregisters' not in dirpath and 'doopregisters' not in dirpath and 'nota' not in dirpath:
-            continue
+        # if 'begraafreg' not in dirpath and 'ondertrouwregisters' not in dirpath and 'doopregisters' not in dirpath and 'nota' not in dirpath:
+        #    continue
 
         # Notarieel
-        # if 'nota' not in dirpath:
-        #     continue
+        if 'nota' not in dirpath:
+             continue
 
         filenames = [
             os.path.abspath(os.path.join(dirpath, i))
@@ -359,7 +363,8 @@ def main(eadfolder="data/ead",
 
     # HTR
     #print("HTR parsing!")
-    g = rdfSubject.db = ds.graph(identifier=ga.term('saa/htr/'))
+    # g = rdfSubject.db = ds.graph(identifier=ga.term('saa/htr/'))
+    # TODO
 
     ## Finished!
 
@@ -1244,8 +1249,8 @@ def convertA2A(filenames, path, indexCollection, temporal=False, gz=True):
 
     indexCollection.hasMember = allIndexDocuments
 
-    graph = bindNS(graph)
     graph = skolemize(graph)
+    graph = bindNS(graph)
 
     # gzip
     if gz:

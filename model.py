@@ -3,17 +3,14 @@ SAA ontology to be used in direct conversion from SAA to Golden Agents.
 """
 
 from rdflib import Dataset, Graph, Namespace
-from rdflib import XSD, RDF, RDFS, OWL
+from rdflib import XSD, RDF, RDFS, OWL, SKOS, FOAF, DCTERMS
 from rdflib import URIRef, BNode, Literal
 
 from rdfalchemy.rdfSubject import rdfSubject
 from rdfalchemy import rdfSingle, rdfMultiple, rdfContainer, rdfList
-from rdflib.namespace import DCTERMS
 
 AS = Namespace("http://www.w3.org/ns/activitystreams#")
 bio = Namespace("http://purl.org/vocab/bio/0.1/")
-dcterms = Namespace("http://purl.org/dc/terms/")
-foaf = Namespace("http://xmlns.com/foaf/0.1/")
 geos = Namespace("http://www.opengis.net/ont/geosparql#")
 hg = Namespace("http://rdf.histograph.io/")
 iiif = Namespace("https://iiif.leonvanwissen.nl/iiif/2/")  # why not
@@ -38,7 +35,6 @@ saaIntendedMarriage = Namespace(
 saaMarriage = Namespace("https://data.goldenagents.org/datasets/SAA/Marriage/")
 schema = Namespace("http://schema.org/")
 sem = Namespace("http://semanticweb.cs.vu.nl/2009/11/sem/")
-skos = Namespace("http://www.w3.org/2004/02/skos/core#")
 
 roar = Namespace("https://data.goldenagents.org/ontology/roar/")
 ead = Namespace("https://data.goldenagents.org/datasets/saa/ead/")
@@ -61,8 +57,8 @@ class Entity(rdfSubject):
 
     label = rdfMultiple(RDFS.label)
 
-    prefLabel = rdfMultiple(skos.prefLabel)
-    altLabel = rdfMultiple(skos.altLabel)
+    prefLabel = rdfMultiple(SKOS.prefLabel)
+    altLabel = rdfMultiple(SKOS.altLabel)
 
     description = rdfMultiple(RDFS.comment)
     identifier = rdfSingle(DCTERMS.identifier)
@@ -78,7 +74,7 @@ class Entity(rdfSubject):
     hasEarliestEndTimeStamp = rdfSingle(sem.hasEarliestEndTimeStamp)
     hasLatestEndTimeStamp = rdfSingle(sem.hasLatestEndTimeStamp)
 
-    depiction = rdfMultiple(foaf.depiction)
+    depiction = rdfMultiple(FOAF.depiction)
 
     memberOf = rdfSingle(roar.memberOf)
 
@@ -416,7 +412,7 @@ class Scan(Entity):
 
     # # partOf a collection
 
-    # depiction = rdfSingle(foaf.depiction)
+    # depiction = rdfSingle(FOAF.depiction)
     # url = rdfSingle(saa.url)
 
     # imageFilename = rdfSingle(saa.imageFilename)
@@ -607,7 +603,7 @@ class CategoryCodeSet(Entity):
 # class Location(Entity):
 #     rdf_type = saa.Location
 
-#     altLabel = rdfMultiple(skos.altLabel)
+#     altLabel = rdfMultiple(SKOS.altLabel)
 #     sameAs = rdfMultiple(OWL.sameAs)
 
 
@@ -793,7 +789,7 @@ class Annotation(Entity):
 
     motivatedBy = rdfSingle(oa.motivatedBy)
 
-    depiction = rdfSingle(foaf.depiction)
+    depiction = rdfSingle(FOAF.depiction)
 
 
 class SpecificResource(Entity):
@@ -812,7 +808,7 @@ class Selector(Entity):
 class FragmentSelector(Selector):
     rdf_type = oa.FragmentSelector
 
-    conformsTo = rdfSingle(dcterms.conformsTo)
+    conformsTo = rdfSingle(DCTERMS.conformsTo)
     value = rdfSingle(RDF.value)
 
 

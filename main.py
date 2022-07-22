@@ -1277,13 +1277,23 @@ def convertA2A(filenames, path, indexCollection, temporal=False, gz=True):
                                 hasName=pnsOtherPerson,
                                 label=[labelsOtherPerson[0]])
 
-                        role = Geregistreerde(
+                        relationType = 'Geregistreerde'
+                        rType, rTypeName = thesaurus(relationType,
+                                                     RoleType,
+                                                     graph,
+                                                     ontologyGraph,
+                                                     subClassOf=roar.Role)
+
+                        RoleClass = type(relationType, (Role, ),
+                                         {"rdf_type": rType.resUri})
+
+                        role = RoleClass(
                             None,
                             carriedIn=registrationEvent,
                             carriedBy=[otherPerson],
                             label=[
                                 Literal(
-                                    f"{labelsOtherPerson[0]} in de rol van Geregistreerde",
+                                    f"{labelsOtherPerson[0]} in de rol van {rTypeName}]",
                                     lang='nl')
                             ])
 
@@ -1295,7 +1305,7 @@ def convertA2A(filenames, path, indexCollection, temporal=False, gz=True):
             sourceIndex.mentionsPerson = persons
             sourceIndex.mentionsLocation = locations
             sourceIndex.mentionsRelation = relations
-            sourceIndex.mentionsRoles = roles
+            sourceIndex.mentionsRole = roles
 
             # # Remarks
             # for remark in p.Remarks['diversen']:

@@ -196,6 +196,7 @@ class Document(Entity):
     mentionsReligion = rdfMultiple(roar.mentionsReligion)
     mentionsRelation = rdfMultiple(roar.mentionsRelation)
     mentionsStatus = rdfMultiple(roar.mentionsStatus)
+    mentionsRole = rdfMultiple(roar.mentionsRole)
 
     hasScan = rdfMultiple(roar.hasScan)  # physical document
     onScan = rdfMultiple(roar.onScan)  # index document

@@ -165,7 +165,7 @@ def parsePersonName(nameString=None,
             baseSurname, givenName = nameString.rsplit(', ', 1)
 
             if '[' in givenName:
-                givenName, surnamePrefix = givenName.split('[')
+                givenName, surnamePrefix = givenName.split('[', 1)
 
                 givenName = givenName.strip()
                 surnamePrefix = surnamePrefix[:-1]
@@ -337,7 +337,7 @@ def main(eadfolder="data/ead",
                     # # TEMP BREAK
                     # break
 
-        with multiprocessing.Pool(processes=1) as pool:
+        with multiprocessing.Pool(processes=5) as pool:
 
             graphs = pool.starmap(convertA2A, chunks)
 

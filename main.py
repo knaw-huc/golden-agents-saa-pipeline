@@ -949,6 +949,7 @@ def convertA2A(filenames, path, indexCollection, temporal=False, gz=True):
 
             # persons and roles
             persons = []
+            roles = []
             guid_roles = defaultdict(list)
             for n, p in enumerate(d.persons, 1):
 
@@ -1006,6 +1007,8 @@ def convertA2A(filenames, path, indexCollection, temporal=False, gz=True):
                                         f"{occupationName} in de rol van beroepsomschrijving",
                                         lang='nl')
                                 ])
+                            
+                            roles.append(occupationRole)
 
                         if 'Plaats in bron' in scanData:
 
@@ -1022,6 +1025,8 @@ def convertA2A(filenames, path, indexCollection, temporal=False, gz=True):
                                         f"{originName} in de rol van herkomstomschrijving",
                                         lang='nl')
                                 ])
+
+                            roles.append(originRole)
 
                         if 'Eerdere man' in scanData:
 
@@ -1048,6 +1053,7 @@ def convertA2A(filenames, path, indexCollection, temporal=False, gz=True):
                                 ])
 
                             persons.append(earlierHusband)
+                            roles.append(role)
 
                         if 'Eerdere vrouw' in scanData:
 
@@ -1074,6 +1080,7 @@ def convertA2A(filenames, path, indexCollection, temporal=False, gz=True):
                                 ])
 
                             persons.append(earlierWife)
+                            roles.append(role)
 
                         if 'Naamsvariant' in scanData:
 
@@ -1118,6 +1125,7 @@ def convertA2A(filenames, path, indexCollection, temporal=False, gz=True):
                         ])
 
                     pEvents.append(birthEvent)
+                    roles.append(role)
 
                 for r in p.relations:
                     if e := getattr(r, 'event'):
@@ -1161,6 +1169,7 @@ def convertA2A(filenames, path, indexCollection, temporal=False, gz=True):
                                     lang='nl')
                             ])
                         guid_roles[pid].append(role)
+                        roles.append(role)
 
                 person.participatesIn = pEvents
                 persons.append(person)
@@ -1192,6 +1201,7 @@ def convertA2A(filenames, path, indexCollection, temporal=False, gz=True):
                             ])
 
                         locations.append(location)
+                        roles.append(locationRole)
 
             # relations and roles
             relations = []
@@ -1204,9 +1214,9 @@ def convertA2A(filenames, path, indexCollection, temporal=False, gz=True):
                     uri = deed.term(d.source.guid + '?relation=' + 'Relation1')
                     relation = Relation(uri, label=[relatieinformatie])
 
-                    for pid, roles in guid_roles.items():
-                        if len(roles) == 1:
-                            role = roles[0]
+                    for pid, pRoles in guid_roles.items():
+                        if len(pRoles) == 1:
+                            role = pRoles[0]
                         else:
                             print("More than 1 or no role for this person!")
                             continue
@@ -1278,12 +1288,14 @@ def convertA2A(filenames, path, indexCollection, temporal=False, gz=True):
                             ])
 
                         persons.append(otherPerson)
+                        roles.append(role)
                
 
             sourceIndex.mentionsEvent = events
             sourceIndex.mentionsPerson = persons
             sourceIndex.mentionsLocation = locations
             sourceIndex.mentionsRelation = relations
+            sourceIndex.mentionsRoles = roles
 
             # # Remarks
             # for remark in p.Remarks['diversen']:

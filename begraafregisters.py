@@ -30,6 +30,10 @@ class DTBBegraven(Document):
     rdf_type = URIRef("https://data.goldenagents.org/thesaurus/DtbBegraven")
 
 
+class Begraven(RegistrationEvent):
+    rdf_type = URIRef("https://data.goldenagents.org/thesaurus/Begraven")
+
+
 class Geregistreerde(Role):
     rdf_type = URIRef("https://data.goldenagents.org/thesaurus/Geregistreerde")
     subClassOf = URIRef("https://data.goldenagents.org/thesaurus/Role")
@@ -161,7 +165,7 @@ def parse_xml(xml_file, gz=True):
         else:
             registrationDateLiteral = None
 
-        registrationEvent = RegistrationEvent(
+        registrationEvent = Begraven(
             eUri,
             # occursAt=registrationPlace,
             hasTimeStamp=registrationDateLiteral,
@@ -226,8 +230,8 @@ def parse_xml(xml_file, gz=True):
             scanName = urlScan.replace(
                 "https://archief.amsterdam/inventarissen/inventaris/5001.nl.html#", ""
             )
-            scanName.replace(".jpg", "")
             scanName = scanName.upper()
+            scanName.replace(".JPG", "")
 
             scanUri = partOfUri + "/scans/" + scanName
 

@@ -1273,7 +1273,7 @@ def convertA2A(filenames, path, indexCollection, temporal=False, gz=True):
                             carriedBy=[otherPerson],
                             label=[
                                 Literal(
-                                    f"{labelsOtherPerson[0]} in de rol van overige persoon",
+                                    f"{labelsOtherPerson[0]} in de rol van Geregistreerde",
                                     lang='nl')
                             ])
 

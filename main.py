@@ -276,13 +276,16 @@ def main(eadfolder="data/ead",
         # if 'ondertr' not in dirpath:
         #     continue
 
+        if 'confessie' not in dirpath:
+            continue
+
         # DTB + NA for now
         # if 'begraafreg' not in dirpath and 'ondertrouwregisters' not in dirpath and 'doopregisters' not in dirpath and 'nota' not in dirpath:
         #    continue
 
         # Notarieel
-        if 'nota' not in dirpath:
-             continue
+        # if 'nota' not in dirpath:
+        #      continue
 
         filenames = [
             os.path.abspath(os.path.join(dirpath, i))
@@ -334,7 +337,7 @@ def main(eadfolder="data/ead",
                     # # TEMP BREAK
                     # break
 
-        with multiprocessing.Pool(processes=10) as pool:
+        with multiprocessing.Pool(processes=1) as pool:
 
             graphs = pool.starmap(convertA2A, chunks)
 
@@ -827,7 +830,10 @@ def convertA2A(filenames, path, indexCollection, temporal=False, gz=True):
             events = []
             for e in d.events:
 
-                eventTypeName = e.EventType.lower().replace(
+                if 'Confessieboeken' in sourceTypeName:
+                    eventTypeName = "Confessie"
+                else:
+                    eventTypeName = e.EventType.lower().replace(
                     'other:', '').title().replace(' ', '')
 
                 # Switch to ontology graph
@@ -1076,6 +1082,11 @@ def convertA2A(filenames, path, indexCollection, temporal=False, gz=True):
                             pnVariants, _ = parsePersonName(nameVariant)
                             personnames += pnVariants
 
+                        if 'Overige namen' in scanData:
+
+                            for otherName in scanData['Overige namen']:
+                                pass # TODO
+
                 ##
                 pid = p.id.replace("Person:", '')
                 person = Person(deed.term(d.source.guid + '?person=' + pid),
@@ -1117,13 +1128,20 @@ def convertA2A(filenames, path, indexCollection, temporal=False, gz=True):
                         # Switch to ontology graph
                         # g = rdfSubject.db = ontologyGraph
 
-                        rType, rTypeName = thesaurus(r.RelationType,
+                        # Catch for Confessieboeken that only have 'Verdachte' as role
+                        if 'Confessieboeken' in sourceTypeName:
+                            relationType = 'Verdachte'
+                        else:
+                            relationType = r.RelationType
+                            
+
+                        rType, rTypeName = thesaurus(relationType,
                                                      RoleType,
                                                      graph,
                                                      ontologyGraph,
                                                      subClassOf=roar.Role)
 
-                        RoleClass = type(r.RelationType, (Role, ),
+                        RoleClass = type(relationType, (Role, ),
                                          {"rdf_type": rType.resUri})
 
                         # rType = RoleType(roar.term(relationTypeName),
@@ -1177,55 +1195,90 @@ def convertA2A(filenames, path, indexCollection, temporal=False, gz=True):
 
             # relations and roles
             relations = []
-
-            if relatieinformatie := d.source.Remarks['Opmerking'][
+            if d.source.Remarks['Opmerking']:
+                if relatieinformatie := d.source.Remarks['Opmerking'][
                     'Relatie informatie']:
 
-                r1, r2 = None, None
+                    r1, r2 = None, None
 
-                uri = deed.term(d.source.guid + '?relation=' + 'Relation1')
-                relation = Relation(uri, label=[relatieinformatie])
+                    uri = deed.term(d.source.guid + '?relation=' + 'Relation1')
+                    relation = Relation(uri, label=[relatieinformatie])
 
-                for pid, roles in guid_roles.items():
-                    if len(roles) == 1:
-                        role = roles[0]
+                    for pid, roles in guid_roles.items():
+                        if len(roles) == 1:
+                            role = roles[0]
+                        else:
+                            print("More than 1 or no role for this person!")
+                            continue
+
+                        if bg_guid2index.get(pid) == 1:
+                            r1 = role
+                            role.position = 1
+                        elif bg_guid2index.get(pid) == 2:
+                            r2 = role
+                            role.position = 2
+                        else:
+                            # If there is only one person, but still a relation info
+                            r2 = role
+                            role.position = 1
+
+                    # Relation in SAA is from p1 to p2 (p1 is husband of p2)
+                    # We do it the other way round: p2 has husband p1
+                    # Relations are bound to the person role
+
+                    if r1:
+                        pLabel = r1.carriedBy[0].hasName[0].literalName
                     else:
-                        print("More than 1 or no role for this person!")
-                        continue
+                        pLabel = "Onbekend"
 
-                    if bg_guid2index.get(pid) == 1:
-                        r1 = role
-                        role.position = 1
-                    elif bg_guid2index.get(pid) == 2:
-                        r2 = role
-                        role.position = 2
-                    else:
-                        # If there is only one person, but still a relation info
-                        r2 = role
-                        role.position = 1
+                    relationRole = RelationRole(
+                        None,
+                        carriedIn=registrationEvent,
+                        carriedBy=[relation],
+                        relatedTo=r1,
+                        label=[
+                            Literal(f"{relatieinformatie} ({pLabel})", lang='nl')
+                        ])
 
-                # Relation in SAA is from p1 to p2 (p1 is husband of p2)
-                # We do it the other way round: p2 has husband p1
-                # Relations are bound to the person role
+                    if r2:
+                        r2.hasRelation = [relationRole]
 
-                if r1:
-                    pLabel = r1.carriedBy[0].hasName[0].literalName
-                else:
-                    pLabel = "Onbekend"
+                    relations.append(relation)
 
-                relationRole = RelationRole(
-                    None,
-                    carriedIn=registrationEvent,
-                    carriedBy=[relation],
-                    relatedTo=r1,
-                    label=[
-                        Literal(f"{relatieinformatie} ({pLabel})", lang='nl')
-                    ])
+            # Confessieboeken 'Ovierge namen'
+            if d.source.Remarks['Opmerking']:
+                if otherNames := d.source.Remarks['Opmerking'][
+                    'Overige namen']:
 
-                if r2:
-                    r2.hasRelation = [relationRole]
+                    # If there is only one
+                    if type(otherNames) == str:
+                        otherNames = [otherNames]
+                    
+                    for n, otherPersonName in enumerate(otherNames, 1):
+                        uri = deed.term(d.source.guid + '?otherName=' + 'Location' + str(n))
 
-                relations.append(relation)
+                        pnsOtherPerson, labelsOtherPerson = parsePersonName(
+                                otherPersonName)
+
+                        otherPerson = Person(
+                                deed.term(d.source.guid + '?person=' +
+                                          'Other' + str(n)),
+                                participatesIn=[registrationEvent],
+                                hasName=pnsOtherPerson,
+                                label=[labelsOtherPerson[0]])
+
+                        role = Geregistreerde(
+                            None,
+                            carriedIn=registrationEvent,
+                            carriedBy=[otherPerson],
+                            label=[
+                                Literal(
+                                    f"{labelsOtherPerson[0]} in de rol van overige persoon",
+                                    lang='nl')
+                            ])
+
+                        persons.append(otherPerson)
+               
 
             sourceIndex.mentionsEvent = events
             sourceIndex.mentionsPerson = persons

@@ -318,6 +318,11 @@ class Relation(Entity):
     rdf_type = roar.Relation
 
 
+class Geregistreerde(Role):
+    rdf_type = thes.Geregistreerde
+    subClassOf = roar.Role
+
+
 class NotaryRole(Role):
     rdf_type = thes.Notaris
     subClassOf = roar.Role
@@ -350,6 +355,11 @@ class Bruidegom(Role):
 
 class Getuige(Role):
     rdf_type = thes.Getuige
+    subClassOf = roar.Role
+
+
+class Verdachte(Role):
+    rdf_type = thes.Verdachte
     subClassOf = roar.Role
 
 

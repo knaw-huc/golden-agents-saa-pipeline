@@ -109,9 +109,11 @@ with open('data/churches/label2religion.json') as infile:
 
 with open('data/churches/churches.json') as infile:
     churchesDict = json.load(infile)
+    churchesDict = {i['@id']: i for i in churchesDict['@graph']}
 
 with open('data/churches/religions.json') as infile:
     religionsDict = json.load(infile)
+    religionsDict = {i['@id']: i for i in religionsDict['@graph']}
 
 # Functions
 def unique(*args, sep="", ns=None):
@@ -200,7 +202,7 @@ def getEventPlace(placeName:str) -> Location:
             religion = getReligion(religionUri=religionUri)
             religions.append(religion)
 
-        sameAs = [URIRef(i) for i in churchData['adamlink'] + churchData['wikidata']]
+        sameAs = [URIRef(i) for i in [churchData['adamlink'], churchData['wikidata']] if i]
 
         eventPlace = Location(URIRef(churchUri), label=[label], hasReligion=religions, sameAs=sameAs)
 
@@ -238,7 +240,7 @@ def getReligion(religionName="", religionUri="") -> Concept:
     religionData = religionsDict.get(religionUri)
 
     religionLabel = religionData['label']
-    religion = Concept(religionUri, label = [religionLabel])
+    religion = Concept(URIRef(religionUri), label = [religionLabel])
 
     return religion
 
@@ -366,11 +368,8 @@ def main(eadfolder="data/ead",
         if dirpath == 'data/a2a':  # one level deeper
             continue
 
-        # # DTB
-        # if 'ondertr' not in dirpath:
-        #     continue
-
-        if 'confessie' not in dirpath:
+        # DTB
+        if 'doop' not in dirpath and 'ondertr' not in dirpath and 'begraaf' not in dirpath:
             continue
 
         # DTB + NA for now
@@ -1032,7 +1031,7 @@ def convertA2A(filenames, path, indexCollection, temporal=False, gz=True):
                     None,
                     hasTimeStamp=eventDateLiteral,
                     occursAt=eventPlace,
-                    hasReligion=eventReligion,
+                    hasReligion=[eventReligion],
                     label=[
                         Literal(
                             f"{eventTypeName} ({eventDate if eventDate else '?'})",

@@ -112,6 +112,8 @@ class Agent(RoleBearer):
 class Location(RoleBearer):
     rdf_type = roar.Location
 
+    hasReligion = rdfMultiple(roar.hasReligion)
+
 
 class LocationObservation(RoleBearer, Observation):
     rdf_type = roar.Location, roar.Observation
@@ -265,8 +267,7 @@ class Event(Entity):
 
     occursAt = rdfSingle(roar.occursAt)
 
-    # temp
-    hasReligion = rdfSingle(roar.hasReligion)
+    hasReligion = rdfMultiple(roar.hasReligion)
 
 
 class RegistrationEvent(Event):

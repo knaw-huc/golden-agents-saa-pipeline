@@ -100,7 +100,20 @@ with open('data/concordance/bg_mapping_index_guid.json') as infile:
 # with open('data/scanids/collection2scansname.json') as infile:
 #     collection2scansname = json.load(infile)
 
+# Locations (Churches and Graveyards for Baptism and Burial)
+with open('data/churches/label2location.json') as infile:
+    labelChurch2location = json.load(infile)
 
+with open('data/churches/label2religion.json') as infile:
+    labelReligion2religion = json.load(infile)
+
+with open('data/churches/churches.json') as infile:
+    churchesDict = json.load(infile)
+
+with open('data/churches/religions.json') as infile:
+    religionsDict = json.load(infile)
+
+# Functions
 def unique(*args, sep="", ns=None):
     """Function to generate a unique BNode based on a series of arguments.
 
@@ -147,6 +160,87 @@ def thesaurus(name, ClassType, defaultGraph, thesaurusGraph, subClassOf=None):
 
     return classType, name
 
+def getEventPlace(placeName:str) -> Location:
+    """
+    Gives back an RDFAlchemy Location object based on the name of a church or graveyard. 
+
+    A mapping is used to map the right label (in source) to the right URI.
+
+    Example Church data:
+        ```json
+        {
+            "@id": "https://data.goldenagents.org/thesaurus/NieuweKerk",
+            "@type": "Location",
+            "label": "Nieuwe Kerk",
+            "religions": ["https://data.goldenagents.org/thesaurus/Hervormd", "https://data.goldenagents.org/thesaurus/RoomsKatholiek"],
+            "adamlink": "https://adamlink.nl/geo/building/nieuwe-kerk/1222",
+            "wikidata": null
+        }
+        ```
+
+    Args:
+        placeName (str): The name of the church or graveyard, as indicated by the City Archives of Amsterdam.
+
+    Returns:
+        Location: ROAR Location instance
+    """    """
+    """
+
+    churchesUris = labelChurch2location.get(placeName, [])
+
+    for churchUri in churchesUris:
+
+        churchData = churchesDict.get(churchUri, {})
+        label = churchData['label']
+        religionUris = churchData['religions']
+
+        religions = []
+        for religionUri in religionUris:
+
+            religion = getReligion(religionUri=religionUri)
+            religions.append(religion)
+
+        sameAs = [URIRef(i) for i in churchData['adamlink'] + churchData['wikidata']]
+
+        eventPlace = Location(URIRef(churchUri), label=[label], hasReligion=religions, sameAs=sameAs)
+
+    return eventPlace
+
+def getReligion(religionName="", religionUri="") -> Concept:
+    """
+    Gives back an RDFAlchemy Concept object based on the name of a religion. 
+
+    A mapping is used in case a relgionName is supplied. 
+
+    Example Religion data:
+        ```json
+        {
+            "@id": "https://data.goldenagents.org/thesaurus/Doopsgezind",
+            "@type": "Concept",
+            "label": "Doopsgezind"
+        }
+        ```
+    
+    Args:
+        religionName (str, optional): Name of the religion as given in the source (SAA). Defaults to "".
+        religionUri (str, optional): URI of the religion. Defaults to "".
+
+    Returns:
+        Concept: SKOS Concept instance
+    """
+
+
+    if religionName:
+        religionUri = labelReligion2religion.get(religionName)
+    elif not religionUri:
+        return None
+
+    religionData = religionsDict.get(religionUri)
+
+    religionLabel = religionData['label']
+    religion = Concept(religionUri, label = [religionLabel])
+
+    return religion
 
 def parsePersonName(nameString=None,
                     givenName=None,
@@ -876,28 +970,28 @@ def convertA2A(filenames, path, indexCollection, temporal=False, gz=True):
                     if type(d.source.Remarks['Opmerking']) != str:
                         eventPlaceName = d.source.Remarks['Opmerking'].get(
                             'Begraafplaats')
-                        eventPlace, _ = thesaurus(eventPlaceName, Place, graph,
-                                                  thesaurusGraph)
+                        eventPlace = getEventPlace(eventPlaceName)
                     else:
                         eventPlace = None
+
                 elif eventTypeName == 'Doop':
                     if type(d.source.Remarks['Opmerking']) != str:
                         eventPlaceName = d.source.Remarks['Opmerking'].get(
                             'Kerk')
-                        eventPlace, _ = thesaurus(eventPlaceName, Place, graph,
-                                                  thesaurusGraph)
+                        eventPlace = getEventPlace(eventPlaceName)
                     else:
                         eventPlace = None
+
                 else:
                     eventPlace = None
 
                 # religion
                 if hasattr(e, 'EventReligion'):
-                    eventReligion, _ = thesaurus(e.EventReligion, Religion,
-                                                 graph, thesaurusGraph)
+                    eventReligion = getReligion(religionName = e.EventReligion)
                 else:
                     eventReligion = None
 
+                # date
                 if type(registrationDate) == str and len(
                         registrationDate) == 4:
                     registrationDateLiteral = Literal(registrationDate,

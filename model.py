@@ -83,6 +83,10 @@ class Entity(rdfSubject):
     position = rdfSingle(roar.position)
 
 
+class Concept(Entity):
+    rdf_type = SKOS.Concept
+
+
 class Observation(Entity):
     rdf_type = roar.Observation
 

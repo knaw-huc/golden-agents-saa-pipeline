@@ -1,0 +1,55 @@
+{
+    "@context": {
+        "Location": "https://data.goldenagents.org/ontology/roar/Location",
+        "label": "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "@graph": [{
+        "@id": "https://data.goldenagents.org/thesaurus/Doopsgezind",
+        "@type": "Location",
+        "label": "Doopsgezind"
+    }, {
+        "@id": "https://data.goldenagents.org/thesaurus/EngelsEpiscopaals",
+        "@type": "Location",
+        "label": "Engels-Episcopaals"
+    }, {
+        "@id": "https://data.goldenagents.org/thesaurus/EngelsPresbyteriaans",
+        "@type": "Location",
+        "label": "Engels-Presbyteriaans"
+    }, {
+        "@id": "https://data.goldenagents.org/thesaurus/EvangelischLuthers",
+        "@type": "Location",
+        "label": "Evangelisch-Luthers"
+    }, {
+        "@id": "https://data.goldenagents.org/thesaurus/GrieksKatholiek",
+        "@type": "Location",
+        "label": "Grieks-Katholiek"
+    }, {
+        "@id": "https://data.goldenagents.org/thesaurus/HersteldEvangelischLuther",
+        "@type": "Location",
+        "label": "Hersteld Evangelisch-Luthers"
+    }, {
+        "@id": "https://data.goldenagents.org/thesaurus/Hervormd",
+        "@type": "Location",
+        "label": "Hervormd"
+    }, {
+        "@id": "https://data.goldenagents.org/thesaurus/OudKatholiek",
+        "@type": "Location",
+        "label": "Oud-Katholiek"
+    }, {
+        "@id": "https://data.goldenagents.org/thesaurus/PortugeesIsraelitisch",
+        "@type": "Location",
+        "label": "Portugees-Isra\u00eblitisch"
+    }, {
+        "@id": "https://data.goldenagents.org/thesaurus/Remonstrants",
+        "@type": "Location",
+        "label": "Remonstrants"
+    }, {
+        "@id": "https://data.goldenagents.org/thesaurus/RoomsKatholiek",
+        "@type": "Location",
+        "label": "Rooms-Katholiek"
+    }, {
+        "@id": "https://data.goldenagents.org/thesaurus/WaalsHervormd",
+        "@type": "Location",
+        "label": "Waals-Hervormd"
+    }]
+}

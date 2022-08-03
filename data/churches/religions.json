@@ -1,55 +1,55 @@
 {
     "@context": {
-        "Location": "https://data.goldenagents.org/ontology/roar/Location",
+        "Concept": "http://www.w3.org/2004/02/skos/core#Concept",
         "label": "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "@graph": [{
         "@id": "https://data.goldenagents.org/thesaurus/Doopsgezind",
-        "@type": "Location",
+        "@type": "Concept",
         "label": "Doopsgezind"
     }, {
         "@id": "https://data.goldenagents.org/thesaurus/EngelsEpiscopaals",
-        "@type": "Location",
+        "@type": "Concept",
         "label": "Engels-Episcopaals"
     }, {
         "@id": "https://data.goldenagents.org/thesaurus/EngelsPresbyteriaans",
-        "@type": "Location",
+        "@type": "Concept",
         "label": "Engels-Presbyteriaans"
     }, {
         "@id": "https://data.goldenagents.org/thesaurus/EvangelischLuthers",
-        "@type": "Location",
+        "@type": "Concept",
         "label": "Evangelisch-Luthers"
     }, {
         "@id": "https://data.goldenagents.org/thesaurus/GrieksKatholiek",
-        "@type": "Location",
+        "@type": "Concept",
         "label": "Grieks-Katholiek"
     }, {
         "@id": "https://data.goldenagents.org/thesaurus/HersteldEvangelischLuther",
-        "@type": "Location",
+        "@type": "Concept",
         "label": "Hersteld Evangelisch-Luthers"
     }, {
         "@id": "https://data.goldenagents.org/thesaurus/Hervormd",
-        "@type": "Location",
+        "@type": "Concept",
         "label": "Hervormd"
     }, {
         "@id": "https://data.goldenagents.org/thesaurus/OudKatholiek",
-        "@type": "Location",
+        "@type": "Concept",
         "label": "Oud-Katholiek"
     }, {
         "@id": "https://data.goldenagents.org/thesaurus/PortugeesIsraelitisch",
-        "@type": "Location",
+        "@type": "Concept",
         "label": "Portugees-Isra\u00eblitisch"
     }, {
         "@id": "https://data.goldenagents.org/thesaurus/Remonstrants",
-        "@type": "Location",
+        "@type": "Concept",
         "label": "Remonstrants"
     }, {
         "@id": "https://data.goldenagents.org/thesaurus/RoomsKatholiek",
-        "@type": "Location",
+        "@type": "Concept",
         "label": "Rooms-Katholiek"
     }, {
         "@id": "https://data.goldenagents.org/thesaurus/WaalsHervormd",
-        "@type": "Location",
+        "@type": "Concept",
         "label": "Waals-Hervormd"
     }]
 }

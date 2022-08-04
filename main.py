@@ -49,6 +49,33 @@ index2name = {
     "SAA-ID-012_SAA_Index_op_lidmatenregister_doopsgezinde_gemeente"
 }
 
+index2nicename = {
+    '08953f2f-309c-baf9-e5b1-0cefe3891b37':
+    'Notariële Archieven 1578-1915',
+    'f6e5401f-c486-5f3d-6a5c-6e277e12628e':
+    'Doopregisters voor 1811',
+    '2f352e18-256e-b4d1-e74f-3ffaf5e633f1':
+    'Ondertrouwregisters 1565-1811',
+    '47828428-360d-afdd-1f07-2c13e34635e1':
+    'Kwijtscheldingen voor 1811',
+    '23d6fddb-4839-f080-2b0a-05a21c6162e8':
+    'Poorters 1531-1652',
+    'c53f836b-d7f0-fcd0-fc99-09192ccb17ad':
+    'Confessieboeken 1535-1732',
+    'd46628d6-2ed4-95a0-cafc-4cdbb4174263':
+    'Boetes op begraven',
+    '9823b7a8-ab79-a098-4ab0-26e799ea5659':
+    'Begraafregisters voor 1811',
+    "8137be5e-1977-9c2b-1ead-b031fe39ed1e":
+    "Overledenen Gast-, Pest-, Werk- en Spinhuis 1739-1812",
+    "760c1b75-122c-8965-170a-9b6701184533":
+    "Averijgrossen 1700-1810",
+    "d5e8b387-d8f9-8a8b-dd17-00f7b6761553":
+    "Boedelpapieren 1634-1938",
+    "3349cddf-c176-75e8-005f-705dbca96c4f":
+    "Lidmatenregister Doopsgezinde Gemeente"
+}
+
 name2index = {
     'SAA-ID-001_SAA_Index_op_notarieel_archief':
     '08953f2f-309c-baf9-e5b1-0cefe3891b37',
@@ -334,7 +361,7 @@ def main(eadfolder="data/ead",
          window=10,
          shift=5):
 
-    ds = Dataset(store="Oxigraph")
+    ds = Dataset()
 
     # EAD
     print("EAD parsing!")
@@ -349,6 +376,7 @@ def main(eadfolder="data/ead",
 
             if splitFile:
                 path = f"trig/{f}.trig"
+                g = skolemize(g)
                 g = bindNS(g)
 
                 print("Serializing to", path)
@@ -389,9 +417,7 @@ def main(eadfolder="data/ead",
 
         colName = dirpath.rsplit('/', 1)[-1]
         indexCollectionURI = a2a.term(name2index[colName])
-        g.add((indexCollectionURI, RDFS.label, Literal(colName)))  #TODO
-
-        indexCollection = IndexCollection(indexCollectionURI)
+        indexCollectionName = "Index collection: " + index2nicename[name2index[colName]]
 
         chunks = []
         foldername = dirpath.rsplit('/')[-1]
@@ -426,7 +452,7 @@ def main(eadfolder="data/ead",
                 if n % splitSize == 0 or n == len(filenames):
                     nSplit += 1
                     path = f"trig/{foldername}_{str(nSplit).zfill(4)}.trig"
-                    chunks.append((fns, path, indexCollection, temp))
+                    chunks.append((fns, path, indexCollectionURI, indexCollectionName, temp))
                     fns = []
 
                     # # TEMP BREAK
@@ -738,11 +764,13 @@ def getGroupingCriteria(sourceType=[],
     return criteria
 
 
-def convertA2A(filenames, path, indexCollection, temporal=False, gz=True):
+def convertA2A(filenames, path, indexCollectionURI, indexCollectionName, temporal=False, gz=True):
 
     ontologyGraph = Graph(identifier=roar)
     thesaurusGraph = Graph(identifier=thes)
     graph = Graph(identifier=a2a)
+
+    indexCollection = IndexCollection(indexCollectionURI, label=[indexCollectionName])
 
     if temporal:
         beginRestriction, endRestriction = temporal

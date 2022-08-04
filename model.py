@@ -265,7 +265,7 @@ class Event(Entity):
     hasInput = rdfMultiple(roar.hasInput)
     hasOutput = rdfMultiple(roar.hasOutput)
 
-    occursAt = rdfSingle(roar.occursAt)
+    hasPlace = rdfMultiple(roar.hasPlace)
 
     hasReligion = rdfMultiple(roar.hasReligion)
 

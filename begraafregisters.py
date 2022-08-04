@@ -7,7 +7,7 @@ import unidecode
 import multiprocessing
 
 from rdflib import Graph
-from main import skolemize, bindNS, parsePersonName
+from main import skolemize, bindNS, parsePersonName, getEventPlace
 from model import *
 
 from lxml import etree as ET
@@ -37,26 +37,6 @@ class Begraven(RegistrationEvent):
 class Geregistreerde(Role):
     rdf_type = URIRef("https://data.goldenagents.org/thesaurus/Geregistreerde")
     subClassOf = URIRef("https://data.goldenagents.org/thesaurus/Role")
-
-
-def thesaurus(name):
-
-    if not name:
-        return None, ""
-
-    name = name.replace("other:", "").replace("Other:", "").strip()
-    namenorm = unidecode.unidecode(name)
-    namenorm = namenorm.title()
-    namenorm = "".join(
-        [i for i in namenorm if i.lower() in "abcdefghijklmnopqrstuvwxyz"]
-    )
-
-    if not namenorm:  # if no characters are left
-        return None, ""
-
-    place = Place(thes.term(namenorm), label=[name])
-
-    return place, name
 
 
 def parse_xml(xml_file, gz=True):
@@ -148,7 +128,7 @@ def parse_xml(xml_file, gz=True):
         )
 
         if begraafplaats:
-            eventPlace, _ = thesaurus(begraafplaats)
+            eventPlace = getEventPlace(begraafplaats)
         else:
             eventPlace = None
 
@@ -167,7 +147,7 @@ def parse_xml(xml_file, gz=True):
 
         registrationEvent = Begraven(
             eUri,
-            # occursAt=registrationPlace,
+            # hasPlace=registrationPlace,
             hasTimeStamp=registrationDateLiteral,
             hasOutput=[physicalDocument],
             label=[
@@ -191,7 +171,7 @@ def parse_xml(xml_file, gz=True):
         event = Event(
             None,
             hasTimeStamp=eventDateLiteral,
-            occursAt=eventPlace,
+            hasPlace=eventPlace,
             label=[
                 Literal(f"DTB Begraven ({eventDate if eventDate else '?'})", lang="nl")
             ],

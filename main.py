@@ -164,7 +164,7 @@ def thesaurus(name, ClassType, defaultGraph, thesaurusGraph, subClassOf=None):
 
 def getEventPlace(placeName:str) -> Location:
     """
-    Gives back an RDFAlchemy Location object based on the name of a church or graveyard. 
+    Gives back an RDFAlchemy Location object based on the name of a church or graveyard.
 
     A mapping is used to map the right label (in source) to the right URI.
 
@@ -188,6 +188,7 @@ def getEventPlace(placeName:str) -> Location:
     """    """
     """
 
+    locations = []
     churchesUris = labelChurch2location.get(placeName, [])
 
     for churchUri in churchesUris:
@@ -206,13 +207,15 @@ def getEventPlace(placeName:str) -> Location:
 
         eventPlace = Location(URIRef(churchUri), label=[label], hasReligion=religions, sameAs=sameAs)
 
-    return eventPlace
+        locations.append(eventPlace)
+
+    return locations
 
 def getReligion(religionName="", religionUri="") -> Concept:
     """
-    Gives back an RDFAlchemy Concept object based on the name of a religion. 
+    Gives back an RDFAlchemy Concept object based on the name of a religion.
 
-    A mapping is used in case a relgionName is supplied. 
+    A mapping is used in case a relgionName is supplied.
 
     Example Religion data:
         ```json
@@ -222,7 +225,7 @@ def getReligion(religionName="", religionUri="") -> Concept:
             "label": "Doopsgezind"
         }
         ```
-    
+
     Args:
         religionName (str, optional): Name of the religion as given in the source (SAA). Defaults to "".
         religionUri (str, optional): URI of the religion. Defaults to "".
@@ -238,6 +241,9 @@ def getReligion(religionName="", religionUri="") -> Concept:
         return None
 
     religionData = religionsDict.get(religionUri)
+
+    if not religionData:
+        print(religionUri)
 
     religionLabel = religionData['label']
     religion = Concept(URIRef(religionUri), label = [religionLabel])
@@ -328,7 +334,7 @@ def main(eadfolder="data/ead",
          window=10,
          shift=5):
 
-    ds = Dataset()
+    ds = Dataset(store="Oxigraph")
 
     # EAD
     print("EAD parsing!")
@@ -346,7 +352,7 @@ def main(eadfolder="data/ead",
                 g = bindNS(g)
 
                 print("Serializing to", path)
-                # g.serialize(path, format='trig')  # TEMPORARY
+                #g.serialize(path, format='trig')  # TEMPORARY
                 ds.remove_graph(g)
                 g = rdfSubject.db = ds.graph(identifier=ga.term('saa/ead/'))
             else:
@@ -368,17 +374,13 @@ def main(eadfolder="data/ead",
         if dirpath == 'data/a2a':  # one level deeper
             continue
 
-        # DTB
-        if 'doop' not in dirpath and 'ondertr' not in dirpath and 'begraaf' not in dirpath:
-            continue
+        # # DTB + NA + Confessie
+        # if 'doop' not in dirpath and 'ondertr' not in dirpath and 'begraaf' not in dirpath:
+        #     continue
 
         # DTB + NA for now
         # if 'begraafreg' not in dirpath and 'ondertrouwregisters' not in dirpath and 'doopregisters' not in dirpath and 'nota' not in dirpath:
         #    continue
-
-        # Notarieel
-        # if 'nota' not in dirpath:
-        #      continue
 
         filenames = [
             os.path.abspath(os.path.join(dirpath, i))
@@ -430,7 +432,7 @@ def main(eadfolder="data/ead",
                     # # TEMP BREAK
                     # break
 
-        with multiprocessing.Pool(processes=5) as pool:
+        with multiprocessing.Pool(processes=3) as pool:
 
             graphs = pool.starmap(convertA2A, chunks)
 
@@ -969,26 +971,29 @@ def convertA2A(filenames, path, indexCollection, temporal=False, gz=True):
                     if type(d.source.Remarks['Opmerking']) != str:
                         eventPlaceName = d.source.Remarks['Opmerking'].get(
                             'Begraafplaats')
-                        eventPlace = getEventPlace(eventPlaceName)
+                        eventPlaces = getEventPlace(eventPlaceName)
                     else:
-                        eventPlace = None
+                        eventPlaces = []
 
                 elif eventTypeName == 'Doop':
                     if type(d.source.Remarks['Opmerking']) != str:
                         eventPlaceName = d.source.Remarks['Opmerking'].get(
                             'Kerk')
-                        eventPlace = getEventPlace(eventPlaceName)
+                        eventPlaces = getEventPlace(eventPlaceName)
                     else:
-                        eventPlace = None
+                        eventPlaces = []
 
                 else:
-                    eventPlace = None
+                    eventPlaces = []
 
                 # religion
+                eventReligions = []
                 if hasattr(e, 'EventReligion'):
                     eventReligion = getReligion(religionName = e.EventReligion)
-                else:
-                    eventReligion = None
+                    if eventReligion:
+                        eventReligions.append(eventReligion)
+                    else:
+                        eventReligions = []
 
                 # date
                 if type(registrationDate) == str and len(
@@ -1007,7 +1012,7 @@ def convertA2A(filenames, path, indexCollection, temporal=False, gz=True):
 
                 registrationEvent = RegistrationEventClass(
                     deed.term(d.source.guid + '?event=' + e.id),
-                    occursAt=registrationPlace,
+                    hasPlace=[registrationPlace],
                     hasTimeStamp=registrationDateLiteral,
                     hasOutput=[physicalDocument],
                     label=[
@@ -1027,18 +1032,26 @@ def convertA2A(filenames, path, indexCollection, temporal=False, gz=True):
                 else:
                     eventDateLiteral = None
 
-                event = Event(
-                    None,
-                    hasTimeStamp=eventDateLiteral,
-                    occursAt=eventPlace,
-                    hasReligion=[eventReligion],
-                    label=[
-                        Literal(
-                            f"{eventTypeName} ({eventDate if eventDate else '?'})",
-                            lang='nl')
-                    ])
+                # TODO
+                # Which registrationEvents registers another event? 
+                # - Doop
+                # - Begraafregisters
+                # - ?
 
-                registrationEvent.registers = event
+                if 'Doop' in d.source.SourceType or 'Begraafregisters' in d.source.SourceType:
+                    eventUri = a2a.term(d.source.guid + '#' + 'event')  # Use our own NS for event that is registered?
+                    event = Event(
+                        eventUri,
+                        hasTimeStamp=eventDateLiteral,
+                        hasPlace=eventPlaces,
+                        hasReligion=eventReligions,
+                        label=[
+                            Literal(
+                                f"{eventTypeName} ({eventDate if eventDate else '?'})",
+                                lang='nl')
+                        ])
+
+                    registrationEvent.registers = event
 
             # persons and roles
             persons = []
@@ -1100,7 +1113,7 @@ def convertA2A(filenames, path, indexCollection, temporal=False, gz=True):
                                         f"{occupationName} in de rol van beroepsomschrijving",
                                         lang='nl')
                                 ])
-                            
+
                             roles.append(occupationRole)
 
                         if 'Plaats in bron' in scanData:
@@ -1234,7 +1247,7 @@ def convertA2A(filenames, path, indexCollection, temporal=False, gz=True):
                             relationType = 'Verdachte'
                         else:
                             relationType = r.RelationType
-                            
+
 
                         rType, rTypeName = thesaurus(relationType,
                                                      RoleType,
@@ -1356,7 +1369,7 @@ def convertA2A(filenames, path, indexCollection, temporal=False, gz=True):
                     # If there is only one
                     if type(otherNames) == str:
                         otherNames = [otherNames]
-                    
+
                     for n, otherPersonName in enumerate(otherNames, 1):
                         uri = deed.term(d.source.guid + '?otherName=' + 'Location' + str(n))
 
@@ -1392,7 +1405,7 @@ def convertA2A(filenames, path, indexCollection, temporal=False, gz=True):
 
                         persons.append(otherPerson)
                         roles.append(role)
-               
+
 
             sourceIndex.mentionsEvent = events
             sourceIndex.mentionsPerson = persons

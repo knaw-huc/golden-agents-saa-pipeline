@@ -24,7 +24,7 @@
         "@type": "Concept",
         "label": "Grieks-Katholiek"
     }, {
-        "@id": "https://data.goldenagents.org/thesaurus/HersteldEvangelischLuther",
+        "@id": "https://data.goldenagents.org/thesaurus/HersteldEvangelischLuthers",
         "@type": "Concept",
         "label": "Hersteld Evangelisch-Luthers"
     }, {

@@ -3,7 +3,7 @@ SAA ontology to be used in direct conversion from SAA to Golden Agents.
 """
 
 from rdflib import Dataset, Graph, Namespace
-from rdflib import XSD, RDF, RDFS, OWL, SKOS, FOAF, DCTERMS
+from rdflib import XSD, RDF, RDFS, OWL, SKOS, FOAF, DCTERMS, SDO, PROV
 from rdflib import URIRef, BNode, Literal
 
 from rdfalchemy.rdfSubject import rdfSubject
@@ -16,7 +16,7 @@ hg = Namespace("http://rdf.histograph.io/")
 iiif = Namespace("https://iiif.leonvanwissen.nl/iiif/2/")  # why not
 oa = Namespace("http://www.w3.org/ns/oa#")
 pnv = Namespace("https://w3id.org/pnv#")
-prov = Namespace("http://www.w3.org/ns/prov#")
+# prov = Namespace("http://www.w3.org/ns/prov#")
 rel = Namespace("http://purl.org/vocab/relationship/")
 saaLocation = Namespace("https://data.goldenagents.org/datasets/SAA/Location/")
 saa = Namespace("https://data.goldenagents.org/datasets/SAA/ontology/")
@@ -33,7 +33,7 @@ saaIntendedMarriage = Namespace(
     "https://data.goldenagents.org/datasets/SAA/IntendedMarriage/"
 )
 saaMarriage = Namespace("https://data.goldenagents.org/datasets/SAA/Marriage/")
-schema = Namespace("http://schema.org/")
+# schema = Namespace("http://schema.org/")
 sem = Namespace("http://semanticweb.cs.vu.nl/2009/11/sem/")
 
 roar = Namespace("https://data.goldenagents.org/ontology/roar/")
@@ -45,7 +45,7 @@ thes = Namespace("https://data.goldenagents.org/thesaurus/")
 
 
 class SchemaPlace(rdfSubject):
-    rdf_type = schema.Place
+    rdf_type = SDO.Place
     label = rdfMultiple(RDFS.label)
 
 
@@ -53,7 +53,7 @@ class SchemaPlace(rdfSubject):
 # ROAR #
 ########
 class Entity(rdfSubject):
-    rdf_type = prov.Entity
+    rdf_type = PROV.Entity
 
     label = rdfMultiple(RDFS.label)
 
@@ -64,7 +64,7 @@ class Entity(rdfSubject):
     identifier = rdfSingle(DCTERMS.identifier)
 
     isInRecord = rdfSingle(saa.isInRecord)
-    wasDerivedFrom = rdfMultiple(prov.wasDerivedFrom)
+    wasDerivedFrom = rdfMultiple(PROV.wasDerivedFrom)
 
     hasTimeStamp = rdfSingle(sem.hasTimeStamp)
     hasBeginTimeStamp = rdfSingle(sem.hasBeginTimeStamp)
@@ -579,24 +579,24 @@ class Notary(Person):
 
 
 class SchemaOccupation(Entity):
-    rdf_type = schema.Occupation
+    rdf_type = SDO.Occupation
 
     occupationalCategory = rdfMultiple(
-        schema.occupationalCategory, range_type=schema.CategoryCode
+        SDO.occupationalCategory, range_type=SDO.CategoryCode
     )
 
 
 class CategoryCode(Entity):
-    rdf_type = schema.CategoryCode
-    inCodeSet = rdfSingle(schema.inCodeSet, range_type=schema.CategoryCodeSet)
-    codeValue = rdfSingle(schema.codeValue)
+    rdf_type = SDO.CategoryCode
+    inCodeSet = rdfSingle(SDO.inCodeSet, range_type=SDO.CategoryCodeSet)
+    codeValue = rdfSingle(SDO.codeValue)
 
-    name = rdfMultiple(schema.name)
+    name = rdfMultiple(SDO.name)
 
 
 class CategoryCodeSet(Entity):
-    rdf_type = schema.CategoryCodeSet
-    name = rdfMultiple(schema.name)
+    rdf_type = SDO.CategoryCodeSet
+    name = rdfMultiple(SDO.name)
 
     # {
     #     "@context": "http://schema.org/",

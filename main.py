@@ -70,6 +70,7 @@ name2index = {
 # Global dictionaries
 identifier2book = defaultdict(dict)
 identifier2physicalBook = defaultdict(dict)
+collection2physicalCollection = dict()
 
 with open("data/uri2notary.json") as infile:
     uri2notary = json.load(infile)
@@ -571,6 +572,8 @@ def getCollection(c, uri, physicalUri=None):
         temporal=c.date.get("temporal"),
     )
 
+    collection2physicalCollection[c.identifier] = physicalUri
+
     if hasattr(c, "language"):
         language = [c.language]
         collection.language = language  # find dcterm alternative + iso
@@ -638,8 +641,10 @@ def getCollection(c, uri, physicalUri=None):
 
         if chtype == "collection":
             subcollections.append(chIndex)
+            chIndex.subCollectionOf = collection
         elif chtype == "file":
             parts.append(chIndex)
+            chIndex.memberOf = collection
 
     collection.hasSubCollection = subcollections
     collection.hasMember = parts
@@ -806,6 +811,7 @@ def convertA2A(
             )
             # partOfUri = identifier2physicalBook[collection][inventory]
             # partOfIndexUri = identifier2book[collection][inventory]
+            physicalCollectionUri = collection2physicalCollection[collection]
 
             createdByUris = []
             if creators := uri2notary.get(
@@ -880,7 +886,12 @@ def convertA2A(
             g = rdfSubject.db = graph
 
             # Part of which index?
-            indexCollection = IndexCollection(indexCollectionURI, label=[indexCollectionName])
+            physicalCollection = InventoryCollection(physicalCollectionUri)
+            indexCollection = IndexCollection(
+                indexCollectionURI,
+                label=[indexCollectionName],
+                indexOf=physicalCollection,
+            )
 
             # Physical deed
             physicalUri = partOfUri + "#" + d.source.guid

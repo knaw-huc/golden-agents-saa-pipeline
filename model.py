@@ -77,6 +77,7 @@ class Entity(rdfSubject):
     depiction = rdfMultiple(FOAF.depiction)
 
     memberOf = rdfSingle(roar.memberOf)
+    subCollectionOf = rdfSingle(roar.subCollectionOf)
 
     sameAs = rdfMultiple(OWL.sameAs)
 

@@ -1071,10 +1071,7 @@ def convertA2A(
                 # - Begraafregisters
                 # - ?
 
-                if (
-                    "Doop" in d.source.SourceType
-                    or "Begraafregisters" in d.source.SourceType
-                ):
+                if "Dopen" in d.source.SourceType or "Begraven" in d.source.SourceType:
                     eventUri = a2a.term(
                         d.source.guid + "#" + "event"
                     )  # Use our own NS for event that is registered?

@@ -168,6 +168,9 @@ def parse_xml(xml_file, gz=True):
         else:
             eventDateLiteral = None
 
+        eventUri = gaIndexUri.term(
+                        identifier + "#" + "event"
+                    )  # Use our own NS for event that is registered?
         event = Event(
             None,
             hasTimeStamp=eventDateLiteral,
@@ -291,7 +294,7 @@ if __name__ == "__main__":
         os.path.join(folder, f) for f in os.listdir(folder) if f.endswith(".xml")
     ]
 
-    with multiprocessing.Pool(processes=10) as pool:
+    with multiprocessing.Pool(processes=3) as pool:
 
         pool.map(parse_xml, xml_files)
 

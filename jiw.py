@@ -1,4 +1,5 @@
 import json
+import gzip
 
 from main import thesaurus, bindNS, unique
 from model import *
@@ -13,7 +14,7 @@ class Ondertrouwregister(Document):
     rdf_type = thes.Ondertrouwregister
 
 
-def main(datafile, path):
+def main(datafile, path, gz=True):
 
     with open("data/jiw/id2ecartico_places_groom.json") as infile:
         id2ecartico_places_groom = json.load(infile)
@@ -527,7 +528,13 @@ def main(datafile, path):
     graph.bind("hisco", nsHisco)
 
     print("Serializing!")
-    graph.serialize(path, format="trig")
+
+    # gzip
+    if gz:
+        with gzip.open(path + ".gz", "wb") as outfile:
+            outfile.write(graph.serialize(format="trig").encode())
+    else:
+        graph.serialize(path, format="trig")
 
 
 if __name__ == "__main__":

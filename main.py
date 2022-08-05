@@ -350,7 +350,7 @@ def main(
                 g = bindNS(g)
 
                 print("Serializing to", path)
-                # g.serialize(path, format='trig')  # TEMPORARY
+                g.serialize(path, format="trig")  # TEMPORARY
                 ds.remove_graph(g)
                 g = rdfSubject.db = ds.graph(identifier=ga.term("saa/ead/"))
             else:
@@ -745,8 +745,6 @@ def convertA2A(
     thesaurusGraph = Graph(identifier=thes)
     graph = Graph(identifier=a2a)
 
-    indexCollection = IndexCollection(indexCollectionURI, label=[indexCollectionName])
-
     if temporal:
         beginRestriction, endRestriction = temporal
 
@@ -880,6 +878,9 @@ def convertA2A(
 
             # Switch to A2A graph
             g = rdfSubject.db = graph
+
+            # Part of which index?
+            indexCollection = IndexCollection(indexCollectionURI, label=[indexCollectionName])
 
             # Physical deed
             physicalUri = partOfUri + "#" + d.source.guid

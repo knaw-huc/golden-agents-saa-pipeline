@@ -1071,24 +1071,25 @@ def convertA2A(
                 # - Begraafregisters
                 # - ?
 
-                if "Dopen" in d.source.SourceType or "Begraven" in d.source.SourceType:
-                    eventUri = a2a.term(
-                        d.source.guid + "#" + "event"
-                    )  # Use our own NS for event that is registered?
-                    event = Event(
-                        eventUri,
-                        hasTimeStamp=eventDateLiteral,
-                        hasPlace=eventPlaces,
-                        hasReligion=eventReligions,
-                        label=[
-                            Literal(
-                                f"{eventTypeName} ({eventDate if eventDate else '?'})",
-                                lang="nl",
-                            )
-                        ],
-                    )
+                # For now, do it for every event
+                # if "Dopen" in d.source.SourceType or "Begraven" in d.source.SourceType:
+                eventUri = a2a.term(
+                    d.source.guid + "#" + "event"
+                )  # Use our own NS for event that is registered?
+                event = Event(
+                    eventUri,
+                    hasTimeStamp=eventDateLiteral,
+                    hasPlace=eventPlaces,
+                    hasReligion=eventReligions,
+                    label=[
+                        Literal(
+                            f"{eventTypeName} ({eventDate if eventDate else '?'})",
+                            lang="nl",
+                        )
+                    ],
+                )
 
-                    registrationEvent.registers = event
+                registrationEvent.registers = event
 
             # persons and roles
             persons = []

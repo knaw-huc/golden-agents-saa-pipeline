@@ -169,8 +169,8 @@ def parse_xml(xml_file, gz=True):
             eventDateLiteral = None
 
         eventUri = gaIndexUri.term(
-                        identifier + "#" + "event"
-                    )  # Use our own NS for event that is registered?
+            identifier + "#" + "event"
+        )  # Use our own NS for event that is registered?
         event = Event(
             None,
             hasTimeStamp=eventDateLiteral,
@@ -196,7 +196,9 @@ def parse_xml(xml_file, gz=True):
             )
 
             pUri = gaIndexUri.term(identifier + "?person=" + str(n))
-            p = Person(pUri, hasName=pns, label=labels)
+            p = Person(
+                pUri, hasName=pns, label=labels, participatesIn=[registrationEvent]
+            )
             persons.append(p)
 
             role = Geregistreerde(

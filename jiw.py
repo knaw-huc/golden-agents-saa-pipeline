@@ -1,7 +1,7 @@
 import json
 import gzip
 
-from main import thesaurus, bindNS, unique
+from main import thesaurus, skolemize, bindNS, unique, getReligion
 from model import *
 
 jiw = Namespace("https://data.goldenagents.org/datasets/jaikwil/")
@@ -14,13 +14,36 @@ class Ondertrouwregister(Document):
     rdf_type = thes.Ondertrouwregister
 
 
-def main(datafile, path, gz=True):
+with open("data/jiw/id2ecartico_places_groom.json") as infile:
+    id2ecartico_places_groom = json.load(infile)
 
-    with open("data/jiw/id2ecartico_places_groom.json") as infile:
-        id2ecartico_places_groom = json.load(infile)
+
+def main(datafile, path, splitSize=0, gz=True):
 
     with open(datafile) as infile:
         data = json.load(infile)
+
+    if splitSize > 0:
+        file_suffix = 0
+        chunks = []
+
+        chunk = []
+        for n, d in enumerate(data, 1):
+            chunk.append(d)
+
+            if n % splitSize == 0 or n == len(data):
+                filepath = path.replace(
+                    ".trig", "_" + str(file_suffix).zfill(3) + ".trig"
+                )
+                chunks.append((filepath, chunk))
+                file_suffix += 1
+                chunk = []
+
+        for filepath, chunk in chunks:
+            toRDF(chunk, filepath, gz)
+
+
+def toRDF(data, path, gz):
 
     indexCollection = IndexCollection(
         URIRef("https://data.goldenagents.org/datasets/jaikwil/records/")
@@ -33,9 +56,6 @@ def main(datafile, path, gz=True):
     allIndexDocuments = []
 
     for n, d in enumerate(data, 1):
-
-        # if n == 1000:
-        #     break
 
         if n % 100 == 0:
             print(f"{n}/{len(data)}", end="\r")
@@ -208,8 +228,11 @@ def main(datafile, path, gz=True):
 
         if d["groom"]["religion"]:
             religionName = d["groom"]["religion"]
-            religion = Religion(
-                URIRef(d["groom"]["id"] + "-religion"), label=[religionName]
+            religion = ReligionObservation(
+                URIRef(d["groom"]["id"] + "-religion"),
+                label=[
+                    religionName
+                ],  # This is not a real Observation, since we have the modern name
             )
 
             religionRole = PersonReligionRole(
@@ -222,6 +245,17 @@ def main(datafile, path, gz=True):
             groomRole.hasReligion = [religionRole]
 
             mentionedReligions.append(religion)
+
+            # Reconstruction
+            religionConcept = getReligion(religionName)
+
+            if religionConcept:
+                reconstruction = ReligionReconstruction(
+                    unique("religion", religionName),
+                    wasDerivedFrom=[religion],
+                    sameAs=[religionConcept],
+                    label=[religionConcept.label[0]],
+                )
 
         mentionedPersons.append(groom)
 
@@ -420,7 +454,10 @@ def main(datafile, path, gz=True):
         if d["bride"]["religion"]:
             religionName = d["bride"]["religion"]
             religion = Religion(
-                URIRef(d["bride"]["id"] + "-religion"), label=[religionName]
+                URIRef(d["bride"]["id"] + "-religion"),
+                label=[
+                    religionName
+                ],  # This is not a real Observation, since we have the modern name
             )
 
             religionRole = PersonReligionRole(
@@ -433,6 +470,17 @@ def main(datafile, path, gz=True):
             brideRole.hasReligion = [religionRole]
 
             mentionedReligions.append(religion)
+
+            # Reconstruction
+            religionConcept = getReligion(religionName)
+
+            if religionConcept:
+                reconstruction = ReligionReconstruction(
+                    unique("religion", religionName),
+                    wasDerivedFrom=[religion],
+                    sameAs=[religionConcept],
+                    label=[religionConcept.label[0]],
+                )
 
         if d["bride"]["exHusband"]:
 
@@ -521,13 +569,14 @@ def main(datafile, path, gz=True):
 
     indexCollection.hasMember = allIndexDocuments
 
+    graph = skolemize(graph)
     graph = bindNS(graph)
     graph.bind(
         "jiwRec", URIRef("https://data.goldenagents.org/datasets/jaikwil/records/")
     )
     graph.bind("hisco", nsHisco)
 
-    print("Serializing!")
+    print(f"Serializing to {path}")
 
     # gzip
     if gz:
@@ -538,4 +587,4 @@ def main(datafile, path, gz=True):
 
 
 if __name__ == "__main__":
-    main("data/jiw/jiw_ga.json", "trig/jiw_ga.trig")
+    main("data/jiw/jiw_ga.json", "trig/jiw_ga.trig", splitSize=5000, gz=True)

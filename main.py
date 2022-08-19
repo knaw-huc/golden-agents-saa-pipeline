@@ -238,7 +238,8 @@ def getReligion(religionName="", religionUri="") -> Concept:
     religionData = religionsDict.get(religionUri)
 
     if not religionData:
-        print(religionUri)
+        print(religionName, religionUri)
+        return None
 
     religionLabel = religionData["label"]
     religion = Concept(URIRef(religionUri), label=[religionLabel])
@@ -309,6 +310,7 @@ def bindNS(g):
     g.bind("as", AS)
     g.bind("deed", deed)
     g.bind("skos", SKOS)
+    g.bind("prov", PROV)
 
     return g
 

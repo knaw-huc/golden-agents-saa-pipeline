@@ -124,6 +124,14 @@ class OccupationObservation(RoleBearer, Observation):
     rdf_type = roar.Occupation, roar.Observation
 
 
+class ReligionObservation(RoleBearer, Observation):
+    rdf_type = roar.Religion, roar.Observation
+
+
+class ReligionReconstruction(RoleBearer, Reconstruction):
+    rdf_type = roar.Religion, roar.Reconstruction
+
+
 class LocationReconstruction(RoleBearer, Reconstruction):
     rdf_type = roar.Location, roar.Reconstruction
 

@@ -67,6 +67,21 @@ name2index = {
     "SAA-ID-012_SAA_Index_op_lidmatenregister_doopsgezinde_gemeente": "3349cddf-c176-75e8-005f-705dbca96c4f",
 }
 
+language2iso = {
+    "nederlands": "nl",
+    "engels": "en",
+    "frans": "fr",
+    "duits": "de",
+    "spaans": "es",
+    "italiaans": "it",
+    "portugees": "pt",
+    "deens": "da",
+    "latijn": "la",
+    "onbekend": "unknown",
+    "zweeds": "sv",
+    "overig": "other",
+}
+
 # Global dictionaries
 identifier2book = defaultdict(dict)
 identifier2physicalBook = defaultdict(dict)
@@ -377,6 +392,9 @@ def main(
         # # DTB + NA + Confessie
         # if 'doop' not in dirpath and 'ondertr' not in dirpath and 'begraaf' not in dirpath:
         #     continue
+
+        if "nota" not in dirpath:
+            continue
 
         # DTB + NA for now
         # if 'begraafreg' not in dirpath and 'ondertrouwregisters' not in dirpath and 'doopregisters' not in dirpath and 'nota' not in dirpath:
@@ -855,8 +873,8 @@ def convertA2A(
             inLanguage = None
             try:
                 if language := d.source.Remarks["Opmerking"]["Taal"]:
-
-                    inLanguage = Literal(language, lang="nl")  # Notarieel
+                    isoLang = language2iso.get(language)
+                    inLanguage = Literal(isoLang)  # Notarieel
             except:
                 pass
 

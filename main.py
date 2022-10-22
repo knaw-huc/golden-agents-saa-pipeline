@@ -1,3 +1,12 @@
+"""
+
+Additional packages needed:
+
+- RDFAlchemy: 
+- pya2a: pip install git+https://github.com/LvanWissen/pya2a.git
+
+"""
+
 import multiprocessing
 
 import os
@@ -343,7 +352,7 @@ def main(
     a2afolder="data/a2a",
     outfile="roar.trig",
     splitFile=True,
-    splitSize=50,
+    splitSize=100,
     temporal=False,
     window=10,
     shift=5,
@@ -393,8 +402,8 @@ def main(
         # if 'doop' not in dirpath and 'ondertr' not in dirpath and 'begraaf' not in dirpath:
         #     continue
 
-        if "nota" not in dirpath:
-            continue
+        # if "nota" not in dirpath:
+        #     continue
 
         # DTB + NA for now
         # if 'begraafreg' not in dirpath and 'ondertrouwregisters' not in dirpath and 'doopregisters' not in dirpath and 'nota' not in dirpath:
@@ -451,7 +460,9 @@ def main(
                     # # TEMP BREAK
                     # break
 
-        with multiprocessing.Pool(processes=3) as pool:
+        with multiprocessing.Pool(
+            processes=max(multiprocessing.cpu_count() - 1, 1)
+        ) as pool:
 
             graphs = pool.starmap(convertA2A, chunks)
 
@@ -1442,7 +1453,7 @@ def convertA2A(
 
                     relations.append(relation)
 
-            # Confessieboeken 'Ovierge namen'
+            # Confessieboeken 'Overige namen'
             if d.source.Remarks["Opmerking"]:
                 if otherNames := d.source.Remarks["Opmerking"]["Overige namen"]:
 

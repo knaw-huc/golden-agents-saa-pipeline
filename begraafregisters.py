@@ -109,7 +109,7 @@ def parse_xml(xml_file, gz=True):
 
         scanCollectionURI = partOfUri + "/scans/"
         scanCollection = ScanCollection(scanCollectionURI)
-        g.add((partOfUri, roar.hasDigitalRepresentation, scanCollectionURI))
+        g.add((partOfUri, rpp.hasDigitalRepresentation, scanCollectionURI))
 
         # Physical deed
         physicalUri = partOfUri + "#" + identifier

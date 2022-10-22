@@ -323,7 +323,7 @@ def bindNS(g):
 
     g.bind("rdf", RDF)
     g.bind("rdfs", RDFS)
-    g.bind("roar", roar)
+    g.bind("rpp", rpp)
     g.bind("thes", thes)
     g.bind("pnv", pnv)
     g.bind("sem", sem)
@@ -350,7 +350,7 @@ def skolemize(g):
 def main(
     eadfolder="data/ead",
     a2afolder="data/a2a",
-    outfile="roar.trig",
+    outfile="rpp.trig",
     splitFile=True,
     splitSize=100,
     temporal=False,
@@ -467,7 +467,7 @@ def main(
             graphs = pool.starmap(convertA2A, chunks)
 
         for og, tg in graphs:
-            ontologyGraph = ds.graph(identifier=roar)
+            ontologyGraph = ds.graph(identifier=rpp)
             thesaurusGraph = ds.graph(identifier=thes)
             ontologyGraph += og
             thesaurusGraph += tg
@@ -500,11 +500,11 @@ def main(
 
     if not splitFile:
         print(f"Serializing to {outfile}")
-        ds.serialize("trig/roar.trig", format="trig")
+        ds.serialize("trig/rpp.trig", format="trig")
     else:
         # ontology
-        g = rdfSubject.db = ds.graph(identifier=roar)
-        g.serialize("trig/roar.trig", format="trig")
+        g = rdfSubject.db = ds.graph(identifier=rpp)
+        g.serialize("trig/rpp.trig", format="trig")
 
         # thesaurus
         g = rdfSubject.db = ds.graph(identifier=thes)
@@ -658,7 +658,7 @@ def getCollection(c, uri, physicalUri=None):
     collection.creator = creators
 
     groupingCriteria = getGroupingCriteria(
-        sourceType=[roar.Inventory],
+        sourceType=[rpp.Inventory],
         sourceDate=c.date,
         sourceAuthor=originations,
         sourceLanguage=language,
@@ -744,7 +744,7 @@ def getGroupingCriteria(
 
     if sourceType:
         criterion = GroupingCriterion(
-            None, hasFilter=roar.sourceType, hasFilterValue=sourceType
+            None, hasFilter=rpp.sourceType, hasFilterValue=sourceType
         )
         criteria.append(criterion)
 
@@ -754,19 +754,19 @@ def getGroupingCriteria(
         end = sourceDate.get("hasLatestEndTimeStamp")
 
         criterion = GroupingCriterion(
-            None, hasFilter=roar.createdAt, hasFilterStart=start, hasFilterEnd=end
+            None, hasFilter=rpp.createdAt, hasFilterStart=start, hasFilterEnd=end
         )
         criteria.append(criterion)
 
     if sourceAuthor:
         criterion = GroupingCriterion(
-            None, hasFilter=roar.createdBy, hasFilterValue=sourceAuthor
+            None, hasFilter=rpp.createdBy, hasFilterValue=sourceAuthor
         )
         criteria.append(criterion)
 
     if sourceLanguage:  # iso code?
         criterion = GroupingCriterion(
-            None, hasFilter=roar.language, hasFilterValue=sourceLanguage
+            None, hasFilter=rpp.language, hasFilterValue=sourceLanguage
         )
         criteria.append(criterion)
 
@@ -777,7 +777,7 @@ def convertA2A(
     filenames, path, indexCollectionURI, indexCollectionName, temporal=False, gz=True
 ):
 
-    ontologyGraph = Graph(identifier=roar)
+    ontologyGraph = Graph(identifier=rpp)
     thesaurusGraph = Graph(identifier=thes)
     graph = Graph(identifier=a2a)
 
@@ -903,14 +903,14 @@ def convertA2A(
                 DocumentType,
                 graph,
                 ontologyGraph,
-                subClassOf=roar.Document,
+                subClassOf=rpp.Document,
             )
 
             SourceClass = type(
                 d.source.SourceType, (Document,), {"rdf_type": sType.resUri}
             )
-            # sType = DocumentType(roar.term(sourceTypeName),
-            #                      subClassOf=roar.Document,
+            # sType = DocumentType(rpp.term(sourceTypeName),
+            #                      subClassOf=rpp.Document,
             #                      label=[sourceTypeName])
 
             # Switch to A2A graph
@@ -953,7 +953,7 @@ def convertA2A(
             scans = []
             scanCollectionURI = partOfUri + "/scans/"
             scanCollection = ScanCollection(scanCollectionURI)
-            g.add((partOfUri, roar.hasDigitalRepresentation, scanCollectionURI))
+            g.add((partOfUri, rpp.hasDigitalRepresentation, scanCollectionURI))
 
             scanNames = d.source.Remarks["filename"]
 
@@ -999,7 +999,7 @@ def convertA2A(
                     EventType,
                     graph,
                     ontologyGraph,
-                    subClassOf=roar.RegistrationEvent,
+                    subClassOf=rpp.RegistrationEvent,
                 )
 
                 RegistrationEventClass = type(
@@ -1011,8 +1011,8 @@ def convertA2A(
                 # EventClass = type(e.EventType, (Event, ),
                 #                   {"rdf_type": eType.resUri})
 
-                # eType = EventType(roar.term(eventTypeName),
-                #                   subClassOf=roar.Event,
+                # eType = EventType(rpp.term(eventTypeName),
+                #                   subClassOf=rpp.Event,
                 #                   label=[eventTypeName])
 
                 # Switch to A2A graph
@@ -1338,15 +1338,15 @@ def convertA2A(
                             RoleType,
                             graph,
                             ontologyGraph,
-                            subClassOf=roar.Role,
+                            subClassOf=rpp.Role,
                         )
 
                         RoleClass = type(
                             relationType, (Role,), {"rdf_type": rType.resUri}
                         )
 
-                        # rType = RoleType(roar.term(relationTypeName),
-                        #                  subClassOf=roar.Role,
+                        # rType = RoleType(rpp.term(relationTypeName),
+                        #                  subClassOf=rpp.Role,
                         #                  label=[relationTypeName])
 
                         # Switch to A2A graph
@@ -1483,7 +1483,7 @@ def convertA2A(
                             RoleType,
                             graph,
                             ontologyGraph,
-                            subClassOf=roar.Role,
+                            subClassOf=rpp.Role,
                         )
 
                         RoleClass = type(

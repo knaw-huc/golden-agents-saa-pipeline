@@ -36,7 +36,7 @@ saaMarriage = Namespace("https://data.goldenagents.org/datasets/SAA/Marriage/")
 # schema = Namespace("http://schema.org/")
 sem = Namespace("http://semanticweb.cs.vu.nl/2009/11/sem/")
 
-roar = Namespace("https://data.goldenagents.org/ontology/roar/")
+rpp = Namespace("https://data.goldenagents.org/ontology/rpp/")
 ead = Namespace("https://data.goldenagents.org/datasets/saa/ead/")
 a2a = Namespace("https://data.goldenagents.org/datasets/saa/a2a/")
 deed = Namespace("https://archief.amsterdam/indexen/deeds/")
@@ -76,12 +76,12 @@ class Entity(rdfSubject):
 
     depiction = rdfMultiple(FOAF.depiction)
 
-    memberOf = rdfSingle(roar.memberOf)
-    subCollectionOf = rdfSingle(roar.subCollectionOf)
+    memberOf = rdfSingle(rpp.memberOf)
+    subCollectionOf = rdfSingle(rpp.subCollectionOf)
 
     sameAs = rdfMultiple(OWL.sameAs)
 
-    position = rdfSingle(roar.position)
+    position = rdfSingle(rpp.position)
 
 
 class Concept(Entity):
@@ -89,63 +89,63 @@ class Concept(Entity):
 
 
 class Observation(Entity):
-    rdf_type = roar.Observation
+    rdf_type = rpp.Observation
 
 
 class Reconstruction(Entity):
-    rdf_type = roar.Reconstruction
+    rdf_type = rpp.Reconstruction
 
 
 class Individual(Entity):
-    rdf_type = roar.Individual
+    rdf_type = rpp.Individual
 
 
 class RoleBearer(Individual):
-    rdf_type = roar.RoleBearer
+    rdf_type = rpp.RoleBearer
 
-    participatesIn = rdfMultiple(roar.participatesIn)
+    participatesIn = rdfMultiple(rpp.participatesIn)
 
 
 class Agent(RoleBearer):
-    rdf_type = roar.Agent
+    rdf_type = rpp.Agent
 
 
 class Location(RoleBearer):
-    rdf_type = roar.Location
+    rdf_type = rpp.Location
 
-    hasReligion = rdfMultiple(roar.hasReligion)
+    hasReligion = rdfMultiple(rpp.hasReligion)
 
 
 class LocationObservation(RoleBearer, Observation):
-    rdf_type = roar.Location, roar.Observation
+    rdf_type = rpp.Location, rpp.Observation
 
 
 class OccupationObservation(RoleBearer, Observation):
-    rdf_type = roar.Occupation, roar.Observation
+    rdf_type = rpp.Occupation, rpp.Observation
 
 
 class ReligionObservation(RoleBearer, Observation):
-    rdf_type = roar.Religion, roar.Observation
+    rdf_type = rpp.Religion, rpp.Observation
 
 
 class ReligionReconstruction(RoleBearer, Reconstruction):
-    rdf_type = roar.Religion, roar.Reconstruction
+    rdf_type = rpp.Religion, rpp.Reconstruction
 
 
 class LocationReconstruction(RoleBearer, Reconstruction):
-    rdf_type = roar.Location, roar.Reconstruction
+    rdf_type = rpp.Location, rpp.Reconstruction
 
 
 class OccupationReconstruction(RoleBearer, Reconstruction):
-    rdf_type = roar.Occupation, roar.Reconstruction
+    rdf_type = rpp.Occupation, rpp.Reconstruction
 
 
 class Status(RoleBearer):
-    rdf_type = roar.Status
+    rdf_type = rpp.Status
 
 
 class Person(Agent):
-    rdf_type = roar.Person
+    rdf_type = rpp.Person
 
     hasName = rdfMultiple(pnv.hasName, range_type=pnv.PersonName)  # resource
 
@@ -174,128 +174,128 @@ class PersonName(Entity):
 
 
 class TimeInterval(Entity):
-    rdf_type = roar.TimeInterval
+    rdf_type = rpp.TimeInterval
 
-    start = rdfSingle(roar.start)
-    end = rdfSingle(roar.end)
+    start = rdfSingle(rpp.start)
+    end = rdfSingle(rpp.end)
 
 
 class Place(Entity):
-    rdf_type = roar.Place
+    rdf_type = rpp.Place
 
 
 class Religion(Entity):
-    rdf_type = roar.Religion
+    rdf_type = rpp.Religion
 
 
 class Document(Entity):
-    rdf_type = roar.Document
+    rdf_type = rpp.Document
 
-    author = rdfMultiple(roar.author)
-    publisher = rdfMultiple(roar.publisher)
+    author = rdfMultiple(rpp.author)
+    publisher = rdfMultiple(rpp.publisher)
     temporal = rdfSingle(DCTERMS.temporal)
 
-    partOf = rdfSingle(roar.partOf)
+    partOf = rdfSingle(rpp.partOf)
 
-    createdBy = rdfMultiple(roar.createdBy)
-    createdAt = rdfSingle(roar.createdAt)
-    createdIn = rdfSingle(roar.createdIn)
+    createdBy = rdfMultiple(rpp.createdBy)
+    createdAt = rdfSingle(rpp.createdAt)
+    createdIn = rdfSingle(rpp.createdIn)
 
-    indexOf = rdfSingle(roar.indexOf)
+    indexOf = rdfSingle(rpp.indexOf)
 
-    mentionsPerson = rdfMultiple(roar.mentionsPerson)
-    mentionsObject = rdfMultiple(roar.mentionsObject)
-    mentionsEvent = rdfMultiple(roar.mentionsEvent)
-    mentionsLocation = rdfMultiple(roar.mentionsLocation)
-    mentionsOccupation = rdfMultiple(roar.mentionsOccupation)
-    mentionsReligion = rdfMultiple(roar.mentionsReligion)
-    mentionsRelation = rdfMultiple(roar.mentionsRelation)
-    mentionsStatus = rdfMultiple(roar.mentionsStatus)
-    mentionsRole = rdfMultiple(roar.mentionsRole)
+    mentionsPerson = rdfMultiple(rpp.mentionsPerson)
+    mentionsObject = rdfMultiple(rpp.mentionsObject)
+    mentionsEvent = rdfMultiple(rpp.mentionsEvent)
+    mentionsLocation = rdfMultiple(rpp.mentionsLocation)
+    mentionsOccupation = rdfMultiple(rpp.mentionsOccupation)
+    mentionsReligion = rdfMultiple(rpp.mentionsReligion)
+    mentionsRelation = rdfMultiple(rpp.mentionsRelation)
+    mentionsStatus = rdfMultiple(rpp.mentionsStatus)
+    mentionsRole = rdfMultiple(rpp.mentionsRole)
 
-    hasScan = rdfMultiple(roar.hasScan)  # physical document
-    onScan = rdfMultiple(roar.onScan)  # index document
+    hasScan = rdfMultiple(rpp.hasScan)  # physical document
+    onScan = rdfMultiple(rpp.onScan)  # index document
 
-    onPage = rdfSingle(roar.onPage)
+    onPage = rdfSingle(rpp.onPage)
 
-    inLanguage = rdfSingle(roar.inLanguage)
+    inLanguage = rdfSingle(rpp.inLanguage)
 
 
 class IndexDocument(Document):
-    rdf_type = roar.IndexDocument
+    rdf_type = rpp.IndexDocument
 
-    cancelled = rdfSingle(roar.cancelled)
+    cancelled = rdfSingle(rpp.cancelled)
 
 
 class Collection(Document):
-    rdf_type = roar.Collection
+    rdf_type = rpp.Collection
 
     language = rdfMultiple(DCTERMS.language)
     # authority = rdfMultiple(DCTERMS.authority)
     creator = rdfMultiple(DCTERMS.creator)
 
-    hasGroupingCriteria = rdfMultiple(roar.hasGroupingCriteria)
-    hasSubCollection = rdfMultiple(roar.hasSubCollection)
-    hasMember = rdfMultiple(roar.hasMember)
+    hasGroupingCriteria = rdfMultiple(rpp.hasGroupingCriteria)
+    hasSubCollection = rdfMultiple(rpp.hasSubCollection)
+    hasMember = rdfMultiple(rpp.hasMember)
 
 
 class InventoryCollection(Collection):
-    rdf_type = roar.InventoryCollection
+    rdf_type = rpp.InventoryCollection
 
 
 class IndexCollection(Collection):
-    rdf_type = roar.IndexCollection
+    rdf_type = rpp.IndexCollection
 
 
 class ScanCollection(Collection):
-    rdf_type = roar.ScanCollection
+    rdf_type = rpp.ScanCollection
 
 
 class BookIndex(IndexCollection):
-    rdf_type = roar.BookIndex
+    rdf_type = rpp.BookIndex
 
 
 class InventoryBook(InventoryCollection):
-    rdf_type = roar.InventoryBook
+    rdf_type = rpp.InventoryBook
 
 
 class GroupingCriterion(Entity):
-    rdf_type = roar.GroupingCriterion
+    rdf_type = rpp.GroupingCriterion
 
-    hasFilter = rdfSingle(roar.hasFilter)
-    hasFilterValue = rdfMultiple(roar.hasFilterValue)
-    hasFilterStart = rdfSingle(roar.hasFilterStart)
-    hasFilterEnd = rdfSingle(roar.hasFilterEnd)
+    hasFilter = rdfSingle(rpp.hasFilter)
+    hasFilterValue = rdfMultiple(rpp.hasFilterValue)
+    hasFilterStart = rdfSingle(rpp.hasFilterStart)
+    hasFilterEnd = rdfSingle(rpp.hasFilterEnd)
 
 
 class Event(Entity):
-    rdf_type = roar.Event
+    rdf_type = rpp.Event
 
-    hasInput = rdfMultiple(roar.hasInput)
-    hasOutput = rdfMultiple(roar.hasOutput)
+    hasInput = rdfMultiple(rpp.hasInput)
+    hasOutput = rdfMultiple(rpp.hasOutput)
 
-    hasPlace = rdfMultiple(roar.hasPlace)
+    hasPlace = rdfMultiple(rpp.hasPlace)
 
-    hasReligion = rdfMultiple(roar.hasReligion)
+    hasReligion = rdfMultiple(rpp.hasReligion)
 
 
 class RegistrationEvent(Event):
-    rdf_type = roar.RegistrationEvent
+    rdf_type = rpp.RegistrationEvent
 
-    registers = rdfSingle(roar.registers, range_type=roar.Event)
+    registers = rdfSingle(rpp.registers, range_type=rpp.Event)
 
 
 class DocumentCreation(Event):
-    rdf_type = roar.DocumentCreation
+    rdf_type = rpp.DocumentCreation
 
 
 class DocumentType(Entity):
-    rdf_type = roar.DocumentType
+    rdf_type = rpp.DocumentType
     subClassOf = rdfSingle(RDFS.subClassOf)
 
 
 class EventType(Entity):
-    rdf_type = roar.EventType
+    rdf_type = rpp.EventType
     subClassOf = rdfSingle(RDFS.subClassOf)
 
 
@@ -304,107 +304,107 @@ class Geboorte(Event):
 
 
 class Role(Entity):
-    rdf_type = roar.Role
+    rdf_type = rpp.Role
 
-    carriedIn = rdfSingle(roar.carriedIn)
-    carriedBy = rdfMultiple(roar.carriedBy)
+    carriedIn = rdfSingle(rpp.carriedIn)
+    carriedBy = rdfMultiple(rpp.carriedBy)
 
-    hasRelation = rdfMultiple(roar.hasRelation)
-    hasLocation = rdfMultiple(roar.hasLocation)
-    hasReligion = rdfMultiple(roar.hasReligion)
-    hasOccupation = rdfMultiple(roar.hasOccupation)
-    hasStatus = rdfMultiple(roar.hasStatus)
+    hasRelation = rdfMultiple(rpp.hasRelation)
+    hasLocation = rdfMultiple(rpp.hasLocation)
+    hasReligion = rdfMultiple(rpp.hasReligion)
+    hasOccupation = rdfMultiple(rpp.hasOccupation)
+    hasStatus = rdfMultiple(rpp.hasStatus)
 
-    age = rdfSingle(roar.age)
-    literate = rdfSingle(roar.literate)
+    age = rdfSingle(rpp.age)
+    literate = rdfSingle(rpp.literate)
 
 
 class RoleType(Entity):
-    rdf_type = roar.RoleType
+    rdf_type = rpp.RoleType
     subClassOf = rdfSingle(RDFS.subClassOf)
 
 
 class PersonReligionRole(Role):
     rdf_type = thes.Persoonsreligie
-    subClassOf = roar.Role
+    subClassOf = rpp.Role
 
 
 class Relation(Entity):
-    rdf_type = roar.Relation
+    rdf_type = rpp.Relation
 
 
 class Geregistreerde(Role):
     rdf_type = thes.Geregistreerde
-    subClassOf = roar.Role
+    subClassOf = rpp.Role
 
 
 class NotaryRole(Role):
     rdf_type = thes.Notaris
-    subClassOf = roar.Role
+    subClassOf = rpp.Role
 
 
 class ChildRole(Role):
     rdf_type = thes.Kind
-    subClassOf = roar.Role
+    subClassOf = rpp.Role
 
 
 class EarlierHusband(Role):
     rdf_type = thes.EerdereMan
-    subClassOf = roar.Role
+    subClassOf = rpp.Role
 
 
 class EarlierWife(Role):
     rdf_type = thes.EerdereVrouw
-    subClassOf = roar.Role
+    subClassOf = rpp.Role
 
 
 class Bruid(Role):
     rdf_type = thes.Bruid
-    subClassOf = roar.Role
+    subClassOf = rpp.Role
 
 
 class Bruidegom(Role):
     rdf_type = thes.Bruidegom
-    subClassOf = roar.Role
+    subClassOf = rpp.Role
 
 
 class Getuige(Role):
     rdf_type = thes.Getuige
-    subClassOf = roar.Role
+    subClassOf = rpp.Role
 
 
 class Verdachte(Role):
     rdf_type = thes.Verdachte
-    subClassOf = roar.Role
+    subClassOf = rpp.Role
 
 
 class OccupationRole(Role):
     rdf_type = thes.Beroep
-    subClassOf = roar.Role
+    subClassOf = rpp.Role
 
 
 class HuwelijkseStaat(Role):
     rdf_type = thes.Huwelijksestaat
 
-    subClassOf = roar.Role
+    subClassOf = rpp.Role
 
 
 class LocationRole(Role):
     rdf_type = thes.Locatieomschrijving
 
-    subClassOf = roar.Role
+    subClassOf = rpp.Role
 
 
 class OriginRole(Role):
     rdf_type = thes.Herkomstlocatie
 
-    subClassOf = roar.Role
+    subClassOf = rpp.Role
 
 
 class WorkLocationRole(Role):
     rdf_type = thes.Werklocatie
 
-    subClassOf = roar.Role
+    subClassOf = rpp.Role
 
 
 class AddressRole(Role):
@@ -414,26 +414,26 @@ class AddressRole(Role):
 class RelationRole(Role):
     rdf_type = thes.Relatieomschrijving
 
-    relatedTo = rdfSingle(roar.relatedTo)
+    relatedTo = rdfSingle(rpp.relatedTo)
 
 
 class CollectionCreation(Event):
-    rdf_type = roar.DocumentCreation, roar.DocumentArchiving
+    rdf_type = rpp.DocumentCreation, rpp.DocumentArchiving
 
 
 class ArchiverAndCreatorRole(Role):
-    rdf_type = roar.Archiver, roar.Creator
+    rdf_type = rpp.Archiver, rpp.Creator
 
 
 class ArchivalDocumentRole(Role):
-    rdf_type = roar.ArchivalDocument
+    rdf_type = rpp.ArchivalDocument
 
 
 # Scans
 
 
 class Scan(Entity):
-    rdf_type = roar.Scan
+    rdf_type = rpp.Scan
 
     # # partOf a collection
 
@@ -452,7 +452,7 @@ class Scan(Entity):
 
 
 class SpreadScan(Scan):
-    rdf_type = roar.SpreadScan
+    rdf_type = rpp.SpreadScan
 
 
 #############

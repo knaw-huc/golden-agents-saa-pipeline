@@ -49,7 +49,7 @@ def toRDF(data, path, gz):
         URIRef("https://data.goldenagents.org/datasets/jaikwil/records/")
     )
 
-    ontologyGraph = Graph(identifier=roar)
+    ontologyGraph = Graph(identifier=rpp)
     thesaurusGraph = Graph(identifier=thes)
     graph = Graph(identifier=jiw)
 

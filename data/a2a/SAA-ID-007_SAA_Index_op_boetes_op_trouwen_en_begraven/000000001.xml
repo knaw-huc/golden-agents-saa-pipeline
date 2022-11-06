@@ -1,0 +1,3958 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2022-09-22T02:09:23Z</responseDate>
+  <request metadataPrefix="oai_a2a" set="d46628d6-2ed4-95a0-cafc-4cdbb4174263" verb="ListRecords">https://webservices.picturae.com/a2a/a66155dd-f750-40be-9ddd-244d72248fa3/</request>
+  <ListRecords>
+    <record>
+      <header>
+        <identifier>2e221f61-3cb3-4bad-a6c5-7c8299f8b418</identifier>
+        <datestamp>2021-08-13T00:07:07Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9f1447fc-f04e-4146-e053-b784100aac9a">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Cornelis</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Vlaming</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+            <a2a:PersonRemark Key="diversen">
+              <a2a:Value>
+Plaats van begrafenis: Vlieland</a2a:Value>
+            </a2a:PersonRemark>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1735</a2a:Year>
+              <a2a:Month>1</a2a:Month>
+              <a2a:Day>21</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9f1447fc-f04e-4146-e053-b784100aac9a</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Overledene</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1735-01-21</a2a:From>
+              <a2a:To>1735-01-21</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1735</a2a:Year>
+              <a2a:Month>1</a2a:Month>
+              <a2a:Day>21</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Boetes op begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>343</a2a:Archive>
+              <a2a:Collection>Deel: 576, Periode: 1730-1735</a2a:Collection>
+              <a2a:Book>Boetes op begraven</a2a:Book>
+              <a2a:RegistryNumber>576</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/197b279e-f7e6-1431-0708-217d80dd8fa7.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/2e221f61-3cb3-4bad-a6c5-7c8299f8b418</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/197b279e-f7e6-1431-0708-217d80dd8fa7.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-10-15</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/2e221f61-3cb3-4bad-a6c5-7c8299f8b418</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{2e221f61-3cb3-4bad-a6c5-7c8299f8b418}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/343/576" target="_blank" title="https://archief.amsterdam/archief/343/576"&gt;https://archief.amsterdam/archief/343/576&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04060000304</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>f3558496-9d48-4da9-9e56-a0778fd2c134</identifier>
+        <datestamp>2021-08-13T00:07:07Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9f1447fc-f04d-4146-e053-b784100aac9a">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Catharina</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Treekels</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+            <a2a:PersonRemark Key="diversen">
+              <a2a:Value>
+Plaats van begrafenis: Sloten</a2a:Value>
+            </a2a:PersonRemark>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1734</a2a:Year>
+              <a2a:Month>10</a2a:Month>
+              <a2a:Day>29</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9f1447fc-f04d-4146-e053-b784100aac9a</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Overledene</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1734-10-29</a2a:From>
+              <a2a:To>1734-10-29</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1734</a2a:Year>
+              <a2a:Month>10</a2a:Month>
+              <a2a:Day>29</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Boetes op begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>343</a2a:Archive>
+              <a2a:Collection>Deel: 576, Periode: 1730-1735</a2a:Collection>
+              <a2a:Book>Boetes op begraven</a2a:Book>
+              <a2a:RegistryNumber>576</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/a112292b-a03e-d2af-187a-734708a2a670.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/f3558496-9d48-4da9-9e56-a0778fd2c134</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/a112292b-a03e-d2af-187a-734708a2a670.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-10-15</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/f3558496-9d48-4da9-9e56-a0778fd2c134</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{f3558496-9d48-4da9-9e56-a0778fd2c134}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/343/576" target="_blank" title="https://archief.amsterdam/archief/343/576"&gt;https://archief.amsterdam/archief/343/576&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04060000287</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>a92dcf82-9b0c-4139-87a8-c88657c41107</identifier>
+        <datestamp>2021-08-13T00:07:07Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9f1447fc-f04c-4146-e053-b784100aac9a">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Huijbert</a2a:PersonNameFirstName>
+              <a2a:PersonNamePrefixLastName>van</a2a:PersonNamePrefixLastName>
+              <a2a:PersonNameLastName>Delden de jonge</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+            <a2a:PersonRemark Key="diversen">
+              <a2a:Value>
+Plaats van begrafenis: Purmerland</a2a:Value>
+            </a2a:PersonRemark>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1734</a2a:Year>
+              <a2a:Month>8</a2a:Month>
+              <a2a:Day>20</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9f1447fc-f04c-4146-e053-b784100aac9a</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Overledene</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1734-08-20</a2a:From>
+              <a2a:To>1734-08-20</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1734</a2a:Year>
+              <a2a:Month>8</a2a:Month>
+              <a2a:Day>20</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Boetes op begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>343</a2a:Archive>
+              <a2a:Collection>Deel: 576, Periode: 1730-1735</a2a:Collection>
+              <a2a:Book>Boetes op begraven</a2a:Book>
+              <a2a:RegistryNumber>576</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/76929a8f-da1d-7c69-4ca8-9d05409e50b0.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/a92dcf82-9b0c-4139-87a8-c88657c41107</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/76929a8f-da1d-7c69-4ca8-9d05409e50b0.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-10-15</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/a92dcf82-9b0c-4139-87a8-c88657c41107</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{a92dcf82-9b0c-4139-87a8-c88657c41107}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/343/576" target="_blank" title="https://archief.amsterdam/archief/343/576"&gt;https://archief.amsterdam/archief/343/576&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04060000277</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>e7f1721b-317b-4012-ab95-db19025325f8</identifier>
+        <datestamp>2021-08-13T00:07:07Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9f1447fc-f04b-4146-e053-b784100aac9a">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Marretie</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Baukes</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+            <a2a:PersonRemark Key="diversen">
+              <a2a:Value>
+Plaats van begrafenis: Molkwerum</a2a:Value>
+            </a2a:PersonRemark>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1734</a2a:Year>
+              <a2a:Month>3</a2a:Month>
+              <a2a:Day>26</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9f1447fc-f04b-4146-e053-b784100aac9a</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Overledene</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1734-03-26</a2a:From>
+              <a2a:To>1734-03-26</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1734</a2a:Year>
+              <a2a:Month>3</a2a:Month>
+              <a2a:Day>26</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Boetes op begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>343</a2a:Archive>
+              <a2a:Collection>Deel: 576, Periode: 1730-1735</a2a:Collection>
+              <a2a:Book>Boetes op begraven</a2a:Book>
+              <a2a:RegistryNumber>576</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/ffbf068f-9e08-9b8b-662c-b7670febb522.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/e7f1721b-317b-4012-ab95-db19025325f8</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/ffbf068f-9e08-9b8b-662c-b7670febb522.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-10-15</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/e7f1721b-317b-4012-ab95-db19025325f8</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{e7f1721b-317b-4012-ab95-db19025325f8}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/343/576" target="_blank" title="https://archief.amsterdam/archief/343/576"&gt;https://archief.amsterdam/archief/343/576&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04060000254</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>af220265-4c80-4dc7-87e2-b97b0e2b4412</identifier>
+        <datestamp>2021-08-13T00:07:07Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9f1447fc-f04a-4146-e053-b784100aac9a">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Annetie</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Hofman</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+            <a2a:PersonRemark Key="diversen">
+              <a2a:Value>
+Plaats van begrafenis: Sloterdijk</a2a:Value>
+            </a2a:PersonRemark>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1733</a2a:Year>
+              <a2a:Month>12</a2a:Month>
+              <a2a:Day>24</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9f1447fc-f04a-4146-e053-b784100aac9a</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Overledene</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1733-12-24</a2a:From>
+              <a2a:To>1733-12-24</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1733</a2a:Year>
+              <a2a:Month>12</a2a:Month>
+              <a2a:Day>24</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Boetes op begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>343</a2a:Archive>
+              <a2a:Collection>Deel: 576, Periode: 1730-1735</a2a:Collection>
+              <a2a:Book>Boetes op begraven</a2a:Book>
+              <a2a:RegistryNumber>576</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/e5149e5c-88e5-a460-2db6-bebd13140d5f.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/af220265-4c80-4dc7-87e2-b97b0e2b4412</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/e5149e5c-88e5-a460-2db6-bebd13140d5f.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-10-15</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/af220265-4c80-4dc7-87e2-b97b0e2b4412</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{af220265-4c80-4dc7-87e2-b97b0e2b4412}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/343/576" target="_blank" title="https://archief.amsterdam/archief/343/576"&gt;https://archief.amsterdam/archief/343/576&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04060000234</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>c604a475-bff7-4bd5-8ac8-285483fbbe2c</identifier>
+        <datestamp>2021-08-13T00:07:07Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9f1447fc-f049-4146-e053-b784100aac9a">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Magtel</a2a:PersonNameFirstName>
+              <a2a:PersonNamePrefixLastName>van</a2a:PersonNamePrefixLastName>
+              <a2a:PersonNameLastName>Toll</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1733</a2a:Year>
+              <a2a:Month>10</a2a:Month>
+              <a2a:Day>9</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9f1447fc-f049-4146-e053-b784100aac9a</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Overledene</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1733-10-09</a2a:From>
+              <a2a:To>1733-10-09</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1733</a2a:Year>
+              <a2a:Month>10</a2a:Month>
+              <a2a:Day>9</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Boetes op begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>343</a2a:Archive>
+              <a2a:Collection>Deel: 576, Periode: 1730-1735</a2a:Collection>
+              <a2a:Book>Boetes op begraven</a2a:Book>
+              <a2a:RegistryNumber>576</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/bca1c954-348c-f311-7071-99309cb83267.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/c604a475-bff7-4bd5-8ac8-285483fbbe2c</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/bca1c954-348c-f311-7071-99309cb83267.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-10-15</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/c604a475-bff7-4bd5-8ac8-285483fbbe2c</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{c604a475-bff7-4bd5-8ac8-285483fbbe2c}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/343/576" target="_blank" title="https://archief.amsterdam/archief/343/576"&gt;https://archief.amsterdam/archief/343/576&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04060000221</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>0e9915d6-51c8-4e2d-9f04-665db45bb2f1</identifier>
+        <datestamp>2021-08-13T00:07:07Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9f1447fc-f048-4146-e053-b784100aac9a">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Catharina</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Chadd</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+            <a2a:PersonRemark Key="diversen">
+              <a2a:Value>
+Plaats van begrafenis: Herwijnen</a2a:Value>
+            </a2a:PersonRemark>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1733</a2a:Year>
+              <a2a:Month>6</a2a:Month>
+              <a2a:Day>26</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9f1447fc-f048-4146-e053-b784100aac9a</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Overledene</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1733-06-26</a2a:From>
+              <a2a:To>1733-06-26</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1733</a2a:Year>
+              <a2a:Month>6</a2a:Month>
+              <a2a:Day>26</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Boetes op begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>343</a2a:Archive>
+              <a2a:Collection>Deel: 576, Periode: 1730-1735</a2a:Collection>
+              <a2a:Book>Boetes op begraven</a2a:Book>
+              <a2a:RegistryNumber>576</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/e388cc35-11b4-c314-7e68-17506fdee8d0.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/0e9915d6-51c8-4e2d-9f04-665db45bb2f1</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/e388cc35-11b4-c314-7e68-17506fdee8d0.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-10-15</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/0e9915d6-51c8-4e2d-9f04-665db45bb2f1</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{0e9915d6-51c8-4e2d-9f04-665db45bb2f1}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/343/576" target="_blank" title="https://archief.amsterdam/archief/343/576"&gt;https://archief.amsterdam/archief/343/576&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04060000206</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>4fbfc2df-20e4-4b12-8f7f-14a3d949f290</identifier>
+        <datestamp>2021-08-13T00:07:07Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9f1447fc-f047-4146-e053-b784100aac9a">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Haesje</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Claase</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+            <a2a:PersonRemark Key="diversen">
+              <a2a:Value>
+Plaats van begrafenis: Friesland</a2a:Value>
+            </a2a:PersonRemark>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1733</a2a:Year>
+              <a2a:Month>4</a2a:Month>
+              <a2a:Day>3</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9f1447fc-f047-4146-e053-b784100aac9a</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Overledene</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1733-04-03</a2a:From>
+              <a2a:To>1733-04-03</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1733</a2a:Year>
+              <a2a:Month>4</a2a:Month>
+              <a2a:Day>3</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Boetes op begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>343</a2a:Archive>
+              <a2a:Collection>Deel: 576, Periode: 1730-1735</a2a:Collection>
+              <a2a:Book>Boetes op begraven</a2a:Book>
+              <a2a:RegistryNumber>576</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/f8436d8d-319e-096b-7448-eb1edeb88f07.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/4fbfc2df-20e4-4b12-8f7f-14a3d949f290</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/f8436d8d-319e-096b-7448-eb1edeb88f07.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-10-15</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/4fbfc2df-20e4-4b12-8f7f-14a3d949f290</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{4fbfc2df-20e4-4b12-8f7f-14a3d949f290}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/343/576" target="_blank" title="https://archief.amsterdam/archief/343/576"&gt;https://archief.amsterdam/archief/343/576&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04060000194</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>678b4aa5-ad37-4169-a8be-75adde621f8c</identifier>
+        <datestamp>2021-08-13T00:07:07Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9f1447fc-f046-4146-e053-b784100aac9a">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Gerard</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Han</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+            <a2a:PersonRemark Key="diversen">
+              <a2a:Value>
+Plaats van begrafenis: Diemen</a2a:Value>
+            </a2a:PersonRemark>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1733</a2a:Year>
+              <a2a:Month>2</a2a:Month>
+              <a2a:Day>6</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9f1447fc-f046-4146-e053-b784100aac9a</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Overledene</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1733-02-06</a2a:From>
+              <a2a:To>1733-02-06</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1733</a2a:Year>
+              <a2a:Month>2</a2a:Month>
+              <a2a:Day>6</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Boetes op begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>343</a2a:Archive>
+              <a2a:Collection>Deel: 576, Periode: 1730-1735</a2a:Collection>
+              <a2a:Book>Boetes op begraven</a2a:Book>
+              <a2a:RegistryNumber>576</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/660696a9-78f8-eb19-9f2a-fbb766df05b9.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/678b4aa5-ad37-4169-a8be-75adde621f8c</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/660696a9-78f8-eb19-9f2a-fbb766df05b9.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-10-15</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/678b4aa5-ad37-4169-a8be-75adde621f8c</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{678b4aa5-ad37-4169-a8be-75adde621f8c}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/343/576" target="_blank" title="https://archief.amsterdam/archief/343/576"&gt;https://archief.amsterdam/archief/343/576&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04060000186</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>f33fbc28-a192-4b3f-9f9e-62d66d254e7c</identifier>
+        <datestamp>2021-08-13T00:07:07Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9f1447fc-f045-4146-e053-b784100aac9a">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Antie</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Douwesz</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+            <a2a:PersonRemark Key="diversen">
+              <a2a:Value>
+Plaats van begrafenis: Nieuwendam</a2a:Value>
+            </a2a:PersonRemark>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1732</a2a:Year>
+              <a2a:Month>12</a2a:Month>
+              <a2a:Day>19</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9f1447fc-f045-4146-e053-b784100aac9a</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Overledene</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1732-12-19</a2a:From>
+              <a2a:To>1732-12-19</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1732</a2a:Year>
+              <a2a:Month>12</a2a:Month>
+              <a2a:Day>19</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Boetes op begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>343</a2a:Archive>
+              <a2a:Collection>Deel: 576, Periode: 1730-1735</a2a:Collection>
+              <a2a:Book>Boetes op begraven</a2a:Book>
+              <a2a:RegistryNumber>576</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/80d38415-3938-1be7-7bd1-b5fd8672943f.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/f33fbc28-a192-4b3f-9f9e-62d66d254e7c</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/80d38415-3938-1be7-7bd1-b5fd8672943f.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-10-15</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/f33fbc28-a192-4b3f-9f9e-62d66d254e7c</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{f33fbc28-a192-4b3f-9f9e-62d66d254e7c}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/343/576" target="_blank" title="https://archief.amsterdam/archief/343/576"&gt;https://archief.amsterdam/archief/343/576&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04060000172</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>54998db1-692d-4da3-b01e-8e0608c0a602</identifier>
+        <datestamp>2021-08-13T00:07:07Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9f1447fc-f044-4146-e053-b784100aac9a">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Catharina</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Lindenhof</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+            <a2a:PersonRemark Key="diversen">
+              <a2a:Value>
+Plaats van begrafenis: Schellingwoude</a2a:Value>
+            </a2a:PersonRemark>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1732</a2a:Year>
+              <a2a:Month>9</a2a:Month>
+              <a2a:Day>12</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9f1447fc-f044-4146-e053-b784100aac9a</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Overledene</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1732-09-12</a2a:From>
+              <a2a:To>1732-09-12</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1732</a2a:Year>
+              <a2a:Month>9</a2a:Month>
+              <a2a:Day>12</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Boetes op begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>343</a2a:Archive>
+              <a2a:Collection>Deel: 576, Periode: 1730-1735</a2a:Collection>
+              <a2a:Book>Boetes op begraven</a2a:Book>
+              <a2a:RegistryNumber>576</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/9982d840-cc10-98dc-0250-8830b25a9018.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/54998db1-692d-4da3-b01e-8e0608c0a602</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/9982d840-cc10-98dc-0250-8830b25a9018.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-10-15</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/54998db1-692d-4da3-b01e-8e0608c0a602</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{54998db1-692d-4da3-b01e-8e0608c0a602}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/343/576" target="_blank" title="https://archief.amsterdam/archief/343/576"&gt;https://archief.amsterdam/archief/343/576&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04060000157</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>fcc90f68-a1fa-48c8-9fe3-dbe76961f6bb</identifier>
+        <datestamp>2021-08-13T00:07:07Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9f1447fc-f043-4146-e053-b784100aac9a">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Diwert</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Gerrits</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+            <a2a:PersonRemark Key="diversen">
+              <a2a:Value>
+Plaats van begrafenis: Wieringen</a2a:Value>
+            </a2a:PersonRemark>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1732</a2a:Year>
+              <a2a:Month>6</a2a:Month>
+              <a2a:Day>13</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9f1447fc-f043-4146-e053-b784100aac9a</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Overledene</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1732-06-13</a2a:From>
+              <a2a:To>1732-06-13</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1732</a2a:Year>
+              <a2a:Month>6</a2a:Month>
+              <a2a:Day>13</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Boetes op begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>343</a2a:Archive>
+              <a2a:Collection>Deel: 576, Periode: 1730-1735</a2a:Collection>
+              <a2a:Book>Boetes op begraven</a2a:Book>
+              <a2a:RegistryNumber>576</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/cfadeb1c-5eda-4d6a-9381-da66836497b9.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/fcc90f68-a1fa-48c8-9fe3-dbe76961f6bb</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/cfadeb1c-5eda-4d6a-9381-da66836497b9.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-10-15</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/fcc90f68-a1fa-48c8-9fe3-dbe76961f6bb</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{fcc90f68-a1fa-48c8-9fe3-dbe76961f6bb}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/343/576" target="_blank" title="https://archief.amsterdam/archief/343/576"&gt;https://archief.amsterdam/archief/343/576&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04060000144</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>fe782f62-6b94-4da5-a917-da8eebe9535f</identifier>
+        <datestamp>2021-08-13T00:07:07Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9f1447fc-f042-4146-e053-b784100aac9a">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Gerrit</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Aldertsz</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+            <a2a:PersonRemark Key="diversen">
+              <a2a:Value>
+Plaats van begrafenis: Buiksloot</a2a:Value>
+            </a2a:PersonRemark>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1732</a2a:Year>
+              <a2a:Month>4</a2a:Month>
+              <a2a:Day>25</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9f1447fc-f042-4146-e053-b784100aac9a</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Overledene</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1732-04-25</a2a:From>
+              <a2a:To>1732-04-25</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1732</a2a:Year>
+              <a2a:Month>4</a2a:Month>
+              <a2a:Day>25</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Boetes op begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>343</a2a:Archive>
+              <a2a:Collection>Deel: 576, Periode: 1730-1735</a2a:Collection>
+              <a2a:Book>Boetes op begraven</a2a:Book>
+              <a2a:RegistryNumber>576</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/2de2d7a5-debe-afb6-9438-1977e57fb433.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/fe782f62-6b94-4da5-a917-da8eebe9535f</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/2de2d7a5-debe-afb6-9438-1977e57fb433.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-10-15</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/fe782f62-6b94-4da5-a917-da8eebe9535f</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{fe782f62-6b94-4da5-a917-da8eebe9535f}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/343/576" target="_blank" title="https://archief.amsterdam/archief/343/576"&gt;https://archief.amsterdam/archief/343/576&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04060000137</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>06c89089-ef2d-402f-88a6-e650bd266ecf</identifier>
+        <datestamp>2021-08-13T00:07:07Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9f1447fc-f041-4146-e053-b784100aac9a">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Maria</a2a:PersonNameFirstName>
+              <a2a:PersonNamePrefixLastName>van</a2a:PersonNamePrefixLastName>
+              <a2a:PersonNameLastName>Mollem</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+            <a2a:PersonRemark Key="diversen">
+              <a2a:Value>
+Plaats van begrafenis: Utrecht</a2a:Value>
+            </a2a:PersonRemark>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1732</a2a:Year>
+              <a2a:Month>1</a2a:Month>
+              <a2a:Day>25</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9f1447fc-f041-4146-e053-b784100aac9a</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Overledene</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1732-01-25</a2a:From>
+              <a2a:To>1732-01-25</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1732</a2a:Year>
+              <a2a:Month>1</a2a:Month>
+              <a2a:Day>25</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Boetes op begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>343</a2a:Archive>
+              <a2a:Collection>Deel: 576, Periode: 1730-1735</a2a:Collection>
+              <a2a:Book>Boetes op begraven</a2a:Book>
+              <a2a:RegistryNumber>576</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/ed2ae47b-8818-cdef-b888-96ad249eecac.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/06c89089-ef2d-402f-88a6-e650bd266ecf</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/ed2ae47b-8818-cdef-b888-96ad249eecac.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-10-15</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/06c89089-ef2d-402f-88a6-e650bd266ecf</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{06c89089-ef2d-402f-88a6-e650bd266ecf}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/343/576" target="_blank" title="https://archief.amsterdam/archief/343/576"&gt;https://archief.amsterdam/archief/343/576&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04060000119</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>84e019cb-db87-4562-ad8f-00d9ba5d518e</identifier>
+        <datestamp>2021-08-13T00:07:07Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9f1447fc-f040-4146-e053-b784100aac9a">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Marretie</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Ridder</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+            <a2a:PersonRemark Key="diversen">
+              <a2a:Value>
+Plaats van begrafenis: Sloterdijk</a2a:Value>
+            </a2a:PersonRemark>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1731</a2a:Year>
+              <a2a:Month>9</a2a:Month>
+              <a2a:Day>14</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9f1447fc-f040-4146-e053-b784100aac9a</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Overledene</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1731-09-14</a2a:From>
+              <a2a:To>1731-09-14</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1731</a2a:Year>
+              <a2a:Month>9</a2a:Month>
+              <a2a:Day>14</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Boetes op begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>343</a2a:Archive>
+              <a2a:Collection>Deel: 576, Periode: 1730-1735</a2a:Collection>
+              <a2a:Book>Boetes op begraven</a2a:Book>
+              <a2a:RegistryNumber>576</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/00009142-13d3-5bd7-ae73-584a1f1f648f.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/84e019cb-db87-4562-ad8f-00d9ba5d518e</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/00009142-13d3-5bd7-ae73-584a1f1f648f.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-10-15</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/84e019cb-db87-4562-ad8f-00d9ba5d518e</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{84e019cb-db87-4562-ad8f-00d9ba5d518e}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/343/576" target="_blank" title="https://archief.amsterdam/archief/343/576"&gt;https://archief.amsterdam/archief/343/576&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04060000096</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>9f32b9c1-4b90-4f57-8db5-a244d4a874b4</identifier>
+        <datestamp>2021-08-13T00:07:07Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9f1447fc-f03f-4146-e053-b784100aac9a">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Everdina</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Bijlder</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+            <a2a:PersonRemark Key="diversen">
+              <a2a:Value>
+Plaats van begrafenis: Muiden</a2a:Value>
+            </a2a:PersonRemark>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1731</a2a:Year>
+              <a2a:Month>6</a2a:Month>
+              <a2a:Day>15</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9f1447fc-f03f-4146-e053-b784100aac9a</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Overledene</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1731-06-15</a2a:From>
+              <a2a:To>1731-06-15</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1731</a2a:Year>
+              <a2a:Month>6</a2a:Month>
+              <a2a:Day>15</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Boetes op begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>343</a2a:Archive>
+              <a2a:Collection>Deel: 576, Periode: 1730-1735</a2a:Collection>
+              <a2a:Book>Boetes op begraven</a2a:Book>
+              <a2a:RegistryNumber>576</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/5cf6a423-2b9c-a9fa-b734-cc86edcf6799.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/9f32b9c1-4b90-4f57-8db5-a244d4a874b4</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/5cf6a423-2b9c-a9fa-b734-cc86edcf6799.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-10-15</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/9f32b9c1-4b90-4f57-8db5-a244d4a874b4</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{9f32b9c1-4b90-4f57-8db5-a244d4a874b4}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/343/576" target="_blank" title="https://archief.amsterdam/archief/343/576"&gt;https://archief.amsterdam/archief/343/576&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04060000083</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>49702d92-91f6-4e3f-9fdb-46adab7fdfba</identifier>
+        <datestamp>2021-08-13T00:07:07Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9f1447fc-f03e-4146-e053-b784100aac9a">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Mijndert</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Lourentsz</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+            <a2a:PersonRemark Key="diversen">
+              <a2a:Value>
+Plaats van begrafenis: Hooge</a2a:Value>
+            </a2a:PersonRemark>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1731</a2a:Year>
+              <a2a:Month>3</a2a:Month>
+              <a2a:Day>30</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9f1447fc-f03e-4146-e053-b784100aac9a</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Overledene</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1731-03-30</a2a:From>
+              <a2a:To>1731-03-30</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1731</a2a:Year>
+              <a2a:Month>3</a2a:Month>
+              <a2a:Day>30</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Boetes op begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>343</a2a:Archive>
+              <a2a:Collection>Deel: 576, Periode: 1730-1735</a2a:Collection>
+              <a2a:Book>Boetes op begraven</a2a:Book>
+              <a2a:RegistryNumber>576</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/04c1ba7a-70b6-d48a-4a41-4f6fcbdf0612.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/49702d92-91f6-4e3f-9fdb-46adab7fdfba</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/04c1ba7a-70b6-d48a-4a41-4f6fcbdf0612.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-10-15</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/49702d92-91f6-4e3f-9fdb-46adab7fdfba</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{49702d92-91f6-4e3f-9fdb-46adab7fdfba}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/343/576" target="_blank" title="https://archief.amsterdam/archief/343/576"&gt;https://archief.amsterdam/archief/343/576&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04060000072</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>16b3cf93-d6db-4a58-a819-cf335ad33324</identifier>
+        <datestamp>2021-08-13T00:07:07Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9f1447fc-f03d-4146-e053-b784100aac9a">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Hermina</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Vlak</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+            <a2a:PersonRemark Key="diversen">
+              <a2a:Value>
+Plaats van begrafenis: Sloterdijk</a2a:Value>
+            </a2a:PersonRemark>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1730</a2a:Year>
+              <a2a:Month>12</a2a:Month>
+              <a2a:Day>1</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9f1447fc-f03d-4146-e053-b784100aac9a</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Overledene</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1730-12-01</a2a:From>
+              <a2a:To>1730-12-01</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1730</a2a:Year>
+              <a2a:Month>12</a2a:Month>
+              <a2a:Day>1</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Boetes op begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>343</a2a:Archive>
+              <a2a:Collection>Deel: 576, Periode: 1730-1735</a2a:Collection>
+              <a2a:Book>Boetes op begraven</a2a:Book>
+              <a2a:RegistryNumber>576</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/00bbe5e8-23b9-abdb-27c7-569e972b4ad4.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/16b3cf93-d6db-4a58-a819-cf335ad33324</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/00bbe5e8-23b9-abdb-27c7-569e972b4ad4.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-10-15</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/16b3cf93-d6db-4a58-a819-cf335ad33324</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{16b3cf93-d6db-4a58-a819-cf335ad33324}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/343/576" target="_blank" title="https://archief.amsterdam/archief/343/576"&gt;https://archief.amsterdam/archief/343/576&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04060000048</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>01a39cf8-48b2-44fd-8783-a63c44412f83</identifier>
+        <datestamp>2021-08-13T00:07:07Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9f1447fc-f03c-4146-e053-b784100aac9a">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Auke</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Janse</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+            <a2a:PersonRemark Key="diversen">
+              <a2a:Value>
+Plaats van begrafenis: Vlieland</a2a:Value>
+            </a2a:PersonRemark>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1730</a2a:Year>
+              <a2a:Month>9</a2a:Month>
+              <a2a:Day>22</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9f1447fc-f03c-4146-e053-b784100aac9a</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Overledene</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1730-09-22</a2a:From>
+              <a2a:To>1730-09-22</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1730</a2a:Year>
+              <a2a:Month>9</a2a:Month>
+              <a2a:Day>22</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Boetes op begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>343</a2a:Archive>
+              <a2a:Collection>Deel: 576, Periode: 1730-1735</a2a:Collection>
+              <a2a:Book>Boetes op begraven</a2a:Book>
+              <a2a:RegistryNumber>576</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/8ed26a70-05d9-4c17-e882-7d7de1eb797b.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/01a39cf8-48b2-44fd-8783-a63c44412f83</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/8ed26a70-05d9-4c17-e882-7d7de1eb797b.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-10-15</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/01a39cf8-48b2-44fd-8783-a63c44412f83</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{01a39cf8-48b2-44fd-8783-a63c44412f83}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/343/576" target="_blank" title="https://archief.amsterdam/archief/343/576"&gt;https://archief.amsterdam/archief/343/576&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04060000036</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>87848a86-b4aa-4bce-b04f-a971694dbf6d</identifier>
+        <datestamp>2021-08-13T00:07:07Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9f1447fc-f03b-4146-e053-b784100aac9a">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Elisabeth</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Bordingh</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+            <a2a:PersonRemark Key="diversen">
+              <a2a:Value>
+Plaats van begrafenis: Durgerdam</a2a:Value>
+            </a2a:PersonRemark>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1730</a2a:Year>
+              <a2a:Month>5</a2a:Month>
+              <a2a:Day>26</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9f1447fc-f03b-4146-e053-b784100aac9a</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Overledene</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1730-05-26</a2a:From>
+              <a2a:To>1730-05-26</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1730</a2a:Year>
+              <a2a:Month>5</a2a:Month>
+              <a2a:Day>26</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Boetes op begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>343</a2a:Archive>
+              <a2a:Collection>Deel: 576, Periode: 1730-1735</a2a:Collection>
+              <a2a:Book>Boetes op begraven</a2a:Book>
+              <a2a:RegistryNumber>576</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/822d20c1-4ceb-c080-ec94-88a6f496ce6b.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/87848a86-b4aa-4bce-b04f-a971694dbf6d</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/822d20c1-4ceb-c080-ec94-88a6f496ce6b.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-10-15</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/87848a86-b4aa-4bce-b04f-a971694dbf6d</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{87848a86-b4aa-4bce-b04f-a971694dbf6d}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/343/576" target="_blank" title="https://archief.amsterdam/archief/343/576"&gt;https://archief.amsterdam/archief/343/576&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04060000019</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>eff06ce7-cc3c-4387-a770-52316d3058a8</identifier>
+        <datestamp>2021-08-13T00:07:07Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9f1447fc-f03a-4146-e053-b784100aac9a">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Cornelis</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Visman</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+            <a2a:PersonRemark Key="diversen">
+              <a2a:Value>
+Plaats van begrafenis: Vlieland</a2a:Value>
+            </a2a:PersonRemark>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1730</a2a:Year>
+              <a2a:Month>2</a2a:Month>
+              <a2a:Day>17</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9f1447fc-f03a-4146-e053-b784100aac9a</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Overledene</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1730-02-17</a2a:From>
+              <a2a:To>1730-02-17</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1730</a2a:Year>
+              <a2a:Month>2</a2a:Month>
+              <a2a:Day>17</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Boetes op begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>343</a2a:Archive>
+              <a2a:Collection>Deel: 576, Periode: 1730-1735</a2a:Collection>
+              <a2a:Book>Boetes op begraven</a2a:Book>
+              <a2a:RegistryNumber>576</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/1397e962-ecf8-2d9f-25f6-a5f0840d23c0.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/eff06ce7-cc3c-4387-a770-52316d3058a8</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/1397e962-ecf8-2d9f-25f6-a5f0840d23c0.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-10-15</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/eff06ce7-cc3c-4387-a770-52316d3058a8</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{eff06ce7-cc3c-4387-a770-52316d3058a8}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/343/576" target="_blank" title="https://archief.amsterdam/archief/343/576"&gt;https://archief.amsterdam/archief/343/576&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04060000005</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>e4d1807d-34b5-4e22-be1b-15eb188e4761</identifier>
+        <datestamp>2021-08-13T00:07:07Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9f1447fc-fce4-4146-e053-b784100aac9a">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Trijntie</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Jappes</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+            <a2a:PersonRemark Key="diversen">
+              <a2a:Value>
+Plaats van begrafenis: Hindeloopen</a2a:Value>
+            </a2a:PersonRemark>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1734</a2a:Year>
+              <a2a:Month>12</a2a:Month>
+              <a2a:Day>10</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9f1447fc-fce4-4146-e053-b784100aac9a</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Overledene</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1734-12-10</a2a:From>
+              <a2a:To>1734-12-10</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1734</a2a:Year>
+              <a2a:Month>12</a2a:Month>
+              <a2a:Day>10</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Boetes op begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>343</a2a:Archive>
+              <a2a:Collection>Deel: 576, Periode: 1730-1735</a2a:Collection>
+              <a2a:Book>Boetes op begraven</a2a:Book>
+              <a2a:RegistryNumber>576</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/39912cd4-6b2a-dcc8-b482-27515dde5c6c.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/e4d1807d-34b5-4e22-be1b-15eb188e4761</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/39912cd4-6b2a-dcc8-b482-27515dde5c6c.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-10-14</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/e4d1807d-34b5-4e22-be1b-15eb188e4761</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{e4d1807d-34b5-4e22-be1b-15eb188e4761}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/343/576" target="_blank" title="https://archief.amsterdam/archief/343/576"&gt;https://archief.amsterdam/archief/343/576&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04060000293</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>ce99cf09-a277-460e-83cf-18709f0e2a7d</identifier>
+        <datestamp>2021-08-13T00:07:07Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9f1447fc-fce3-4146-e053-b784100aac9a">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Fonger</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Boudewijns</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+            <a2a:PersonRemark Key="diversen">
+              <a2a:Value>
+Plaats van begrafenis: Hindeloopen</a2a:Value>
+            </a2a:PersonRemark>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1734</a2a:Year>
+              <a2a:Month>10</a2a:Month>
+              <a2a:Day>22</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9f1447fc-fce3-4146-e053-b784100aac9a</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Overledene</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1734-10-22</a2a:From>
+              <a2a:To>1734-10-22</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1734</a2a:Year>
+              <a2a:Month>10</a2a:Month>
+              <a2a:Day>22</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Boetes op begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>343</a2a:Archive>
+              <a2a:Collection>Deel: 576, Periode: 1730-1735</a2a:Collection>
+              <a2a:Book>Boetes op begraven</a2a:Book>
+              <a2a:RegistryNumber>576</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/a6195c43-f0fc-59dd-5162-66d08548e769.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/ce99cf09-a277-460e-83cf-18709f0e2a7d</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/a6195c43-f0fc-59dd-5162-66d08548e769.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-10-14</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/ce99cf09-a277-460e-83cf-18709f0e2a7d</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{ce99cf09-a277-460e-83cf-18709f0e2a7d}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/343/576" target="_blank" title="https://archief.amsterdam/archief/343/576"&gt;https://archief.amsterdam/archief/343/576&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04060000286</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>afa1cb1b-418c-4492-b6a8-4afa47f84b7e</identifier>
+        <datestamp>2021-08-13T00:07:07Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9f1447fc-fce2-4146-e053-b784100aac9a">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Dries</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Driessen</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+            <a2a:PersonRemark Key="diversen">
+              <a2a:Value>
+Plaats van begrafenis: Hindeloopen</a2a:Value>
+            </a2a:PersonRemark>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1734</a2a:Year>
+              <a2a:Month>7</a2a:Month>
+              <a2a:Day>23</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9f1447fc-fce2-4146-e053-b784100aac9a</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Overledene</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1734-07-23</a2a:From>
+              <a2a:To>1734-07-23</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1734</a2a:Year>
+              <a2a:Month>7</a2a:Month>
+              <a2a:Day>23</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Boetes op begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>343</a2a:Archive>
+              <a2a:Collection>Deel: 576, Periode: 1730-1735</a2a:Collection>
+              <a2a:Book>Boetes op begraven</a2a:Book>
+              <a2a:RegistryNumber>576</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/d8d793c4-0fad-fcbd-65fa-12d81d3a508d.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/afa1cb1b-418c-4492-b6a8-4afa47f84b7e</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/d8d793c4-0fad-fcbd-65fa-12d81d3a508d.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-10-14</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/afa1cb1b-418c-4492-b6a8-4afa47f84b7e</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{afa1cb1b-418c-4492-b6a8-4afa47f84b7e}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/343/576" target="_blank" title="https://archief.amsterdam/archief/343/576"&gt;https://archief.amsterdam/archief/343/576&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04060000272</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>9a90349a-df98-4a40-802b-8a99109a2337</identifier>
+        <datestamp>2021-08-13T00:07:07Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9f1447fc-fce1-4146-e053-b784100aac9a">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Anna Margareta</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Takel</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+            <a2a:PersonRemark Key="diversen">
+              <a2a:Value>
+Plaats van begrafenis: Den Hoef</a2a:Value>
+            </a2a:PersonRemark>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1734</a2a:Year>
+              <a2a:Month>2</a2a:Month>
+              <a2a:Day>12</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9f1447fc-fce1-4146-e053-b784100aac9a</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Overledene</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1734-02-12</a2a:From>
+              <a2a:To>1734-02-12</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1734</a2a:Year>
+              <a2a:Month>2</a2a:Month>
+              <a2a:Day>12</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Boetes op begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>343</a2a:Archive>
+              <a2a:Collection>Deel: 576, Periode: 1730-1735</a2a:Collection>
+              <a2a:Book>Boetes op begraven</a2a:Book>
+              <a2a:RegistryNumber>576</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/1c80ffd0-033e-33ce-8b9d-86953f7c189d.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/9a90349a-df98-4a40-802b-8a99109a2337</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/1c80ffd0-033e-33ce-8b9d-86953f7c189d.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-10-14</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/9a90349a-df98-4a40-802b-8a99109a2337</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{9a90349a-df98-4a40-802b-8a99109a2337}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/343/576" target="_blank" title="https://archief.amsterdam/archief/343/576"&gt;https://archief.amsterdam/archief/343/576&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04060000248</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>9bbd4702-a396-4e2c-9d58-d01192282384</identifier>
+        <datestamp>2021-08-13T00:07:07Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9f1447fc-fce0-4146-e053-b784100aac9a">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Gerrit Jansen</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Krul</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+            <a2a:PersonRemark Key="diversen">
+              <a2a:Value>
+Plaats van begrafenis: Rijnsaterwoude</a2a:Value>
+            </a2a:PersonRemark>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1733</a2a:Year>
+              <a2a:Month>12</a2a:Month>
+              <a2a:Day>4</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9f1447fc-fce0-4146-e053-b784100aac9a</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Overledene</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1733-12-04</a2a:From>
+              <a2a:To>1733-12-04</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1733</a2a:Year>
+              <a2a:Month>12</a2a:Month>
+              <a2a:Day>4</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Boetes op begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>343</a2a:Archive>
+              <a2a:Collection>Deel: 576, Periode: 1730-1735</a2a:Collection>
+              <a2a:Book>Boetes op begraven</a2a:Book>
+              <a2a:RegistryNumber>576</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/8624be37-b778-4408-3444-ddf8854a0154.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/9bbd4702-a396-4e2c-9d58-d01192282384</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/8624be37-b778-4408-3444-ddf8854a0154.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-10-14</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/9bbd4702-a396-4e2c-9d58-d01192282384</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{9bbd4702-a396-4e2c-9d58-d01192282384}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/343/576" target="_blank" title="https://archief.amsterdam/archief/343/576"&gt;https://archief.amsterdam/archief/343/576&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04060000230</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>efde2bc2-b3bd-4681-b041-c64da2efd8e0</identifier>
+        <datestamp>2021-08-13T00:07:07Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9f1447fc-fcdf-4146-e053-b784100aac9a">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Margareta</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Hillema</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+            <a2a:PersonRemark Key="diversen">
+              <a2a:Value>
+Plaats van begrafenis: Harlingen</a2a:Value>
+            </a2a:PersonRemark>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1733</a2a:Year>
+              <a2a:Month>9</a2a:Month>
+              <a2a:Day>18</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9f1447fc-fcdf-4146-e053-b784100aac9a</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Overledene</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1733-09-18</a2a:From>
+              <a2a:To>1733-09-18</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1733</a2a:Year>
+              <a2a:Month>9</a2a:Month>
+              <a2a:Day>18</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Boetes op begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>343</a2a:Archive>
+              <a2a:Collection>Deel: 576, Periode: 1730-1735</a2a:Collection>
+              <a2a:Book>Boetes op begraven</a2a:Book>
+              <a2a:RegistryNumber>576</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/be0d94ac-eacf-6370-1ff7-cf4f7c40267b.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/efde2bc2-b3bd-4681-b041-c64da2efd8e0</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/be0d94ac-eacf-6370-1ff7-cf4f7c40267b.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-10-14</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/efde2bc2-b3bd-4681-b041-c64da2efd8e0</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{efde2bc2-b3bd-4681-b041-c64da2efd8e0}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/343/576" target="_blank" title="https://archief.amsterdam/archief/343/576"&gt;https://archief.amsterdam/archief/343/576&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04060000218</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>085b50b8-63a7-472d-bfb0-b7ffcb7be914</identifier>
+        <datestamp>2021-08-13T00:07:07Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9f1447fc-fcde-4146-e053-b784100aac9a">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Aaltie</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Pieters</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+            <a2a:PersonRemark Key="diversen">
+              <a2a:Value>
+Plaats van begrafenis: Texel</a2a:Value>
+            </a2a:PersonRemark>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1733</a2a:Year>
+              <a2a:Month>5</a2a:Month>
+              <a2a:Day>15</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9f1447fc-fcde-4146-e053-b784100aac9a</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Overledene</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1733-05-15</a2a:From>
+              <a2a:To>1733-05-15</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1733</a2a:Year>
+              <a2a:Month>5</a2a:Month>
+              <a2a:Day>15</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Boetes op begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>343</a2a:Archive>
+              <a2a:Collection>Deel: 576, Periode: 1730-1735</a2a:Collection>
+              <a2a:Book>Boetes op begraven</a2a:Book>
+              <a2a:RegistryNumber>576</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/5927f4de-2a4c-6408-ca6d-b9781a329072.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/085b50b8-63a7-472d-bfb0-b7ffcb7be914</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/5927f4de-2a4c-6408-ca6d-b9781a329072.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-10-14</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/085b50b8-63a7-472d-bfb0-b7ffcb7be914</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{085b50b8-63a7-472d-bfb0-b7ffcb7be914}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/343/576" target="_blank" title="https://archief.amsterdam/archief/343/576"&gt;https://archief.amsterdam/archief/343/576&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04060000200</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>51146d32-7207-40a2-a2a0-63c552c63682</identifier>
+        <datestamp>2021-08-13T00:07:07Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9f1447fc-fcdd-4146-e053-b784100aac9a">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Margrietie</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Paap</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+            <a2a:PersonRemark Key="diversen">
+              <a2a:Value>
+Plaats van begrafenis: Utrecht</a2a:Value>
+            </a2a:PersonRemark>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1733</a2a:Year>
+              <a2a:Month>3</a2a:Month>
+              <a2a:Day>6</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9f1447fc-fcdd-4146-e053-b784100aac9a</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Overledene</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1733-03-06</a2a:From>
+              <a2a:To>1733-03-06</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1733</a2a:Year>
+              <a2a:Month>3</a2a:Month>
+              <a2a:Day>6</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Boetes op begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>343</a2a:Archive>
+              <a2a:Collection>Deel: 576, Periode: 1730-1735</a2a:Collection>
+              <a2a:Book>Boetes op begraven</a2a:Book>
+              <a2a:RegistryNumber>576</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/161c2b97-90a5-e171-4851-3b0fc0457da1.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/51146d32-7207-40a2-a2a0-63c552c63682</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/161c2b97-90a5-e171-4851-3b0fc0457da1.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-10-14</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/51146d32-7207-40a2-a2a0-63c552c63682</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{51146d32-7207-40a2-a2a0-63c552c63682}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/343/576" target="_blank" title="https://archief.amsterdam/archief/343/576"&gt;https://archief.amsterdam/archief/343/576&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04060000190</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>8706efc0-f4ce-4f84-b48f-0e6b48f701c1</identifier>
+        <datestamp>2021-08-13T00:07:07Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9f1447fc-fcdc-4146-e053-b784100aac9a">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Helena</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Roosterman</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+            <a2a:PersonRemark Key="diversen">
+              <a2a:Value>
+Plaats van begrafenis: 's-Graveland</a2a:Value>
+            </a2a:PersonRemark>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1733</a2a:Year>
+              <a2a:Month>1</a2a:Month>
+              <a2a:Day>9</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9f1447fc-fcdc-4146-e053-b784100aac9a</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Overledene</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1733-01-09</a2a:From>
+              <a2a:To>1733-01-09</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1733</a2a:Year>
+              <a2a:Month>1</a2a:Month>
+              <a2a:Day>9</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Boetes op begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>343</a2a:Archive>
+              <a2a:Collection>Deel: 576, Periode: 1730-1735</a2a:Collection>
+              <a2a:Book>Boetes op begraven</a2a:Book>
+              <a2a:RegistryNumber>576</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/a6a5f466-9164-52fb-4307-2360a98e0f05.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/8706efc0-f4ce-4f84-b48f-0e6b48f701c1</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/a6a5f466-9164-52fb-4307-2360a98e0f05.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-10-14</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/8706efc0-f4ce-4f84-b48f-0e6b48f701c1</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{8706efc0-f4ce-4f84-b48f-0e6b48f701c1}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/343/576" target="_blank" title="https://archief.amsterdam/archief/343/576"&gt;https://archief.amsterdam/archief/343/576&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04060000176</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>d0ef227e-6a65-4e37-b919-beef7b66f227</identifier>
+        <datestamp>2021-08-13T00:07:07Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9f1447fc-fcdb-4146-e053-b784100aac9a">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Wilhelma</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Huijgens</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+            <a2a:PersonRemark Key="diversen">
+              <a2a:Value>
+Plaats van begrafenis: Heemstede</a2a:Value>
+            </a2a:PersonRemark>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1732</a2a:Year>
+              <a2a:Month>11</a2a:Month>
+              <a2a:Day>28</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9f1447fc-fcdb-4146-e053-b784100aac9a</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Overledene</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1732-11-28</a2a:From>
+              <a2a:To>1732-11-28</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1732</a2a:Year>
+              <a2a:Month>11</a2a:Month>
+              <a2a:Day>28</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Boetes op begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>343</a2a:Archive>
+              <a2a:Collection>Deel: 576, Periode: 1730-1735</a2a:Collection>
+              <a2a:Book>Boetes op begraven</a2a:Book>
+              <a2a:RegistryNumber>576</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/73b8eee8-cabc-624e-8052-f33cf2403dad.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/d0ef227e-6a65-4e37-b919-beef7b66f227</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/73b8eee8-cabc-624e-8052-f33cf2403dad.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-10-14</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/d0ef227e-6a65-4e37-b919-beef7b66f227</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{d0ef227e-6a65-4e37-b919-beef7b66f227}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/343/576" target="_blank" title="https://archief.amsterdam/archief/343/576"&gt;https://archief.amsterdam/archief/343/576&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04060000168</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>2ba150f0-e805-4054-8426-b671d14e20c7</identifier>
+        <datestamp>2021-08-13T00:07:07Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9f1447fc-fcda-4146-e053-b784100aac9a">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Magtild Geertruijd</a2a:PersonNameFirstName>
+              <a2a:PersonNamePrefixLastName>van der</a2a:PersonNamePrefixLastName>
+              <a2a:PersonNameLastName>Lijn</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+            <a2a:PersonRemark Key="diversen">
+              <a2a:Value>
+Plaats van begrafenis: Alkmaar</a2a:Value>
+            </a2a:PersonRemark>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1732</a2a:Year>
+              <a2a:Month>9</a2a:Month>
+              <a2a:Day>5</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9f1447fc-fcda-4146-e053-b784100aac9a</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Overledene</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1732-09-05</a2a:From>
+              <a2a:To>1732-09-05</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1732</a2a:Year>
+              <a2a:Month>9</a2a:Month>
+              <a2a:Day>5</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Boetes op begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>343</a2a:Archive>
+              <a2a:Collection>Deel: 576, Periode: 1730-1735</a2a:Collection>
+              <a2a:Book>Boetes op begraven</a2a:Book>
+              <a2a:RegistryNumber>576</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/2665b8fb-7884-5835-3c29-50602c5879fd.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/2ba150f0-e805-4054-8426-b671d14e20c7</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/2665b8fb-7884-5835-3c29-50602c5879fd.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-10-14</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/2ba150f0-e805-4054-8426-b671d14e20c7</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{2ba150f0-e805-4054-8426-b671d14e20c7}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/343/576" target="_blank" title="https://archief.amsterdam/archief/343/576"&gt;https://archief.amsterdam/archief/343/576&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04060000156</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>7f681f0d-1822-4045-84c0-0ab15ae3343b</identifier>
+        <datestamp>2021-08-13T00:07:07Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9f1447fc-fcd9-4146-e053-b784100aac9a">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Willem</a2a:PersonNameFirstName>
+              <a2a:PersonNamePrefixLastName>van</a2a:PersonNamePrefixLastName>
+              <a2a:PersonNameLastName>Duijtsel</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+            <a2a:PersonRemark Key="diversen">
+              <a2a:Value>
+Plaats van begrafenis: Zegveld</a2a:Value>
+            </a2a:PersonRemark>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1732</a2a:Year>
+              <a2a:Month>5</a2a:Month>
+              <a2a:Day>16</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9f1447fc-fcd9-4146-e053-b784100aac9a</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Overledene</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1732-05-16</a2a:From>
+              <a2a:To>1732-05-16</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1732</a2a:Year>
+              <a2a:Month>5</a2a:Month>
+              <a2a:Day>16</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Boetes op begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>343</a2a:Archive>
+              <a2a:Collection>Deel: 576, Periode: 1730-1735</a2a:Collection>
+              <a2a:Book>Boetes op begraven</a2a:Book>
+              <a2a:RegistryNumber>576</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/cb435da1-cc58-de22-fef3-75154ed6e426.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/7f681f0d-1822-4045-84c0-0ab15ae3343b</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/cb435da1-cc58-de22-fef3-75154ed6e426.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-10-14</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/7f681f0d-1822-4045-84c0-0ab15ae3343b</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{7f681f0d-1822-4045-84c0-0ab15ae3343b}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/343/576" target="_blank" title="https://archief.amsterdam/archief/343/576"&gt;https://archief.amsterdam/archief/343/576&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04060000140</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>b84c95ef-43b1-47e0-885a-fdc221707336</identifier>
+        <datestamp>2021-08-13T00:07:07Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9f1447fc-fcd8-4146-e053-b784100aac9a">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Anna Maria</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Sas</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+            <a2a:PersonRemark Key="diversen">
+              <a2a:Value>
+Plaats van begrafenis: Zegveld</a2a:Value>
+            </a2a:PersonRemark>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1732</a2a:Year>
+              <a2a:Month>3</a2a:Month>
+              <a2a:Day>21</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9f1447fc-fcd8-4146-e053-b784100aac9a</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Overledene</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1732-03-21</a2a:From>
+              <a2a:To>1732-03-21</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1732</a2a:Year>
+              <a2a:Month>3</a2a:Month>
+              <a2a:Day>21</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Boetes op begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>343</a2a:Archive>
+              <a2a:Collection>Deel: 576, Periode: 1730-1735</a2a:Collection>
+              <a2a:Book>Boetes op begraven</a2a:Book>
+              <a2a:RegistryNumber>576</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/ee746c18-f0f7-1496-2421-e739cf640ca2.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/b84c95ef-43b1-47e0-885a-fdc221707336</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/ee746c18-f0f7-1496-2421-e739cf640ca2.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-10-14</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/b84c95ef-43b1-47e0-885a-fdc221707336</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{b84c95ef-43b1-47e0-885a-fdc221707336}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/343/576" target="_blank" title="https://archief.amsterdam/archief/343/576"&gt;https://archief.amsterdam/archief/343/576&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04060000132</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>da491b06-9281-468a-bb96-f047f75c8868</identifier>
+        <datestamp>2021-08-13T00:07:07Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9f1447fc-fcd7-4146-e053-b784100aac9a">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Grietie</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Cornelis</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+            <a2a:PersonRemark Key="diversen">
+              <a2a:Value>
+Plaats van begrafenis: Vlieland</a2a:Value>
+            </a2a:PersonRemark>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1731</a2a:Year>
+              <a2a:Month>12</a2a:Month>
+              <a2a:Day>21</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9f1447fc-fcd7-4146-e053-b784100aac9a</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Overledene</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1731-12-21</a2a:From>
+              <a2a:To>1731-12-21</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1731</a2a:Year>
+              <a2a:Month>12</a2a:Month>
+              <a2a:Day>21</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Boetes op begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>343</a2a:Archive>
+              <a2a:Collection>Deel: 576, Periode: 1730-1735</a2a:Collection>
+              <a2a:Book>Boetes op begraven</a2a:Book>
+              <a2a:RegistryNumber>576</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/cfb11f6c-0a13-1573-abf0-ec1e7df970c3.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/da491b06-9281-468a-bb96-f047f75c8868</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/cfb11f6c-0a13-1573-abf0-ec1e7df970c3.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-10-14</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/da491b06-9281-468a-bb96-f047f75c8868</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{da491b06-9281-468a-bb96-f047f75c8868}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/343/576" target="_blank" title="https://archief.amsterdam/archief/343/576"&gt;https://archief.amsterdam/archief/343/576&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04060000112</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>65d44ff7-e31e-49d0-afc2-087c5000e543</identifier>
+        <datestamp>2021-08-13T00:07:07Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9f1447fc-fcd6-4146-e053-b784100aac9a">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Catarina Maria</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Reijnst</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+            <a2a:PersonRemark Key="diversen">
+              <a2a:Value>
+Plaats van begrafenis: Beverwijk</a2a:Value>
+            </a2a:PersonRemark>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1731</a2a:Year>
+              <a2a:Month>8</a2a:Month>
+              <a2a:Day>17</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9f1447fc-fcd6-4146-e053-b784100aac9a</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Overledene</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1731-08-17</a2a:From>
+              <a2a:To>1731-08-17</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1731</a2a:Year>
+              <a2a:Month>8</a2a:Month>
+              <a2a:Day>17</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Boetes op begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>343</a2a:Archive>
+              <a2a:Collection>Deel: 576, Periode: 1730-1735</a2a:Collection>
+              <a2a:Book>Boetes op begraven</a2a:Book>
+              <a2a:RegistryNumber>576</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/62409c1f-d158-0dc7-3326-ecfa16ffbe26.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/65d44ff7-e31e-49d0-afc2-087c5000e543</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/62409c1f-d158-0dc7-3326-ecfa16ffbe26.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-10-14</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/65d44ff7-e31e-49d0-afc2-087c5000e543</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{65d44ff7-e31e-49d0-afc2-087c5000e543}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/343/576" target="_blank" title="https://archief.amsterdam/archief/343/576"&gt;https://archief.amsterdam/archief/343/576&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04060000092</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>6300c702-e693-47eb-9bf3-ad2100d3f98e</identifier>
+        <datestamp>2021-08-13T00:07:07Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9f1447fc-fcd5-4146-e053-b784100aac9a">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Jurrien</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Vollenbrook</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+            <a2a:PersonRemark Key="diversen">
+              <a2a:Value>
+Plaats van begrafenis: Graft</a2a:Value>
+            </a2a:PersonRemark>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1731</a2a:Year>
+              <a2a:Month>5</a2a:Month>
+              <a2a:Day>11</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9f1447fc-fcd5-4146-e053-b784100aac9a</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Overledene</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1731-05-11</a2a:From>
+              <a2a:To>1731-05-11</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1731</a2a:Year>
+              <a2a:Month>5</a2a:Month>
+              <a2a:Day>11</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Boetes op begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>343</a2a:Archive>
+              <a2a:Collection>Deel: 576, Periode: 1730-1735</a2a:Collection>
+              <a2a:Book>Boetes op begraven</a2a:Book>
+              <a2a:RegistryNumber>576</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/13b1a77e-81c8-de20-8940-0b8bd054ddbe.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/6300c702-e693-47eb-9bf3-ad2100d3f98e</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/13b1a77e-81c8-de20-8940-0b8bd054ddbe.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-10-14</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/6300c702-e693-47eb-9bf3-ad2100d3f98e</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{6300c702-e693-47eb-9bf3-ad2100d3f98e}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/343/576" target="_blank" title="https://archief.amsterdam/archief/343/576"&gt;https://archief.amsterdam/archief/343/576&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04060000078</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>d515ac3e-3ff9-464a-96e7-0c56c42e6de3</identifier>
+        <datestamp>2021-08-13T00:07:07Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9f1447fc-fcd4-4146-e053-b784100aac9a">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Immetie</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Sieuwers</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1731</a2a:Year>
+              <a2a:Month>3</a2a:Month>
+              <a2a:Day>2</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9f1447fc-fcd4-4146-e053-b784100aac9a</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Overledene</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1731-03-02</a2a:From>
+              <a2a:To>1731-03-02</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1731</a2a:Year>
+              <a2a:Month>3</a2a:Month>
+              <a2a:Day>2</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Boetes op begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>343</a2a:Archive>
+              <a2a:Collection>Deel: 576, Periode: 1730-1735</a2a:Collection>
+              <a2a:Book>Boetes op begraven</a2a:Book>
+              <a2a:RegistryNumber>576</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/4fcec709-9c1f-9557-dacc-d920d2b6a0b4.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/d515ac3e-3ff9-464a-96e7-0c56c42e6de3</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/4fcec709-9c1f-9557-dacc-d920d2b6a0b4.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-10-14</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/d515ac3e-3ff9-464a-96e7-0c56c42e6de3</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{d515ac3e-3ff9-464a-96e7-0c56c42e6de3}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/343/576" target="_blank" title="https://archief.amsterdam/archief/343/576"&gt;https://archief.amsterdam/archief/343/576&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04060000068</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>235d00a1-b5d9-4333-90af-e71c35c30305</identifier>
+        <datestamp>2021-08-13T00:07:07Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9f1447fc-fcd3-4146-e053-b784100aac9a">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Catharina</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Duijts</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+            <a2a:PersonRemark Key="diversen">
+              <a2a:Value>
+Plaats van begrafenis: Naarden</a2a:Value>
+            </a2a:PersonRemark>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1730</a2a:Year>
+              <a2a:Month>11</a2a:Month>
+              <a2a:Day>3</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9f1447fc-fcd3-4146-e053-b784100aac9a</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Overledene</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1730-11-03</a2a:From>
+              <a2a:To>1730-11-03</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1730</a2a:Year>
+              <a2a:Month>11</a2a:Month>
+              <a2a:Day>3</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Boetes op begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>343</a2a:Archive>
+              <a2a:Collection>Deel: 576, Periode: 1730-1735</a2a:Collection>
+              <a2a:Book>Boetes op begraven</a2a:Book>
+              <a2a:RegistryNumber>576</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/8194805f-c62b-bbfe-c223-42b05b6338db.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/235d00a1-b5d9-4333-90af-e71c35c30305</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/8194805f-c62b-bbfe-c223-42b05b6338db.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-10-14</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/235d00a1-b5d9-4333-90af-e71c35c30305</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{235d00a1-b5d9-4333-90af-e71c35c30305}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/343/576" target="_blank" title="https://archief.amsterdam/archief/343/576"&gt;https://archief.amsterdam/archief/343/576&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04060000042</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>503beb89-4f39-4205-a74d-a1becbe533a9</identifier>
+        <datestamp>2021-08-13T00:07:07Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9f1447fc-fcd2-4146-e053-b784100aac9a">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Johanna Lambertina</a2a:PersonNameFirstName>
+              <a2a:PersonNamePrefixLastName>de</a2a:PersonNamePrefixLastName>
+              <a2a:PersonNameLastName>Overschie</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+            <a2a:PersonRemark Key="diversen">
+              <a2a:Value>
+Plaats van begrafenis: Rijswijk</a2a:Value>
+            </a2a:PersonRemark>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1730</a2a:Year>
+              <a2a:Month>8</a2a:Month>
+              <a2a:Day>25</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9f1447fc-fcd2-4146-e053-b784100aac9a</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Overledene</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1730-08-25</a2a:From>
+              <a2a:To>1730-08-25</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1730</a2a:Year>
+              <a2a:Month>8</a2a:Month>
+              <a2a:Day>25</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Boetes op begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>343</a2a:Archive>
+              <a2a:Collection>Deel: 576, Periode: 1730-1735</a2a:Collection>
+              <a2a:Book>Boetes op begraven</a2a:Book>
+              <a2a:RegistryNumber>576</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/e72ff8a9-d9a1-dd9c-16f5-cf0ca2ef1c12.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/503beb89-4f39-4205-a74d-a1becbe533a9</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/e72ff8a9-d9a1-dd9c-16f5-cf0ca2ef1c12.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-10-14</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/503beb89-4f39-4205-a74d-a1becbe533a9</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{503beb89-4f39-4205-a74d-a1becbe533a9}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/343/576" target="_blank" title="https://archief.amsterdam/archief/343/576"&gt;https://archief.amsterdam/archief/343/576&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04060000032</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>92fb7487-cdb6-4010-951e-0b8540944b54</identifier>
+        <datestamp>2021-08-13T00:07:07Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9f1447fc-fcd1-4146-e053-b784100aac9a">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Klaas</a2a:PersonNameFirstName>
+              <a2a:PersonNamePrefixLastName>van</a2a:PersonNamePrefixLastName>
+              <a2a:PersonNameLastName>Dijk</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+            <a2a:PersonRemark Key="diversen">
+              <a2a:Value>
+Plaats van begrafenis: Diemen</a2a:Value>
+            </a2a:PersonRemark>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1730</a2a:Year>
+              <a2a:Month>5</a2a:Month>
+              <a2a:Day>19</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9f1447fc-fcd1-4146-e053-b784100aac9a</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Overledene</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1730-05-19</a2a:From>
+              <a2a:To>1730-05-19</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1730</a2a:Year>
+              <a2a:Month>5</a2a:Month>
+              <a2a:Day>19</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Boetes op begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>343</a2a:Archive>
+              <a2a:Collection>Deel: 576, Periode: 1730-1735</a2a:Collection>
+              <a2a:Book>Boetes op begraven</a2a:Book>
+              <a2a:RegistryNumber>576</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/be422dd6-3e5c-4108-458d-edbc07891cf9.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/92fb7487-cdb6-4010-951e-0b8540944b54</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/be422dd6-3e5c-4108-458d-edbc07891cf9.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-10-14</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/92fb7487-cdb6-4010-951e-0b8540944b54</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{92fb7487-cdb6-4010-951e-0b8540944b54}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/343/576" target="_blank" title="https://archief.amsterdam/archief/343/576"&gt;https://archief.amsterdam/archief/343/576&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04060000018</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>0d845a6d-8839-4f90-a685-daaf89f33620</identifier>
+        <datestamp>2021-08-13T00:07:07Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9f1447fc-f94b-4146-e053-b784100aac9a">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Marritie</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Wijbrands</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+            <a2a:PersonRemark Key="diversen">
+              <a2a:Value>
+Plaats van begrafenis: Terschelling</a2a:Value>
+            </a2a:PersonRemark>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1734</a2a:Year>
+              <a2a:Month>11</a2a:Month>
+              <a2a:Day>19</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9f1447fc-f94b-4146-e053-b784100aac9a</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Overledene</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1734-11-19</a2a:From>
+              <a2a:To>1734-11-19</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1734</a2a:Year>
+              <a2a:Month>11</a2a:Month>
+              <a2a:Day>19</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Boetes op begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>343</a2a:Archive>
+              <a2a:Collection>Deel: 576, Periode: 1730-1735</a2a:Collection>
+              <a2a:Book>Boetes op begraven</a2a:Book>
+              <a2a:RegistryNumber>576</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/33d343e3-e16e-7a4b-1736-85299895a7e3.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/0d845a6d-8839-4f90-a685-daaf89f33620</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/33d343e3-e16e-7a4b-1736-85299895a7e3.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-10-14</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/0d845a6d-8839-4f90-a685-daaf89f33620</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{0d845a6d-8839-4f90-a685-daaf89f33620}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/343/576" target="_blank" title="https://archief.amsterdam/archief/343/576"&gt;https://archief.amsterdam/archief/343/576&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04060000290</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>b3b6f9d0-da82-49b7-bf0d-8d93bd353867</identifier>
+        <datestamp>2021-08-13T00:07:07Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9f1447fc-f94a-4146-e053-b784100aac9a">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Jacoba</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Brouwer</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+            <a2a:PersonRemark Key="diversen">
+              <a2a:Value>
+Plaats van begrafenis: Eemnes</a2a:Value>
+            </a2a:PersonRemark>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1734</a2a:Year>
+              <a2a:Month>10</a2a:Month>
+              <a2a:Day>8</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9f1447fc-f94a-4146-e053-b784100aac9a</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Overledene</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1734-10-08</a2a:From>
+              <a2a:To>1734-10-08</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1734</a2a:Year>
+              <a2a:Month>10</a2a:Month>
+              <a2a:Day>8</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Boetes op begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>343</a2a:Archive>
+              <a2a:Collection>Deel: 576, Periode: 1730-1735</a2a:Collection>
+              <a2a:Book>Boetes op begraven</a2a:Book>
+              <a2a:RegistryNumber>576</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/db2f659c-cfa4-7e60-7e18-bbc2379d7bc6.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/b3b6f9d0-da82-49b7-bf0d-8d93bd353867</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/db2f659c-cfa4-7e60-7e18-bbc2379d7bc6.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-10-14</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/b3b6f9d0-da82-49b7-bf0d-8d93bd353867</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{b3b6f9d0-da82-49b7-bf0d-8d93bd353867}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/343/576" target="_blank" title="https://archief.amsterdam/archief/343/576"&gt;https://archief.amsterdam/archief/343/576&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04060000284</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>f6f227b5-2ff4-426d-b6fc-3d07e3b8286e</identifier>
+        <datestamp>2021-08-13T00:07:07Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9f1447fc-f949-4146-e053-b784100aac9a">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Jacob Samuel</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Mason</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+            <a2a:PersonRemark Key="diversen">
+              <a2a:Value>
+Plaats van begrafenis: Dordrecht</a2a:Value>
+            </a2a:PersonRemark>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1734</a2a:Year>
+              <a2a:Month>6</a2a:Month>
+              <a2a:Day>4</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9f1447fc-f949-4146-e053-b784100aac9a</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Overledene</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1734-06-04</a2a:From>
+              <a2a:To>1734-06-04</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1734</a2a:Year>
+              <a2a:Month>6</a2a:Month>
+              <a2a:Day>4</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Boetes op begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>343</a2a:Archive>
+              <a2a:Collection>Deel: 576, Periode: 1730-1735</a2a:Collection>
+              <a2a:Book>Boetes op begraven</a2a:Book>
+              <a2a:RegistryNumber>576</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/75e0f80d-8076-0f91-f3e4-e596028d6389.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/f6f227b5-2ff4-426d-b6fc-3d07e3b8286e</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/75e0f80d-8076-0f91-f3e4-e596028d6389.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-10-14</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/f6f227b5-2ff4-426d-b6fc-3d07e3b8286e</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{f6f227b5-2ff4-426d-b6fc-3d07e3b8286e}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/343/576" target="_blank" title="https://archief.amsterdam/archief/343/576"&gt;https://archief.amsterdam/archief/343/576&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04060000264</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>a4feb59e-9869-419a-815c-1eb568b56cbe</identifier>
+        <datestamp>2021-08-13T00:07:07Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9f1447fc-f948-4146-e053-b784100aac9a">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Barbara</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Roeten</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+            <a2a:PersonRemark Key="diversen">
+              <a2a:Value>
+Plaats van begrafenis: Sloterdijk</a2a:Value>
+            </a2a:PersonRemark>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1734</a2a:Year>
+              <a2a:Month>1</a2a:Month>
+              <a2a:Day>15</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9f1447fc-f948-4146-e053-b784100aac9a</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Overledene</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1734-01-15</a2a:From>
+              <a2a:To>1734-01-15</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1734</a2a:Year>
+              <a2a:Month>1</a2a:Month>
+              <a2a:Day>15</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Boetes op begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>343</a2a:Archive>
+              <a2a:Collection>Deel: 576, Periode: 1730-1735</a2a:Collection>
+              <a2a:Book>Boetes op begraven</a2a:Book>
+              <a2a:RegistryNumber>576</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/f4bded1a-1223-9aa6-4fac-4efd2597f8db.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/a4feb59e-9869-419a-815c-1eb568b56cbe</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/f4bded1a-1223-9aa6-4fac-4efd2597f8db.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-10-14</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/a4feb59e-9869-419a-815c-1eb568b56cbe</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{a4feb59e-9869-419a-815c-1eb568b56cbe}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/343/576" target="_blank" title="https://archief.amsterdam/archief/343/576"&gt;https://archief.amsterdam/archief/343/576&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04060000238</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>3f28ea02-b950-4985-a283-3d54b899be27</identifier>
+        <datestamp>2021-08-13T00:07:07Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9f1447fc-f947-4146-e053-b784100aac9a">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Anna Maria</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Geniets</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+            <a2a:PersonRemark Key="diversen">
+              <a2a:Value>
+Plaats van begrafenis: Diemen</a2a:Value>
+            </a2a:PersonRemark>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1733</a2a:Year>
+              <a2a:Month>11</a2a:Month>
+              <a2a:Day>6</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9f1447fc-f947-4146-e053-b784100aac9a</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Overledene</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1733-11-06</a2a:From>
+              <a2a:To>1733-11-06</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1733</a2a:Year>
+              <a2a:Month>11</a2a:Month>
+              <a2a:Day>6</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Boetes op begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>343</a2a:Archive>
+              <a2a:Collection>Deel: 576, Periode: 1730-1735</a2a:Collection>
+              <a2a:Book>Boetes op begraven</a2a:Book>
+              <a2a:RegistryNumber>576</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/784d0e1b-cca1-233f-e5e6-976613820dda.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/3f28ea02-b950-4985-a283-3d54b899be27</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/784d0e1b-cca1-233f-e5e6-976613820dda.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-10-14</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/3f28ea02-b950-4985-a283-3d54b899be27</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{3f28ea02-b950-4985-a283-3d54b899be27}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/343/576" target="_blank" title="https://archief.amsterdam/archief/343/576"&gt;https://archief.amsterdam/archief/343/576&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04060000225</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>32bfca6b-f22a-4e58-b2a1-868c8635b2dc</identifier>
+        <datestamp>2021-08-13T00:07:07Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9f1447fc-f946-4146-e053-b784100aac9a">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Wiebe Houkes</a2a:PersonNameFirstName>
+              <a2a:PersonNamePrefixLastName>van de</a2a:PersonNamePrefixLastName>
+              <a2a:PersonNameLastName>Kuijnder</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+            <a2a:PersonRemark Key="diversen">
+              <a2a:Value>
+Plaats van begrafenis: De Kuijnder</a2a:Value>
+            </a2a:PersonRemark>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1733</a2a:Year>
+              <a2a:Month>9</a2a:Month>
+              <a2a:Day>4</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9f1447fc-f946-4146-e053-b784100aac9a</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Overledene</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1733-09-04</a2a:From>
+              <a2a:To>1733-09-04</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1733</a2a:Year>
+              <a2a:Month>9</a2a:Month>
+              <a2a:Day>4</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Boetes op begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>343</a2a:Archive>
+              <a2a:Collection>Deel: 576, Periode: 1730-1735</a2a:Collection>
+              <a2a:Book>Boetes op begraven</a2a:Book>
+              <a2a:RegistryNumber>576</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/b474a9a5-cf59-db46-1df0-02d107246e83.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/32bfca6b-f22a-4e58-b2a1-868c8635b2dc</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/b474a9a5-cf59-db46-1df0-02d107246e83.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-10-14</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/32bfca6b-f22a-4e58-b2a1-868c8635b2dc</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{32bfca6b-f22a-4e58-b2a1-868c8635b2dc}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/343/576" target="_blank" title="https://archief.amsterdam/archief/343/576"&gt;https://archief.amsterdam/archief/343/576&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04060000216</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>338e3a01-90eb-4cdf-b8dd-45323e3d183a</identifier>
+        <datestamp>2021-08-13T00:07:07Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9f1447fc-f945-4146-e053-b784100aac9a">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Geertje</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Jans</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+            <a2a:PersonRemark Key="diversen">
+              <a2a:Value>
+Plaats van begrafenis: Vlieland</a2a:Value>
+            </a2a:PersonRemark>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1733</a2a:Year>
+              <a2a:Month>5</a2a:Month>
+              <a2a:Day>1</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9f1447fc-f945-4146-e053-b784100aac9a</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Overledene</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1733-05-01</a2a:From>
+              <a2a:To>1733-05-01</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1733</a2a:Year>
+              <a2a:Month>5</a2a:Month>
+              <a2a:Day>1</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Boetes op begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>343</a2a:Archive>
+              <a2a:Collection>Deel: 576, Periode: 1730-1735</a2a:Collection>
+              <a2a:Book>Boetes op begraven</a2a:Book>
+              <a2a:RegistryNumber>576</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/70456d77-da83-74b8-6243-44c67be361c8.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/338e3a01-90eb-4cdf-b8dd-45323e3d183a</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/70456d77-da83-74b8-6243-44c67be361c8.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-10-14</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/338e3a01-90eb-4cdf-b8dd-45323e3d183a</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{338e3a01-90eb-4cdf-b8dd-45323e3d183a}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/343/576" target="_blank" title="https://archief.amsterdam/archief/343/576"&gt;https://archief.amsterdam/archief/343/576&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04060000198</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>3aaf1279-29c7-414f-a6fb-0b86b0621973</identifier>
+        <datestamp>2021-08-13T00:07:07Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9f1447fc-f944-4146-e053-b784100aac9a">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Janneke</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Wittenburg</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+            <a2a:PersonRemark Key="diversen">
+              <a2a:Value>
+Plaats van begrafenis: Monnikendam</a2a:Value>
+            </a2a:PersonRemark>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1733</a2a:Year>
+              <a2a:Month>2</a2a:Month>
+              <a2a:Day>20</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9f1447fc-f944-4146-e053-b784100aac9a</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Overledene</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1733-02-20</a2a:From>
+              <a2a:To>1733-02-20</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1733</a2a:Year>
+              <a2a:Month>2</a2a:Month>
+              <a2a:Day>20</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Boetes op begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>343</a2a:Archive>
+              <a2a:Collection>Deel: 576, Periode: 1730-1735</a2a:Collection>
+              <a2a:Book>Boetes op begraven</a2a:Book>
+              <a2a:RegistryNumber>576</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/15ede18b-6711-bc14-6dcd-889e372abb1d.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/3aaf1279-29c7-414f-a6fb-0b86b0621973</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/15ede18b-6711-bc14-6dcd-889e372abb1d.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-10-14</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/3aaf1279-29c7-414f-a6fb-0b86b0621973</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{3aaf1279-29c7-414f-a6fb-0b86b0621973}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/343/576" target="_blank" title="https://archief.amsterdam/archief/343/576"&gt;https://archief.amsterdam/archief/343/576&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04060000188</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>2ae91be3-c9b7-43f3-b8e4-f7b0b94d30b3</identifier>
+        <datestamp>2021-08-13T00:07:07Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9f1447fc-f943-4146-e053-b784100aac9a">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Agneta</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Cops</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+            <a2a:PersonRemark Key="diversen">
+              <a2a:Value>
+Plaats van begrafenis: Haarlem</a2a:Value>
+            </a2a:PersonRemark>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1733</a2a:Year>
+              <a2a:Month>1</a2a:Month>
+              <a2a:Day>2</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9f1447fc-f943-4146-e053-b784100aac9a</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Overledene</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1733-01-02</a2a:From>
+              <a2a:To>1733-01-02</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1733</a2a:Year>
+              <a2a:Month>1</a2a:Month>
+              <a2a:Day>2</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Boetes op begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>343</a2a:Archive>
+              <a2a:Collection>Deel: 576, Periode: 1730-1735</a2a:Collection>
+              <a2a:Book>Boetes op begraven</a2a:Book>
+              <a2a:RegistryNumber>576</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/376ddb48-3e3b-86ae-a1f7-5b8def0510c3.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/2ae91be3-c9b7-43f3-b8e4-f7b0b94d30b3</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/376ddb48-3e3b-86ae-a1f7-5b8def0510c3.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-10-14</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/2ae91be3-c9b7-43f3-b8e4-f7b0b94d30b3</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{2ae91be3-c9b7-43f3-b8e4-f7b0b94d30b3}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/343/576" target="_blank" title="https://archief.amsterdam/archief/343/576"&gt;https://archief.amsterdam/archief/343/576&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04060000175</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <resumptionToken completeListSize="4596" cursor="0">eyJwYWdlIjoyLCJtZXRhZGF0YVByZWZpeCI6Im9haV9hMmEiLCJzZXQiOiJkNDY2MjhkNi0yZWQ0LTk1YTAtY2FmYy00Y2RiYjQxNzQyNjMifQ==</resumptionToken>
+  </ListRecords>
+</OAI-PMH>

@@ -1,0 +1,719 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns:isbn="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.loc.gov/ead/ http://www.loc.gov/ead/ead.xsd" audience="external">
+<eadheader>
+<eadid identifier="d15c77fc1c8f321bb6716eada9f3401b">5033</eadid>
+<filedesc>
+<titlestmt>
+<titleproper>Inventaris van het Archief van de Burgemeesters: poorterboeken</titleproper>
+</titlestmt>
+<publicationstmt>
+<publisher>Stadsarchief Amsterdam</publisher>
+</publicationstmt>
+</filedesc>
+</eadheader>
+<archdesc level="fonds">
+<did id="NL-SAA-463540">
+<head>Inventaris</head>
+<unitid label="Toegangsnummer" identifier="97cf69958e7540f42c6f56071674f98b">5033</unitid>
+<unittitle label="Naam">Archief van de Burgemeesters: poorterboeken</unittitle>
+<unitdate normal="1584/1812">1584 - 1812</unitdate>
+<langmaterial>dut</langmaterial>
+<repository><corpname>Stadsarchief Amsterdam</corpname></repository>
+<origination><corpname>Burgemeesters</corpname></origination>
+<abstract>
+[De archiefvormer]<lb/>Een poorter is een burger die toegang heeft tot de privileges en voorrechten van de stad. In de poorterboeken onderscheidde men drie soorten poorters. Ten eerste de ingeboren poorters, dat wil zeggen de kinderen van poorters. Ten tweede de behuwde poorters: de mannen die van elders kwamen en met een poortersdochter trouwden. En ten derde de gekochte poorters: personen die van buiten de stad kwamen en het poorterschap moesten kopen. Men was daartoe vaak verplicht. Om lid van een gilde te kunnen worden, moest men namelijk poorter zijn. Slechts enkele ambachten stonden buiten gildenverband; zie toegangsnr. 366.<lb/>Rond het midden van de zeventiende eeuw bedroegen de kosten van het poorterschap niet minder dan vijftig gulden. Aangezien velen dat bedrag niet konden opbrengen, werd in 1668 toegestaan dat men zonder poorter te zijn een ambacht mocht uitoefenen. Nadat de eed aan de stad was afgelegd en 28 stuivers waren betaald, werd een ingezetencedel (klein poortercedel) af
+gegeven.<lb/><lb/>Het archief<lb/>De poorterboeken zijn van belang voor genealogisch en sociaal-economisch onderzoek. Ze zijn goed toegankelijk door middel van indexen. Er zijn uit de periode 1655-1811 31 poorterboeken bewaard. Deze zijn op de studiezaal van het Gemeentearchief in kopie aanwezig, evenals een index op persoonsnamen en beroepen. Een index op plaatsen van herkomst is op verzoek in te zien.<lb/>Van vóór 1655 resteren drie poorterboeken. Deze staan eveneens in kopie op de studiezaal. Op één daarvan, die de namen van behuwde en ingeboren poorters uit de jaren 1648-1655 bevat, is een index op persoonsnamen gemaakt. Op de andere twee, waarin de gekochte poorters uit de jaren 1584-1605 en 1636-1652 staan vermeld, is een index op persoonsnamen; daarin zijn ook die personen opgenomen die het poortergeld hebben betaald en die voorkomen in de stadsrekeningen uit de jaren 1531-1569 en 1583 (toegangsnr. 5014) en in de rapiamus van de thesaurieren uit de jaren 1605 en 1606 (toegangsnr. 5039). Het
+ archief bevat tevens voor de jaren 1670-1747 ingezetenenregisters, die in kopie op de studiezaal staan en toegankelijk zijn door middel van een index op persoonsnamen, beroepen en plaatsen van herkomst. Daarnaast zijn er twee domicilieboeken voor de jaren 1694-1794; daarin staan de namen van mensen die verklaard hadden dat zij tijdelijk buiten de stad gingen wonen. De vreemdelingen die tussen 1792 en 1808 in de stad verbleven, staan in vijf delen geadministreerd.<lb/>Een in 1753 geschreven Verhandeling over het poorterschap binnen Amsterdam ten jare 1748 berust in de bibliotheek van het Gemeentearchief (sign. H 1004).
+</abstract>
+</did>
+<dsc>
+<c level="series">
+<did>
+<unitid label="Rubriekscode" identifier="c0ca2d181c047d5ef9c2e73c61a769d4">1</unitid>
+<unittitle>
+POORTERBOEKEN
+N.B. Nadere toegang: index op de studiezaal. Volgens aantekening van Oldewelt zijn de nrs. 1-3 en 35-47 de eigenlijke poorterboeken, met chronologische intekening. In het `Generael Poorterboek' (inv.nrs. 4-34), aangelegd in 1655 bij het betrekken van het nieuwe stadhuis, werden de namen alfabetisch overgebracht.
+</unittitle>
+</did>
+<c level="otherlevel" otherlevel="filegrp">
+<did>
+<unitid label="Inventarisnummers" identifier="b905a58776ace6ccee468a2d35e0cb2f">1-2</unitid>
+<unittitle>
+Registers van gekochte poorters.
+</unittitle>
+<physdesc>2 delen</physdesc>
+</did>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="a3ca20b68a5973cd321b94dd16360b4f">1</unitid>
+<unittitle>
+'B'. 
+</unittitle>
+<unitdate normal="1584/1605">1584 - 1605</unitdate>
+</did>
+<odd><p>Filmnr. 978</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="e72c7a72324c93f4394ef540161d6d6a">2</unitid>
+<unittitle>
+'E'. 1636 maart-1652 februari.
+</unittitle>
+</did>
+<odd><p>Filmnr. 978</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="633cd37d9346adb7364e966cfbc76fbb">3</unitid>
+<unittitle>
+Register van behuwde en ingeboren poorters.<lb/>  1648 november 10-1655 februari 13.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="otherlevel" otherlevel="filegrp">
+<did>
+<unitid label="Inventarisnummers" identifier="a7fd04d348d34185f65b2def83c9915d">4-34</unitid>
+<unittitle>
+'Generael Poorterboek'. Registers van gekochte, behuwde en ingeboren poorters.
+</unittitle>
+<physdesc>31 delen</physdesc>
+</did>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="afb7da0005f837c9ed7131095acce857">4</unitid>
+<unittitle>
+'1' 1655-1659 juli. Met enige inschrijvingen van 1660-1661 en 1665.
+N.B. Voorin de tekst van de formule van depoorterscedulen van de gekochte, behuwde, ingeboren (''gebleken'') en joodse poorters.
+</unittitle>
+</did>
+<odd><p>Filmnr. 980</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="7d7695c7447af560ec1839888eba1f6e">5</unitid>
+<unittitle>
+'2' 1659 juli-1666 december. Met enige inschrijvingen van1667-1670 en 1673 (passim).
+</unittitle>
+</did>
+<odd><p>Filmnr. 980</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="8759b5bfb7175013e288e1bc57142189">6</unitid>
+<unittitle>
+'3' 1666 december-1674 mei.
+N.B. Voorin formulier van de poortercedul van joodse en ingeboren poorters.
+</unittitle>
+</did>
+<odd><p>Filmnr. 980</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="25bdea62cf888252f6ae88846f005183">7</unitid>
+<unittitle>
+'4' 1674 mei-1680 december.
+</unittitle>
+</did>
+<odd><p>Filmnr. 981</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="48f6d7e4c4c95ba2f57749ce319a4d3a">8</unitid>
+<unittitle>
+'5' 1681 januari-1684 augustus.
+</unittitle>
+</did>
+<odd><p>Filmnr. 981</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="a7a1c19dbcdf8ac7541c14e5639678e9">9</unitid>
+<unittitle>
+'6' 1684 augustus-1687 december. Met een enkele latere inschrijving van 1690.
+</unittitle>
+</did>
+<odd><p>Filmnr. 982</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="a3c99febc1a4367211d7569f8c4911ba">10</unitid>
+<unittitle>
+'7' 1688 januari-1692 januari.
+N.B. Voorin formulieren van poortercedulen voor gekochte en behuwde poorters en een Franse poortercedul conform vroedschapsresolutie 23 september en 7 oktober 1681.
+</unittitle>
+</did>
+<odd><p>Filmnr. 982, 983</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="7884b3cb2339dd97cb21d3da8d659924">11</unitid>
+<unittitle>
+'8' 1692 januari-1696 januari.
+N.B. Voorin formulieren voor ingeboren, gekochte, behuwde en Franse poortercedulen en een wolweverscedul conform vroedschapsresolutie  27 oktober 1614.
+</unittitle>
+</did>
+<odd><p>Filmnr. 983</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="091b2012f520dbd6065500f04ef5ef16">12</unitid>
+<unittitle>
+'9' 1696 januari-1700 juli.
+</unittitle>
+</did>
+<odd><p>Filmnr. 983, 984</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="87a8757d30f4b998c038786142b49d8a">13</unitid>
+<unittitle>
+'10' 1700 juli-1706 februari.
+</unittitle>
+</did>
+<odd><p>Filmnr. 984</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="6b2847df18da92d581e2105894ace811">14</unitid>
+<unittitle>
+'11' 1706 februari-1709.
+N.B. Voorin formulier van een ongedateerde verklaring van een anonieme predikant conform vroedschapsresolutie 9 augustus 1667.
+</unittitle>
+</did>
+<odd><p>Filmnr. 984, 985</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="773788b5e0dd2e13f1e7528f53af0c2c">15</unitid>
+<unittitle>
+'12' 1710-1711.
+</unittitle>
+</did>
+<odd><p>Filmnr. 985</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="dfc3ba11b8e020d396972b53945d42a0">16</unitid>
+<unittitle>
+'13' 1712-1715.
+</unittitle>
+</did>
+<odd><p>Filmnr. 985</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="75eb1fa8521c86bde6139d9a94cdaa11">17</unitid>
+<unittitle>
+'14' 1716-1719.
+</unittitle>
+</did>
+<odd><p>Filmnr. 986</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="8a754c76215077288fec332d61b62b5b">18</unitid>
+<unittitle>
+'15' 1720-1725.
+</unittitle>
+</did>
+<odd><p>Filmnr. 986, 987</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="47a14df1e2cba4d43adbf2e328d31167">19</unitid>
+<unittitle>
+'16' 1726-1729.
+</unittitle>
+</did>
+<odd><p>Filmnr. 987</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="9ac8c757fee55ad34c540a0541ea89ff">20</unitid>
+<unittitle>
+'17' 1730-1734.
+</unittitle>
+</did>
+<odd><p>Filmnr. 987, 988</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="995063fbaace0ccfb44e442b6ff98925">21</unitid>
+<unittitle>
+'18' 1735-1740.
+</unittitle>
+</did>
+<odd><p>Filmnr. 988</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="bd67cfd0fe401515669a19b895ec46d1">22</unitid>
+<unittitle>
+'19' 1741-1747.
+</unittitle>
+</did>
+<odd><p>Filmnr. 989</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="6987f7b577bb16c3d217ded32b608554">23</unitid>
+<unittitle>
+'20' 1748-1749.
+</unittitle>
+</did>
+<odd><p>Filmnr. 989, 990</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="085fa346937768eaba31eb5ad0209768">24</unitid>
+<unittitle>
+'21' 1750-1754.
+</unittitle>
+</did>
+<odd><p>Filmnr. 990</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="6cf170012bf7f30a29ae1382e7a57fb4">25</unitid>
+<unittitle>
+'22' 1755-1762 februari.
+</unittitle>
+</did>
+<odd><p>Filmnr. 990, 991</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="54bbfb2f76d409ea3cd23e27e4bd634a">26</unitid>
+<unittitle>
+'23' 1762 maart-1764.
+</unittitle>
+</did>
+<odd><p>Filmnr. 991, 992</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="38560475fea8b5103cd2b2d6c1374c4e">27</unitid>
+<unittitle>
+'24' 1765-1768.
+N.B. Vanaf dit deel alfabetisch op achternaam.
+</unittitle>
+</did>
+<odd><p>Filmnr. 992</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="1e35c032e11c9f334177a680e511d530">28</unitid>
+<unittitle>
+'25' 1769-1772.
+</unittitle>
+</did>
+<odd><p>Filmnr. 992</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="dab2891c5ac291b34816af7b4498d5a6">29</unitid>
+<unittitle>
+ '26' 1773-1777.
+</unittitle>
+</did>
+<odd><p>Filmnr. 992</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="69fdd15e9e4d20cdecbac07bc03d216d">30</unitid>
+<unittitle>
+'27' 1778-1782.
+</unittitle>
+</did>
+<odd><p>Filmnr. 993</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="ec5be105b55067b2dc45a45214633ffc">31</unitid>
+<unittitle>
+'28' 1783-1787.
+</unittitle>
+</did>
+<odd><p>Filmnr. 993</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="9b9f750bcbbbff0006950e8e89caab7b">32</unitid>
+<unittitle>
+'29' 1788-1794.
+</unittitle>
+</did>
+<odd><p>Filmnr. 993, 994</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="27dbbe22a09185c52ba0c5779c524cd7">33</unitid>
+<unittitle>
+'30' 1795-1802.
+</unittitle>
+</did>
+<odd><p>Filmnr. 994</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="f8fb6844cd0b7f4e4bca14cab6c13cd9">34</unitid>
+<unittitle>
+'31' 1803-1811.
+</unittitle>
+</did>
+<odd><p>Filmnr. 994</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+</c>
+<c level="otherlevel" otherlevel="filegrp">
+<did>
+<unitid label="Inventarisnummers" identifier="693239d323fd18b396a4c9f52cc7ef09">35-38</unitid>
+<unittitle>
+'Gekogte Poorters Boek'. Registers van gekochte poorters. 4delen.
+</unittitle>
+</did>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="f209ce0a16c33a055e73444afca807e8">35</unitid>
+<unittitle>
+1721 februari 4-1738 januari 23.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="d7083be88a4456798bc540e0ad86b4d1">36</unitid>
+<unittitle>
+1738 januari 24-1763 januari 28.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="70f38921c6d352f376e9961a04411335">37</unitid>
+<unittitle>
+1763 februari 1-1791 augustus 31.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="ef4f9f85a0291713c7f2e59821c70ea7">38</unitid>
+<unittitle>
+1791 september 1-1811.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+</c>
+<c level="otherlevel" otherlevel="filegrp">
+<did>
+<unitid label="Inventarisnummers" identifier="a2cf9389cd3b698e193c5b66726fa7fb">39-47</unitid>
+<unittitle>
+Registers van behuwde en ingeboren poorters.
+</unittitle>
+<physdesc>9 delen</physdesc>
+</did>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="568390e6aa934d9a5b98bc0060457e29">39</unitid>
+<unittitle>
+1740 november 15-1749 juli 31.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="12ecdc6f7917299774f47c003c269af1">40</unitid>
+<unittitle>
+1749 augustus 5-1757 januari 28.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="68c56e33a503b53394fa8a94d64feb3e">41</unitid>
+<unittitle>
+1757 februari 1-1765 januari 31.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="0459ca6e7d5552e5b7c7fedf8b0640b0">42</unitid>
+<unittitle>
+1765 februari 5-1774 februari 25.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="c0b9f0b73285825e3d3efb39629b079c">43</unitid>
+<unittitle>
+1774 maart 1-1783 april 30.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="81d6d1697095303b7f9dc7afe11d45be">44</unitid>
+<unittitle>
+1783 mei 1-1791 februari 24.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="86dd54546d359d53fdf1ca53dabe50ae">45</unitid>
+<unittitle>
+1791 februari 25-1801 mei 29.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="100b0eef839158b6a3c6c2bc06835b39">46</unitid>
+<unittitle>
+1801 juni 2-1806 januari 17.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="c4054e6bb7976536f93fbfb03ab5631d">47</unitid>
+<unittitle>
+1806 januari 21-1812 januari 3.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+</c>
+</c>
+<c level="series">
+<did>
+<unitid label="Rubriekscode" identifier="20bd89ef05fa29aec753ff5303d33622">2</unitid>
+<unittitle>
+INGEZETENEN-, DOMICILIE-EN VREEMDELINGEN-BOEKEN
+</unittitle>
+</did>
+<c level="otherlevel" otherlevel="filegrp">
+<did>
+<unitid label="Inventarisnummers" identifier="e9cf33025d5e18200f5f5950c9140e8b">48-49</unitid>
+<unittitle>
+'Ingezetenenboek'. Registers van ingezetenen.
+</unittitle>
+<physdesc>2 delen</physdesc>
+</did>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="80f944bfb0abd4a473efd3a00ab3d2b3">48</unitid>
+<unittitle>
+1670 mei-1702 september.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="d282a45e09a5986f506d2ec354a7a6c0">49</unitid>
+<unittitle>
+1702 april-1747.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+</c>
+<c level="otherlevel" otherlevel="filegrp">
+<did>
+<unitid label="Inventarisnummers" identifier="4bd26a68f198a12d516f58f26632b34d">50-51</unitid>
+<unittitle>
+'Domicilieboek'. Registers van personen die verklaren zich voor enige tijd metterwoon buiten de stad te vestigen, hun  domicilium alhier te continueren of zich metterwoon weer hier te vestigen.
+N.B. Deze delen zijn bijgehoudenconform keur 31 januari 1652. Volgens Scheltema ontbreekt deel 1; inderdaad bestaat er geen boek vanaf 1652. 1694-1794.
+</unittitle>
+<physdesc>2 delen</physdesc>
+</did>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="fbe0a469bf8f1020a0221494711b7eaa">50</unitid>
+<unittitle>
+1694 juni 23-1705 september 29.
+N.B. Achterin drie verklaringen van afstand van poorterrecht vanwege vestiging elders, 1696-1697.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="6e1e94add36f824a0c768d8dca53b809">51</unitid>
+<unittitle>
+1705 oktober 2-1806. Met index.
+N.B. Sinds 1795 op naam van het Comité van Algemeen Welzijn, sinds 1803 van wethouders.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="4f0443e3ab21ee7e0348aae3da8664e8">52</unitid>
+<unittitle>
+'Vreemdelingenboek'. Register van vergunning tot tijdelijk verblijf. 1792 november 28-1795 januari 16.
+N.B. In het Frans. Chronologische inschrijving op de beginlettervan de achternaam.
+</unittitle>
+<physdesc>1 deel</physdesc>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="39fd79696e53d5b3e2db4b87f94df839">53</unitid>
+<unittitle>
+Register van vreemdelingen met onder andere aantekening vanherkomstplaats, beroep en verblijfadres. 1798 november 19-1799 augustus 13.
+N.B. Alfabetische inschrijvingop naam van de personen bij wie ze verblijven.
+</unittitle>
+<physdesc>1 deel</physdesc>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="otherlevel" otherlevel="filegrp">
+<did>
+<unitid label="Inventarisnummers" identifier="e2231e30f76255976e6896267fe4c53b">54-56</unitid>
+<unittitle>
+'Passenboek'. Registers van vreemdelingen met onder andereaantekening van herkomstplaats, beroep en verblijfadres.
+N.B. Alfabetische inschrijving op familienaam. 1804-1808.
+</unittitle>
+<physdesc>3 delen</physdesc>
+</did>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="1877aae6d708a3ea93f85b0a5efd2f03">54</unitid>
+<unittitle>
+ 1804 september-1805 mei.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="3fdf6b09f382554a5acef198b0c98b55">55</unitid>
+<unitdate normal="1806">1806</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="695d0197c541e54e0461bdc201b0ceb2">56</unitid>
+<unitdate normal="1807/1808">1807 - 1808</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+</c>
+</c>
+<c level="series">
+<did>
+<unitid label="Rubriekscode" identifier="e49328d3124e5a380480dc26e86d0918">3</unitid>
+<unittitle>
+OVERIGE
+</unittitle>
+</did>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="d30d2e93d6b35e1af45b40ff9c28426e">57</unitid>
+<unittitle>
+Lijsten der 'overgetekende' (ingeboren?) burgers. 
+</unittitle>
+<unitdate normal="1810/1811">1810 - 1811</unitdate>
+<physdesc>1 omslag</physdesc>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="eee13ca652d15f755022a2d36aafeb90">58</unitid>
+<unittitle>
+Lijsten der gekochte burgerschappen. 
+</unittitle>
+<unitdate normal="1808/1810">1808 - 1810</unitdate>
+<physdesc>1 omslag</physdesc>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="cd9b93c9dceddbc07fffc0870d127018">59</unitid>
+<unittitle>
+Lijst van onafgehaalde poortercedullen, met data, namen derkopers en 'overgetekende' poorters over 1732-1809.
+</unittitle>
+<physdesc>1 stuk</physdesc>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="3f6e4b23739a88f2c577462b784857ee">60</unitid>
+<unittitle>
+Lijst van weesjongens, op 27 juli 1809 uit het Burgerweeshuis vertrokken en in het Legioen 'Velites' geplaatst. 1811. 1stuk.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="c181786ff4ee5d5d18740eb65629aa78">61</unitid>
+<unittitle>
+Lijst van de gekochte en 'overgetekende' poorters die wel ter secretarie, maar niet ter thesaurie genoteerd zijn. 
+</unittitle>
+<unitdate normal="1808/1810">1808 - 1810</unitdate>
+<physdesc>1 stuk</physdesc>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+</c>
+</dsc>
+</archdesc>
+</ead>

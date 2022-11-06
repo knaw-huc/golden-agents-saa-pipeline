@@ -1,0 +1,3891 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2022-09-22T02:10:05Z</responseDate>
+  <request metadataPrefix="oai_a2a" set="9823b7a8-ab79-a098-4ab0-26e799ea5659" verb="ListRecords">https://webservices.picturae.com/a2a/a66155dd-f750-40be-9ddd-244d72248fa3/</request>
+  <ListRecords>
+    <record>
+      <header>
+        <identifier>db26800d-f383-4310-9f85-46376532644b</identifier>
+        <datestamp>2021-08-12T21:23:30Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e22-4975-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Elsije</a2a:PersonNameFirstName>
+              <a2a:PersonNamePrefixLastName>van</a2a:PersonNamePrefixLastName>
+              <a2a:PersonNameLastName>Minnen</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Begraven</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1686</a2a:Year>
+              <a2a:Month>8</a2a:Month>
+              <a2a:Day>21</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e22-4975-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1686-08-21</a2a:From>
+              <a2a:To>1686-08-21</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1686</a2a:Year>
+              <a2a:Month>8</a2a:Month>
+              <a2a:Day>21</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: DTB Begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5001</a2a:Archive>
+              <a2a:Collection>Deel: 1165, Periode: 1684-1687</a2a:Collection>
+              <a2a:Book>DTB Begraven</a2a:Book>
+              <a2a:Folio>p.350 en p.351</a2a:Folio>
+              <a2a:RegistryNumber>1165</a2a:RegistryNumber>
+              <a2a:DocumentNumber>DTB 1165</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/1e0aba40-d8d9-cc61-00fd-e4a35a1b5014.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/db26800d-f383-4310-9f85-46376532644b</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/1e0aba40-d8d9-cc61-00fd-e4a35a1b5014.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-11</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/db26800d-f383-4310-9f85-46376532644b</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{db26800d-f383-4310-9f85-46376532644b}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>Begraafplaats: Karthuizer Kerkhof
+&lt;a href="https://archief.amsterdam/archief/5001/1165" target="_blank" title="https://archief.amsterdam/archief/5001/1165"&gt;https://archief.amsterdam/archief/5001/1165&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Begraven</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04269000178</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>db106150-7e24-40d6-b6c6-0fcc77e1afec</identifier>
+        <datestamp>2021-08-12T21:23:30Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e14-6a43-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Andris</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Jacobse</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Begraven</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1686</a2a:Year>
+              <a2a:Month>6</a2a:Month>
+              <a2a:Day>26</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e14-6a43-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1686-06-26</a2a:From>
+              <a2a:To>1686-06-26</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1686</a2a:Year>
+              <a2a:Month>6</a2a:Month>
+              <a2a:Day>26</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: DTB Begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5001</a2a:Archive>
+              <a2a:Collection>Deel: 1165, Periode: 1684-1687</a2a:Collection>
+              <a2a:Book>DTB Begraven</a2a:Book>
+              <a2a:Folio>p.322 en p.323</a2a:Folio>
+              <a2a:RegistryNumber>1165</a2a:RegistryNumber>
+              <a2a:DocumentNumber>DTB 1165</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/75968a81-90d6-8a07-60b1-0be2fe9f3de7.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/db106150-7e24-40d6-b6c6-0fcc77e1afec</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/75968a81-90d6-8a07-60b1-0be2fe9f3de7.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-11</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/db106150-7e24-40d6-b6c6-0fcc77e1afec</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{db106150-7e24-40d6-b6c6-0fcc77e1afec}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>Begraafplaats: Karthuizer Kerkhof
+Relatie informatie: Kind van
+&lt;a href="https://archief.amsterdam/archief/5001/1165" target="_blank" title="https://archief.amsterdam/archief/5001/1165"&gt;https://archief.amsterdam/archief/5001/1165&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Begraven</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04269000164</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>db0e2d2f-90a0-4b77-a22f-334e1f857302</identifier>
+        <datestamp>2021-08-12T21:23:30Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e19-071e-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Jan</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Ariijanse</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Begraven</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1684</a2a:Year>
+              <a2a:Month>1</a2a:Month>
+              <a2a:Day>23</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e19-071e-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1684-01-23</a2a:From>
+              <a2a:To>1684-01-23</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1684</a2a:Year>
+              <a2a:Month>1</a2a:Month>
+              <a2a:Day>23</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: DTB Begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5001</a2a:Archive>
+              <a2a:Collection>Deel: 1165, Periode: 1684-1687</a2a:Collection>
+              <a2a:Book>DTB Begraven</a2a:Book>
+              <a2a:Folio>p.6 en p.7</a2a:Folio>
+              <a2a:RegistryNumber>1165</a2a:RegistryNumber>
+              <a2a:DocumentNumber>DTB 1165</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/38791801-ce68-5804-3e2b-a8daa1ce9613.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/db0e2d2f-90a0-4b77-a22f-334e1f857302</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/38791801-ce68-5804-3e2b-a8daa1ce9613.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-11</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/db0e2d2f-90a0-4b77-a22f-334e1f857302</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{db0e2d2f-90a0-4b77-a22f-334e1f857302}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>Begraafplaats: Karthuizer Kerkhof
+Relatie informatie: Kind van
+&lt;a href="https://archief.amsterdam/archief/5001/1165" target="_blank" title="https://archief.amsterdam/archief/5001/1165"&gt;https://archief.amsterdam/archief/5001/1165&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Begraven</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04269000006</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>db0a5416-e281-4384-9315-84d6f1848493</identifier>
+        <datestamp>2021-08-12T21:23:30Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e1d-a855-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Gerrit</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Gerritse</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Begraven</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1687</a2a:Year>
+              <a2a:Month>7</a2a:Month>
+              <a2a:Day>7</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e1d-a855-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1687-07-07</a2a:From>
+              <a2a:To>1687-07-07</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1687</a2a:Year>
+              <a2a:Month>7</a2a:Month>
+              <a2a:Day>7</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: DTB Begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5001</a2a:Archive>
+              <a2a:Collection>Deel: 1165, Periode: 1684-1687</a2a:Collection>
+              <a2a:Book>DTB Begraven</a2a:Book>
+              <a2a:Folio>p.474 en p.475</a2a:Folio>
+              <a2a:RegistryNumber>1165</a2a:RegistryNumber>
+              <a2a:DocumentNumber>DTB 1165</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/01a9a5ba-361d-a76d-5d2b-3ac64b814319.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/db0a5416-e281-4384-9315-84d6f1848493</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/01a9a5ba-361d-a76d-5d2b-3ac64b814319.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-11</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/db0a5416-e281-4384-9315-84d6f1848493</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{db0a5416-e281-4384-9315-84d6f1848493}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>Begraafplaats: Karthuizer Kerkhof
+Relatie informatie: Kind van
+&lt;a href="https://archief.amsterdam/archief/5001/1165" target="_blank" title="https://archief.amsterdam/archief/5001/1165"&gt;https://archief.amsterdam/archief/5001/1165&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Begraven</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04269000240</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>db036c82-cf69-473d-921e-05f4150139ad</identifier>
+        <datestamp>2021-08-12T21:23:30Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e16-ba5b-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Albert</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>N.N.</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Begraven</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1686</a2a:Year>
+              <a2a:Month>8</a2a:Month>
+              <a2a:Day>4</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e16-ba5b-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1686-08-04</a2a:From>
+              <a2a:To>1686-08-04</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1686</a2a:Year>
+              <a2a:Month>8</a2a:Month>
+              <a2a:Day>4</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: DTB Begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5001</a2a:Archive>
+              <a2a:Collection>Deel: 1165, Periode: 1684-1687</a2a:Collection>
+              <a2a:Book>DTB Begraven</a2a:Book>
+              <a2a:Folio>p.342 en p.343</a2a:Folio>
+              <a2a:RegistryNumber>1165</a2a:RegistryNumber>
+              <a2a:DocumentNumber>DTB 1165</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/3ca14cba-7df1-842a-0ef0-7833ca61f9b2.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/db036c82-cf69-473d-921e-05f4150139ad</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/3ca14cba-7df1-842a-0ef0-7833ca61f9b2.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-11</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/db036c82-cf69-473d-921e-05f4150139ad</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{db036c82-cf69-473d-921e-05f4150139ad}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>Begraafplaats: Karthuizer Kerkhof
+Relatie informatie: Kind van
+&lt;a href="https://archief.amsterdam/archief/5001/1165" target="_blank" title="https://archief.amsterdam/archief/5001/1165"&gt;https://archief.amsterdam/archief/5001/1165&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Begraven</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04269000174</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>daf4ea71-9665-4d31-8347-44968f65dff2</identifier>
+        <datestamp>2021-08-12T21:23:30Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e14-69ba-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Wouter</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Blanckenburgh</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Begraven</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1685</a2a:Year>
+              <a2a:Month>10</a2a:Month>
+              <a2a:Day>21</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e14-69ba-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1685-10-21</a2a:From>
+              <a2a:To>1685-10-21</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1685</a2a:Year>
+              <a2a:Month>10</a2a:Month>
+              <a2a:Day>21</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: DTB Begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5001</a2a:Archive>
+              <a2a:Collection>Deel: 1165, Periode: 1684-1687</a2a:Collection>
+              <a2a:Book>DTB Begraven</a2a:Book>
+              <a2a:Folio>p.222 en p.223</a2a:Folio>
+              <a2a:RegistryNumber>1165</a2a:RegistryNumber>
+              <a2a:DocumentNumber>DTB 1165</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/6fb2abf1-0dc3-be2d-22c4-d8b62e3c3089.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/daf4ea71-9665-4d31-8347-44968f65dff2</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/6fb2abf1-0dc3-be2d-22c4-d8b62e3c3089.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-11</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/daf4ea71-9665-4d31-8347-44968f65dff2</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{daf4ea71-9665-4d31-8347-44968f65dff2}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>Begraafplaats: Karthuizer Kerkhof
+Relatie informatie: Kind van
+&lt;a href="https://archief.amsterdam/archief/5001/1165" target="_blank" title="https://archief.amsterdam/archief/5001/1165"&gt;https://archief.amsterdam/archief/5001/1165&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Begraven</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04269000114</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>daf27f82-1319-4dc9-a9ff-c144bbac7592</identifier>
+        <datestamp>2021-08-12T21:23:30Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e19-0958-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Kornelis Nanningsz</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Lantman</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Begraven</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1687</a2a:Year>
+              <a2a:Month>1</a2a:Month>
+              <a2a:Day>16</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e19-0958-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1687-01-16</a2a:From>
+              <a2a:To>1687-01-16</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1687</a2a:Year>
+              <a2a:Month>1</a2a:Month>
+              <a2a:Day>16</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: DTB Begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5001</a2a:Archive>
+              <a2a:Collection>Deel: 1165, Periode: 1684-1687</a2a:Collection>
+              <a2a:Book>DTB Begraven</a2a:Book>
+              <a2a:Folio>p.414 en p.415</a2a:Folio>
+              <a2a:RegistryNumber>1165</a2a:RegistryNumber>
+              <a2a:DocumentNumber>DTB 1165</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/99aea360-689a-9c87-915d-659e7dac6074.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/daf27f82-1319-4dc9-a9ff-c144bbac7592</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/99aea360-689a-9c87-915d-659e7dac6074.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-11</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/daf27f82-1319-4dc9-a9ff-c144bbac7592</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{daf27f82-1319-4dc9-a9ff-c144bbac7592}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>Begraafplaats: Karthuizer Kerkhof
+&lt;a href="https://archief.amsterdam/archief/5001/1165" target="_blank" title="https://archief.amsterdam/archief/5001/1165"&gt;https://archief.amsterdam/archief/5001/1165&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Begraven</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04269000210</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>daf07e12-f95d-4383-9fc8-deca59411cee</identifier>
+        <datestamp>2021-08-12T21:23:30Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e22-4a1a-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Aart</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Claase</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Begraven</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1687</a2a:Year>
+              <a2a:Month>7</a2a:Month>
+              <a2a:Day>16</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e22-4a1a-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1687-07-16</a2a:From>
+              <a2a:To>1687-07-16</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1687</a2a:Year>
+              <a2a:Month>7</a2a:Month>
+              <a2a:Day>16</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: DTB Begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5001</a2a:Archive>
+              <a2a:Collection>Deel: 1165, Periode: 1684-1687</a2a:Collection>
+              <a2a:Book>DTB Begraven</a2a:Book>
+              <a2a:Folio>p.476 en p.477</a2a:Folio>
+              <a2a:RegistryNumber>1165</a2a:RegistryNumber>
+              <a2a:DocumentNumber>DTB 1165</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/3aa37f23-40f4-fa38-d052-c39014363a4b.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/daf07e12-f95d-4383-9fc8-deca59411cee</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/3aa37f23-40f4-fa38-d052-c39014363a4b.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-11</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/daf07e12-f95d-4383-9fc8-deca59411cee</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{daf07e12-f95d-4383-9fc8-deca59411cee}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>Begraafplaats: Karthuizer Kerkhof
+Relatie informatie: Kind van
+&lt;a href="https://archief.amsterdam/archief/5001/1165" target="_blank" title="https://archief.amsterdam/archief/5001/1165"&gt;https://archief.amsterdam/archief/5001/1165&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Begraven</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04269000241</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>dae7109d-93f8-45eb-b2d5-2b938bcb84dc</identifier>
+        <datestamp>2021-08-12T21:23:30Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e26-e5a3-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Hendrick</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Andrisse</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Begraven</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1684</a2a:Year>
+              <a2a:Month>12</a2a:Month>
+              <a2a:Day>6</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e26-e5a3-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1684-12-06</a2a:From>
+              <a2a:To>1684-12-06</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1684</a2a:Year>
+              <a2a:Month>12</a2a:Month>
+              <a2a:Day>6</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: DTB Begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5001</a2a:Archive>
+              <a2a:Collection>Deel: 1165, Periode: 1684-1687</a2a:Collection>
+              <a2a:Book>DTB Begraven</a2a:Book>
+              <a2a:Folio>p.122 en p.123</a2a:Folio>
+              <a2a:RegistryNumber>1165</a2a:RegistryNumber>
+              <a2a:DocumentNumber>DTB 1165</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/24b22cd3-1a57-2df9-81e1-fcc3ff1991b7.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/dae7109d-93f8-45eb-b2d5-2b938bcb84dc</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/24b22cd3-1a57-2df9-81e1-fcc3ff1991b7.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-11</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/dae7109d-93f8-45eb-b2d5-2b938bcb84dc</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{dae7109d-93f8-45eb-b2d5-2b938bcb84dc}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>Begraafplaats: Karthuizer Kerkhof
+&lt;a href="https://archief.amsterdam/archief/5001/1165" target="_blank" title="https://archief.amsterdam/archief/5001/1165"&gt;https://archief.amsterdam/archief/5001/1165&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Begraven</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04269000064</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>dad0d6e8-e8ae-4222-a1b9-7e2bc49514ee</identifier>
+        <datestamp>2021-08-12T21:23:30Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e1b-57c7-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Barent</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Wiebou</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Begraven</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1686</a2a:Year>
+              <a2a:Month>10</a2a:Month>
+              <a2a:Day>15</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e1b-57c7-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1686-10-15</a2a:From>
+              <a2a:To>1686-10-15</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1686</a2a:Year>
+              <a2a:Month>10</a2a:Month>
+              <a2a:Day>15</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: DTB Begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5001</a2a:Archive>
+              <a2a:Collection>Deel: 1165, Periode: 1684-1687</a2a:Collection>
+              <a2a:Book>DTB Begraven</a2a:Book>
+              <a2a:Folio>p.374 en p.375</a2a:Folio>
+              <a2a:RegistryNumber>1165</a2a:RegistryNumber>
+              <a2a:DocumentNumber>DTB 1165</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/d8e1a9d4-643c-9ca9-e5b6-c610f3ddc755.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/dad0d6e8-e8ae-4222-a1b9-7e2bc49514ee</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/d8e1a9d4-643c-9ca9-e5b6-c610f3ddc755.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-11</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/dad0d6e8-e8ae-4222-a1b9-7e2bc49514ee</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{dad0d6e8-e8ae-4222-a1b9-7e2bc49514ee}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>Begraafplaats: Karthuizer Kerkhof
+Relatie informatie: Kind van
+&lt;a href="https://archief.amsterdam/archief/5001/1165" target="_blank" title="https://archief.amsterdam/archief/5001/1165"&gt;https://archief.amsterdam/archief/5001/1165&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Begraven</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04269000190</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>dac5cabf-c8d0-471f-b53a-6a378d005af3</identifier>
+        <datestamp>2021-08-12T21:23:30Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e22-49a7-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Jacob</a2a:PersonNameFirstName>
+              <a2a:PersonNamePrefixLastName>van</a2a:PersonNamePrefixLastName>
+              <a2a:PersonNameLastName>Hoven</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Begraven</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1686</a2a:Year>
+              <a2a:Month>11</a2a:Month>
+              <a2a:Day>17</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e22-49a7-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1686-11-17</a2a:From>
+              <a2a:To>1686-11-17</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1686</a2a:Year>
+              <a2a:Month>11</a2a:Month>
+              <a2a:Day>17</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: DTB Begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5001</a2a:Archive>
+              <a2a:Collection>Deel: 1165, Periode: 1684-1687</a2a:Collection>
+              <a2a:Book>DTB Begraven</a2a:Book>
+              <a2a:Folio>p.388 en p.389</a2a:Folio>
+              <a2a:RegistryNumber>1165</a2a:RegistryNumber>
+              <a2a:DocumentNumber>DTB 1165</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/eb8d3c3b-8901-404d-9db8-8a357f55b7e5.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/dac5cabf-c8d0-471f-b53a-6a378d005af3</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/eb8d3c3b-8901-404d-9db8-8a357f55b7e5.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-11</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/dac5cabf-c8d0-471f-b53a-6a378d005af3</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{dac5cabf-c8d0-471f-b53a-6a378d005af3}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>Begraafplaats: Karthuizer Kerkhof
+Relatie informatie: Kind van
+&lt;a href="https://archief.amsterdam/archief/5001/1165" target="_blank" title="https://archief.amsterdam/archief/5001/1165"&gt;https://archief.amsterdam/archief/5001/1165&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Begraven</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04269000197</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>dabbe6f1-2e86-4eff-b1ec-7675190877a5</identifier>
+        <datestamp>2021-08-12T21:23:30Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e14-6954-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Abraham</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Cornelisse</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Begraven</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1685</a2a:Year>
+              <a2a:Month>2</a2a:Month>
+              <a2a:Day>25</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e14-6954-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1685-02-25</a2a:From>
+              <a2a:To>1685-02-25</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1685</a2a:Year>
+              <a2a:Month>2</a2a:Month>
+              <a2a:Day>25</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: DTB Begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5001</a2a:Archive>
+              <a2a:Collection>Deel: 1165, Periode: 1684-1687</a2a:Collection>
+              <a2a:Book>DTB Begraven</a2a:Book>
+              <a2a:Folio>p.150 en p.151</a2a:Folio>
+              <a2a:RegistryNumber>1165</a2a:RegistryNumber>
+              <a2a:DocumentNumber>DTB 1165</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/1782306e-d1e7-0be1-2ab7-c546173101fb.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/dabbe6f1-2e86-4eff-b1ec-7675190877a5</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/1782306e-d1e7-0be1-2ab7-c546173101fb.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-11</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/dabbe6f1-2e86-4eff-b1ec-7675190877a5</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{dabbe6f1-2e86-4eff-b1ec-7675190877a5}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>Begraafplaats: Karthuizer Kerkhof
+&lt;a href="https://archief.amsterdam/archief/5001/1165" target="_blank" title="https://archief.amsterdam/archief/5001/1165"&gt;https://archief.amsterdam/archief/5001/1165&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Begraven</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04269000078</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>daba31ad-eb11-482b-83ab-fe3180287b59</identifier>
+        <datestamp>2021-08-12T21:23:30Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e1d-a600-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Barent</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Henderickse</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Begraven</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1684</a2a:Year>
+              <a2a:Month>5</a2a:Month>
+              <a2a:Day>4</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e1d-a600-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1684-05-04</a2a:From>
+              <a2a:To>1684-05-04</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1684</a2a:Year>
+              <a2a:Month>5</a2a:Month>
+              <a2a:Day>4</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: DTB Begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5001</a2a:Archive>
+              <a2a:Collection>Deel: 1165, Periode: 1684-1687</a2a:Collection>
+              <a2a:Book>DTB Begraven</a2a:Book>
+              <a2a:Folio>p.42 en p.43</a2a:Folio>
+              <a2a:RegistryNumber>1165</a2a:RegistryNumber>
+              <a2a:DocumentNumber>DTB 1165</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/9cd6636b-63b3-7beb-6d01-ae241a023940.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/daba31ad-eb11-482b-83ab-fe3180287b59</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/9cd6636b-63b3-7beb-6d01-ae241a023940.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-11</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/daba31ad-eb11-482b-83ab-fe3180287b59</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{daba31ad-eb11-482b-83ab-fe3180287b59}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>Begraafplaats: Karthuizer Kerkhof
+Relatie informatie: Kind van
+&lt;a href="https://archief.amsterdam/archief/5001/1165" target="_blank" title="https://archief.amsterdam/archief/5001/1165"&gt;https://archief.amsterdam/archief/5001/1165&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Begraven</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04269000024</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>dab39404-5afc-4b3c-9feb-7d55261185b1</identifier>
+        <datestamp>2021-08-12T21:23:30Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e12-1a5d-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Annetije</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Jans</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Begraven</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1686</a2a:Year>
+              <a2a:Month>3</a2a:Month>
+              <a2a:Day>26</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e12-1a5d-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1686-03-26</a2a:From>
+              <a2a:To>1686-03-26</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1686</a2a:Year>
+              <a2a:Month>3</a2a:Month>
+              <a2a:Day>26</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: DTB Begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5001</a2a:Archive>
+              <a2a:Collection>Deel: 1165, Periode: 1684-1687</a2a:Collection>
+              <a2a:Book>DTB Begraven</a2a:Book>
+              <a2a:Folio>p.274 en p.275</a2a:Folio>
+              <a2a:RegistryNumber>1165</a2a:RegistryNumber>
+              <a2a:DocumentNumber>DTB 1165</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/d0592273-0f76-bb0e-569d-e696b292dfcc.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/dab39404-5afc-4b3c-9feb-7d55261185b1</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/d0592273-0f76-bb0e-569d-e696b292dfcc.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-11</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/dab39404-5afc-4b3c-9feb-7d55261185b1</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{dab39404-5afc-4b3c-9feb-7d55261185b1}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>Begraafplaats: Karthuizer Kerkhof
+&lt;a href="https://archief.amsterdam/archief/5001/1165" target="_blank" title="https://archief.amsterdam/archief/5001/1165"&gt;https://archief.amsterdam/archief/5001/1165&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Begraven</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04269000140</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>daa4b130-495a-4fa6-bac4-a579f1e1386a</identifier>
+        <datestamp>2021-08-12T21:23:30Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e14-6aee-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Lijsbeth</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Willems</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Begraven</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1687</a2a:Year>
+              <a2a:Month>5</a2a:Month>
+              <a2a:Day>13</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e14-6aee-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1687-05-13</a2a:From>
+              <a2a:To>1687-05-13</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1687</a2a:Year>
+              <a2a:Month>5</a2a:Month>
+              <a2a:Day>13</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: DTB Begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5001</a2a:Archive>
+              <a2a:Collection>Deel: 1165, Periode: 1684-1687</a2a:Collection>
+              <a2a:Book>DTB Begraven</a2a:Book>
+              <a2a:Folio>p.452 en p.453</a2a:Folio>
+              <a2a:RegistryNumber>1165</a2a:RegistryNumber>
+              <a2a:DocumentNumber>DTB 1165</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/c72738d8-5dd3-f6ca-2c3a-21815eb34685.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/daa4b130-495a-4fa6-bac4-a579f1e1386a</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/c72738d8-5dd3-f6ca-2c3a-21815eb34685.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-11</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/daa4b130-495a-4fa6-bac4-a579f1e1386a</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{daa4b130-495a-4fa6-bac4-a579f1e1386a}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>Begraafplaats: Karthuizer Kerkhof
+&lt;a href="https://archief.amsterdam/archief/5001/1165" target="_blank" title="https://archief.amsterdam/archief/5001/1165"&gt;https://archief.amsterdam/archief/5001/1165&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Begraven</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04269000229</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>da7d2a88-4586-48e6-9c5f-704d183ea8ee</identifier>
+        <datestamp>2021-08-12T21:23:30Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e22-4a4d-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Catrina</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Frijns</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Begraven</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1687</a2a:Year>
+              <a2a:Month>11</a2a:Month>
+              <a2a:Day>3</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e22-4a4d-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1687-11-03</a2a:From>
+              <a2a:To>1687-11-03</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1687</a2a:Year>
+              <a2a:Month>11</a2a:Month>
+              <a2a:Day>3</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: DTB Begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5001</a2a:Archive>
+              <a2a:Collection>Deel: 1165, Periode: 1684-1687</a2a:Collection>
+              <a2a:Book>DTB Begraven</a2a:Book>
+              <a2a:Folio>p.514 en p.515</a2a:Folio>
+              <a2a:RegistryNumber>1165</a2a:RegistryNumber>
+              <a2a:DocumentNumber>DTB 1165</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/ae32c34b-6b90-0afb-df48-1e2ae7122b60.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/da7d2a88-4586-48e6-9c5f-704d183ea8ee</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/ae32c34b-6b90-0afb-df48-1e2ae7122b60.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-11</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/da7d2a88-4586-48e6-9c5f-704d183ea8ee</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{da7d2a88-4586-48e6-9c5f-704d183ea8ee}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>Begraafplaats: Karthuizer Kerkhof
+&lt;a href="https://archief.amsterdam/archief/5001/1165" target="_blank" title="https://archief.amsterdam/archief/5001/1165"&gt;https://archief.amsterdam/archief/5001/1165&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Begraven</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04269000259</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>da7448ab-e45a-45a1-bd76-6d4ba4d9f789</identifier>
+        <datestamp>2021-08-12T21:23:30Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e1b-5674-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Jannetije</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Theunis</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Begraven</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1684</a2a:Year>
+              <a2a:Month>12</a2a:Month>
+              <a2a:Day>28</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e1b-5674-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1684-12-28</a2a:From>
+              <a2a:To>1684-12-28</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1684</a2a:Year>
+              <a2a:Month>12</a2a:Month>
+              <a2a:Day>28</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: DTB Begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5001</a2a:Archive>
+              <a2a:Collection>Deel: 1165, Periode: 1684-1687</a2a:Collection>
+              <a2a:Book>DTB Begraven</a2a:Book>
+              <a2a:Folio>p.128 en p.129</a2a:Folio>
+              <a2a:RegistryNumber>1165</a2a:RegistryNumber>
+              <a2a:DocumentNumber>DTB 1165</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/6bafa45b-1449-f8f2-d973-eeba24264a71.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/da7448ab-e45a-45a1-bd76-6d4ba4d9f789</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/6bafa45b-1449-f8f2-d973-eeba24264a71.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-11</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/da7448ab-e45a-45a1-bd76-6d4ba4d9f789</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{da7448ab-e45a-45a1-bd76-6d4ba4d9f789}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>Begraafplaats: Karthuizer Kerkhof
+&lt;a href="https://archief.amsterdam/archief/5001/1165" target="_blank" title="https://archief.amsterdam/archief/5001/1165"&gt;https://archief.amsterdam/archief/5001/1165&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Begraven</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04269000067</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>da6ba962-78e0-4401-a1fb-cb94b3497720</identifier>
+        <datestamp>2021-08-12T21:23:30Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e22-48f9-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Jan</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Pieterse</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Begraven</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1686</a2a:Year>
+              <a2a:Month>2</a2a:Month>
+              <a2a:Day>14</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e22-48f9-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1686-02-14</a2a:From>
+              <a2a:To>1686-02-14</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1686</a2a:Year>
+              <a2a:Month>2</a2a:Month>
+              <a2a:Day>14</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: DTB Begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5001</a2a:Archive>
+              <a2a:Collection>Deel: 1165, Periode: 1684-1687</a2a:Collection>
+              <a2a:Book>DTB Begraven</a2a:Book>
+              <a2a:Folio>p.258 en p.259</a2a:Folio>
+              <a2a:RegistryNumber>1165</a2a:RegistryNumber>
+              <a2a:DocumentNumber>DTB 1165</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/60c646b0-229d-55be-a573-b353a52bc967.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/da6ba962-78e0-4401-a1fb-cb94b3497720</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/60c646b0-229d-55be-a573-b353a52bc967.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-11</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/da6ba962-78e0-4401-a1fb-cb94b3497720</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{da6ba962-78e0-4401-a1fb-cb94b3497720}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>Begraafplaats: Karthuizer Kerkhof
+Relatie informatie: Kind van
+&lt;a href="https://archief.amsterdam/archief/5001/1165" target="_blank" title="https://archief.amsterdam/archief/5001/1165"&gt;https://archief.amsterdam/archief/5001/1165&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Begraven</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04269000132</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>da69fc03-5c48-4b04-9d75-2f38b8fb9e33</identifier>
+        <datestamp>2021-08-12T21:23:30Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e1d-a842-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Pieter</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Kroock</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Begraven</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1687</a2a:Year>
+              <a2a:Month>5</a2a:Month>
+              <a2a:Day>30</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e1d-a842-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1687-05-30</a2a:From>
+              <a2a:To>1687-05-30</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1687</a2a:Year>
+              <a2a:Month>5</a2a:Month>
+              <a2a:Day>30</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: DTB Begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5001</a2a:Archive>
+              <a2a:Collection>Deel: 1165, Periode: 1684-1687</a2a:Collection>
+              <a2a:Book>DTB Begraven</a2a:Book>
+              <a2a:Folio>p.460 en p.461</a2a:Folio>
+              <a2a:RegistryNumber>1165</a2a:RegistryNumber>
+              <a2a:DocumentNumber>DTB 1165</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/bfd4105a-d04d-936a-e267-066c33291be8.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/da69fc03-5c48-4b04-9d75-2f38b8fb9e33</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/bfd4105a-d04d-936a-e267-066c33291be8.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-11</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/da69fc03-5c48-4b04-9d75-2f38b8fb9e33</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{da69fc03-5c48-4b04-9d75-2f38b8fb9e33}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>Begraafplaats: Karthuizer Kerkhof
+Relatie informatie: Kind van
+&lt;a href="https://archief.amsterdam/archief/5001/1165" target="_blank" title="https://archief.amsterdam/archief/5001/1165"&gt;https://archief.amsterdam/archief/5001/1165&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Begraven</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04269000233</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>da58faa2-ee15-47c5-8e76-4467e3c91fa3</identifier>
+        <datestamp>2021-08-12T21:23:30Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e1f-f71f-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Abram Abramse</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Schaleij</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Begraven</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1684</a2a:Year>
+              <a2a:Month>7</a2a:Month>
+              <a2a:Day>6</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e1f-f71f-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1684-07-06</a2a:From>
+              <a2a:To>1684-07-06</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1684</a2a:Year>
+              <a2a:Month>7</a2a:Month>
+              <a2a:Day>6</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: DTB Begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5001</a2a:Archive>
+              <a2a:Collection>Deel: 1165, Periode: 1684-1687</a2a:Collection>
+              <a2a:Book>DTB Begraven</a2a:Book>
+              <a2a:Folio>p.74 en p.75</a2a:Folio>
+              <a2a:RegistryNumber>1165</a2a:RegistryNumber>
+              <a2a:DocumentNumber>DTB 1165</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/127b6fc0-683e-f7a7-717f-6b43904dc9d3.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/da58faa2-ee15-47c5-8e76-4467e3c91fa3</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/127b6fc0-683e-f7a7-717f-6b43904dc9d3.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-11</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/da58faa2-ee15-47c5-8e76-4467e3c91fa3</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{da58faa2-ee15-47c5-8e76-4467e3c91fa3}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>Begraafplaats: Karthuizer Kerkhof
+&lt;a href="https://archief.amsterdam/archief/5001/1165" target="_blank" title="https://archief.amsterdam/archief/5001/1165"&gt;https://archief.amsterdam/archief/5001/1165&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Begraven</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04269000040</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>da50843c-df2e-49b6-9c4a-1b7c4850ee85</identifier>
+        <datestamp>2021-08-12T21:23:30Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e1f-f8be-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Pieter</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Daan</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Begraven</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1686</a2a:Year>
+              <a2a:Month>10</a2a:Month>
+              <a2a:Day>4</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e1f-f8be-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1686-10-04</a2a:From>
+              <a2a:To>1686-10-04</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1686</a2a:Year>
+              <a2a:Month>10</a2a:Month>
+              <a2a:Day>4</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: DTB Begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5001</a2a:Archive>
+              <a2a:Collection>Deel: 1165, Periode: 1684-1687</a2a:Collection>
+              <a2a:Book>DTB Begraven</a2a:Book>
+              <a2a:Folio>p.368 en p.369</a2a:Folio>
+              <a2a:RegistryNumber>1165</a2a:RegistryNumber>
+              <a2a:DocumentNumber>DTB 1165</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/3081da57-5509-1a9c-e498-108b0d0b606d.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/da50843c-df2e-49b6-9c4a-1b7c4850ee85</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/3081da57-5509-1a9c-e498-108b0d0b606d.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-11</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/da50843c-df2e-49b6-9c4a-1b7c4850ee85</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{da50843c-df2e-49b6-9c4a-1b7c4850ee85}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>Begraafplaats: Karthuizer Kerkhof
+Relatie informatie: Kind van
+&lt;a href="https://archief.amsterdam/archief/5001/1165" target="_blank" title="https://archief.amsterdam/archief/5001/1165"&gt;https://archief.amsterdam/archief/5001/1165&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Begraven</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04269000187</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>da43bc40-fb49-4613-b5b7-8841fbd3cb6b</identifier>
+        <datestamp>2021-08-12T21:23:30Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e22-482d-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Jurijan</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Weulenvelt</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Begraven</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1684</a2a:Year>
+              <a2a:Month>11</a2a:Month>
+              <a2a:Day>12</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e22-482d-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1684-11-12</a2a:From>
+              <a2a:To>1684-11-12</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1684</a2a:Year>
+              <a2a:Month>11</a2a:Month>
+              <a2a:Day>12</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: DTB Begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5001</a2a:Archive>
+              <a2a:Collection>Deel: 1165, Periode: 1684-1687</a2a:Collection>
+              <a2a:Book>DTB Begraven</a2a:Book>
+              <a2a:Folio>p.116 en p.117</a2a:Folio>
+              <a2a:RegistryNumber>1165</a2a:RegistryNumber>
+              <a2a:DocumentNumber>DTB 1165</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/87701230-4581-0152-6dca-179994ed8d69.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/da43bc40-fb49-4613-b5b7-8841fbd3cb6b</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/87701230-4581-0152-6dca-179994ed8d69.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-11</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/da43bc40-fb49-4613-b5b7-8841fbd3cb6b</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{da43bc40-fb49-4613-b5b7-8841fbd3cb6b}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>Begraafplaats: Karthuizer Kerkhof
+&lt;a href="https://archief.amsterdam/archief/5001/1165" target="_blank" title="https://archief.amsterdam/archief/5001/1165"&gt;https://archief.amsterdam/archief/5001/1165&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Begraven</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04269000061</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>da3ff258-34ad-423d-b830-556a7fcf311b</identifier>
+        <datestamp>2021-08-12T21:23:30Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e16-b93c-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Machteltije</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Kneuckels</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Begraven</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1685</a2a:Year>
+              <a2a:Month>1</a2a:Month>
+              <a2a:Day>14</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e16-b93c-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1685-01-14</a2a:From>
+              <a2a:To>1685-01-14</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1685</a2a:Year>
+              <a2a:Month>1</a2a:Month>
+              <a2a:Day>14</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: DTB Begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5001</a2a:Archive>
+              <a2a:Collection>Deel: 1165, Periode: 1684-1687</a2a:Collection>
+              <a2a:Book>DTB Begraven</a2a:Book>
+              <a2a:Folio>p.136 en p.137</a2a:Folio>
+              <a2a:RegistryNumber>1165</a2a:RegistryNumber>
+              <a2a:DocumentNumber>DTB 1165</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/83081e4b-5372-52ee-7a6f-4fe5d0b5b7a3.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/da3ff258-34ad-423d-b830-556a7fcf311b</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/83081e4b-5372-52ee-7a6f-4fe5d0b5b7a3.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-11</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/da3ff258-34ad-423d-b830-556a7fcf311b</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{da3ff258-34ad-423d-b830-556a7fcf311b}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>Begraafplaats: Karthuizer Kerkhof
+&lt;a href="https://archief.amsterdam/archief/5001/1165" target="_blank" title="https://archief.amsterdam/archief/5001/1165"&gt;https://archief.amsterdam/archief/5001/1165&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Begraven</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04269000071</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>da3c2e55-46e7-40e1-9253-19feea68caad</identifier>
+        <datestamp>2021-08-12T21:23:30Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e1d-a7dc-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Marretije</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Jans</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Begraven</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1686</a2a:Year>
+              <a2a:Month>10</a2a:Month>
+              <a2a:Day>28</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e1d-a7dc-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1686-10-28</a2a:From>
+              <a2a:To>1686-10-28</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1686</a2a:Year>
+              <a2a:Month>10</a2a:Month>
+              <a2a:Day>28</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: DTB Begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5001</a2a:Archive>
+              <a2a:Collection>Deel: 1165, Periode: 1684-1687</a2a:Collection>
+              <a2a:Book>DTB Begraven</a2a:Book>
+              <a2a:Folio>p.380 en p.381</a2a:Folio>
+              <a2a:RegistryNumber>1165</a2a:RegistryNumber>
+              <a2a:DocumentNumber>DTB 1165</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/95f60f4a-96e3-f6af-aabf-1f18a4a7e738.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/da3c2e55-46e7-40e1-9253-19feea68caad</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/95f60f4a-96e3-f6af-aabf-1f18a4a7e738.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-11</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/da3c2e55-46e7-40e1-9253-19feea68caad</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{da3c2e55-46e7-40e1-9253-19feea68caad}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>Begraafplaats: Karthuizer Kerkhof
+Relatie informatie: Een kind
+&lt;a href="https://archief.amsterdam/archief/5001/1165" target="_blank" title="https://archief.amsterdam/archief/5001/1165"&gt;https://archief.amsterdam/archief/5001/1165&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Begraven</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04269000193</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>da2bdec3-e153-4e14-84d9-1dcbd885c146</identifier>
+        <datestamp>2021-08-12T21:23:30Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e26-e553-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Marreten</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Harmsmusse</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Begraven</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1684</a2a:Year>
+              <a2a:Month>6</a2a:Month>
+              <a2a:Day>20</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e26-e553-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1684-06-20</a2a:From>
+              <a2a:To>1684-06-20</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1684</a2a:Year>
+              <a2a:Month>6</a2a:Month>
+              <a2a:Day>20</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: DTB Begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5001</a2a:Archive>
+              <a2a:Collection>Deel: 1165, Periode: 1684-1687</a2a:Collection>
+              <a2a:Book>DTB Begraven</a2a:Book>
+              <a2a:Folio>p.66 en p.67</a2a:Folio>
+              <a2a:RegistryNumber>1165</a2a:RegistryNumber>
+              <a2a:DocumentNumber>DTB 1165</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/278669b5-4670-659e-a1c5-a0e05b573b05.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/da2bdec3-e153-4e14-84d9-1dcbd885c146</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/278669b5-4670-659e-a1c5-a0e05b573b05.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-11</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/da2bdec3-e153-4e14-84d9-1dcbd885c146</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{da2bdec3-e153-4e14-84d9-1dcbd885c146}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>Begraafplaats: Karthuizer Kerkhof
+&lt;a href="https://archief.amsterdam/archief/5001/1165" target="_blank" title="https://archief.amsterdam/archief/5001/1165"&gt;https://archief.amsterdam/archief/5001/1165&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Begraven</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04269000036</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>da14d03d-3325-4e7b-a4a4-f39dcc662e45</identifier>
+        <datestamp>2021-08-12T21:23:30Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e1d-a6e8-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Hendrick</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Abrahamse</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Begraven</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1685</a2a:Year>
+              <a2a:Month>8</a2a:Month>
+              <a2a:Day>16</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e1d-a6e8-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1685-08-16</a2a:From>
+              <a2a:To>1685-08-16</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1685</a2a:Year>
+              <a2a:Month>8</a2a:Month>
+              <a2a:Day>16</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: DTB Begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5001</a2a:Archive>
+              <a2a:Collection>Deel: 1165, Periode: 1684-1687</a2a:Collection>
+              <a2a:Book>DTB Begraven</a2a:Book>
+              <a2a:Folio>p.202 en p.203</a2a:Folio>
+              <a2a:RegistryNumber>1165</a2a:RegistryNumber>
+              <a2a:DocumentNumber>DTB 1165</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/f30012f5-1f17-f9ed-3b09-a825b5c24c2e.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/da14d03d-3325-4e7b-a4a4-f39dcc662e45</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/f30012f5-1f17-f9ed-3b09-a825b5c24c2e.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-11</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/da14d03d-3325-4e7b-a4a4-f39dcc662e45</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{da14d03d-3325-4e7b-a4a4-f39dcc662e45}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>Begraafplaats: Karthuizer Kerkhof
+Relatie informatie: Kind van
+&lt;a href="https://archief.amsterdam/archief/5001/1165" target="_blank" title="https://archief.amsterdam/archief/5001/1165"&gt;https://archief.amsterdam/archief/5001/1165&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Begraven</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04269000104</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>da13f02f-7b0e-4e3d-88ad-2e134fe32eec</identifier>
+        <datestamp>2021-08-12T21:23:30Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e14-69c9-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Chrinteijan</a2a:PersonNameFirstName>
+              <a2a:PersonNamePrefixLastName>de</a2a:PersonNamePrefixLastName>
+              <a2a:PersonNameLastName>Laat</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Begraven</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1685</a2a:Year>
+              <a2a:Month>11</a2a:Month>
+              <a2a:Day>25</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e14-69c9-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1685-11-25</a2a:From>
+              <a2a:To>1685-11-25</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1685</a2a:Year>
+              <a2a:Month>11</a2a:Month>
+              <a2a:Day>25</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: DTB Begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5001</a2a:Archive>
+              <a2a:Collection>Deel: 1165, Periode: 1684-1687</a2a:Collection>
+              <a2a:Book>DTB Begraven</a2a:Book>
+              <a2a:Folio>p.232 en p.233</a2a:Folio>
+              <a2a:RegistryNumber>1165</a2a:RegistryNumber>
+              <a2a:DocumentNumber>DTB 1165</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/046ea4cd-128c-a6b8-3a01-6dbfcaf2023e.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/da13f02f-7b0e-4e3d-88ad-2e134fe32eec</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/046ea4cd-128c-a6b8-3a01-6dbfcaf2023e.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-11</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/da13f02f-7b0e-4e3d-88ad-2e134fe32eec</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{da13f02f-7b0e-4e3d-88ad-2e134fe32eec}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>Begraafplaats: Karthuizer Kerkhof
+Relatie informatie: Kind van
+&lt;a href="https://archief.amsterdam/archief/5001/1165" target="_blank" title="https://archief.amsterdam/archief/5001/1165"&gt;https://archief.amsterdam/archief/5001/1165&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Begraven</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04269000119</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>da132c14-252d-4915-bd1b-089b65a2dbf6</identifier>
+        <datestamp>2021-08-12T21:23:30Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e26-e729-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Aeltije</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Jans</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Begraven</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1686</a2a:Year>
+              <a2a:Month>12</a2a:Month>
+              <a2a:Day>26</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e26-e729-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1686-12-26</a2a:From>
+              <a2a:To>1686-12-26</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1686</a2a:Year>
+              <a2a:Month>12</a2a:Month>
+              <a2a:Day>26</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: DTB Begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5001</a2a:Archive>
+              <a2a:Collection>Deel: 1165, Periode: 1684-1687</a2a:Collection>
+              <a2a:Book>DTB Begraven</a2a:Book>
+              <a2a:Folio>p.406 en p.407</a2a:Folio>
+              <a2a:RegistryNumber>1165</a2a:RegistryNumber>
+              <a2a:DocumentNumber>DTB 1165</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/8e6f6cc4-355b-67e3-4edd-2bf9604d30ca.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/da132c14-252d-4915-bd1b-089b65a2dbf6</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/8e6f6cc4-355b-67e3-4edd-2bf9604d30ca.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-11</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/da132c14-252d-4915-bd1b-089b65a2dbf6</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{da132c14-252d-4915-bd1b-089b65a2dbf6}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>Begraafplaats: Karthuizer Kerkhof
+&lt;a href="https://archief.amsterdam/archief/5001/1165" target="_blank" title="https://archief.amsterdam/archief/5001/1165"&gt;https://archief.amsterdam/archief/5001/1165&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Begraven</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04269000206</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>d9f93151-9b1d-4dda-8ea4-83919fada617</identifier>
+        <datestamp>2021-08-12T21:23:30Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e1d-a672-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Cornelis</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Sonnucse</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Begraven</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1684</a2a:Year>
+              <a2a:Month>11</a2a:Month>
+              <a2a:Day>26</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e1d-a672-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1684-11-26</a2a:From>
+              <a2a:To>1684-11-26</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1684</a2a:Year>
+              <a2a:Month>11</a2a:Month>
+              <a2a:Day>26</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: DTB Begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5001</a2a:Archive>
+              <a2a:Collection>Deel: 1165, Periode: 1684-1687</a2a:Collection>
+              <a2a:Book>DTB Begraven</a2a:Book>
+              <a2a:Folio>p.120 en p.121</a2a:Folio>
+              <a2a:RegistryNumber>1165</a2a:RegistryNumber>
+              <a2a:DocumentNumber>DTB 1165</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/67e45883-5f46-03d4-5647-73a0a0ea6830.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/d9f93151-9b1d-4dda-8ea4-83919fada617</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/67e45883-5f46-03d4-5647-73a0a0ea6830.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-11</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/d9f93151-9b1d-4dda-8ea4-83919fada617</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{d9f93151-9b1d-4dda-8ea4-83919fada617}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>Begraafplaats: Karthuizer Kerkhof
+Relatie informatie: Kind van
+&lt;a href="https://archief.amsterdam/archief/5001/1165" target="_blank" title="https://archief.amsterdam/archief/5001/1165"&gt;https://archief.amsterdam/archief/5001/1165&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Begraven</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04269000063</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>d9f8465d-99c5-4652-8591-c6d279160fac</identifier>
+        <datestamp>2021-08-12T21:23:30Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e1f-f900-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Teuntije</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Elders</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Begraven</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1687</a2a:Year>
+              <a2a:Month>2</a2a:Month>
+              <a2a:Day>11</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e1f-f900-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1687-02-11</a2a:From>
+              <a2a:To>1687-02-11</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1687</a2a:Year>
+              <a2a:Month>2</a2a:Month>
+              <a2a:Day>11</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: DTB Begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5001</a2a:Archive>
+              <a2a:Collection>Deel: 1165, Periode: 1684-1687</a2a:Collection>
+              <a2a:Book>DTB Begraven</a2a:Book>
+              <a2a:Folio>p.422 en p.423</a2a:Folio>
+              <a2a:RegistryNumber>1165</a2a:RegistryNumber>
+              <a2a:DocumentNumber>DTB 1165</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/26757a1c-2ba1-fa5b-bedb-73a0d9183588.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/d9f8465d-99c5-4652-8591-c6d279160fac</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/26757a1c-2ba1-fa5b-bedb-73a0d9183588.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-11</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/d9f8465d-99c5-4652-8591-c6d279160fac</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{d9f8465d-99c5-4652-8591-c6d279160fac}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>Begraafplaats: Karthuizer Kerkhof
+&lt;a href="https://archief.amsterdam/archief/5001/1165" target="_blank" title="https://archief.amsterdam/archief/5001/1165"&gt;https://archief.amsterdam/archief/5001/1165&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Begraven</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04269000214</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>d9de4c31-9770-45fc-a942-911ccfb09344</identifier>
+        <datestamp>2021-08-12T21:23:30Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e24-96f4-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Hendrick</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Jacobse</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Begraven</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1685</a2a:Year>
+              <a2a:Month>3</a2a:Month>
+              <a2a:Day>13</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e24-96f4-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1685-03-13</a2a:From>
+              <a2a:To>1685-03-13</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1685</a2a:Year>
+              <a2a:Month>3</a2a:Month>
+              <a2a:Day>13</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: DTB Begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5001</a2a:Archive>
+              <a2a:Collection>Deel: 1165, Periode: 1684-1687</a2a:Collection>
+              <a2a:Book>DTB Begraven</a2a:Book>
+              <a2a:Folio>p.154 en p.155</a2a:Folio>
+              <a2a:RegistryNumber>1165</a2a:RegistryNumber>
+              <a2a:DocumentNumber>DTB 1165</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/65942cd9-8cc2-dd5f-d3f5-843809dd6361.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/d9de4c31-9770-45fc-a942-911ccfb09344</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/65942cd9-8cc2-dd5f-d3f5-843809dd6361.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-11</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/d9de4c31-9770-45fc-a942-911ccfb09344</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{d9de4c31-9770-45fc-a942-911ccfb09344}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>Begraafplaats: Karthuizer Kerkhof
+Relatie informatie: Doodgeboren kind van
+&lt;a href="https://archief.amsterdam/archief/5001/1165" target="_blank" title="https://archief.amsterdam/archief/5001/1165"&gt;https://archief.amsterdam/archief/5001/1165&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Begraven</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04269000080</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>d9ddfed2-9e24-4752-93c8-7527a872d02f</identifier>
+        <datestamp>2021-08-12T21:23:30Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e26-e6fa-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Haesije Pieters</a2a:PersonNameFirstName>
+              <a2a:PersonNamePrefixLastName>van den</a2a:PersonNamePrefixLastName>
+              <a2a:PersonNameLastName>Hou</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Begraven</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1686</a2a:Year>
+              <a2a:Month>9</a2a:Month>
+              <a2a:Day>29</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e26-e6fa-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1686-09-29</a2a:From>
+              <a2a:To>1686-09-29</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1686</a2a:Year>
+              <a2a:Month>9</a2a:Month>
+              <a2a:Day>29</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: DTB Begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5001</a2a:Archive>
+              <a2a:Collection>Deel: 1165, Periode: 1684-1687</a2a:Collection>
+              <a2a:Book>DTB Begraven</a2a:Book>
+              <a2a:Folio>p.368 en p.369</a2a:Folio>
+              <a2a:RegistryNumber>1165</a2a:RegistryNumber>
+              <a2a:DocumentNumber>DTB 1165</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/3081da57-5509-1a9c-e498-108b0d0b606d.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/d9ddfed2-9e24-4752-93c8-7527a872d02f</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/3081da57-5509-1a9c-e498-108b0d0b606d.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-11</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/d9ddfed2-9e24-4752-93c8-7527a872d02f</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{d9ddfed2-9e24-4752-93c8-7527a872d02f}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>Begraafplaats: Karthuizer Kerkhof
+&lt;a href="https://archief.amsterdam/archief/5001/1165" target="_blank" title="https://archief.amsterdam/archief/5001/1165"&gt;https://archief.amsterdam/archief/5001/1165&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Begraven</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04269000187</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>d9dd7f2c-960e-4506-afb8-f06b4e0447d8</identifier>
+        <datestamp>2021-08-12T21:23:30Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e12-19ea-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Jacobus Leuise</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Marrekerck</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Begraven</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1685</a2a:Year>
+              <a2a:Month>7</a2a:Month>
+              <a2a:Day>1</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e12-19ea-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1685-07-01</a2a:From>
+              <a2a:To>1685-07-01</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1685</a2a:Year>
+              <a2a:Month>7</a2a:Month>
+              <a2a:Day>1</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: DTB Begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5001</a2a:Archive>
+              <a2a:Collection>Deel: 1165, Periode: 1684-1687</a2a:Collection>
+              <a2a:Book>DTB Begraven</a2a:Book>
+              <a2a:Folio>p.190 en p.191</a2a:Folio>
+              <a2a:RegistryNumber>1165</a2a:RegistryNumber>
+              <a2a:DocumentNumber>DTB 1165</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/6302c7d6-2170-0f56-873a-6f6a207fe0f1.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/d9dd7f2c-960e-4506-afb8-f06b4e0447d8</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/6302c7d6-2170-0f56-873a-6f6a207fe0f1.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-11</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/d9dd7f2c-960e-4506-afb8-f06b4e0447d8</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{d9dd7f2c-960e-4506-afb8-f06b4e0447d8}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>Begraafplaats: Karthuizer Kerkhof
+&lt;a href="https://archief.amsterdam/archief/5001/1165" target="_blank" title="https://archief.amsterdam/archief/5001/1165"&gt;https://archief.amsterdam/archief/5001/1165&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Begraven</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04269000098</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>d9d4c3c1-f9e4-4577-9649-22a6f451a3ed</identifier>
+        <datestamp>2021-08-12T21:23:30Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e24-98ad-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Jasper</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Gerritse</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Begraven</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1687</a2a:Year>
+              <a2a:Month>7</a2a:Month>
+              <a2a:Day>25</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e24-98ad-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1687-07-25</a2a:From>
+              <a2a:To>1687-07-25</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1687</a2a:Year>
+              <a2a:Month>7</a2a:Month>
+              <a2a:Day>25</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: DTB Begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5001</a2a:Archive>
+              <a2a:Collection>Deel: 1165, Periode: 1684-1687</a2a:Collection>
+              <a2a:Book>DTB Begraven</a2a:Book>
+              <a2a:Folio>p.480 en p.481</a2a:Folio>
+              <a2a:RegistryNumber>1165</a2a:RegistryNumber>
+              <a2a:DocumentNumber>DTB 1165</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/8f5704d5-f85f-0351-c5cd-2dbb99cc463b.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/d9d4c3c1-f9e4-4577-9649-22a6f451a3ed</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/8f5704d5-f85f-0351-c5cd-2dbb99cc463b.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-11</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/d9d4c3c1-f9e4-4577-9649-22a6f451a3ed</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{d9d4c3c1-f9e4-4577-9649-22a6f451a3ed}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>Begraafplaats: Karthuizer Kerkhof
+Relatie informatie: Kind van
+&lt;a href="https://archief.amsterdam/archief/5001/1165" target="_blank" title="https://archief.amsterdam/archief/5001/1165"&gt;https://archief.amsterdam/archief/5001/1165&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Begraven</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04269000243</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>d9ccc665-e9a0-4095-aeea-28fd97025dbf</identifier>
+        <datestamp>2021-08-12T21:23:30Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e1d-a6f2-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Dirck Klaese</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Helgen</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Begraven</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1685</a2a:Year>
+              <a2a:Month>9</a2a:Month>
+              <a2a:Day>12</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e1d-a6f2-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1685-09-12</a2a:From>
+              <a2a:To>1685-09-12</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1685</a2a:Year>
+              <a2a:Month>9</a2a:Month>
+              <a2a:Day>12</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: DTB Begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5001</a2a:Archive>
+              <a2a:Collection>Deel: 1165, Periode: 1684-1687</a2a:Collection>
+              <a2a:Book>DTB Begraven</a2a:Book>
+              <a2a:Folio>p.210 en p.211</a2a:Folio>
+              <a2a:RegistryNumber>1165</a2a:RegistryNumber>
+              <a2a:DocumentNumber>DTB 1165</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/fc5136e3-ce43-8abc-2af3-ece2d5385d31.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/d9ccc665-e9a0-4095-aeea-28fd97025dbf</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/fc5136e3-ce43-8abc-2af3-ece2d5385d31.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-11</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/d9ccc665-e9a0-4095-aeea-28fd97025dbf</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{d9ccc665-e9a0-4095-aeea-28fd97025dbf}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>Begraafplaats: Karthuizer Kerkhof
+Relatie informatie: Kind van
+&lt;a href="https://archief.amsterdam/archief/5001/1165" target="_blank" title="https://archief.amsterdam/archief/5001/1165"&gt;https://archief.amsterdam/archief/5001/1165&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Begraven</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04269000108</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>d9bdc219-f4e3-4949-b59a-9f904a8ac5eb</identifier>
+        <datestamp>2021-08-12T21:23:30Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e24-967d-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Jan</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Pieterse</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Begraven</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1684</a2a:Year>
+              <a2a:Month>7</a2a:Month>
+              <a2a:Day>6</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e24-967d-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1684-07-06</a2a:From>
+              <a2a:To>1684-07-06</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1684</a2a:Year>
+              <a2a:Month>7</a2a:Month>
+              <a2a:Day>6</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: DTB Begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5001</a2a:Archive>
+              <a2a:Collection>Deel: 1165, Periode: 1684-1687</a2a:Collection>
+              <a2a:Book>DTB Begraven</a2a:Book>
+              <a2a:Folio>p.74 en p.75</a2a:Folio>
+              <a2a:RegistryNumber>1165</a2a:RegistryNumber>
+              <a2a:DocumentNumber>DTB 1165</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/127b6fc0-683e-f7a7-717f-6b43904dc9d3.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/d9bdc219-f4e3-4949-b59a-9f904a8ac5eb</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/127b6fc0-683e-f7a7-717f-6b43904dc9d3.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-11</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/d9bdc219-f4e3-4949-b59a-9f904a8ac5eb</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{d9bdc219-f4e3-4949-b59a-9f904a8ac5eb}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>Begraafplaats: Karthuizer Kerkhof
+Relatie informatie: Kind van
+&lt;a href="https://archief.amsterdam/archief/5001/1165" target="_blank" title="https://archief.amsterdam/archief/5001/1165"&gt;https://archief.amsterdam/archief/5001/1165&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Begraven</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04269000040</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>d9b0bc3f-5ce1-436e-a837-989680de8d39</identifier>
+        <datestamp>2021-08-12T21:23:30Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e14-6a86-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Elisabeth Maria</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Trissingh</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Begraven</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1686</a2a:Year>
+              <a2a:Month>10</a2a:Month>
+              <a2a:Day>8</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e14-6a86-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1686-10-08</a2a:From>
+              <a2a:To>1686-10-08</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1686</a2a:Year>
+              <a2a:Month>10</a2a:Month>
+              <a2a:Day>8</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: DTB Begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5001</a2a:Archive>
+              <a2a:Collection>Deel: 1165, Periode: 1684-1687</a2a:Collection>
+              <a2a:Book>DTB Begraven</a2a:Book>
+              <a2a:Folio>p.372 en p.373</a2a:Folio>
+              <a2a:RegistryNumber>1165</a2a:RegistryNumber>
+              <a2a:DocumentNumber>DTB 1165</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/111b4600-5c97-ff32-ca62-9668727d591a.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/d9b0bc3f-5ce1-436e-a837-989680de8d39</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/111b4600-5c97-ff32-ca62-9668727d591a.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-11</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/d9b0bc3f-5ce1-436e-a837-989680de8d39</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{d9b0bc3f-5ce1-436e-a837-989680de8d39}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>Begraafplaats: Karthuizer Kerkhof
+&lt;a href="https://archief.amsterdam/archief/5001/1165" target="_blank" title="https://archief.amsterdam/archief/5001/1165"&gt;https://archief.amsterdam/archief/5001/1165&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Begraven</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04269000189</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>d9ac35b4-4b67-4db0-ab4c-15c699985165</identifier>
+        <datestamp>2021-08-12T21:23:30Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e14-69ca-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Jan</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Wesselse</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Begraven</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1685</a2a:Year>
+              <a2a:Month>12</a2a:Month>
+              <a2a:Day>2</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e14-69ca-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1685-12-02</a2a:From>
+              <a2a:To>1685-12-02</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1685</a2a:Year>
+              <a2a:Month>12</a2a:Month>
+              <a2a:Day>2</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: DTB Begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5001</a2a:Archive>
+              <a2a:Collection>Deel: 1165, Periode: 1684-1687</a2a:Collection>
+              <a2a:Book>DTB Begraven</a2a:Book>
+              <a2a:Folio>p.232 en p.233</a2a:Folio>
+              <a2a:RegistryNumber>1165</a2a:RegistryNumber>
+              <a2a:DocumentNumber>DTB 1165</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/046ea4cd-128c-a6b8-3a01-6dbfcaf2023e.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/d9ac35b4-4b67-4db0-ab4c-15c699985165</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/046ea4cd-128c-a6b8-3a01-6dbfcaf2023e.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-11</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/d9ac35b4-4b67-4db0-ab4c-15c699985165</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{d9ac35b4-4b67-4db0-ab4c-15c699985165}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>Begraafplaats: Karthuizer Kerkhof
+Relatie informatie: Kind van
+&lt;a href="https://archief.amsterdam/archief/5001/1165" target="_blank" title="https://archief.amsterdam/archief/5001/1165"&gt;https://archief.amsterdam/archief/5001/1165&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Begraven</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04269000119</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>d9aa0e72-b199-4707-8ffe-193d20118b44</identifier>
+        <datestamp>2021-08-12T21:23:30Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e22-4894-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Andris</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Teunisse</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Begraven</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1685</a2a:Year>
+              <a2a:Month>6</a2a:Month>
+              <a2a:Day>20</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e22-4894-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1685-06-20</a2a:From>
+              <a2a:To>1685-06-20</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1685</a2a:Year>
+              <a2a:Month>6</a2a:Month>
+              <a2a:Day>20</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: DTB Begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5001</a2a:Archive>
+              <a2a:Collection>Deel: 1165, Periode: 1684-1687</a2a:Collection>
+              <a2a:Book>DTB Begraven</a2a:Book>
+              <a2a:Folio>p.186 en p.187</a2a:Folio>
+              <a2a:RegistryNumber>1165</a2a:RegistryNumber>
+              <a2a:DocumentNumber>DTB 1165</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/89365067-d066-794c-4e71-b39f5401e776.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/d9aa0e72-b199-4707-8ffe-193d20118b44</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/89365067-d066-794c-4e71-b39f5401e776.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-11</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/d9aa0e72-b199-4707-8ffe-193d20118b44</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{d9aa0e72-b199-4707-8ffe-193d20118b44}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>Begraafplaats: Karthuizer Kerkhof
+&lt;a href="https://archief.amsterdam/archief/5001/1165" target="_blank" title="https://archief.amsterdam/archief/5001/1165"&gt;https://archief.amsterdam/archief/5001/1165&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Begraven</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04269000096</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>d987cba9-1759-4276-8595-38be6f001e9d</identifier>
+        <datestamp>2021-08-12T21:23:30Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e1b-5887-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Flip</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Loot</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Begraven</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1687</a2a:Year>
+              <a2a:Month>11</a2a:Month>
+              <a2a:Day>17</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e1b-5887-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1687-11-17</a2a:From>
+              <a2a:To>1687-11-17</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1687</a2a:Year>
+              <a2a:Month>11</a2a:Month>
+              <a2a:Day>17</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: DTB Begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5001</a2a:Archive>
+              <a2a:Collection>Deel: 1165, Periode: 1684-1687</a2a:Collection>
+              <a2a:Book>DTB Begraven</a2a:Book>
+              <a2a:Folio>p.520 en p.521</a2a:Folio>
+              <a2a:RegistryNumber>1165</a2a:RegistryNumber>
+              <a2a:DocumentNumber>DTB 1165</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/b2340478-1ed7-b0d9-b8ee-3f0d0b2c00f0.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/d987cba9-1759-4276-8595-38be6f001e9d</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/b2340478-1ed7-b0d9-b8ee-3f0d0b2c00f0.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-11</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/d987cba9-1759-4276-8595-38be6f001e9d</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{d987cba9-1759-4276-8595-38be6f001e9d}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>Begraafplaats: Karthuizer Kerkhof
+Relatie informatie: Kind van
+&lt;a href="https://archief.amsterdam/archief/5001/1165" target="_blank" title="https://archief.amsterdam/archief/5001/1165"&gt;https://archief.amsterdam/archief/5001/1165&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Begraven</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04269000262</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>d97d4494-115b-4e22-90ec-187bb9317ac2</identifier>
+        <datestamp>2021-08-12T21:23:30Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e26-e695-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Lodewijck</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Stots</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Begraven</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1686</a2a:Year>
+              <a2a:Month>5</a2a:Month>
+              <a2a:Day>12</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e26-e695-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1686-05-12</a2a:From>
+              <a2a:To>1686-05-12</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1686</a2a:Year>
+              <a2a:Month>5</a2a:Month>
+              <a2a:Day>12</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: DTB Begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5001</a2a:Archive>
+              <a2a:Collection>Deel: 1165, Periode: 1684-1687</a2a:Collection>
+              <a2a:Book>DTB Begraven</a2a:Book>
+              <a2a:Folio>p.296 en p.297</a2a:Folio>
+              <a2a:RegistryNumber>1165</a2a:RegistryNumber>
+              <a2a:DocumentNumber>DTB 1165</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/60e7b1f5-f25a-c3e5-25d2-b44967775ce3.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/d97d4494-115b-4e22-90ec-187bb9317ac2</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/60e7b1f5-f25a-c3e5-25d2-b44967775ce3.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-11</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/d97d4494-115b-4e22-90ec-187bb9317ac2</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{d97d4494-115b-4e22-90ec-187bb9317ac2}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>Begraafplaats: Karthuizer Kerkhof
+Relatie informatie: Kind van
+&lt;a href="https://archief.amsterdam/archief/5001/1165" target="_blank" title="https://archief.amsterdam/archief/5001/1165"&gt;https://archief.amsterdam/archief/5001/1165&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Begraven</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04269000151</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>d94daa74-29cc-493d-8498-776a2ec2b1e0</identifier>
+        <datestamp>2021-08-12T21:23:30Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e26-e6ad-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Marten</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Claase</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Begraven</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1686</a2a:Year>
+              <a2a:Month>6</a2a:Month>
+              <a2a:Day>7</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e26-e6ad-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1686-06-07</a2a:From>
+              <a2a:To>1686-06-07</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1686</a2a:Year>
+              <a2a:Month>6</a2a:Month>
+              <a2a:Day>7</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: DTB Begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5001</a2a:Archive>
+              <a2a:Collection>Deel: 1165, Periode: 1684-1687</a2a:Collection>
+              <a2a:Book>DTB Begraven</a2a:Book>
+              <a2a:Folio>p.312 en p.313</a2a:Folio>
+              <a2a:RegistryNumber>1165</a2a:RegistryNumber>
+              <a2a:DocumentNumber>DTB 1165</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/0b7ddbff-8f1e-f7de-069b-0cfbedf7dc0d.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/d94daa74-29cc-493d-8498-776a2ec2b1e0</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/0b7ddbff-8f1e-f7de-069b-0cfbedf7dc0d.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-11</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/d94daa74-29cc-493d-8498-776a2ec2b1e0</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{d94daa74-29cc-493d-8498-776a2ec2b1e0}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>Begraafplaats: Karthuizer Kerkhof
+Relatie informatie: Kind van
+&lt;a href="https://archief.amsterdam/archief/5001/1165" target="_blank" title="https://archief.amsterdam/archief/5001/1165"&gt;https://archief.amsterdam/archief/5001/1165&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Begraven</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04269000159</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>d9466432-aa56-4750-acbb-4bfd9334b176</identifier>
+        <datestamp>2021-08-12T21:23:30Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e19-07a2-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Febetije Dircks</a2a:PersonNameFirstName>
+              <a2a:PersonNamePrefixLastName>van de</a2a:PersonNamePrefixLastName>
+              <a2a:PersonNameLastName>Kapelle</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Begraven</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1684</a2a:Year>
+              <a2a:Month>9</a2a:Month>
+              <a2a:Day>3</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e19-07a2-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1684-09-03</a2a:From>
+              <a2a:To>1684-09-03</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1684</a2a:Year>
+              <a2a:Month>9</a2a:Month>
+              <a2a:Day>3</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: DTB Begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5001</a2a:Archive>
+              <a2a:Collection>Deel: 1165, Periode: 1684-1687</a2a:Collection>
+              <a2a:Book>DTB Begraven</a2a:Book>
+              <a2a:Folio>p.94 en p.95</a2a:Folio>
+              <a2a:RegistryNumber>1165</a2a:RegistryNumber>
+              <a2a:DocumentNumber>DTB 1165</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/ebad85a3-4448-4916-1e02-89209be8d684.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/d9466432-aa56-4750-acbb-4bfd9334b176</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/ebad85a3-4448-4916-1e02-89209be8d684.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-11</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/d9466432-aa56-4750-acbb-4bfd9334b176</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{d9466432-aa56-4750-acbb-4bfd9334b176}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>Begraafplaats: Karthuizer Kerkhof
+&lt;a href="https://archief.amsterdam/archief/5001/1165" target="_blank" title="https://archief.amsterdam/archief/5001/1165"&gt;https://archief.amsterdam/archief/5001/1165&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Begraven</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04269000050</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>d94415e8-086d-4652-8ccd-832a1167aeb8</identifier>
+        <datestamp>2021-08-12T21:23:30Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e1b-563e-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Jan</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Janse</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Begraven</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1684</a2a:Year>
+              <a2a:Month>8</a2a:Month>
+              <a2a:Day>24</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e1b-563e-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1684-08-24</a2a:From>
+              <a2a:To>1684-08-24</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1684</a2a:Year>
+              <a2a:Month>8</a2a:Month>
+              <a2a:Day>24</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: DTB Begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5001</a2a:Archive>
+              <a2a:Collection>Deel: 1165, Periode: 1684-1687</a2a:Collection>
+              <a2a:Book>DTB Begraven</a2a:Book>
+              <a2a:Folio>p.92 en p.93</a2a:Folio>
+              <a2a:RegistryNumber>1165</a2a:RegistryNumber>
+              <a2a:DocumentNumber>DTB 1165</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/c1cce196-859b-3a51-897b-5b21c457c144.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/d94415e8-086d-4652-8ccd-832a1167aeb8</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/c1cce196-859b-3a51-897b-5b21c457c144.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-11</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/d94415e8-086d-4652-8ccd-832a1167aeb8</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{d94415e8-086d-4652-8ccd-832a1167aeb8}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>Begraafplaats: Karthuizer Kerkhof
+Relatie informatie: Kind van
+&lt;a href="https://archief.amsterdam/archief/5001/1165" target="_blank" title="https://archief.amsterdam/archief/5001/1165"&gt;https://archief.amsterdam/archief/5001/1165&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Begraven</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04269000049</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>d92f7eb0-828e-4030-9f11-4b10af74a0b1</identifier>
+        <datestamp>2021-08-12T21:23:30Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e22-48d6-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Pieter</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Servase</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Begraven</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1685</a2a:Year>
+              <a2a:Month>12</a2a:Month>
+              <a2a:Day>2</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e22-48d6-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1685-12-02</a2a:From>
+              <a2a:To>1685-12-02</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1685</a2a:Year>
+              <a2a:Month>12</a2a:Month>
+              <a2a:Day>2</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: DTB Begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5001</a2a:Archive>
+              <a2a:Collection>Deel: 1165, Periode: 1684-1687</a2a:Collection>
+              <a2a:Book>DTB Begraven</a2a:Book>
+              <a2a:Folio>p.234 en p.235</a2a:Folio>
+              <a2a:RegistryNumber>1165</a2a:RegistryNumber>
+              <a2a:DocumentNumber>DTB 1165</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/caa4db61-4265-42c1-50d7-94ddb5bf723e.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/d92f7eb0-828e-4030-9f11-4b10af74a0b1</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/caa4db61-4265-42c1-50d7-94ddb5bf723e.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-11</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/d92f7eb0-828e-4030-9f11-4b10af74a0b1</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{d92f7eb0-828e-4030-9f11-4b10af74a0b1}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>Begraafplaats: Karthuizer Kerkhof
+&lt;a href="https://archief.amsterdam/archief/5001/1165" target="_blank" title="https://archief.amsterdam/archief/5001/1165"&gt;https://archief.amsterdam/archief/5001/1165&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Begraven</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04269000120</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>d92c3dfa-8f67-43d5-9f7f-61d1c6dfe18d</identifier>
+        <datestamp>2021-08-12T21:23:30Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e22-4a38-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Dirck</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Hendrickse</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Begraven</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1687</a2a:Year>
+              <a2a:Month>9</a2a:Month>
+              <a2a:Day>24</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e22-4a38-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1687-09-24</a2a:From>
+              <a2a:To>1687-09-24</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1687</a2a:Year>
+              <a2a:Month>9</a2a:Month>
+              <a2a:Day>24</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: DTB Begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5001</a2a:Archive>
+              <a2a:Collection>Deel: 1165, Periode: 1684-1687</a2a:Collection>
+              <a2a:Book>DTB Begraven</a2a:Book>
+              <a2a:Folio>p.500 en p.501</a2a:Folio>
+              <a2a:RegistryNumber>1165</a2a:RegistryNumber>
+              <a2a:DocumentNumber>DTB 1165</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/98b8f18b-a837-e96b-a45d-221ceb535377.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/d92c3dfa-8f67-43d5-9f7f-61d1c6dfe18d</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/98b8f18b-a837-e96b-a45d-221ceb535377.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-11</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/d92c3dfa-8f67-43d5-9f7f-61d1c6dfe18d</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{d92c3dfa-8f67-43d5-9f7f-61d1c6dfe18d}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>Begraafplaats: Karthuizer Kerkhof
+Relatie informatie: Kind van
+&lt;a href="https://archief.amsterdam/archief/5001/1165" target="_blank" title="https://archief.amsterdam/archief/5001/1165"&gt;https://archief.amsterdam/archief/5001/1165&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Begraven</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04269000252</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>d929972e-9165-4e66-89b8-c9016cdfdb3b</identifier>
+        <datestamp>2021-08-12T21:23:30Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e1d-a750-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Hendrick</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Roosees</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Begraven</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1686</a2a:Year>
+              <a2a:Month>4</a2a:Month>
+              <a2a:Day>6</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e1d-a750-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1686-04-06</a2a:From>
+              <a2a:To>1686-04-06</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1686</a2a:Year>
+              <a2a:Month>4</a2a:Month>
+              <a2a:Day>6</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: DTB Begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5001</a2a:Archive>
+              <a2a:Collection>Deel: 1165, Periode: 1684-1687</a2a:Collection>
+              <a2a:Book>DTB Begraven</a2a:Book>
+              <a2a:Folio>p.278 en p.279</a2a:Folio>
+              <a2a:RegistryNumber>1165</a2a:RegistryNumber>
+              <a2a:DocumentNumber>DTB 1165</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/af289d36-cedd-f0ea-f0e8-ba70de834089.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/d929972e-9165-4e66-89b8-c9016cdfdb3b</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/af289d36-cedd-f0ea-f0e8-ba70de834089.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-11</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/d929972e-9165-4e66-89b8-c9016cdfdb3b</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{d929972e-9165-4e66-89b8-c9016cdfdb3b}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>Begraafplaats: Karthuizer Kerkhof
+Relatie informatie: Kind van
+&lt;a href="https://archief.amsterdam/archief/5001/1165" target="_blank" title="https://archief.amsterdam/archief/5001/1165"&gt;https://archief.amsterdam/archief/5001/1165&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Begraven</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04269000142</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>d90e5044-283c-4c6f-bba1-f428650f519e</identifier>
+        <datestamp>2021-08-12T21:23:30Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e12-1ab8-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Gilijan</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Adriijanse</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Begraven</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1686</a2a:Year>
+              <a2a:Month>7</a2a:Month>
+              <a2a:Day>28</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e12-1ab8-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1686-07-28</a2a:From>
+              <a2a:To>1686-07-28</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1686</a2a:Year>
+              <a2a:Month>7</a2a:Month>
+              <a2a:Day>28</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: DTB Begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5001</a2a:Archive>
+              <a2a:Collection>Deel: 1165, Periode: 1684-1687</a2a:Collection>
+              <a2a:Book>DTB Begraven</a2a:Book>
+              <a2a:Folio>p.340 en p.341</a2a:Folio>
+              <a2a:RegistryNumber>1165</a2a:RegistryNumber>
+              <a2a:DocumentNumber>DTB 1165</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/b23c7755-f704-6742-ea00-2e33a1c3ea22.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/d90e5044-283c-4c6f-bba1-f428650f519e</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/b23c7755-f704-6742-ea00-2e33a1c3ea22.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-11</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/d90e5044-283c-4c6f-bba1-f428650f519e</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{d90e5044-283c-4c6f-bba1-f428650f519e}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>Begraafplaats: Karthuizer Kerkhof
+Relatie informatie: Kind van
+&lt;a href="https://archief.amsterdam/archief/5001/1165" target="_blank" title="https://archief.amsterdam/archief/5001/1165"&gt;https://archief.amsterdam/archief/5001/1165&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Begraven</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04269000173</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>d90947fe-ee26-431e-adf9-3a6ce6718597</identifier>
+        <datestamp>2021-08-12T21:23:30Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e1d-a625-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Aefije</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Alberts</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Begraven</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1684</a2a:Year>
+              <a2a:Month>6</a2a:Month>
+              <a2a:Day>21</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e1d-a625-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1684-06-21</a2a:From>
+              <a2a:To>1684-06-21</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1684</a2a:Year>
+              <a2a:Month>6</a2a:Month>
+              <a2a:Day>21</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: DTB Begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5001</a2a:Archive>
+              <a2a:Collection>Deel: 1165, Periode: 1684-1687</a2a:Collection>
+              <a2a:Book>DTB Begraven</a2a:Book>
+              <a2a:Folio>p.66 en p.67</a2a:Folio>
+              <a2a:RegistryNumber>1165</a2a:RegistryNumber>
+              <a2a:DocumentNumber>DTB 1165</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/278669b5-4670-659e-a1c5-a0e05b573b05.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/d90947fe-ee26-431e-adf9-3a6ce6718597</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/278669b5-4670-659e-a1c5-a0e05b573b05.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-11</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/d90947fe-ee26-431e-adf9-3a6ce6718597</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{d90947fe-ee26-431e-adf9-3a6ce6718597}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>Begraafplaats: Karthuizer Kerkhof
+&lt;a href="https://archief.amsterdam/archief/5001/1165" target="_blank" title="https://archief.amsterdam/archief/5001/1165"&gt;https://archief.amsterdam/archief/5001/1165&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Begraven</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04269000036</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>d8fc3a9b-a879-434e-ac52-36a19bca1ba8</identifier>
+        <datestamp>2021-08-12T21:23:30Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e19-07c8-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Jacomijntije</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Harmens</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Begraven</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1684</a2a:Year>
+              <a2a:Month>11</a2a:Month>
+              <a2a:Day>25</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e19-07c8-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1684-11-25</a2a:From>
+              <a2a:To>1684-11-25</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1684</a2a:Year>
+              <a2a:Month>11</a2a:Month>
+              <a2a:Day>25</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: DTB Begraven</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5001</a2a:Archive>
+              <a2a:Collection>Deel: 1165, Periode: 1684-1687</a2a:Collection>
+              <a2a:Book>DTB Begraven</a2a:Book>
+              <a2a:Folio>p.120 en p.121</a2a:Folio>
+              <a2a:RegistryNumber>1165</a2a:RegistryNumber>
+              <a2a:DocumentNumber>DTB 1165</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/67e45883-5f46-03d4-5647-73a0a0ea6830.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/d8fc3a9b-a879-434e-ac52-36a19bca1ba8</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/67e45883-5f46-03d4-5647-73a0a0ea6830.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-11</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/d8fc3a9b-a879-434e-ac52-36a19bca1ba8</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{d8fc3a9b-a879-434e-ac52-36a19bca1ba8}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>Begraafplaats: Karthuizer Kerkhof
+&lt;a href="https://archief.amsterdam/archief/5001/1165" target="_blank" title="https://archief.amsterdam/archief/5001/1165"&gt;https://archief.amsterdam/archief/5001/1165&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Begraven</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A04269000063</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <resumptionToken completeListSize="1319012" cursor="0">eyJwYWdlIjoyLCJtZXRhZGF0YVByZWZpeCI6Im9haV9hMmEiLCJzZXQiOiI5ODIzYjdhOC1hYjc5LWEwOTgtNGFiMC0yNmU3OTllYTU2NTkifQ==</resumptionToken>
+  </ListRecords>
+</OAI-PMH>

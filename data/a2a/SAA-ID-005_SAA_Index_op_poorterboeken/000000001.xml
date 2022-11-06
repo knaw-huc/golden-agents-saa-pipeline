@@ -1,0 +1,3866 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2022-09-22T01:54:41Z</responseDate>
+  <request metadataPrefix="oai_a2a" set="23d6fddb-4839-f080-2b0a-05a21c6162e8" verb="ListRecords">https://webservices.picturae.com/a2a/a66155dd-f750-40be-9ddd-244d72248fa3/</request>
+  <ListRecords>
+    <record>
+      <header>
+        <identifier>61d843b4-3eaa-4ac9-97ee-64988af99cbd</identifier>
+        <datestamp>2021-08-12T00:42:06Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e38-808e-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Claes</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Jansz</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+            <a2a:PersonRemark Key="diversen">
+              <a2a:Value>
+Plaats in bron: Schiedam</a2a:Value>
+            </a2a:PersonRemark>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1543</a2a:Year>
+              <a2a:Month>8</a2a:Month>
+              <a2a:Day>28</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e38-808e-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1543-08-28</a2a:From>
+              <a2a:To>1543-08-28</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1543</a2a:Year>
+              <a2a:Month>8</a2a:Month>
+              <a2a:Day>28</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Poorterboeken</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5014</a2a:Archive>
+              <a2a:Collection>Deel: 12, Periode: 1543</a2a:Collection>
+              <a2a:Book>Poorterboeken</a2a:Book>
+              <a2a:RegistryNumber>12</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/39134acb-69f8-9810-f599-cbc529e922f6.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/61d843b4-3eaa-4ac9-97ee-64988af99cbd</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/39134acb-69f8-9810-f599-cbc529e922f6.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-02-17</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/61d843b4-3eaa-4ac9-97ee-64988af99cbd</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{61d843b4-3eaa-4ac9-97ee-64988af99cbd}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/5014/12" target="_blank" title="https://archief.amsterdam/archief/5014/12"&gt;https://archief.amsterdam/archief/5014/12&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>MMSAA01_363000029</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>49d066cb-ad16-440d-9331-0a71e991fd3e</identifier>
+        <datestamp>2021-08-12T00:42:06Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e38-808d-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Joachim</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Mourysz</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+            <a2a:PersonRemark Key="diversen">
+              <a2a:Value>
+Beroep: Koopman
+
+Plaats in bron: de Cuynder</a2a:Value>
+            </a2a:PersonRemark>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1543</a2a:Year>
+              <a2a:Month>6</a2a:Month>
+              <a2a:Day>14</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e38-808d-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1543-06-14</a2a:From>
+              <a2a:To>1543-06-14</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1543</a2a:Year>
+              <a2a:Month>6</a2a:Month>
+              <a2a:Day>14</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Poorterboeken</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5014</a2a:Archive>
+              <a2a:Collection>Deel: 12, Periode: 1543</a2a:Collection>
+              <a2a:Book>Poorterboeken</a2a:Book>
+              <a2a:RegistryNumber>12</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/39134acb-69f8-9810-f599-cbc529e922f6.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/49d066cb-ad16-440d-9331-0a71e991fd3e</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/39134acb-69f8-9810-f599-cbc529e922f6.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-02-17</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/49d066cb-ad16-440d-9331-0a71e991fd3e</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{49d066cb-ad16-440d-9331-0a71e991fd3e}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/5014/12" target="_blank" title="https://archief.amsterdam/archief/5014/12"&gt;https://archief.amsterdam/archief/5014/12&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>MMSAA01_363000029</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>4eb79b37-1ce6-4c4f-b2df-bb51f20a6b1e</identifier>
+        <datestamp>2021-08-12T00:42:06Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e38-808c-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Henrick</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Cornelisz</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+            <a2a:PersonRemark Key="diversen">
+              <a2a:Value>
+Beroep: Smid</a2a:Value>
+            </a2a:PersonRemark>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1543</a2a:Year>
+              <a2a:Month>2</a2a:Month>
+              <a2a:Day>27</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e38-808c-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1543-02-27</a2a:From>
+              <a2a:To>1543-02-27</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1543</a2a:Year>
+              <a2a:Month>2</a2a:Month>
+              <a2a:Day>27</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Poorterboeken</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5014</a2a:Archive>
+              <a2a:Collection>Deel: 12, Periode: 1543</a2a:Collection>
+              <a2a:Book>Poorterboeken</a2a:Book>
+              <a2a:RegistryNumber>12</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/f9e531b7-99a0-4b48-fcdf-39d19c2690cc.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/4eb79b37-1ce6-4c4f-b2df-bb51f20a6b1e</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/f9e531b7-99a0-4b48-fcdf-39d19c2690cc.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-02-17</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/4eb79b37-1ce6-4c4f-b2df-bb51f20a6b1e</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{4eb79b37-1ce6-4c4f-b2df-bb51f20a6b1e}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/5014/12" target="_blank" title="https://archief.amsterdam/archief/5014/12"&gt;https://archief.amsterdam/archief/5014/12&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>MMSAA01_363000028</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>e5ac18c0-fe46-47c2-b189-374bb541ea61</identifier>
+        <datestamp>2021-08-12T00:42:06Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e38-914d-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Peter</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Willemsz</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+            <a2a:PersonRemark Key="diversen">
+              <a2a:Value>
+Beroep: Binnenlandsvaarder
+
+Plaats in bron: Aeckersloot</a2a:Value>
+            </a2a:PersonRemark>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1543</a2a:Year>
+              <a2a:Month>10</a2a:Month>
+              <a2a:Day>31</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e38-914d-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1543-10-31</a2a:From>
+              <a2a:To>1543-10-31</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1543</a2a:Year>
+              <a2a:Month>10</a2a:Month>
+              <a2a:Day>31</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Poorterboeken</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5014</a2a:Archive>
+              <a2a:Collection>Deel: 12, Periode: 1543</a2a:Collection>
+              <a2a:Book>Poorterboeken</a2a:Book>
+              <a2a:RegistryNumber>12</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/39134acb-69f8-9810-f599-cbc529e922f6.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/e5ac18c0-fe46-47c2-b189-374bb541ea61</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/39134acb-69f8-9810-f599-cbc529e922f6.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-02-17</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/e5ac18c0-fe46-47c2-b189-374bb541ea61</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{e5ac18c0-fe46-47c2-b189-374bb541ea61}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/5014/12" target="_blank" title="https://archief.amsterdam/archief/5014/12"&gt;https://archief.amsterdam/archief/5014/12&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>MMSAA01_363000029</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>0d9dd485-f13d-4dad-94af-f5ba5400fa48</identifier>
+        <datestamp>2021-08-12T00:42:06Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e38-914c-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Jannetgen</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Jansdr</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+            <a2a:PersonRemark Key="diversen">
+              <a2a:Value>
+Plaats in bron: Brouck</a2a:Value>
+            </a2a:PersonRemark>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1543</a2a:Year>
+              <a2a:Month>6</a2a:Month>
+              <a2a:Day>30</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e38-914c-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1543-06-30</a2a:From>
+              <a2a:To>1543-06-30</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1543</a2a:Year>
+              <a2a:Month>6</a2a:Month>
+              <a2a:Day>30</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Poorterboeken</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5014</a2a:Archive>
+              <a2a:Collection>Deel: 12, Periode: 1543</a2a:Collection>
+              <a2a:Book>Poorterboeken</a2a:Book>
+              <a2a:RegistryNumber>12</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/39134acb-69f8-9810-f599-cbc529e922f6.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/0d9dd485-f13d-4dad-94af-f5ba5400fa48</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/39134acb-69f8-9810-f599-cbc529e922f6.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-02-17</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/0d9dd485-f13d-4dad-94af-f5ba5400fa48</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{0d9dd485-f13d-4dad-94af-f5ba5400fa48}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/5014/12" target="_blank" title="https://archief.amsterdam/archief/5014/12"&gt;https://archief.amsterdam/archief/5014/12&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>MMSAA01_363000029</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>d78a452c-4a65-49fc-bce4-29845f655b22</identifier>
+        <datestamp>2021-08-12T00:42:06Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e38-914b-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Marten</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Jansz</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+            <a2a:PersonRemark Key="diversen">
+              <a2a:Value>
+Beroep: Kleermaker
+
+Plaats in bron: Ruynen in Drent</a2a:Value>
+            </a2a:PersonRemark>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1543</a2a:Year>
+              <a2a:Month>4</a2a:Month>
+              <a2a:Day>7</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e38-914b-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1543-04-07</a2a:From>
+              <a2a:To>1543-04-07</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1543</a2a:Year>
+              <a2a:Month>4</a2a:Month>
+              <a2a:Day>7</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Poorterboeken</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5014</a2a:Archive>
+              <a2a:Collection>Deel: 12, Periode: 1543</a2a:Collection>
+              <a2a:Book>Poorterboeken</a2a:Book>
+              <a2a:RegistryNumber>12</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/f9e531b7-99a0-4b48-fcdf-39d19c2690cc.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/d78a452c-4a65-49fc-bce4-29845f655b22</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/f9e531b7-99a0-4b48-fcdf-39d19c2690cc.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-02-17</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/d78a452c-4a65-49fc-bce4-29845f655b22</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{d78a452c-4a65-49fc-bce4-29845f655b22}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/5014/12" target="_blank" title="https://archief.amsterdam/archief/5014/12"&gt;https://archief.amsterdam/archief/5014/12&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>MMSAA01_363000028</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>d35ed0cd-82a5-4722-8cc8-be2a28e3146c</identifier>
+        <datestamp>2021-08-12T00:42:06Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e38-88ee-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Claes</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Jansz</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+            <a2a:PersonRemark Key="diversen">
+              <a2a:Value>
+Beroep: Scheepstimmerman
+
+Plaats in bron: Schiedam</a2a:Value>
+            </a2a:PersonRemark>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1543</a2a:Year>
+              <a2a:Month>9</a2a:Month>
+              <a2a:Day>1</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e38-88ee-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1543-09-01</a2a:From>
+              <a2a:To>1543-09-01</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1543</a2a:Year>
+              <a2a:Month>9</a2a:Month>
+              <a2a:Day>1</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Poorterboeken</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5014</a2a:Archive>
+              <a2a:Collection>Deel: 12, Periode: 1543</a2a:Collection>
+              <a2a:Book>Poorterboeken</a2a:Book>
+              <a2a:RegistryNumber>12</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/39134acb-69f8-9810-f599-cbc529e922f6.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/d35ed0cd-82a5-4722-8cc8-be2a28e3146c</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/39134acb-69f8-9810-f599-cbc529e922f6.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-02-17</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/d35ed0cd-82a5-4722-8cc8-be2a28e3146c</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{d35ed0cd-82a5-4722-8cc8-be2a28e3146c}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/5014/12" target="_blank" title="https://archief.amsterdam/archief/5014/12"&gt;https://archief.amsterdam/archief/5014/12&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>MMSAA01_363000029</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>8080c8c9-33f4-4997-aba5-2254b245e254</identifier>
+        <datestamp>2021-08-12T00:42:06Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e38-88ed-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Jan</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Dircxsz</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+            <a2a:PersonRemark Key="diversen">
+              <a2a:Value>
+Plaats in bron: Zwieten in 't Sticht van Coelen</a2a:Value>
+            </a2a:PersonRemark>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1543</a2a:Year>
+              <a2a:Month>6</a2a:Month>
+              <a2a:Day>27</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e38-88ed-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1543-06-27</a2a:From>
+              <a2a:To>1543-06-27</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1543</a2a:Year>
+              <a2a:Month>6</a2a:Month>
+              <a2a:Day>27</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Poorterboeken</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5014</a2a:Archive>
+              <a2a:Collection>Deel: 12, Periode: 1543</a2a:Collection>
+              <a2a:Book>Poorterboeken</a2a:Book>
+              <a2a:RegistryNumber>12</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/39134acb-69f8-9810-f599-cbc529e922f6.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/8080c8c9-33f4-4997-aba5-2254b245e254</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/39134acb-69f8-9810-f599-cbc529e922f6.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-02-17</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/8080c8c9-33f4-4997-aba5-2254b245e254</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{8080c8c9-33f4-4997-aba5-2254b245e254}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/5014/12" target="_blank" title="https://archief.amsterdam/archief/5014/12"&gt;https://archief.amsterdam/archief/5014/12&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>MMSAA01_363000029</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>4366dbbf-617b-43cd-a769-eb82b3ed7d17</identifier>
+        <datestamp>2021-08-12T00:42:06Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e38-88ec-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Jan</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Goertsz</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+            <a2a:PersonRemark Key="diversen">
+              <a2a:Value>
+Beroep: Kleermaker
+
+Plaats in bron: Limbeeck</a2a:Value>
+            </a2a:PersonRemark>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1543</a2a:Year>
+              <a2a:Month>2</a2a:Month>
+              <a2a:Day>28</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e38-88ec-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1543-02-28</a2a:From>
+              <a2a:To>1543-02-28</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1543</a2a:Year>
+              <a2a:Month>2</a2a:Month>
+              <a2a:Day>28</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Poorterboeken</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5014</a2a:Archive>
+              <a2a:Collection>Deel: 12, Periode: 1543</a2a:Collection>
+              <a2a:Book>Poorterboeken</a2a:Book>
+              <a2a:RegistryNumber>12</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/f9e531b7-99a0-4b48-fcdf-39d19c2690cc.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/4366dbbf-617b-43cd-a769-eb82b3ed7d17</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/f9e531b7-99a0-4b48-fcdf-39d19c2690cc.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-02-17</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/4366dbbf-617b-43cd-a769-eb82b3ed7d17</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{4366dbbf-617b-43cd-a769-eb82b3ed7d17}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/5014/12" target="_blank" title="https://archief.amsterdam/archief/5014/12"&gt;https://archief.amsterdam/archief/5014/12&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>MMSAA01_363000028</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>956ad827-e952-4c0c-ad69-4194daaf55b9</identifier>
+        <datestamp>2021-08-12T00:42:06Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e38-aa6d-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Thonis</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Gerytsz</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+            <a2a:PersonRemark Key="diversen">
+              <a2a:Value>
+Beroep: Bootsman
+
+Plaats in bron: Naerden</a2a:Value>
+            </a2a:PersonRemark>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1543</a2a:Year>
+              <a2a:Month>12</a2a:Month>
+              <a2a:Day>29</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e38-aa6d-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1543-12-29</a2a:From>
+              <a2a:To>1543-12-29</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1543</a2a:Year>
+              <a2a:Month>12</a2a:Month>
+              <a2a:Day>29</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Poorterboeken</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5014</a2a:Archive>
+              <a2a:Collection>Deel: 12, Periode: 1543</a2a:Collection>
+              <a2a:Book>Poorterboeken</a2a:Book>
+              <a2a:RegistryNumber>12</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/39134acb-69f8-9810-f599-cbc529e922f6.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/956ad827-e952-4c0c-ad69-4194daaf55b9</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/39134acb-69f8-9810-f599-cbc529e922f6.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-02-17</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/956ad827-e952-4c0c-ad69-4194daaf55b9</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{956ad827-e952-4c0c-ad69-4194daaf55b9}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/5014/12" target="_blank" title="https://archief.amsterdam/archief/5014/12"&gt;https://archief.amsterdam/archief/5014/12&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>MMSAA01_363000029</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>c14673df-d3e4-4633-9472-fd72a5a9af3a</identifier>
+        <datestamp>2021-08-12T00:42:06Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e38-aa6c-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Gheryt</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Baert Claesz</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+            <a2a:PersonRemark Key="diversen">
+              <a2a:Value>
+Beroep: Binnenlandsvaarder
+
+Plaats in bron: Aeckersloot</a2a:Value>
+            </a2a:PersonRemark>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1543</a2a:Year>
+              <a2a:Month>7</a2a:Month>
+              <a2a:Day>13</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e38-aa6c-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1543-07-13</a2a:From>
+              <a2a:To>1543-07-13</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1543</a2a:Year>
+              <a2a:Month>7</a2a:Month>
+              <a2a:Day>13</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Poorterboeken</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5014</a2a:Archive>
+              <a2a:Collection>Deel: 12, Periode: 1543</a2a:Collection>
+              <a2a:Book>Poorterboeken</a2a:Book>
+              <a2a:RegistryNumber>12</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/39134acb-69f8-9810-f599-cbc529e922f6.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/c14673df-d3e4-4633-9472-fd72a5a9af3a</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/39134acb-69f8-9810-f599-cbc529e922f6.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-02-17</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/c14673df-d3e4-4633-9472-fd72a5a9af3a</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{c14673df-d3e4-4633-9472-fd72a5a9af3a}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/5014/12" target="_blank" title="https://archief.amsterdam/archief/5014/12"&gt;https://archief.amsterdam/archief/5014/12&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>MMSAA01_363000029</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>bc937fd7-baf5-4d97-81e3-2371cb66432b</identifier>
+        <datestamp>2021-08-12T00:42:06Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e38-b2d0-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Jan</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Petersz</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+            <a2a:PersonRemark Key="diversen">
+              <a2a:Value>
+Beroep: Schipper</a2a:Value>
+            </a2a:PersonRemark>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1543</a2a:Year>
+              <a2a:Month>7</a2a:Month>
+              <a2a:Day>24</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e38-b2d0-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1543-07-24</a2a:From>
+              <a2a:To>1543-07-24</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1543</a2a:Year>
+              <a2a:Month>7</a2a:Month>
+              <a2a:Day>24</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Poorterboeken</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5014</a2a:Archive>
+              <a2a:Collection>Deel: 12, Periode: 1543</a2a:Collection>
+              <a2a:Book>Poorterboeken</a2a:Book>
+              <a2a:RegistryNumber>12</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/39134acb-69f8-9810-f599-cbc529e922f6.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/bc937fd7-baf5-4d97-81e3-2371cb66432b</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/39134acb-69f8-9810-f599-cbc529e922f6.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-02-17</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/bc937fd7-baf5-4d97-81e3-2371cb66432b</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{bc937fd7-baf5-4d97-81e3-2371cb66432b}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/5014/12" target="_blank" title="https://archief.amsterdam/archief/5014/12"&gt;https://archief.amsterdam/archief/5014/12&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>MMSAA01_363000029</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>246f8ac9-7c04-4313-99e8-7b12cde19b8a</identifier>
+        <datestamp>2021-08-12T00:42:06Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e38-b2cf-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Peter</a2a:PersonNameFirstName>
+              <a2a:PersonNamePrefixLastName>van</a2a:PersonNamePrefixLastName>
+              <a2a:PersonNameLastName>Meppel</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+            <a2a:PersonRemark Key="diversen">
+              <a2a:Value>
+Beroep: Snijder
+
+Plaats in bron: Meppel</a2a:Value>
+            </a2a:PersonRemark>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1543</a2a:Year>
+              <a2a:Month>5</a2a:Month>
+              <a2a:Day>9</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e38-b2cf-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1543-05-09</a2a:From>
+              <a2a:To>1543-05-09</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1543</a2a:Year>
+              <a2a:Month>5</a2a:Month>
+              <a2a:Day>9</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Poorterboeken</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5014</a2a:Archive>
+              <a2a:Collection>Deel: 12, Periode: 1543</a2a:Collection>
+              <a2a:Book>Poorterboeken</a2a:Book>
+              <a2a:RegistryNumber>12</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/f9e531b7-99a0-4b48-fcdf-39d19c2690cc.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/246f8ac9-7c04-4313-99e8-7b12cde19b8a</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/f9e531b7-99a0-4b48-fcdf-39d19c2690cc.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-02-17</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/246f8ac9-7c04-4313-99e8-7b12cde19b8a</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{246f8ac9-7c04-4313-99e8-7b12cde19b8a}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/5014/12" target="_blank" title="https://archief.amsterdam/archief/5014/12"&gt;https://archief.amsterdam/archief/5014/12&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>MMSAA01_363000028</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>7fe54220-91e9-44e9-bfb6-27758d247b2c</identifier>
+        <datestamp>2021-08-12T00:42:06Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e38-a20d-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Joachim</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Jacobsz</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+            <a2a:PersonRemark Key="diversen">
+              <a2a:Value>
+Beroep: Herbergier
+
+Plaats in bron: Leuwerden</a2a:Value>
+            </a2a:PersonRemark>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1543</a2a:Year>
+              <a2a:Month>12</a2a:Month>
+              <a2a:Day>29</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e38-a20d-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1543-12-29</a2a:From>
+              <a2a:To>1543-12-29</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1543</a2a:Year>
+              <a2a:Month>12</a2a:Month>
+              <a2a:Day>29</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Poorterboeken</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5014</a2a:Archive>
+              <a2a:Collection>Deel: 12, Periode: 1543</a2a:Collection>
+              <a2a:Book>Poorterboeken</a2a:Book>
+              <a2a:RegistryNumber>12</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/39134acb-69f8-9810-f599-cbc529e922f6.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/7fe54220-91e9-44e9-bfb6-27758d247b2c</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/39134acb-69f8-9810-f599-cbc529e922f6.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-02-17</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/7fe54220-91e9-44e9-bfb6-27758d247b2c</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{7fe54220-91e9-44e9-bfb6-27758d247b2c}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/5014/12" target="_blank" title="https://archief.amsterdam/archief/5014/12"&gt;https://archief.amsterdam/archief/5014/12&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>MMSAA01_363000029</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>16904fb4-9189-4c01-a84b-08d166586d59</identifier>
+        <datestamp>2021-08-12T00:42:06Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e38-a20c-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Bruyn</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Jansz</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+            <a2a:PersonRemark Key="diversen">
+              <a2a:Value>
+Plaats in bron: Diemen</a2a:Value>
+            </a2a:PersonRemark>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1543</a2a:Year>
+              <a2a:Month>7</a2a:Month>
+              <a2a:Day>13</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e38-a20c-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1543-07-13</a2a:From>
+              <a2a:To>1543-07-13</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1543</a2a:Year>
+              <a2a:Month>7</a2a:Month>
+              <a2a:Day>13</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Poorterboeken</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5014</a2a:Archive>
+              <a2a:Collection>Deel: 12, Periode: 1543</a2a:Collection>
+              <a2a:Book>Poorterboeken</a2a:Book>
+              <a2a:RegistryNumber>12</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/39134acb-69f8-9810-f599-cbc529e922f6.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/16904fb4-9189-4c01-a84b-08d166586d59</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/39134acb-69f8-9810-f599-cbc529e922f6.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-02-17</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/16904fb4-9189-4c01-a84b-08d166586d59</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{16904fb4-9189-4c01-a84b-08d166586d59}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/5014/12" target="_blank" title="https://archief.amsterdam/archief/5014/12"&gt;https://archief.amsterdam/archief/5014/12&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>MMSAA01_363000029</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>822382d6-c164-479a-9d61-157e7c6503a6</identifier>
+        <datestamp>2021-08-12T00:42:06Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e38-a20b-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Baernt</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Simons</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+            <a2a:PersonRemark Key="diversen">
+              <a2a:Value>
+Beroep: Bakker
+
+Plaats in bron: Hulsten in 't Sticht van Coelen</a2a:Value>
+            </a2a:PersonRemark>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1543</a2a:Year>
+              <a2a:Month>5</a2a:Month>
+              <a2a:Day>2</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e38-a20b-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1543-05-02</a2a:From>
+              <a2a:To>1543-05-02</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1543</a2a:Year>
+              <a2a:Month>5</a2a:Month>
+              <a2a:Day>2</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Poorterboeken</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5014</a2a:Archive>
+              <a2a:Collection>Deel: 12, Periode: 1543</a2a:Collection>
+              <a2a:Book>Poorterboeken</a2a:Book>
+              <a2a:RegistryNumber>12</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/f9e531b7-99a0-4b48-fcdf-39d19c2690cc.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/822382d6-c164-479a-9d61-157e7c6503a6</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/f9e531b7-99a0-4b48-fcdf-39d19c2690cc.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-02-17</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/822382d6-c164-479a-9d61-157e7c6503a6</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{822382d6-c164-479a-9d61-157e7c6503a6}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/5014/12" target="_blank" title="https://archief.amsterdam/archief/5014/12"&gt;https://archief.amsterdam/archief/5014/12&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>MMSAA01_363000028</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>f5a99b53-d53f-44ba-8fa3-14320caa975b</identifier>
+        <datestamp>2021-08-12T00:42:06Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e38-99ac-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Jan</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Cornelisz</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+            <a2a:PersonRemark Key="diversen">
+              <a2a:Value>
+Beroep: Wielmaker
+
+Plaats in bron: Amersvoert</a2a:Value>
+            </a2a:PersonRemark>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1543</a2a:Year>
+              <a2a:Month>12</a2a:Month>
+              <a2a:Day>4</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e38-99ac-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1543-12-04</a2a:From>
+              <a2a:To>1543-12-04</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1543</a2a:Year>
+              <a2a:Month>12</a2a:Month>
+              <a2a:Day>4</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Poorterboeken</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5014</a2a:Archive>
+              <a2a:Collection>Deel: 12, Periode: 1543</a2a:Collection>
+              <a2a:Book>Poorterboeken</a2a:Book>
+              <a2a:RegistryNumber>12</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/39134acb-69f8-9810-f599-cbc529e922f6.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/f5a99b53-d53f-44ba-8fa3-14320caa975b</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/39134acb-69f8-9810-f599-cbc529e922f6.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-02-17</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/f5a99b53-d53f-44ba-8fa3-14320caa975b</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{f5a99b53-d53f-44ba-8fa3-14320caa975b}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/5014/12" target="_blank" title="https://archief.amsterdam/archief/5014/12"&gt;https://archief.amsterdam/archief/5014/12&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>MMSAA01_363000029</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>e8a8735a-f879-4a94-8251-93542a027160</identifier>
+        <datestamp>2021-08-12T00:42:06Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e38-99ab-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Jan</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Aelbertsz</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+            <a2a:PersonRemark Key="diversen">
+              <a2a:Value>
+Beroep: Schoolmeester
+
+Plaats in bron: Gorcum</a2a:Value>
+            </a2a:PersonRemark>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1543</a2a:Year>
+              <a2a:Month>7</a2a:Month>
+              <a2a:Day>7</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e38-99ab-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1543-07-07</a2a:From>
+              <a2a:To>1543-07-07</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1543</a2a:Year>
+              <a2a:Month>7</a2a:Month>
+              <a2a:Day>7</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Poorterboeken</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5014</a2a:Archive>
+              <a2a:Collection>Deel: 12, Periode: 1543</a2a:Collection>
+              <a2a:Book>Poorterboeken</a2a:Book>
+              <a2a:RegistryNumber>12</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/39134acb-69f8-9810-f599-cbc529e922f6.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/e8a8735a-f879-4a94-8251-93542a027160</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/39134acb-69f8-9810-f599-cbc529e922f6.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-02-17</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/e8a8735a-f879-4a94-8251-93542a027160</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{e8a8735a-f879-4a94-8251-93542a027160}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/5014/12" target="_blank" title="https://archief.amsterdam/archief/5014/12"&gt;https://archief.amsterdam/archief/5014/12&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>MMSAA01_363000029</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>f2a15b79-d538-484e-9c2c-2d1101410cf5</identifier>
+        <datestamp>2021-08-12T00:42:06Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e38-99aa-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Hubrecht</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Petersz</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+            <a2a:PersonRemark Key="diversen">
+              <a2a:Value>
+Beroep: Lepelmaker
+
+Plaats in bron: Antwerpen</a2a:Value>
+            </a2a:PersonRemark>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1543</a2a:Year>
+              <a2a:Month>4</a2a:Month>
+              <a2a:Day>26</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e38-99aa-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1543-04-26</a2a:From>
+              <a2a:To>1543-04-26</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1543</a2a:Year>
+              <a2a:Month>4</a2a:Month>
+              <a2a:Day>26</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Poorterboeken</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5014</a2a:Archive>
+              <a2a:Collection>Deel: 12, Periode: 1543</a2a:Collection>
+              <a2a:Book>Poorterboeken</a2a:Book>
+              <a2a:RegistryNumber>12</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/f9e531b7-99a0-4b48-fcdf-39d19c2690cc.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/f2a15b79-d538-484e-9c2c-2d1101410cf5</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/f9e531b7-99a0-4b48-fcdf-39d19c2690cc.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-02-17</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/f2a15b79-d538-484e-9c2c-2d1101410cf5</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{f2a15b79-d538-484e-9c2c-2d1101410cf5}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/5014/12" target="_blank" title="https://archief.amsterdam/archief/5014/12"&gt;https://archief.amsterdam/archief/5014/12&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>MMSAA01_363000028</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>2922b45e-ef92-4b08-b21a-34307cfb4f37</identifier>
+        <datestamp>2021-08-12T00:42:06Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e38-cbf1-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Rijp</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Claesz</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+            <a2a:PersonRemark Key="diversen">
+              <a2a:Value>
+Beroep: Binnenlandsvaarder
+
+Plaats in bron: Hoern</a2a:Value>
+            </a2a:PersonRemark>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1543</a2a:Year>
+              <a2a:Month>8</a2a:Month>
+              <a2a:Day>25</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e38-cbf1-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1543-08-25</a2a:From>
+              <a2a:To>1543-08-25</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1543</a2a:Year>
+              <a2a:Month>8</a2a:Month>
+              <a2a:Day>25</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Poorterboeken</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5014</a2a:Archive>
+              <a2a:Collection>Deel: 12, Periode: 1543</a2a:Collection>
+              <a2a:Book>Poorterboeken</a2a:Book>
+              <a2a:RegistryNumber>12</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/39134acb-69f8-9810-f599-cbc529e922f6.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/2922b45e-ef92-4b08-b21a-34307cfb4f37</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/39134acb-69f8-9810-f599-cbc529e922f6.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-02-17</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/2922b45e-ef92-4b08-b21a-34307cfb4f37</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{2922b45e-ef92-4b08-b21a-34307cfb4f37}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/5014/12" target="_blank" title="https://archief.amsterdam/archief/5014/12"&gt;https://archief.amsterdam/archief/5014/12&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>MMSAA01_363000029</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>815752ed-f726-4c1b-8955-bc285a78532b</identifier>
+        <datestamp>2021-08-12T00:42:06Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e38-cbf0-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Cornelis</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Willemsz</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+            <a2a:PersonRemark Key="diversen">
+              <a2a:Value>
+Beroep: Kuiper
+
+Plaats in bron: Vyanen</a2a:Value>
+            </a2a:PersonRemark>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1543</a2a:Year>
+              <a2a:Month>6</a2a:Month>
+              <a2a:Day>6</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e38-cbf0-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1543-06-06</a2a:From>
+              <a2a:To>1543-06-06</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1543</a2a:Year>
+              <a2a:Month>6</a2a:Month>
+              <a2a:Day>6</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Poorterboeken</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5014</a2a:Archive>
+              <a2a:Collection>Deel: 12, Periode: 1543</a2a:Collection>
+              <a2a:Book>Poorterboeken</a2a:Book>
+              <a2a:RegistryNumber>12</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/39134acb-69f8-9810-f599-cbc529e922f6.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/815752ed-f726-4c1b-8955-bc285a78532b</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/39134acb-69f8-9810-f599-cbc529e922f6.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-02-17</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/815752ed-f726-4c1b-8955-bc285a78532b</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{815752ed-f726-4c1b-8955-bc285a78532b}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/5014/12" target="_blank" title="https://archief.amsterdam/archief/5014/12"&gt;https://archief.amsterdam/archief/5014/12&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>MMSAA01_363000029</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>22ab2fd9-1ff6-42be-a611-e5e5faa6d3c1</identifier>
+        <datestamp>2021-08-12T00:42:06Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e38-cbef-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Jan</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Claesz</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+            <a2a:PersonRemark Key="diversen">
+              <a2a:Value>
+Beroep: Scheepstimmerman
+
+Plaats in bron: Monnickendamme</a2a:Value>
+            </a2a:PersonRemark>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1543</a2a:Year>
+              <a2a:Month>2</a2a:Month>
+              <a2a:Day>24</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e38-cbef-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1543-02-24</a2a:From>
+              <a2a:To>1543-02-24</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1543</a2a:Year>
+              <a2a:Month>2</a2a:Month>
+              <a2a:Day>24</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Poorterboeken</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5014</a2a:Archive>
+              <a2a:Collection>Deel: 12, Periode: 1543</a2a:Collection>
+              <a2a:Book>Poorterboeken</a2a:Book>
+              <a2a:RegistryNumber>12</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/f9e531b7-99a0-4b48-fcdf-39d19c2690cc.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/22ab2fd9-1ff6-42be-a611-e5e5faa6d3c1</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/f9e531b7-99a0-4b48-fcdf-39d19c2690cc.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-02-17</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/22ab2fd9-1ff6-42be-a611-e5e5faa6d3c1</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{22ab2fd9-1ff6-42be-a611-e5e5faa6d3c1}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/5014/12" target="_blank" title="https://archief.amsterdam/archief/5014/12"&gt;https://archief.amsterdam/archief/5014/12&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>MMSAA01_363000028</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>696b3fb7-5cec-46e5-abee-794ce5ca5d4c</identifier>
+        <datestamp>2021-08-12T00:42:06Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e38-c390-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Luytgen</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Petersz</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+            <a2a:PersonRemark Key="diversen">
+              <a2a:Value>
+Beroep: Binenlandsvaarder
+
+Plaats in bron: Hoern</a2a:Value>
+            </a2a:PersonRemark>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1543</a2a:Year>
+              <a2a:Month>8</a2a:Month>
+              <a2a:Day>25</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e38-c390-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1543-08-25</a2a:From>
+              <a2a:To>1543-08-25</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1543</a2a:Year>
+              <a2a:Month>8</a2a:Month>
+              <a2a:Day>25</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Poorterboeken</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5014</a2a:Archive>
+              <a2a:Collection>Deel: 12, Periode: 1543</a2a:Collection>
+              <a2a:Book>Poorterboeken</a2a:Book>
+              <a2a:RegistryNumber>12</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/39134acb-69f8-9810-f599-cbc529e922f6.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/696b3fb7-5cec-46e5-abee-794ce5ca5d4c</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/39134acb-69f8-9810-f599-cbc529e922f6.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-02-17</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/696b3fb7-5cec-46e5-abee-794ce5ca5d4c</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{696b3fb7-5cec-46e5-abee-794ce5ca5d4c}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/5014/12" target="_blank" title="https://archief.amsterdam/archief/5014/12"&gt;https://archief.amsterdam/archief/5014/12&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>MMSAA01_363000029</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>ad8e78a2-1480-4516-9fac-29085ffbecc9</identifier>
+        <datestamp>2021-08-12T00:42:06Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e38-c38f-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Hessel</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Wijnandtsz</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+            <a2a:PersonRemark Key="diversen">
+              <a2a:Value>
+Beroep: Wever
+
+Plaats in bron: Harderwijck</a2a:Value>
+            </a2a:PersonRemark>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1543</a2a:Year>
+              <a2a:Month>5</a2a:Month>
+              <a2a:Day>19</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e38-c38f-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1543-05-19</a2a:From>
+              <a2a:To>1543-05-19</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1543</a2a:Year>
+              <a2a:Month>5</a2a:Month>
+              <a2a:Day>19</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Poorterboeken</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5014</a2a:Archive>
+              <a2a:Collection>Deel: 12, Periode: 1543</a2a:Collection>
+              <a2a:Book>Poorterboeken</a2a:Book>
+              <a2a:RegistryNumber>12</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/39134acb-69f8-9810-f599-cbc529e922f6.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/ad8e78a2-1480-4516-9fac-29085ffbecc9</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/39134acb-69f8-9810-f599-cbc529e922f6.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-02-17</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/ad8e78a2-1480-4516-9fac-29085ffbecc9</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{ad8e78a2-1480-4516-9fac-29085ffbecc9}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/5014/12" target="_blank" title="https://archief.amsterdam/archief/5014/12"&gt;https://archief.amsterdam/archief/5014/12&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>MMSAA01_363000029</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>79a667bf-ae8a-47e0-ba54-41377d0771c5</identifier>
+        <datestamp>2021-08-12T00:42:06Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e38-c38e-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Henrick</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Petersz</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+            <a2a:PersonRemark Key="diversen">
+              <a2a:Value>
+Plaats in bron: Coevelens</a2a:Value>
+            </a2a:PersonRemark>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1543</a2a:Year>
+              <a2a:Month>2</a2a:Month>
+              <a2a:Day>20</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e38-c38e-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1543-02-20</a2a:From>
+              <a2a:To>1543-02-20</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1543</a2a:Year>
+              <a2a:Month>2</a2a:Month>
+              <a2a:Day>20</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Poorterboeken</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5014</a2a:Archive>
+              <a2a:Collection>Deel: 12, Periode: 1543</a2a:Collection>
+              <a2a:Book>Poorterboeken</a2a:Book>
+              <a2a:RegistryNumber>12</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/f9e531b7-99a0-4b48-fcdf-39d19c2690cc.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/79a667bf-ae8a-47e0-ba54-41377d0771c5</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/f9e531b7-99a0-4b48-fcdf-39d19c2690cc.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-02-17</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/79a667bf-ae8a-47e0-ba54-41377d0771c5</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{79a667bf-ae8a-47e0-ba54-41377d0771c5}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/5014/12" target="_blank" title="https://archief.amsterdam/archief/5014/12"&gt;https://archief.amsterdam/archief/5014/12&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>MMSAA01_363000028</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>522ef028-91d2-4c10-a758-e2b6fcb64bfd</identifier>
+        <datestamp>2021-08-12T00:42:06Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e38-bb30-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Thyman</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Fransz</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+            <a2a:PersonRemark Key="diversen">
+              <a2a:Value>
+Plaats in bron: Leyden</a2a:Value>
+            </a2a:PersonRemark>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1543</a2a:Year>
+              <a2a:Month>8</a2a:Month>
+              <a2a:Day>11</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e38-bb30-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1543-08-11</a2a:From>
+              <a2a:To>1543-08-11</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1543</a2a:Year>
+              <a2a:Month>8</a2a:Month>
+              <a2a:Day>11</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Poorterboeken</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5014</a2a:Archive>
+              <a2a:Collection>Deel: 12, Periode: 1543</a2a:Collection>
+              <a2a:Book>Poorterboeken</a2a:Book>
+              <a2a:RegistryNumber>12</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/39134acb-69f8-9810-f599-cbc529e922f6.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/522ef028-91d2-4c10-a758-e2b6fcb64bfd</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/39134acb-69f8-9810-f599-cbc529e922f6.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-02-17</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/522ef028-91d2-4c10-a758-e2b6fcb64bfd</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{522ef028-91d2-4c10-a758-e2b6fcb64bfd}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/5014/12" target="_blank" title="https://archief.amsterdam/archief/5014/12"&gt;https://archief.amsterdam/archief/5014/12&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>MMSAA01_363000029</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>46a2e533-2c2e-42be-80ab-ef1e16ebcc1c</identifier>
+        <datestamp>2021-08-12T00:42:06Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e38-bb2f-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Louris</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Zyvertsz</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+            <a2a:PersonRemark Key="diversen">
+              <a2a:Value>
+Beroep: Viskoper</a2a:Value>
+            </a2a:PersonRemark>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1543</a2a:Year>
+              <a2a:Month>5</a2a:Month>
+              <a2a:Day>10</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e38-bb2f-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1543-05-10</a2a:From>
+              <a2a:To>1543-05-10</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1543</a2a:Year>
+              <a2a:Month>5</a2a:Month>
+              <a2a:Day>10</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Poorterboeken</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5014</a2a:Archive>
+              <a2a:Collection>Deel: 12, Periode: 1543</a2a:Collection>
+              <a2a:Book>Poorterboeken</a2a:Book>
+              <a2a:RegistryNumber>12</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/f9e531b7-99a0-4b48-fcdf-39d19c2690cc.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/46a2e533-2c2e-42be-80ab-ef1e16ebcc1c</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/f9e531b7-99a0-4b48-fcdf-39d19c2690cc.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-02-17</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/46a2e533-2c2e-42be-80ab-ef1e16ebcc1c</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{46a2e533-2c2e-42be-80ab-ef1e16ebcc1c}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/5014/12" target="_blank" title="https://archief.amsterdam/archief/5014/12"&gt;https://archief.amsterdam/archief/5014/12&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>MMSAA01_363000028</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>6b1dedaf-3d69-4548-a4c2-fc54a0fa9b2c</identifier>
+        <datestamp>2021-08-12T00:42:06Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e38-bb2e-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Brecht</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Dircxdr</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+            <a2a:PersonRemark Key="diversen">
+              <a2a:Value>
+Plaats in bron: Slooten</a2a:Value>
+            </a2a:PersonRemark>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1543</a2a:Year>
+              <a2a:Month>2</a2a:Month>
+              <a2a:Day>9</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e38-bb2e-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1543-02-09</a2a:From>
+              <a2a:To>1543-02-09</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1543</a2a:Year>
+              <a2a:Month>2</a2a:Month>
+              <a2a:Day>9</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Poorterboeken</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5014</a2a:Archive>
+              <a2a:Collection>Deel: 12, Periode: 1543</a2a:Collection>
+              <a2a:Book>Poorterboeken</a2a:Book>
+              <a2a:RegistryNumber>12</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/f9e531b7-99a0-4b48-fcdf-39d19c2690cc.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/6b1dedaf-3d69-4548-a4c2-fc54a0fa9b2c</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/f9e531b7-99a0-4b48-fcdf-39d19c2690cc.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-02-17</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/6b1dedaf-3d69-4548-a4c2-fc54a0fa9b2c</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{6b1dedaf-3d69-4548-a4c2-fc54a0fa9b2c}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/5014/12" target="_blank" title="https://archief.amsterdam/archief/5014/12"&gt;https://archief.amsterdam/archief/5014/12&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>MMSAA01_363000028</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>d075ac59-d477-4fd9-a306-e44f9a297038</identifier>
+        <datestamp>2021-08-12T00:42:06Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e38-8579-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Pouwel</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Jansz</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1609</a2a:Year>
+              <a2a:Month>1</a2a:Month>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e38-8579-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1609-01-01</a2a:From>
+              <a2a:To>1609-01-31</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1609</a2a:Year>
+              <a2a:Month>1</a2a:Month>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Poorterboeken</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5014</a2a:Archive>
+              <a2a:Collection>Deel: 75, Periode: 1608</a2a:Collection>
+              <a2a:Book>Poorterboeken</a2a:Book>
+              <a2a:RegistryNumber>75</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/c94e9db0-3e1c-1fe9-d46b-4e50d8873e0e.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/d075ac59-d477-4fd9-a306-e44f9a297038</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/c94e9db0-3e1c-1fe9-d46b-4e50d8873e0e.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-02-17</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/d075ac59-d477-4fd9-a306-e44f9a297038</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{d075ac59-d477-4fd9-a306-e44f9a297038}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/5014/75" target="_blank" title="https://archief.amsterdam/archief/5014/75"&gt;https://archief.amsterdam/archief/5014/75&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>MMSAA01_426000019</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>573f25ef-dcfd-4aa4-9f24-5c0dd1ec73d0</identifier>
+        <datestamp>2021-08-12T00:42:06Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e38-8578-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Hendrick</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Mayor</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1609</a2a:Year>
+              <a2a:Month>1</a2a:Month>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e38-8578-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1609-01-01</a2a:From>
+              <a2a:To>1609-01-31</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1609</a2a:Year>
+              <a2a:Month>1</a2a:Month>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Poorterboeken</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5014</a2a:Archive>
+              <a2a:Collection>Deel: 75, Periode: 1608</a2a:Collection>
+              <a2a:Book>Poorterboeken</a2a:Book>
+              <a2a:RegistryNumber>75</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/c94e9db0-3e1c-1fe9-d46b-4e50d8873e0e.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/573f25ef-dcfd-4aa4-9f24-5c0dd1ec73d0</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/c94e9db0-3e1c-1fe9-d46b-4e50d8873e0e.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-02-17</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/573f25ef-dcfd-4aa4-9f24-5c0dd1ec73d0</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{573f25ef-dcfd-4aa4-9f24-5c0dd1ec73d0}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/5014/75" target="_blank" title="https://archief.amsterdam/archief/5014/75"&gt;https://archief.amsterdam/archief/5014/75&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>MMSAA01_426000019</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>c6de5da0-32e6-4300-9727-6f237a299569</identifier>
+        <datestamp>2021-08-12T00:42:06Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e38-8577-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Jan</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Baertsz</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1608</a2a:Year>
+              <a2a:Month>12</a2a:Month>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e38-8577-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1608-12-01</a2a:From>
+              <a2a:To>1608-12-31</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1608</a2a:Year>
+              <a2a:Month>12</a2a:Month>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Poorterboeken</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5014</a2a:Archive>
+              <a2a:Collection>Deel: 75, Periode: 1608</a2a:Collection>
+              <a2a:Book>Poorterboeken</a2a:Book>
+              <a2a:RegistryNumber>75</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/c94e9db0-3e1c-1fe9-d46b-4e50d8873e0e.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/c6de5da0-32e6-4300-9727-6f237a299569</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/c94e9db0-3e1c-1fe9-d46b-4e50d8873e0e.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-02-17</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/c6de5da0-32e6-4300-9727-6f237a299569</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{c6de5da0-32e6-4300-9727-6f237a299569}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/5014/75" target="_blank" title="https://archief.amsterdam/archief/5014/75"&gt;https://archief.amsterdam/archief/5014/75&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>MMSAA01_426000019</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>123cae79-6eb1-4b02-a76e-e308843efff0</identifier>
+        <datestamp>2021-08-12T00:42:06Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e38-8576-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Claes</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Jansz</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1608</a2a:Year>
+              <a2a:Month>12</a2a:Month>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e38-8576-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1608-12-01</a2a:From>
+              <a2a:To>1608-12-31</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1608</a2a:Year>
+              <a2a:Month>12</a2a:Month>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Poorterboeken</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5014</a2a:Archive>
+              <a2a:Collection>Deel: 75, Periode: 1608</a2a:Collection>
+              <a2a:Book>Poorterboeken</a2a:Book>
+              <a2a:RegistryNumber>75</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/4b84a266-2e17-fdf4-6430-1511dd2bd13e.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/123cae79-6eb1-4b02-a76e-e308843efff0</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/4b84a266-2e17-fdf4-6430-1511dd2bd13e.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-02-17</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/123cae79-6eb1-4b02-a76e-e308843efff0</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{123cae79-6eb1-4b02-a76e-e308843efff0}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/5014/75" target="_blank" title="https://archief.amsterdam/archief/5014/75"&gt;https://archief.amsterdam/archief/5014/75&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>MMSAA01_426000018</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>4c31d819-808f-414f-81fe-7e8297b5ef4c</identifier>
+        <datestamp>2021-08-12T00:42:06Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e38-8575-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Stoffel</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Croeger</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1608</a2a:Year>
+              <a2a:Month>9</a2a:Month>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e38-8575-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1608-09-01</a2a:From>
+              <a2a:To>1608-09-30</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1608</a2a:Year>
+              <a2a:Month>9</a2a:Month>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Poorterboeken</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5014</a2a:Archive>
+              <a2a:Collection>Deel: 75, Periode: 1608</a2a:Collection>
+              <a2a:Book>Poorterboeken</a2a:Book>
+              <a2a:RegistryNumber>75</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/4b84a266-2e17-fdf4-6430-1511dd2bd13e.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/4c31d819-808f-414f-81fe-7e8297b5ef4c</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/4b84a266-2e17-fdf4-6430-1511dd2bd13e.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-02-17</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/4c31d819-808f-414f-81fe-7e8297b5ef4c</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{4c31d819-808f-414f-81fe-7e8297b5ef4c}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/5014/75" target="_blank" title="https://archief.amsterdam/archief/5014/75"&gt;https://archief.amsterdam/archief/5014/75&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>MMSAA01_426000018</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>1d5086ab-0186-4520-b5d5-cbe5dd2890dc</identifier>
+        <datestamp>2021-08-12T00:42:06Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e38-8574-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Jan</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Gerritsz</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1608</a2a:Year>
+              <a2a:Month>9</a2a:Month>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e38-8574-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1608-09-01</a2a:From>
+              <a2a:To>1608-09-30</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1608</a2a:Year>
+              <a2a:Month>9</a2a:Month>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Poorterboeken</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5014</a2a:Archive>
+              <a2a:Collection>Deel: 75, Periode: 1608</a2a:Collection>
+              <a2a:Book>Poorterboeken</a2a:Book>
+              <a2a:RegistryNumber>75</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/4b84a266-2e17-fdf4-6430-1511dd2bd13e.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/1d5086ab-0186-4520-b5d5-cbe5dd2890dc</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/4b84a266-2e17-fdf4-6430-1511dd2bd13e.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-02-17</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/1d5086ab-0186-4520-b5d5-cbe5dd2890dc</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{1d5086ab-0186-4520-b5d5-cbe5dd2890dc}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/5014/75" target="_blank" title="https://archief.amsterdam/archief/5014/75"&gt;https://archief.amsterdam/archief/5014/75&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>MMSAA01_426000018</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>321a90f7-8999-4b1d-b28e-c6b3f494c13d</identifier>
+        <datestamp>2021-08-12T00:42:06Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e38-8573-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Cristiaen</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Mare</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1608</a2a:Year>
+              <a2a:Month>9</a2a:Month>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e38-8573-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1608-09-01</a2a:From>
+              <a2a:To>1608-09-30</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1608</a2a:Year>
+              <a2a:Month>9</a2a:Month>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Poorterboeken</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5014</a2a:Archive>
+              <a2a:Collection>Deel: 75, Periode: 1608</a2a:Collection>
+              <a2a:Book>Poorterboeken</a2a:Book>
+              <a2a:RegistryNumber>75</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/4b84a266-2e17-fdf4-6430-1511dd2bd13e.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/321a90f7-8999-4b1d-b28e-c6b3f494c13d</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/4b84a266-2e17-fdf4-6430-1511dd2bd13e.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-02-17</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/321a90f7-8999-4b1d-b28e-c6b3f494c13d</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{321a90f7-8999-4b1d-b28e-c6b3f494c13d}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/5014/75" target="_blank" title="https://archief.amsterdam/archief/5014/75"&gt;https://archief.amsterdam/archief/5014/75&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>MMSAA01_426000018</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>8d7e9aec-c930-4e4d-b1f7-351ab8567c35</identifier>
+        <datestamp>2021-08-12T00:42:06Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e38-8572-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Abraham</a2a:PersonNameFirstName>
+              <a2a:PersonNamePrefixLastName>de</a2a:PersonNamePrefixLastName>
+              <a2a:PersonNameLastName>Praet</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1608</a2a:Year>
+              <a2a:Month>9</a2a:Month>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e38-8572-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1608-09-01</a2a:From>
+              <a2a:To>1608-09-30</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1608</a2a:Year>
+              <a2a:Month>9</a2a:Month>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Poorterboeken</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5014</a2a:Archive>
+              <a2a:Collection>Deel: 75, Periode: 1608</a2a:Collection>
+              <a2a:Book>Poorterboeken</a2a:Book>
+              <a2a:RegistryNumber>75</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/4b84a266-2e17-fdf4-6430-1511dd2bd13e.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/8d7e9aec-c930-4e4d-b1f7-351ab8567c35</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/4b84a266-2e17-fdf4-6430-1511dd2bd13e.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-02-17</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/8d7e9aec-c930-4e4d-b1f7-351ab8567c35</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{8d7e9aec-c930-4e4d-b1f7-351ab8567c35}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/5014/75" target="_blank" title="https://archief.amsterdam/archief/5014/75"&gt;https://archief.amsterdam/archief/5014/75&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>MMSAA01_426000018</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>be2a07c5-15fe-4cd7-97d3-425d6eb636bf</identifier>
+        <datestamp>2021-08-12T00:42:06Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e38-8571-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Pilips</a2a:PersonNameFirstName>
+              <a2a:PersonNamePrefixLastName>van</a2a:PersonNamePrefixLastName>
+              <a2a:PersonNameLastName>Herten</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1608</a2a:Year>
+              <a2a:Month>9</a2a:Month>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e38-8571-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1608-09-01</a2a:From>
+              <a2a:To>1608-09-30</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1608</a2a:Year>
+              <a2a:Month>9</a2a:Month>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Poorterboeken</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5014</a2a:Archive>
+              <a2a:Collection>Deel: 75, Periode: 1608</a2a:Collection>
+              <a2a:Book>Poorterboeken</a2a:Book>
+              <a2a:RegistryNumber>75</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/4b84a266-2e17-fdf4-6430-1511dd2bd13e.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/be2a07c5-15fe-4cd7-97d3-425d6eb636bf</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/4b84a266-2e17-fdf4-6430-1511dd2bd13e.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-02-17</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/be2a07c5-15fe-4cd7-97d3-425d6eb636bf</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{be2a07c5-15fe-4cd7-97d3-425d6eb636bf}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/5014/75" target="_blank" title="https://archief.amsterdam/archief/5014/75"&gt;https://archief.amsterdam/archief/5014/75&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>MMSAA01_426000018</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>ae4d3a65-00bf-45cd-9dcc-7df849bde409</identifier>
+        <datestamp>2021-08-12T00:42:06Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e38-8570-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Jan</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Willemsz</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1608</a2a:Year>
+              <a2a:Month>9</a2a:Month>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e38-8570-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1608-09-01</a2a:From>
+              <a2a:To>1608-09-30</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1608</a2a:Year>
+              <a2a:Month>9</a2a:Month>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Poorterboeken</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5014</a2a:Archive>
+              <a2a:Collection>Deel: 75, Periode: 1608</a2a:Collection>
+              <a2a:Book>Poorterboeken</a2a:Book>
+              <a2a:RegistryNumber>75</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/4b84a266-2e17-fdf4-6430-1511dd2bd13e.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/ae4d3a65-00bf-45cd-9dcc-7df849bde409</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/4b84a266-2e17-fdf4-6430-1511dd2bd13e.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-02-17</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/ae4d3a65-00bf-45cd-9dcc-7df849bde409</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{ae4d3a65-00bf-45cd-9dcc-7df849bde409}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/5014/75" target="_blank" title="https://archief.amsterdam/archief/5014/75"&gt;https://archief.amsterdam/archief/5014/75&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>MMSAA01_426000018</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>c70a7ab6-1858-46d7-9f58-29aa3ce5a3fe</identifier>
+        <datestamp>2021-08-12T00:42:06Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e38-856f-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Jacob</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Coenraetsz</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1608</a2a:Year>
+              <a2a:Month>9</a2a:Month>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e38-856f-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1608-09-01</a2a:From>
+              <a2a:To>1608-09-30</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1608</a2a:Year>
+              <a2a:Month>9</a2a:Month>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Poorterboeken</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5014</a2a:Archive>
+              <a2a:Collection>Deel: 75, Periode: 1608</a2a:Collection>
+              <a2a:Book>Poorterboeken</a2a:Book>
+              <a2a:RegistryNumber>75</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/4b84a266-2e17-fdf4-6430-1511dd2bd13e.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/c70a7ab6-1858-46d7-9f58-29aa3ce5a3fe</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/4b84a266-2e17-fdf4-6430-1511dd2bd13e.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-02-17</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/c70a7ab6-1858-46d7-9f58-29aa3ce5a3fe</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{c70a7ab6-1858-46d7-9f58-29aa3ce5a3fe}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/5014/75" target="_blank" title="https://archief.amsterdam/archief/5014/75"&gt;https://archief.amsterdam/archief/5014/75&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>MMSAA01_426000018</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>60622d2a-a223-4a8f-82e7-83c4ec3d0def</identifier>
+        <datestamp>2021-08-12T00:42:06Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e38-856e-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Jelis</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Hansz</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1608</a2a:Year>
+              <a2a:Month>9</a2a:Month>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e38-856e-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1608-09-01</a2a:From>
+              <a2a:To>1608-09-30</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1608</a2a:Year>
+              <a2a:Month>9</a2a:Month>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Poorterboeken</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5014</a2a:Archive>
+              <a2a:Collection>Deel: 75, Periode: 1608</a2a:Collection>
+              <a2a:Book>Poorterboeken</a2a:Book>
+              <a2a:RegistryNumber>75</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/4b84a266-2e17-fdf4-6430-1511dd2bd13e.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/60622d2a-a223-4a8f-82e7-83c4ec3d0def</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/4b84a266-2e17-fdf4-6430-1511dd2bd13e.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-02-17</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/60622d2a-a223-4a8f-82e7-83c4ec3d0def</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{60622d2a-a223-4a8f-82e7-83c4ec3d0def}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/5014/75" target="_blank" title="https://archief.amsterdam/archief/5014/75"&gt;https://archief.amsterdam/archief/5014/75&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>MMSAA01_426000018</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>affe7811-088a-4762-87d1-b2143cfb5260</identifier>
+        <datestamp>2021-08-12T00:42:06Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e38-856d-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Hendrick</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>May</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1608</a2a:Year>
+              <a2a:Month>8</a2a:Month>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e38-856d-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1608-08-01</a2a:From>
+              <a2a:To>1608-08-31</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1608</a2a:Year>
+              <a2a:Month>8</a2a:Month>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Poorterboeken</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5014</a2a:Archive>
+              <a2a:Collection>Deel: 75, Periode: 1608</a2a:Collection>
+              <a2a:Book>Poorterboeken</a2a:Book>
+              <a2a:RegistryNumber>75</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/4b84a266-2e17-fdf4-6430-1511dd2bd13e.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/affe7811-088a-4762-87d1-b2143cfb5260</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/4b84a266-2e17-fdf4-6430-1511dd2bd13e.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-02-17</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/affe7811-088a-4762-87d1-b2143cfb5260</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{affe7811-088a-4762-87d1-b2143cfb5260}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/5014/75" target="_blank" title="https://archief.amsterdam/archief/5014/75"&gt;https://archief.amsterdam/archief/5014/75&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>MMSAA01_426000018</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>f958213e-58fe-4fab-acb4-3e9b5747b3b1</identifier>
+        <datestamp>2021-08-12T00:42:06Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e38-856c-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Cornelis</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Wyertsz</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1608</a2a:Year>
+              <a2a:Month>8</a2a:Month>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e38-856c-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1608-08-01</a2a:From>
+              <a2a:To>1608-08-31</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1608</a2a:Year>
+              <a2a:Month>8</a2a:Month>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Poorterboeken</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5014</a2a:Archive>
+              <a2a:Collection>Deel: 75, Periode: 1608</a2a:Collection>
+              <a2a:Book>Poorterboeken</a2a:Book>
+              <a2a:RegistryNumber>75</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/4b84a266-2e17-fdf4-6430-1511dd2bd13e.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/f958213e-58fe-4fab-acb4-3e9b5747b3b1</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/4b84a266-2e17-fdf4-6430-1511dd2bd13e.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-02-17</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/f958213e-58fe-4fab-acb4-3e9b5747b3b1</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{f958213e-58fe-4fab-acb4-3e9b5747b3b1}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/5014/75" target="_blank" title="https://archief.amsterdam/archief/5014/75"&gt;https://archief.amsterdam/archief/5014/75&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>MMSAA01_426000018</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>fc607abf-d467-460b-a18c-acfe9ea17327</identifier>
+        <datestamp>2021-08-12T00:42:06Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e38-856b-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Pieter</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Smits</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1608</a2a:Year>
+              <a2a:Month>8</a2a:Month>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e38-856b-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1608-08-01</a2a:From>
+              <a2a:To>1608-08-31</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1608</a2a:Year>
+              <a2a:Month>8</a2a:Month>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Poorterboeken</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5014</a2a:Archive>
+              <a2a:Collection>Deel: 75, Periode: 1608</a2a:Collection>
+              <a2a:Book>Poorterboeken</a2a:Book>
+              <a2a:RegistryNumber>75</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/4b84a266-2e17-fdf4-6430-1511dd2bd13e.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/fc607abf-d467-460b-a18c-acfe9ea17327</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/4b84a266-2e17-fdf4-6430-1511dd2bd13e.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-02-17</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/fc607abf-d467-460b-a18c-acfe9ea17327</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{fc607abf-d467-460b-a18c-acfe9ea17327}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/5014/75" target="_blank" title="https://archief.amsterdam/archief/5014/75"&gt;https://archief.amsterdam/archief/5014/75&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>MMSAA01_426000018</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>55924f4d-5492-46ff-bddc-7fb7bcde2ad7</identifier>
+        <datestamp>2021-08-12T00:42:06Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e38-856a-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Dirck</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Allertsz</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1608</a2a:Year>
+              <a2a:Month>6</a2a:Month>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e38-856a-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1608-06-01</a2a:From>
+              <a2a:To>1608-06-30</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1608</a2a:Year>
+              <a2a:Month>6</a2a:Month>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Poorterboeken</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5014</a2a:Archive>
+              <a2a:Collection>Deel: 75, Periode: 1608</a2a:Collection>
+              <a2a:Book>Poorterboeken</a2a:Book>
+              <a2a:RegistryNumber>75</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/4b84a266-2e17-fdf4-6430-1511dd2bd13e.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/55924f4d-5492-46ff-bddc-7fb7bcde2ad7</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/4b84a266-2e17-fdf4-6430-1511dd2bd13e.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-02-17</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/55924f4d-5492-46ff-bddc-7fb7bcde2ad7</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{55924f4d-5492-46ff-bddc-7fb7bcde2ad7}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/5014/75" target="_blank" title="https://archief.amsterdam/archief/5014/75"&gt;https://archief.amsterdam/archief/5014/75&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>MMSAA01_426000018</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>16e4ee38-a44b-48f3-8268-a20e46e58b51</identifier>
+        <datestamp>2021-08-12T00:42:06Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e38-8569-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Daniel</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Dumondt</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1608</a2a:Year>
+              <a2a:Month>6</a2a:Month>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e38-8569-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1608-06-01</a2a:From>
+              <a2a:To>1608-06-30</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1608</a2a:Year>
+              <a2a:Month>6</a2a:Month>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Poorterboeken</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5014</a2a:Archive>
+              <a2a:Collection>Deel: 75, Periode: 1608</a2a:Collection>
+              <a2a:Book>Poorterboeken</a2a:Book>
+              <a2a:RegistryNumber>75</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/4b84a266-2e17-fdf4-6430-1511dd2bd13e.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/16e4ee38-a44b-48f3-8268-a20e46e58b51</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/4b84a266-2e17-fdf4-6430-1511dd2bd13e.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-02-17</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/16e4ee38-a44b-48f3-8268-a20e46e58b51</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{16e4ee38-a44b-48f3-8268-a20e46e58b51}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/5014/75" target="_blank" title="https://archief.amsterdam/archief/5014/75"&gt;https://archief.amsterdam/archief/5014/75&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>MMSAA01_426000018</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>7f519f9e-2680-4a3c-b515-4672717b46d5</identifier>
+        <datestamp>2021-08-12T00:42:06Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e38-8568-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Gerridt</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Wesselsz</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1608</a2a:Year>
+              <a2a:Month>6</a2a:Month>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e38-8568-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1608-06-01</a2a:From>
+              <a2a:To>1608-06-30</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1608</a2a:Year>
+              <a2a:Month>6</a2a:Month>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Poorterboeken</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5014</a2a:Archive>
+              <a2a:Collection>Deel: 75, Periode: 1608</a2a:Collection>
+              <a2a:Book>Poorterboeken</a2a:Book>
+              <a2a:RegistryNumber>75</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/4b84a266-2e17-fdf4-6430-1511dd2bd13e.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/7f519f9e-2680-4a3c-b515-4672717b46d5</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/4b84a266-2e17-fdf4-6430-1511dd2bd13e.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-02-17</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/7f519f9e-2680-4a3c-b515-4672717b46d5</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{7f519f9e-2680-4a3c-b515-4672717b46d5}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/5014/75" target="_blank" title="https://archief.amsterdam/archief/5014/75"&gt;https://archief.amsterdam/archief/5014/75&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>MMSAA01_426000018</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>53cfc694-dcdc-4f58-aa94-4512f7951b02</identifier>
+        <datestamp>2021-08-12T00:42:06Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e38-8567-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Pieter</a2a:PersonNameFirstName>
+              <a2a:PersonNamePrefixLastName>van</a2a:PersonNamePrefixLastName>
+              <a2a:PersonNameLastName>Vossen</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1608</a2a:Year>
+              <a2a:Month>6</a2a:Month>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e38-8567-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1608-06-01</a2a:From>
+              <a2a:To>1608-06-30</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1608</a2a:Year>
+              <a2a:Month>6</a2a:Month>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Poorterboeken</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5014</a2a:Archive>
+              <a2a:Collection>Deel: 75, Periode: 1608</a2a:Collection>
+              <a2a:Book>Poorterboeken</a2a:Book>
+              <a2a:RegistryNumber>75</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/4b84a266-2e17-fdf4-6430-1511dd2bd13e.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/53cfc694-dcdc-4f58-aa94-4512f7951b02</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/4b84a266-2e17-fdf4-6430-1511dd2bd13e.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-02-17</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/53cfc694-dcdc-4f58-aa94-4512f7951b02</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{53cfc694-dcdc-4f58-aa94-4512f7951b02}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/5014/75" target="_blank" title="https://archief.amsterdam/archief/5014/75"&gt;https://archief.amsterdam/archief/5014/75&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>MMSAA01_426000018</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>2db12a73-8522-4c3a-a30a-c294416ec5c5</identifier>
+        <datestamp>2021-08-12T00:42:06Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e38-8566-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Tymon</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Gerritsz</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1608</a2a:Year>
+              <a2a:Month>6</a2a:Month>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e38-8566-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1608-06-01</a2a:From>
+              <a2a:To>1608-06-30</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1608</a2a:Year>
+              <a2a:Month>6</a2a:Month>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Poorterboeken</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5014</a2a:Archive>
+              <a2a:Collection>Deel: 75, Periode: 1608</a2a:Collection>
+              <a2a:Book>Poorterboeken</a2a:Book>
+              <a2a:RegistryNumber>75</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/4b84a266-2e17-fdf4-6430-1511dd2bd13e.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/2db12a73-8522-4c3a-a30a-c294416ec5c5</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/4b84a266-2e17-fdf4-6430-1511dd2bd13e.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-02-17</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/2db12a73-8522-4c3a-a30a-c294416ec5c5</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{2db12a73-8522-4c3a-a30a-c294416ec5c5}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/5014/75" target="_blank" title="https://archief.amsterdam/archief/5014/75"&gt;https://archief.amsterdam/archief/5014/75&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>MMSAA01_426000018</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>29c48100-633b-4dfc-a1ea-a80549addded</identifier>
+        <datestamp>2021-08-12T00:42:06Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e38-8565-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Jan</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Jansz</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1608</a2a:Year>
+              <a2a:Month>6</a2a:Month>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e38-8565-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1608-06-01</a2a:From>
+              <a2a:To>1608-06-30</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1608</a2a:Year>
+              <a2a:Month>6</a2a:Month>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Poorterboeken</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5014</a2a:Archive>
+              <a2a:Collection>Deel: 75, Periode: 1608</a2a:Collection>
+              <a2a:Book>Poorterboeken</a2a:Book>
+              <a2a:RegistryNumber>75</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/c1b09f00-866c-70b5-c985-17828792ebc6.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/29c48100-633b-4dfc-a1ea-a80549addded</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/c1b09f00-866c-70b5-c985-17828792ebc6.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-02-17</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/29c48100-633b-4dfc-a1ea-a80549addded</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{29c48100-633b-4dfc-a1ea-a80549addded}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/5014/75" target="_blank" title="https://archief.amsterdam/archief/5014/75"&gt;https://archief.amsterdam/archief/5014/75&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>MMSAA01_426000017</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>f555db4f-bef0-4ff8-a955-d92a139b2dd1</identifier>
+        <datestamp>2021-08-12T00:42:06Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:99e87e38-8564-2bb2-e053-b784100a6a2e">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Etsert</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Kerstens</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1608</a2a:Year>
+              <a2a:Month>6</a2a:Month>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:99e87e38-8564-2bb2-e053-b784100a6a2e</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Geregistreerde</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1608-06-01</a2a:From>
+              <a2a:To>1608-06-30</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1608</a2a:Year>
+              <a2a:Month>6</a2a:Month>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Poorterboeken</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>5014</a2a:Archive>
+              <a2a:Collection>Deel: 75, Periode: 1608</a2a:Collection>
+              <a2a:Book>Poorterboeken</a2a:Book>
+              <a2a:RegistryNumber>75</a2a:RegistryNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/c1b09f00-866c-70b5-c985-17828792ebc6.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/f555db4f-bef0-4ff8-a955-d92a139b2dd1</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/c1b09f00-866c-70b5-c985-17828792ebc6.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-02-17</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/f555db4f-bef0-4ff8-a955-d92a139b2dd1</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{f555db4f-bef0-4ff8-a955-d92a139b2dd1}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/5014/75" target="_blank" title="https://archief.amsterdam/archief/5014/75"&gt;https://archief.amsterdam/archief/5014/75&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>MMSAA01_426000017</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <resumptionToken completeListSize="21441" cursor="0">eyJwYWdlIjoyLCJtZXRhZGF0YVByZWZpeCI6Im9haV9hMmEiLCJzZXQiOiIyM2Q2ZmRkYi00ODM5LWYwODAtMmIwYS0wNWEyMWM2MTYyZTgifQ==</resumptionToken>
+  </ListRecords>
+</OAI-PMH>

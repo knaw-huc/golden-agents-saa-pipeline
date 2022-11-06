@@ -1,0 +1,3769 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2022-09-22T10:07:43Z</responseDate>
+  <request metadataPrefix="oai_a2a" set="3349cddf-c176-75e8-005f-705dbca96c4f" verb="ListRecords">https://webservices.picturae.com/a2a/a66155dd-f750-40be-9ddd-244d72248fa3/</request>
+  <ListRecords>
+    <record>
+      <header>
+        <identifier>61806e07-079c-4fbf-9922-5ca56633ceee</identifier>
+        <datestamp>2021-08-12T02:29:08Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9fe14fa3-7582-4c2c-e053-b784100aafb6">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Elizabeth</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Kalf</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1748</a2a:Year>
+              <a2a:Month>10</a2a:Month>
+              <a2a:Day>20</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9fe14fa3-7582-4c2c-e053-b784100aafb6</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Dopeling</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1748-10-20</a2a:From>
+              <a2a:To>1748-10-20</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1748</a2a:Year>
+              <a2a:Month>10</a2a:Month>
+              <a2a:Day>20</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Lidmatenregister Doopsgezinde Gemeente</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>877</a2a:Archive>
+              <a2a:Collection>Deel: 245, Periode: 1619-1822</a2a:Collection>
+              <a2a:Book>Lidmatenregister Doopsgezinde Gemeente</a2a:Book>
+              <a2a:Folio>p.85</a2a:Folio>
+              <a2a:RegistryNumber>245</a2a:RegistryNumber>
+              <a2a:DocumentNumber>Archief 877, invnr.245</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/2eee3366-eace-ecbc-2b0d-812bf898be9e.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/61806e07-079c-4fbf-9922-5ca56633ceee</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/2eee3366-eace-ecbc-2b0d-812bf898be9e.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-12</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/61806e07-079c-4fbf-9922-5ca56633ceee</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{61806e07-079c-4fbf-9922-5ca56633ceee}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/877/245" target="_blank" title="https://archief.amsterdam/archief/877/245"&gt;https://archief.amsterdam/archief/877/245&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A06957000085</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>133e0de2-d1e0-4b0a-8e8c-35d201d38586</identifier>
+        <datestamp>2021-08-12T02:29:08Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9fe14fa3-7581-4c2c-e053-b784100aafb6">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Dirk</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Prins</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1744</a2a:Year>
+              <a2a:Month>10</a2a:Month>
+              <a2a:Day>18</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9fe14fa3-7581-4c2c-e053-b784100aafb6</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Dopeling</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1744-10-18</a2a:From>
+              <a2a:To>1744-10-18</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1744</a2a:Year>
+              <a2a:Month>10</a2a:Month>
+              <a2a:Day>18</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Lidmatenregister Doopsgezinde Gemeente</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>877</a2a:Archive>
+              <a2a:Collection>Deel: 245, Periode: 1619-1822</a2a:Collection>
+              <a2a:Book>Lidmatenregister Doopsgezinde Gemeente</a2a:Book>
+              <a2a:Folio>p.83</a2a:Folio>
+              <a2a:RegistryNumber>245</a2a:RegistryNumber>
+              <a2a:DocumentNumber>Archief 877, invnr.245</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/c0c323d1-c7f2-5edc-ef5d-ffefc7ce049a.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/133e0de2-d1e0-4b0a-8e8c-35d201d38586</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/c0c323d1-c7f2-5edc-ef5d-ffefc7ce049a.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-12</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/133e0de2-d1e0-4b0a-8e8c-35d201d38586</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{133e0de2-d1e0-4b0a-8e8c-35d201d38586}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/877/245" target="_blank" title="https://archief.amsterdam/archief/877/245"&gt;https://archief.amsterdam/archief/877/245&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A06957000083</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>23e44b76-b5e9-476a-abbe-aa38afa95041</identifier>
+        <datestamp>2021-08-12T02:29:08Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9fe14fa3-7580-4c2c-e053-b784100aafb6">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Cornelis</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Papegaij</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1741</a2a:Year>
+              <a2a:Month>3</a2a:Month>
+              <a2a:Day>19</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9fe14fa3-7580-4c2c-e053-b784100aafb6</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Dopeling</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1741-03-19</a2a:From>
+              <a2a:To>1741-03-19</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1741</a2a:Year>
+              <a2a:Month>3</a2a:Month>
+              <a2a:Day>19</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Lidmatenregister Doopsgezinde Gemeente</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>877</a2a:Archive>
+              <a2a:Collection>Deel: 245, Periode: 1619-1822</a2a:Collection>
+              <a2a:Book>Lidmatenregister Doopsgezinde Gemeente</a2a:Book>
+              <a2a:Folio>p.82</a2a:Folio>
+              <a2a:RegistryNumber>245</a2a:RegistryNumber>
+              <a2a:DocumentNumber>Archief 877, invnr.245</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/dff10d11-01b9-be7d-23c3-801abf6da2de.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/23e44b76-b5e9-476a-abbe-aa38afa95041</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/dff10d11-01b9-be7d-23c3-801abf6da2de.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-12</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/23e44b76-b5e9-476a-abbe-aa38afa95041</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{23e44b76-b5e9-476a-abbe-aa38afa95041}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/877/245" target="_blank" title="https://archief.amsterdam/archief/877/245"&gt;https://archief.amsterdam/archief/877/245&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A06957000082</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>3cec072b-22e9-4bbe-befb-67c884b41f40</identifier>
+        <datestamp>2021-08-12T02:29:08Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9fe14fa3-757f-4c2c-e053-b784100aafb6">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Neeltje</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Kuijer</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1736</a2a:Year>
+              <a2a:Month>10</a2a:Month>
+              <a2a:Day>21</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9fe14fa3-757f-4c2c-e053-b784100aafb6</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Dopeling</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1736-10-21</a2a:From>
+              <a2a:To>1736-10-21</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1736</a2a:Year>
+              <a2a:Month>10</a2a:Month>
+              <a2a:Day>21</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Lidmatenregister Doopsgezinde Gemeente</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>877</a2a:Archive>
+              <a2a:Collection>Deel: 245, Periode: 1619-1822</a2a:Collection>
+              <a2a:Book>Lidmatenregister Doopsgezinde Gemeente</a2a:Book>
+              <a2a:Folio>p.81</a2a:Folio>
+              <a2a:RegistryNumber>245</a2a:RegistryNumber>
+              <a2a:DocumentNumber>Archief 877, invnr.245</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/578b255c-4e26-cf4a-e6d2-417b9e7a1403.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/3cec072b-22e9-4bbe-befb-67c884b41f40</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/578b255c-4e26-cf4a-e6d2-417b9e7a1403.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-12</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/3cec072b-22e9-4bbe-befb-67c884b41f40</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{3cec072b-22e9-4bbe-befb-67c884b41f40}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/877/245" target="_blank" title="https://archief.amsterdam/archief/877/245"&gt;https://archief.amsterdam/archief/877/245&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A06957000081</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>f13f0a71-32b9-4129-a73e-b4d1bc2570fc</identifier>
+        <datestamp>2021-08-12T02:29:08Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9fe14fa3-757e-4c2c-e053-b784100aafb6">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Trijntje</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Papegaij</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1735</a2a:Year>
+              <a2a:Month>3</a2a:Month>
+              <a2a:Day>27</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9fe14fa3-757e-4c2c-e053-b784100aafb6</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Dopeling</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1735-03-27</a2a:From>
+              <a2a:To>1735-03-27</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1735</a2a:Year>
+              <a2a:Month>3</a2a:Month>
+              <a2a:Day>27</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Lidmatenregister Doopsgezinde Gemeente</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>877</a2a:Archive>
+              <a2a:Collection>Deel: 245, Periode: 1619-1822</a2a:Collection>
+              <a2a:Book>Lidmatenregister Doopsgezinde Gemeente</a2a:Book>
+              <a2a:Folio>p.80</a2a:Folio>
+              <a2a:RegistryNumber>245</a2a:RegistryNumber>
+              <a2a:DocumentNumber>Archief 877, invnr.245</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/e12b60a1-123b-e480-9d2f-168069306a47.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/f13f0a71-32b9-4129-a73e-b4d1bc2570fc</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/e12b60a1-123b-e480-9d2f-168069306a47.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-12</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/f13f0a71-32b9-4129-a73e-b4d1bc2570fc</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{f13f0a71-32b9-4129-a73e-b4d1bc2570fc}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/877/245" target="_blank" title="https://archief.amsterdam/archief/877/245"&gt;https://archief.amsterdam/archief/877/245&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A06957000080</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>8f4a3b04-bd9d-4be9-b26d-26708dacaea7</identifier>
+        <datestamp>2021-08-12T02:29:08Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9fe14fa3-757d-4c2c-e053-b784100aafb6">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Izaak</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Boomkamp</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1732</a2a:Year>
+              <a2a:Month>10</a2a:Month>
+              <a2a:Day>19</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9fe14fa3-757d-4c2c-e053-b784100aafb6</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Dopeling</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1732-10-19</a2a:From>
+              <a2a:To>1732-10-19</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1732</a2a:Year>
+              <a2a:Month>10</a2a:Month>
+              <a2a:Day>19</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Lidmatenregister Doopsgezinde Gemeente</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>877</a2a:Archive>
+              <a2a:Collection>Deel: 245, Periode: 1619-1822</a2a:Collection>
+              <a2a:Book>Lidmatenregister Doopsgezinde Gemeente</a2a:Book>
+              <a2a:Folio>p.79</a2a:Folio>
+              <a2a:RegistryNumber>245</a2a:RegistryNumber>
+              <a2a:DocumentNumber>Archief 877, invnr.245</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/b0594fe0-918f-c10d-2d51-883674421e39.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/8f4a3b04-bd9d-4be9-b26d-26708dacaea7</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/b0594fe0-918f-c10d-2d51-883674421e39.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-12</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/8f4a3b04-bd9d-4be9-b26d-26708dacaea7</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{8f4a3b04-bd9d-4be9-b26d-26708dacaea7}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/877/245" target="_blank" title="https://archief.amsterdam/archief/877/245"&gt;https://archief.amsterdam/archief/877/245&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A06957000079</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>a182870c-6c8e-49eb-99c1-52df2d13ed87</identifier>
+        <datestamp>2021-08-12T02:29:08Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9fe14fa3-757c-4c2c-e053-b784100aafb6">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Immetje</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Jans</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1730</a2a:Year>
+              <a2a:Month>3</a2a:Month>
+              <a2a:Day>26</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9fe14fa3-757c-4c2c-e053-b784100aafb6</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Dopeling</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1730-03-26</a2a:From>
+              <a2a:To>1730-03-26</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1730</a2a:Year>
+              <a2a:Month>3</a2a:Month>
+              <a2a:Day>26</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Lidmatenregister Doopsgezinde Gemeente</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>877</a2a:Archive>
+              <a2a:Collection>Deel: 245, Periode: 1619-1822</a2a:Collection>
+              <a2a:Book>Lidmatenregister Doopsgezinde Gemeente</a2a:Book>
+              <a2a:Folio>p.78</a2a:Folio>
+              <a2a:RegistryNumber>245</a2a:RegistryNumber>
+              <a2a:DocumentNumber>Archief 877, invnr.245</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/c7ceebb1-3fa1-e583-6479-95a33745e803.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/a182870c-6c8e-49eb-99c1-52df2d13ed87</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/c7ceebb1-3fa1-e583-6479-95a33745e803.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-12</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/a182870c-6c8e-49eb-99c1-52df2d13ed87</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{a182870c-6c8e-49eb-99c1-52df2d13ed87}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/877/245" target="_blank" title="https://archief.amsterdam/archief/877/245"&gt;https://archief.amsterdam/archief/877/245&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A06957000078</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>bd143753-bdc6-4284-90c9-df7d31d740a2</identifier>
+        <datestamp>2021-08-12T02:29:08Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9fe14fa3-757b-4c2c-e053-b784100aafb6">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Aagje</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Booij</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1727</a2a:Year>
+              <a2a:Month>10</a2a:Month>
+              <a2a:Day>19</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9fe14fa3-757b-4c2c-e053-b784100aafb6</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Dopeling</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1727-10-19</a2a:From>
+              <a2a:To>1727-10-19</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1727</a2a:Year>
+              <a2a:Month>10</a2a:Month>
+              <a2a:Day>19</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Lidmatenregister Doopsgezinde Gemeente</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>877</a2a:Archive>
+              <a2a:Collection>Deel: 245, Periode: 1619-1822</a2a:Collection>
+              <a2a:Book>Lidmatenregister Doopsgezinde Gemeente</a2a:Book>
+              <a2a:Folio>p.77</a2a:Folio>
+              <a2a:RegistryNumber>245</a2a:RegistryNumber>
+              <a2a:DocumentNumber>Archief 877, invnr.245</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/38ddbe09-324f-573a-1a60-1bb0bc7a716f.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/bd143753-bdc6-4284-90c9-df7d31d740a2</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/38ddbe09-324f-573a-1a60-1bb0bc7a716f.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-12</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/bd143753-bdc6-4284-90c9-df7d31d740a2</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{bd143753-bdc6-4284-90c9-df7d31d740a2}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/877/245" target="_blank" title="https://archief.amsterdam/archief/877/245"&gt;https://archief.amsterdam/archief/877/245&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A06957000077</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>aa046588-3cde-4db7-90c5-d0d5deb2916d</identifier>
+        <datestamp>2021-08-12T02:29:08Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9fe14fa3-757a-4c2c-e053-b784100aafb6">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Pieter</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Dirksz</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1724</a2a:Year>
+              <a2a:Month>10</a2a:Month>
+              <a2a:Day>22</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9fe14fa3-757a-4c2c-e053-b784100aafb6</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Dopeling</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1724-10-22</a2a:From>
+              <a2a:To>1724-10-22</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1724</a2a:Year>
+              <a2a:Month>10</a2a:Month>
+              <a2a:Day>22</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Lidmatenregister Doopsgezinde Gemeente</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>877</a2a:Archive>
+              <a2a:Collection>Deel: 245, Periode: 1619-1822</a2a:Collection>
+              <a2a:Book>Lidmatenregister Doopsgezinde Gemeente</a2a:Book>
+              <a2a:Folio>p.76</a2a:Folio>
+              <a2a:RegistryNumber>245</a2a:RegistryNumber>
+              <a2a:DocumentNumber>Archief 877, invnr.245</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/236158d4-72fc-0d11-bb9b-3e22b540b619.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/aa046588-3cde-4db7-90c5-d0d5deb2916d</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/236158d4-72fc-0d11-bb9b-3e22b540b619.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-12</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/aa046588-3cde-4db7-90c5-d0d5deb2916d</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{aa046588-3cde-4db7-90c5-d0d5deb2916d}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/877/245" target="_blank" title="https://archief.amsterdam/archief/877/245"&gt;https://archief.amsterdam/archief/877/245&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A06957000076</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>c0d3cc38-9caf-4a7e-a705-a2fcc66724ab</identifier>
+        <datestamp>2021-08-12T02:29:08Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9fe14fa3-7579-4c2c-e053-b784100aafb6">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Willem Pieterse</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Lught</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1722</a2a:Year>
+              <a2a:Month>10</a2a:Month>
+              <a2a:Day>16</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9fe14fa3-7579-4c2c-e053-b784100aafb6</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Dopeling</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1722-10-16</a2a:From>
+              <a2a:To>1722-10-16</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1722</a2a:Year>
+              <a2a:Month>10</a2a:Month>
+              <a2a:Day>16</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Lidmatenregister Doopsgezinde Gemeente</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>877</a2a:Archive>
+              <a2a:Collection>Deel: 245, Periode: 1619-1822</a2a:Collection>
+              <a2a:Book>Lidmatenregister Doopsgezinde Gemeente</a2a:Book>
+              <a2a:Folio>p.75</a2a:Folio>
+              <a2a:RegistryNumber>245</a2a:RegistryNumber>
+              <a2a:DocumentNumber>Archief 877, invnr.245</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/da906f3b-58a7-2db6-a9a8-31b15ee083ab.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/c0d3cc38-9caf-4a7e-a705-a2fcc66724ab</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/da906f3b-58a7-2db6-a9a8-31b15ee083ab.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-12</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/c0d3cc38-9caf-4a7e-a705-a2fcc66724ab</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{c0d3cc38-9caf-4a7e-a705-a2fcc66724ab}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/877/245" target="_blank" title="https://archief.amsterdam/archief/877/245"&gt;https://archief.amsterdam/archief/877/245&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A06957000075</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>2cd43192-bb4c-411e-9999-f77764460159</identifier>
+        <datestamp>2021-08-12T02:29:08Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9fe14fa3-7578-4c2c-e053-b784100aafb6">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Jannes</a2a:PersonNameFirstName>
+              <a2a:PersonNamePrefixLastName>vanden</a2a:PersonNamePrefixLastName>
+              <a2a:PersonNameLastName>Bergh</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1721</a2a:Year>
+              <a2a:Month>3</a2a:Month>
+              <a2a:Day>30</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9fe14fa3-7578-4c2c-e053-b784100aafb6</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Dopeling</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1721-03-30</a2a:From>
+              <a2a:To>1721-03-30</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1721</a2a:Year>
+              <a2a:Month>3</a2a:Month>
+              <a2a:Day>30</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Lidmatenregister Doopsgezinde Gemeente</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>877</a2a:Archive>
+              <a2a:Collection>Deel: 245, Periode: 1619-1822</a2a:Collection>
+              <a2a:Book>Lidmatenregister Doopsgezinde Gemeente</a2a:Book>
+              <a2a:Folio>p.75</a2a:Folio>
+              <a2a:RegistryNumber>245</a2a:RegistryNumber>
+              <a2a:DocumentNumber>Archief 877, invnr.245</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/da906f3b-58a7-2db6-a9a8-31b15ee083ab.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/2cd43192-bb4c-411e-9999-f77764460159</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/da906f3b-58a7-2db6-a9a8-31b15ee083ab.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-12</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/2cd43192-bb4c-411e-9999-f77764460159</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{2cd43192-bb4c-411e-9999-f77764460159}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/877/245" target="_blank" title="https://archief.amsterdam/archief/877/245"&gt;https://archief.amsterdam/archief/877/245&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A06957000075</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>b1313eb9-9476-4781-b813-8470958f9bfb</identifier>
+        <datestamp>2021-08-12T02:29:08Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9fe14fa3-7577-4c2c-e053-b784100aafb6">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Volkert Janse</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Hartog</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1719</a2a:Year>
+              <a2a:Month>3</a2a:Month>
+              <a2a:Day>26</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9fe14fa3-7577-4c2c-e053-b784100aafb6</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Dopeling</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1719-03-26</a2a:From>
+              <a2a:To>1719-03-26</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1719</a2a:Year>
+              <a2a:Month>3</a2a:Month>
+              <a2a:Day>26</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Lidmatenregister Doopsgezinde Gemeente</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>877</a2a:Archive>
+              <a2a:Collection>Deel: 245, Periode: 1619-1822</a2a:Collection>
+              <a2a:Book>Lidmatenregister Doopsgezinde Gemeente</a2a:Book>
+              <a2a:Folio>p.74</a2a:Folio>
+              <a2a:RegistryNumber>245</a2a:RegistryNumber>
+              <a2a:DocumentNumber>Archief 877, invnr.245</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/f55d8cba-cd3b-ff32-b3dd-7b383bc2f506.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/b1313eb9-9476-4781-b813-8470958f9bfb</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/f55d8cba-cd3b-ff32-b3dd-7b383bc2f506.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-12</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/b1313eb9-9476-4781-b813-8470958f9bfb</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{b1313eb9-9476-4781-b813-8470958f9bfb}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/877/245" target="_blank" title="https://archief.amsterdam/archief/877/245"&gt;https://archief.amsterdam/archief/877/245&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A06957000074</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>e29993b4-43ca-4dc1-b043-81565ac4f15e</identifier>
+        <datestamp>2021-08-12T02:29:08Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9fe14fa3-7576-4c2c-e053-b784100aafb6">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Klaas Janse</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Salm</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1717</a2a:Year>
+              <a2a:Month>10</a2a:Month>
+              <a2a:Day>24</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9fe14fa3-7576-4c2c-e053-b784100aafb6</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Dopeling</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1717-10-24</a2a:From>
+              <a2a:To>1717-10-24</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1717</a2a:Year>
+              <a2a:Month>10</a2a:Month>
+              <a2a:Day>24</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Lidmatenregister Doopsgezinde Gemeente</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>877</a2a:Archive>
+              <a2a:Collection>Deel: 245, Periode: 1619-1822</a2a:Collection>
+              <a2a:Book>Lidmatenregister Doopsgezinde Gemeente</a2a:Book>
+              <a2a:Folio>p.73</a2a:Folio>
+              <a2a:RegistryNumber>245</a2a:RegistryNumber>
+              <a2a:DocumentNumber>Archief 877, invnr.245</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/b7f64dcf-9c89-d2da-6b3c-44e25f938f22.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/e29993b4-43ca-4dc1-b043-81565ac4f15e</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/b7f64dcf-9c89-d2da-6b3c-44e25f938f22.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-12</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/e29993b4-43ca-4dc1-b043-81565ac4f15e</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{e29993b4-43ca-4dc1-b043-81565ac4f15e}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/877/245" target="_blank" title="https://archief.amsterdam/archief/877/245"&gt;https://archief.amsterdam/archief/877/245&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A06957000073</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>898299d6-4f16-4f32-a120-cceefa5b0543</identifier>
+        <datestamp>2021-08-12T02:29:08Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9fe14fa3-7575-4c2c-e053-b784100aafb6">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Marritje</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Blok</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1715</a2a:Year>
+              <a2a:Month>12</a2a:Month>
+              <a2a:Day>8</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9fe14fa3-7575-4c2c-e053-b784100aafb6</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Dopeling</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1715-12-08</a2a:From>
+              <a2a:To>1715-12-08</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1715</a2a:Year>
+              <a2a:Month>12</a2a:Month>
+              <a2a:Day>8</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Lidmatenregister Doopsgezinde Gemeente</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>877</a2a:Archive>
+              <a2a:Collection>Deel: 245, Periode: 1619-1822</a2a:Collection>
+              <a2a:Book>Lidmatenregister Doopsgezinde Gemeente</a2a:Book>
+              <a2a:Folio>p.72</a2a:Folio>
+              <a2a:RegistryNumber>245</a2a:RegistryNumber>
+              <a2a:DocumentNumber>Archief 877, invnr.245</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/797cae5c-2e70-a77e-5382-0e2a741c3611.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/898299d6-4f16-4f32-a120-cceefa5b0543</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/797cae5c-2e70-a77e-5382-0e2a741c3611.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-12</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/898299d6-4f16-4f32-a120-cceefa5b0543</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{898299d6-4f16-4f32-a120-cceefa5b0543}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/877/245" target="_blank" title="https://archief.amsterdam/archief/877/245"&gt;https://archief.amsterdam/archief/877/245&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A06957000072</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>1cc46135-e739-4db9-9e43-ad430b054c66</identifier>
+        <datestamp>2021-08-12T02:29:08Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9fe14fa3-7574-4c2c-e053-b784100aafb6">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Barbertje</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Hendriks</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1714</a2a:Year>
+              <a2a:Month>12</a2a:Month>
+              <a2a:Day>2</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9fe14fa3-7574-4c2c-e053-b784100aafb6</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Dopeling</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1714-12-02</a2a:From>
+              <a2a:To>1714-12-02</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1714</a2a:Year>
+              <a2a:Month>12</a2a:Month>
+              <a2a:Day>2</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Lidmatenregister Doopsgezinde Gemeente</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>877</a2a:Archive>
+              <a2a:Collection>Deel: 245, Periode: 1619-1822</a2a:Collection>
+              <a2a:Book>Lidmatenregister Doopsgezinde Gemeente</a2a:Book>
+              <a2a:Folio>p.71</a2a:Folio>
+              <a2a:RegistryNumber>245</a2a:RegistryNumber>
+              <a2a:DocumentNumber>Archief 877, invnr.245</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/6d4273ad-64e3-b305-87f9-16a45ceec2bf.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/1cc46135-e739-4db9-9e43-ad430b054c66</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/6d4273ad-64e3-b305-87f9-16a45ceec2bf.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-12</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/1cc46135-e739-4db9-9e43-ad430b054c66</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{1cc46135-e739-4db9-9e43-ad430b054c66}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/877/245" target="_blank" title="https://archief.amsterdam/archief/877/245"&gt;https://archief.amsterdam/archief/877/245&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A06957000071</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>3b66a7a4-f7c1-4c51-84cc-9313092b9c02</identifier>
+        <datestamp>2021-08-12T02:29:08Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9fe14fa3-7573-4c2c-e053-b784100aafb6">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Jacob Jansz</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Kat</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1713</a2a:Year>
+              <a2a:Month>12</a2a:Month>
+              <a2a:Day>24</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9fe14fa3-7573-4c2c-e053-b784100aafb6</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Getuige</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1713-12-24</a2a:From>
+              <a2a:To>1713-12-24</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1713</a2a:Year>
+              <a2a:Month>12</a2a:Month>
+              <a2a:Day>24</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Lidmatenregister Doopsgezinde Gemeente</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>877</a2a:Archive>
+              <a2a:Collection>Deel: 245, Periode: 1619-1822</a2a:Collection>
+              <a2a:Book>Lidmatenregister Doopsgezinde Gemeente</a2a:Book>
+              <a2a:Folio>p.71</a2a:Folio>
+              <a2a:RegistryNumber>245</a2a:RegistryNumber>
+              <a2a:DocumentNumber>Archief 877, invnr.245</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/6d4273ad-64e3-b305-87f9-16a45ceec2bf.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/3b66a7a4-f7c1-4c51-84cc-9313092b9c02</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/6d4273ad-64e3-b305-87f9-16a45ceec2bf.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-12</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/3b66a7a4-f7c1-4c51-84cc-9313092b9c02</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{3b66a7a4-f7c1-4c51-84cc-9313092b9c02}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/877/245" target="_blank" title="https://archief.amsterdam/archief/877/245"&gt;https://archief.amsterdam/archief/877/245&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A06957000071</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>91f9b140-6fac-4d29-9cda-146afc4b7f64</identifier>
+        <datestamp>2021-08-12T02:29:08Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9fe14fa3-7572-4c2c-e053-b784100aafb6">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Trijntje</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Hendriks</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1711</a2a:Year>
+              <a2a:Month>4</a2a:Month>
+              <a2a:Day>11</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9fe14fa3-7572-4c2c-e053-b784100aafb6</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Dopeling</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1711-04-11</a2a:From>
+              <a2a:To>1711-04-11</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1711</a2a:Year>
+              <a2a:Month>4</a2a:Month>
+              <a2a:Day>11</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Lidmatenregister Doopsgezinde Gemeente</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>877</a2a:Archive>
+              <a2a:Collection>Deel: 245, Periode: 1619-1822</a2a:Collection>
+              <a2a:Book>Lidmatenregister Doopsgezinde Gemeente</a2a:Book>
+              <a2a:Folio>p.70</a2a:Folio>
+              <a2a:RegistryNumber>245</a2a:RegistryNumber>
+              <a2a:DocumentNumber>Archief 877, invnr.245</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/e6eafba9-1778-cf71-72d0-0588169eff4b.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/91f9b140-6fac-4d29-9cda-146afc4b7f64</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/e6eafba9-1778-cf71-72d0-0588169eff4b.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-12</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/91f9b140-6fac-4d29-9cda-146afc4b7f64</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{91f9b140-6fac-4d29-9cda-146afc4b7f64}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/877/245" target="_blank" title="https://archief.amsterdam/archief/877/245"&gt;https://archief.amsterdam/archief/877/245&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A06957000070</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>eb4624f1-9cd9-4a98-97a8-b183be66170a</identifier>
+        <datestamp>2021-08-12T02:29:08Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9fe14fa3-7571-4c2c-e053-b784100aafb6">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Marritje</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Writschers</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1709</a2a:Year>
+              <a2a:Month>3</a2a:Month>
+              <a2a:Day>31</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9fe14fa3-7571-4c2c-e053-b784100aafb6</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Dopeling</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1709-03-31</a2a:From>
+              <a2a:To>1709-03-31</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1709</a2a:Year>
+              <a2a:Month>3</a2a:Month>
+              <a2a:Day>31</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Lidmatenregister Doopsgezinde Gemeente</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>877</a2a:Archive>
+              <a2a:Collection>Deel: 245, Periode: 1619-1822</a2a:Collection>
+              <a2a:Book>Lidmatenregister Doopsgezinde Gemeente</a2a:Book>
+              <a2a:Folio>p.69</a2a:Folio>
+              <a2a:RegistryNumber>245</a2a:RegistryNumber>
+              <a2a:DocumentNumber>Archief 877, invnr.245</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/34f63b9c-1f59-6a1f-ac65-bfc20e9a87d0.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/eb4624f1-9cd9-4a98-97a8-b183be66170a</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/34f63b9c-1f59-6a1f-ac65-bfc20e9a87d0.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-12</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/eb4624f1-9cd9-4a98-97a8-b183be66170a</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{eb4624f1-9cd9-4a98-97a8-b183be66170a}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/877/245" target="_blank" title="https://archief.amsterdam/archief/877/245"&gt;https://archief.amsterdam/archief/877/245&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A06957000069</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>fed7f77f-40ed-4512-b8ba-09a27c5d2ee8</identifier>
+        <datestamp>2021-08-12T02:29:08Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9fe14fa3-7570-4c2c-e053-b784100aafb6">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Oene</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Capel</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1707</a2a:Year>
+              <a2a:Month>4</a2a:Month>
+              <a2a:Day>24</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9fe14fa3-7570-4c2c-e053-b784100aafb6</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Dopeling</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1707-04-24</a2a:From>
+              <a2a:To>1707-04-24</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1707</a2a:Year>
+              <a2a:Month>4</a2a:Month>
+              <a2a:Day>24</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Lidmatenregister Doopsgezinde Gemeente</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>877</a2a:Archive>
+              <a2a:Collection>Deel: 245, Periode: 1619-1822</a2a:Collection>
+              <a2a:Book>Lidmatenregister Doopsgezinde Gemeente</a2a:Book>
+              <a2a:Folio>p.68</a2a:Folio>
+              <a2a:RegistryNumber>245</a2a:RegistryNumber>
+              <a2a:DocumentNumber>Archief 877, invnr.245</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/4b682235-c856-0a52-76e5-c215f544155c.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/fed7f77f-40ed-4512-b8ba-09a27c5d2ee8</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/4b682235-c856-0a52-76e5-c215f544155c.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-12</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/fed7f77f-40ed-4512-b8ba-09a27c5d2ee8</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{fed7f77f-40ed-4512-b8ba-09a27c5d2ee8}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/877/245" target="_blank" title="https://archief.amsterdam/archief/877/245"&gt;https://archief.amsterdam/archief/877/245&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A06957000068</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>cc2b14e4-9a59-4375-ad8e-e288f078f254</identifier>
+        <datestamp>2021-08-12T02:29:08Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9fe14fa3-756f-4c2c-e053-b784100aafb6">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Jacob Jansz</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Kat</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1704</a2a:Year>
+              <a2a:Month>11</a2a:Month>
+              <a2a:Day>8</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9fe14fa3-756f-4c2c-e053-b784100aafb6</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Getuige</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1704-11-08</a2a:From>
+              <a2a:To>1704-11-08</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1704</a2a:Year>
+              <a2a:Month>11</a2a:Month>
+              <a2a:Day>8</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Lidmatenregister Doopsgezinde Gemeente</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>877</a2a:Archive>
+              <a2a:Collection>Deel: 245, Periode: 1619-1822</a2a:Collection>
+              <a2a:Book>Lidmatenregister Doopsgezinde Gemeente</a2a:Book>
+              <a2a:Folio>p.67</a2a:Folio>
+              <a2a:RegistryNumber>245</a2a:RegistryNumber>
+              <a2a:DocumentNumber>Archief 877, invnr.245</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/281d51cc-db4f-0cc2-025c-41a3d38eef72.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/cc2b14e4-9a59-4375-ad8e-e288f078f254</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/281d51cc-db4f-0cc2-025c-41a3d38eef72.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-12</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/cc2b14e4-9a59-4375-ad8e-e288f078f254</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{cc2b14e4-9a59-4375-ad8e-e288f078f254}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/877/245" target="_blank" title="https://archief.amsterdam/archief/877/245"&gt;https://archief.amsterdam/archief/877/245&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A06957000067</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>25001bc6-9319-4b56-bfef-9a7bdb3eef21</identifier>
+        <datestamp>2021-08-12T02:29:08Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9fe14fa3-756e-4c2c-e053-b784100aafb6">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Claas</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Jevits</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1704</a2a:Year>
+              <a2a:Month>2</a2a:Month>
+              <a2a:Day>17</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9fe14fa3-756e-4c2c-e053-b784100aafb6</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Dopeling</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1704-02-17</a2a:From>
+              <a2a:To>1704-02-17</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1704</a2a:Year>
+              <a2a:Month>2</a2a:Month>
+              <a2a:Day>17</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Lidmatenregister Doopsgezinde Gemeente</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>877</a2a:Archive>
+              <a2a:Collection>Deel: 245, Periode: 1619-1822</a2a:Collection>
+              <a2a:Book>Lidmatenregister Doopsgezinde Gemeente</a2a:Book>
+              <a2a:Folio>p.67</a2a:Folio>
+              <a2a:RegistryNumber>245</a2a:RegistryNumber>
+              <a2a:DocumentNumber>Archief 877, invnr.245</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/281d51cc-db4f-0cc2-025c-41a3d38eef72.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/25001bc6-9319-4b56-bfef-9a7bdb3eef21</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/281d51cc-db4f-0cc2-025c-41a3d38eef72.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-12</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/25001bc6-9319-4b56-bfef-9a7bdb3eef21</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{25001bc6-9319-4b56-bfef-9a7bdb3eef21}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/877/245" target="_blank" title="https://archief.amsterdam/archief/877/245"&gt;https://archief.amsterdam/archief/877/245&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A06957000067</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>49cdcdd7-c6c2-4307-811f-4ac44effbe52</identifier>
+        <datestamp>2021-08-12T02:29:08Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9fe14fa3-756d-4c2c-e053-b784100aafb6">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Vroutje Dirks</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Zoutman</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1701</a2a:Year>
+              <a2a:Month>4</a2a:Month>
+              <a2a:Day>15</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9fe14fa3-756d-4c2c-e053-b784100aafb6</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Dopeling</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1701-04-15</a2a:From>
+              <a2a:To>1701-04-15</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1701</a2a:Year>
+              <a2a:Month>4</a2a:Month>
+              <a2a:Day>15</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Lidmatenregister Doopsgezinde Gemeente</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>877</a2a:Archive>
+              <a2a:Collection>Deel: 245, Periode: 1619-1822</a2a:Collection>
+              <a2a:Book>Lidmatenregister Doopsgezinde Gemeente</a2a:Book>
+              <a2a:Folio>p.66</a2a:Folio>
+              <a2a:RegistryNumber>245</a2a:RegistryNumber>
+              <a2a:DocumentNumber>Archief 877, invnr.245</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/170ee9c5-245b-069d-d077-91017819bfad.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/49cdcdd7-c6c2-4307-811f-4ac44effbe52</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/170ee9c5-245b-069d-d077-91017819bfad.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-12</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/49cdcdd7-c6c2-4307-811f-4ac44effbe52</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{49cdcdd7-c6c2-4307-811f-4ac44effbe52}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/877/245" target="_blank" title="https://archief.amsterdam/archief/877/245"&gt;https://archief.amsterdam/archief/877/245&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A06957000066</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>e87a9031-37e7-4733-9382-4b0f5118483b</identifier>
+        <datestamp>2021-08-12T02:29:08Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9fe14fa3-756c-4c2c-e053-b784100aafb6">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Gerbreg Dirks</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Kruijer</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1701</a2a:Year>
+              <a2a:Month>4</a2a:Month>
+              <a2a:Day>15</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9fe14fa3-756c-4c2c-e053-b784100aafb6</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Dopeling</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1701-04-15</a2a:From>
+              <a2a:To>1701-04-15</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1701</a2a:Year>
+              <a2a:Month>4</a2a:Month>
+              <a2a:Day>15</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Lidmatenregister Doopsgezinde Gemeente</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>877</a2a:Archive>
+              <a2a:Collection>Deel: 245, Periode: 1619-1822</a2a:Collection>
+              <a2a:Book>Lidmatenregister Doopsgezinde Gemeente</a2a:Book>
+              <a2a:Folio>p.66</a2a:Folio>
+              <a2a:RegistryNumber>245</a2a:RegistryNumber>
+              <a2a:DocumentNumber>Archief 877, invnr.245</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/170ee9c5-245b-069d-d077-91017819bfad.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/e87a9031-37e7-4733-9382-4b0f5118483b</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/170ee9c5-245b-069d-d077-91017819bfad.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-12</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/e87a9031-37e7-4733-9382-4b0f5118483b</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{e87a9031-37e7-4733-9382-4b0f5118483b}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/877/245" target="_blank" title="https://archief.amsterdam/archief/877/245"&gt;https://archief.amsterdam/archief/877/245&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A06957000066</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>49f14c3b-fc37-42af-850d-87b1c79ade32</identifier>
+        <datestamp>2021-08-12T02:29:08Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9fe14fa3-756b-4c2c-e053-b784100aafb6">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Wijbrand Claasz</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Tollenaar</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1699</a2a:Year>
+              <a2a:Month>10</a2a:Month>
+              <a2a:Day>18</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9fe14fa3-756b-4c2c-e053-b784100aafb6</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Dopeling</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1699-10-18</a2a:From>
+              <a2a:To>1699-10-18</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1699</a2a:Year>
+              <a2a:Month>10</a2a:Month>
+              <a2a:Day>18</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Lidmatenregister Doopsgezinde Gemeente</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>877</a2a:Archive>
+              <a2a:Collection>Deel: 245, Periode: 1619-1822</a2a:Collection>
+              <a2a:Book>Lidmatenregister Doopsgezinde Gemeente</a2a:Book>
+              <a2a:Folio>p.65</a2a:Folio>
+              <a2a:RegistryNumber>245</a2a:RegistryNumber>
+              <a2a:DocumentNumber>Archief 877, invnr.245</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/65251882-be96-8522-048e-275ae9a50f16.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/49f14c3b-fc37-42af-850d-87b1c79ade32</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/65251882-be96-8522-048e-275ae9a50f16.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-12</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/49f14c3b-fc37-42af-850d-87b1c79ade32</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{49f14c3b-fc37-42af-850d-87b1c79ade32}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/877/245" target="_blank" title="https://archief.amsterdam/archief/877/245"&gt;https://archief.amsterdam/archief/877/245&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A06957000065</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>60f08ec4-c0c0-4485-b1b3-bf2c06c6487b</identifier>
+        <datestamp>2021-08-12T02:29:08Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9fe14fa3-756a-4c2c-e053-b784100aafb6">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Annetje</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Foppes</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1698</a2a:Year>
+              <a2a:Month>4</a2a:Month>
+              <a2a:Day>13</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9fe14fa3-756a-4c2c-e053-b784100aafb6</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Getuige</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1698-04-13</a2a:From>
+              <a2a:To>1698-04-13</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1698</a2a:Year>
+              <a2a:Month>4</a2a:Month>
+              <a2a:Day>13</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Lidmatenregister Doopsgezinde Gemeente</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>877</a2a:Archive>
+              <a2a:Collection>Deel: 245, Periode: 1619-1822</a2a:Collection>
+              <a2a:Book>Lidmatenregister Doopsgezinde Gemeente</a2a:Book>
+              <a2a:Folio>p.65</a2a:Folio>
+              <a2a:RegistryNumber>245</a2a:RegistryNumber>
+              <a2a:DocumentNumber>Archief 877, invnr.245</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/65251882-be96-8522-048e-275ae9a50f16.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/60f08ec4-c0c0-4485-b1b3-bf2c06c6487b</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/65251882-be96-8522-048e-275ae9a50f16.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-12</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/60f08ec4-c0c0-4485-b1b3-bf2c06c6487b</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{60f08ec4-c0c0-4485-b1b3-bf2c06c6487b}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/877/245" target="_blank" title="https://archief.amsterdam/archief/877/245"&gt;https://archief.amsterdam/archief/877/245&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A06957000065</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>c6d38807-34b1-43d9-a5d1-103a75f2ff71</identifier>
+        <datestamp>2021-08-12T02:29:08Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9fe14fa3-7569-4c2c-e053-b784100aafb6">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Marritje</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Everts</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1696</a2a:Year>
+              <a2a:Month>4</a2a:Month>
+              <a2a:Day>15</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9fe14fa3-7569-4c2c-e053-b784100aafb6</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Dopeling</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1696-04-15</a2a:From>
+              <a2a:To>1696-04-15</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1696</a2a:Year>
+              <a2a:Month>4</a2a:Month>
+              <a2a:Day>15</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Lidmatenregister Doopsgezinde Gemeente</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>877</a2a:Archive>
+              <a2a:Collection>Deel: 245, Periode: 1619-1822</a2a:Collection>
+              <a2a:Book>Lidmatenregister Doopsgezinde Gemeente</a2a:Book>
+              <a2a:Folio>p.64</a2a:Folio>
+              <a2a:RegistryNumber>245</a2a:RegistryNumber>
+              <a2a:DocumentNumber>Archief 877, invnr.245</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/604403e9-8105-227d-f6a9-31cdfa163769.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/c6d38807-34b1-43d9-a5d1-103a75f2ff71</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/604403e9-8105-227d-f6a9-31cdfa163769.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-12</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/c6d38807-34b1-43d9-a5d1-103a75f2ff71</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{c6d38807-34b1-43d9-a5d1-103a75f2ff71}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/877/245" target="_blank" title="https://archief.amsterdam/archief/877/245"&gt;https://archief.amsterdam/archief/877/245&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A06957000064</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>0a629ae6-e33e-422a-8426-0a5fdad62e48</identifier>
+        <datestamp>2021-08-12T02:29:08Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9fe14fa3-7568-4c2c-e053-b784100aafb6">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Jan</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Dirksz</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1694</a2a:Year>
+              <a2a:Month>12</a2a:Month>
+              <a2a:Day>26</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9fe14fa3-7568-4c2c-e053-b784100aafb6</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Dopeling</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1694-12-26</a2a:From>
+              <a2a:To>1694-12-26</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1694</a2a:Year>
+              <a2a:Month>12</a2a:Month>
+              <a2a:Day>26</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Lidmatenregister Doopsgezinde Gemeente</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>877</a2a:Archive>
+              <a2a:Collection>Deel: 245, Periode: 1619-1822</a2a:Collection>
+              <a2a:Book>Lidmatenregister Doopsgezinde Gemeente</a2a:Book>
+              <a2a:Folio>p.63</a2a:Folio>
+              <a2a:RegistryNumber>245</a2a:RegistryNumber>
+              <a2a:DocumentNumber>Archief 877, invnr.245</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/dd83e1aa-940c-1e5c-21b6-051bd24309a2.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/0a629ae6-e33e-422a-8426-0a5fdad62e48</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/dd83e1aa-940c-1e5c-21b6-051bd24309a2.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-12</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/0a629ae6-e33e-422a-8426-0a5fdad62e48</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{0a629ae6-e33e-422a-8426-0a5fdad62e48}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/877/245" target="_blank" title="https://archief.amsterdam/archief/877/245"&gt;https://archief.amsterdam/archief/877/245&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A06957000063</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>a76fec77-1d7e-45f3-8145-eef4bf8d6b7c</identifier>
+        <datestamp>2021-08-12T02:29:08Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9fe14fa3-7567-4c2c-e053-b784100aafb6">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Pieter</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Willemsz</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1693</a2a:Year>
+              <a2a:Month>4</a2a:Month>
+              <a2a:Day>11</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9fe14fa3-7567-4c2c-e053-b784100aafb6</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Getuige</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1693-04-11</a2a:From>
+              <a2a:To>1693-04-11</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1693</a2a:Year>
+              <a2a:Month>4</a2a:Month>
+              <a2a:Day>11</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Lidmatenregister Doopsgezinde Gemeente</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>877</a2a:Archive>
+              <a2a:Collection>Deel: 245, Periode: 1619-1822</a2a:Collection>
+              <a2a:Book>Lidmatenregister Doopsgezinde Gemeente</a2a:Book>
+              <a2a:Folio>p.63</a2a:Folio>
+              <a2a:RegistryNumber>245</a2a:RegistryNumber>
+              <a2a:DocumentNumber>Archief 877, invnr.245</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/dd83e1aa-940c-1e5c-21b6-051bd24309a2.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/a76fec77-1d7e-45f3-8145-eef4bf8d6b7c</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/dd83e1aa-940c-1e5c-21b6-051bd24309a2.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-12</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/a76fec77-1d7e-45f3-8145-eef4bf8d6b7c</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{a76fec77-1d7e-45f3-8145-eef4bf8d6b7c}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/877/245" target="_blank" title="https://archief.amsterdam/archief/877/245"&gt;https://archief.amsterdam/archief/877/245&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A06957000063</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>7c0678a7-c806-4479-93c9-62ba3b2b4011</identifier>
+        <datestamp>2021-08-12T02:29:08Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9fe14fa3-7566-4c2c-e053-b784100aafb6">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Jan</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Boudewijnsz</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1692</a2a:Year>
+              <a2a:Month>11</a2a:Month>
+              <a2a:Day>30</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9fe14fa3-7566-4c2c-e053-b784100aafb6</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Getuige</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1692-11-30</a2a:From>
+              <a2a:To>1692-11-30</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1692</a2a:Year>
+              <a2a:Month>11</a2a:Month>
+              <a2a:Day>30</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Lidmatenregister Doopsgezinde Gemeente</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>877</a2a:Archive>
+              <a2a:Collection>Deel: 245, Periode: 1619-1822</a2a:Collection>
+              <a2a:Book>Lidmatenregister Doopsgezinde Gemeente</a2a:Book>
+              <a2a:Folio>p.63</a2a:Folio>
+              <a2a:RegistryNumber>245</a2a:RegistryNumber>
+              <a2a:DocumentNumber>Archief 877, invnr.245</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/dd83e1aa-940c-1e5c-21b6-051bd24309a2.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/7c0678a7-c806-4479-93c9-62ba3b2b4011</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/dd83e1aa-940c-1e5c-21b6-051bd24309a2.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-12</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/7c0678a7-c806-4479-93c9-62ba3b2b4011</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{7c0678a7-c806-4479-93c9-62ba3b2b4011}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/877/245" target="_blank" title="https://archief.amsterdam/archief/877/245"&gt;https://archief.amsterdam/archief/877/245&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A06957000063</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>9bfba9c3-57ca-4737-8953-4c452e47146e</identifier>
+        <datestamp>2021-08-12T02:29:08Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9fe14fa3-7565-4c2c-e053-b784100aafb6">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Abraham Claasz</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Salm</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1692</a2a:Year>
+              <a2a:Month>4</a2a:Month>
+              <a2a:Day>6</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9fe14fa3-7565-4c2c-e053-b784100aafb6</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Dopeling</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1692-04-06</a2a:From>
+              <a2a:To>1692-04-06</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1692</a2a:Year>
+              <a2a:Month>4</a2a:Month>
+              <a2a:Day>6</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Lidmatenregister Doopsgezinde Gemeente</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>877</a2a:Archive>
+              <a2a:Collection>Deel: 245, Periode: 1619-1822</a2a:Collection>
+              <a2a:Book>Lidmatenregister Doopsgezinde Gemeente</a2a:Book>
+              <a2a:Folio>p.62</a2a:Folio>
+              <a2a:RegistryNumber>245</a2a:RegistryNumber>
+              <a2a:DocumentNumber>Archief 877, invnr.245</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/5bbbee57-0055-4ef3-12ea-23b8f8adbe9b.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/9bfba9c3-57ca-4737-8953-4c452e47146e</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/5bbbee57-0055-4ef3-12ea-23b8f8adbe9b.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-12</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/9bfba9c3-57ca-4737-8953-4c452e47146e</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{9bfba9c3-57ca-4737-8953-4c452e47146e}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/877/245" target="_blank" title="https://archief.amsterdam/archief/877/245"&gt;https://archief.amsterdam/archief/877/245&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A06957000062</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>052580f2-7208-4dd0-be23-32d8f8195a61</identifier>
+        <datestamp>2021-08-12T02:29:08Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9fe14fa3-7564-4c2c-e053-b784100aafb6">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Aldert</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Pronk</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1690</a2a:Year>
+              <a2a:Month>12</a2a:Month>
+              <a2a:Day>26</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9fe14fa3-7564-4c2c-e053-b784100aafb6</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Dopeling</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1690-12-26</a2a:From>
+              <a2a:To>1690-12-26</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1690</a2a:Year>
+              <a2a:Month>12</a2a:Month>
+              <a2a:Day>26</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Lidmatenregister Doopsgezinde Gemeente</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>877</a2a:Archive>
+              <a2a:Collection>Deel: 245, Periode: 1619-1822</a2a:Collection>
+              <a2a:Book>Lidmatenregister Doopsgezinde Gemeente</a2a:Book>
+              <a2a:Folio>p.62</a2a:Folio>
+              <a2a:RegistryNumber>245</a2a:RegistryNumber>
+              <a2a:DocumentNumber>Archief 877, invnr.245</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/5bbbee57-0055-4ef3-12ea-23b8f8adbe9b.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/052580f2-7208-4dd0-be23-32d8f8195a61</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/5bbbee57-0055-4ef3-12ea-23b8f8adbe9b.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-12</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/052580f2-7208-4dd0-be23-32d8f8195a61</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{052580f2-7208-4dd0-be23-32d8f8195a61}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/877/245" target="_blank" title="https://archief.amsterdam/archief/877/245"&gt;https://archief.amsterdam/archief/877/245&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A06957000062</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>fae8e8f8-6009-46a0-82b7-5ad93b28cb5d</identifier>
+        <datestamp>2021-08-12T02:29:08Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9fe14fa3-7563-4c2c-e053-b784100aafb6">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Neeltje</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Jans</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1686</a2a:Year>
+              <a2a:Month>4</a2a:Month>
+              <a2a:Day>14</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9fe14fa3-7563-4c2c-e053-b784100aafb6</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Dopeling</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1686-04-14</a2a:From>
+              <a2a:To>1686-04-14</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1686</a2a:Year>
+              <a2a:Month>4</a2a:Month>
+              <a2a:Day>14</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Lidmatenregister Doopsgezinde Gemeente</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>877</a2a:Archive>
+              <a2a:Collection>Deel: 245, Periode: 1619-1822</a2a:Collection>
+              <a2a:Book>Lidmatenregister Doopsgezinde Gemeente</a2a:Book>
+              <a2a:Folio>p.61</a2a:Folio>
+              <a2a:RegistryNumber>245</a2a:RegistryNumber>
+              <a2a:DocumentNumber>Archief 877, invnr.245</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/40c47c93-a01b-e8f7-5147-f7ca6d8f6d45.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/fae8e8f8-6009-46a0-82b7-5ad93b28cb5d</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/40c47c93-a01b-e8f7-5147-f7ca6d8f6d45.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-12</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/fae8e8f8-6009-46a0-82b7-5ad93b28cb5d</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{fae8e8f8-6009-46a0-82b7-5ad93b28cb5d}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/877/245" target="_blank" title="https://archief.amsterdam/archief/877/245"&gt;https://archief.amsterdam/archief/877/245&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A06957000061</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>e0f3ee77-7815-48d9-9630-02c7178b5b9d</identifier>
+        <datestamp>2021-08-12T02:29:08Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9fe14fa3-7562-4c2c-e053-b784100aafb6">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Marritje</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Gerrits</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1683</a2a:Year>
+              <a2a:Month>12</a2a:Month>
+              <a2a:Day>24</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9fe14fa3-7562-4c2c-e053-b784100aafb6</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Dopeling</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1683-12-24</a2a:From>
+              <a2a:To>1683-12-24</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1683</a2a:Year>
+              <a2a:Month>12</a2a:Month>
+              <a2a:Day>24</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Lidmatenregister Doopsgezinde Gemeente</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>877</a2a:Archive>
+              <a2a:Collection>Deel: 245, Periode: 1619-1822</a2a:Collection>
+              <a2a:Book>Lidmatenregister Doopsgezinde Gemeente</a2a:Book>
+              <a2a:Folio>p.61</a2a:Folio>
+              <a2a:RegistryNumber>245</a2a:RegistryNumber>
+              <a2a:DocumentNumber>Archief 877, invnr.245</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/40c47c93-a01b-e8f7-5147-f7ca6d8f6d45.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/e0f3ee77-7815-48d9-9630-02c7178b5b9d</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/40c47c93-a01b-e8f7-5147-f7ca6d8f6d45.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-12</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/e0f3ee77-7815-48d9-9630-02c7178b5b9d</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{e0f3ee77-7815-48d9-9630-02c7178b5b9d}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/877/245" target="_blank" title="https://archief.amsterdam/archief/877/245"&gt;https://archief.amsterdam/archief/877/245&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A06957000061</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>39541c18-c709-4524-a12d-8f181ea6668a</identifier>
+        <datestamp>2021-08-12T02:29:08Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9fe14fa3-7561-4c2c-e053-b784100aafb6">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Jan</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Reijersz</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1683</a2a:Year>
+              <a2a:Month>2</a2a:Month>
+              <a2a:Day>6</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9fe14fa3-7561-4c2c-e053-b784100aafb6</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Dopeling</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1683-02-06</a2a:From>
+              <a2a:To>1683-02-06</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1683</a2a:Year>
+              <a2a:Month>2</a2a:Month>
+              <a2a:Day>6</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Lidmatenregister Doopsgezinde Gemeente</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>877</a2a:Archive>
+              <a2a:Collection>Deel: 245, Periode: 1619-1822</a2a:Collection>
+              <a2a:Book>Lidmatenregister Doopsgezinde Gemeente</a2a:Book>
+              <a2a:Folio>p.60</a2a:Folio>
+              <a2a:RegistryNumber>245</a2a:RegistryNumber>
+              <a2a:DocumentNumber>Archief 877, invnr.245</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/90434103-137b-d477-1fb1-425eeb5a222b.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/39541c18-c709-4524-a12d-8f181ea6668a</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/90434103-137b-d477-1fb1-425eeb5a222b.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-12</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/39541c18-c709-4524-a12d-8f181ea6668a</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{39541c18-c709-4524-a12d-8f181ea6668a}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/877/245" target="_blank" title="https://archief.amsterdam/archief/877/245"&gt;https://archief.amsterdam/archief/877/245&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A06957000060</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>7556ce4d-14b0-46b8-bb34-3b4379a6b028</identifier>
+        <datestamp>2021-08-12T02:29:08Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9fe14fa3-7560-4c2c-e053-b784100aafb6">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Immetje</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Gerrits</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1681</a2a:Year>
+              <a2a:Month>1</a2a:Month>
+              <a2a:Day>12</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9fe14fa3-7560-4c2c-e053-b784100aafb6</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Dopeling</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1681-01-12</a2a:From>
+              <a2a:To>1681-01-12</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1681</a2a:Year>
+              <a2a:Month>1</a2a:Month>
+              <a2a:Day>12</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Lidmatenregister Doopsgezinde Gemeente</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>877</a2a:Archive>
+              <a2a:Collection>Deel: 245, Periode: 1619-1822</a2a:Collection>
+              <a2a:Book>Lidmatenregister Doopsgezinde Gemeente</a2a:Book>
+              <a2a:Folio>p.60</a2a:Folio>
+              <a2a:RegistryNumber>245</a2a:RegistryNumber>
+              <a2a:DocumentNumber>Archief 877, invnr.245</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/90434103-137b-d477-1fb1-425eeb5a222b.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/7556ce4d-14b0-46b8-bb34-3b4379a6b028</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/90434103-137b-d477-1fb1-425eeb5a222b.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-12</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/7556ce4d-14b0-46b8-bb34-3b4379a6b028</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{7556ce4d-14b0-46b8-bb34-3b4379a6b028}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/877/245" target="_blank" title="https://archief.amsterdam/archief/877/245"&gt;https://archief.amsterdam/archief/877/245&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A06957000060</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>0ccdb0e8-e776-454f-874d-67e14b16a1a3</identifier>
+        <datestamp>2021-08-12T02:29:08Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9fe14fa3-755f-4c2c-e053-b784100aafb6">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Sieverd</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Claasz</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1680</a2a:Year>
+              <a2a:Month>2</a2a:Month>
+              <a2a:Day>4</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9fe14fa3-755f-4c2c-e053-b784100aafb6</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Dopeling</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1680-02-04</a2a:From>
+              <a2a:To>1680-02-04</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1680</a2a:Year>
+              <a2a:Month>2</a2a:Month>
+              <a2a:Day>4</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Lidmatenregister Doopsgezinde Gemeente</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>877</a2a:Archive>
+              <a2a:Collection>Deel: 245, Periode: 1619-1822</a2a:Collection>
+              <a2a:Book>Lidmatenregister Doopsgezinde Gemeente</a2a:Book>
+              <a2a:Folio>p.60</a2a:Folio>
+              <a2a:RegistryNumber>245</a2a:RegistryNumber>
+              <a2a:DocumentNumber>Archief 877, invnr.245</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/90434103-137b-d477-1fb1-425eeb5a222b.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/0ccdb0e8-e776-454f-874d-67e14b16a1a3</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/90434103-137b-d477-1fb1-425eeb5a222b.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-12</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/0ccdb0e8-e776-454f-874d-67e14b16a1a3</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{0ccdb0e8-e776-454f-874d-67e14b16a1a3}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/877/245" target="_blank" title="https://archief.amsterdam/archief/877/245"&gt;https://archief.amsterdam/archief/877/245&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A06957000060</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>fd9c3241-b315-4053-8766-d8849d0aba4f</identifier>
+        <datestamp>2021-08-12T02:29:08Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9fe14fa3-755e-4c2c-e053-b784100aafb6">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Marritje Pieters</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Koedijk</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1676</a2a:Year>
+              <a2a:Month>3</a2a:Month>
+              <a2a:Day>4</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9fe14fa3-755e-4c2c-e053-b784100aafb6</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Dopeling</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1676-03-04</a2a:From>
+              <a2a:To>1676-03-04</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1676</a2a:Year>
+              <a2a:Month>3</a2a:Month>
+              <a2a:Day>4</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Lidmatenregister Doopsgezinde Gemeente</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>877</a2a:Archive>
+              <a2a:Collection>Deel: 245, Periode: 1619-1822</a2a:Collection>
+              <a2a:Book>Lidmatenregister Doopsgezinde Gemeente</a2a:Book>
+              <a2a:Folio>p.59</a2a:Folio>
+              <a2a:RegistryNumber>245</a2a:RegistryNumber>
+              <a2a:DocumentNumber>Archief 877, invnr.245</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/b29198dc-31dd-e22b-1b03-2b303e0ba35f.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/fd9c3241-b315-4053-8766-d8849d0aba4f</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/b29198dc-31dd-e22b-1b03-2b303e0ba35f.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-12</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/fd9c3241-b315-4053-8766-d8849d0aba4f</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{fd9c3241-b315-4053-8766-d8849d0aba4f}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/877/245" target="_blank" title="https://archief.amsterdam/archief/877/245"&gt;https://archief.amsterdam/archief/877/245&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A06957000059</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>aeaad230-3861-4106-8002-8dc53b207530</identifier>
+        <datestamp>2021-08-12T02:29:08Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9fe14fa3-755d-4c2c-e053-b784100aafb6">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Cornelis</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Pronk</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1727</a2a:Year>
+              <a2a:Month>11</a2a:Month>
+              <a2a:Day>23</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9fe14fa3-755d-4c2c-e053-b784100aafb6</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Getuige</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1727-11-23</a2a:From>
+              <a2a:To>1727-11-23</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1727</a2a:Year>
+              <a2a:Month>11</a2a:Month>
+              <a2a:Day>23</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Lidmatenregister Doopsgezinde Gemeente</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>877</a2a:Archive>
+              <a2a:Collection>Deel: 245, Periode: 1619-1822</a2a:Collection>
+              <a2a:Book>Lidmatenregister Doopsgezinde Gemeente</a2a:Book>
+              <a2a:Folio>p.58</a2a:Folio>
+              <a2a:RegistryNumber>245</a2a:RegistryNumber>
+              <a2a:DocumentNumber>Archief 877, invnr.245</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/42dab129-e8f6-7c7e-2104-e8d5e3a478ad.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/aeaad230-3861-4106-8002-8dc53b207530</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/42dab129-e8f6-7c7e-2104-e8d5e3a478ad.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-12</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/aeaad230-3861-4106-8002-8dc53b207530</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{aeaad230-3861-4106-8002-8dc53b207530}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/877/245" target="_blank" title="https://archief.amsterdam/archief/877/245"&gt;https://archief.amsterdam/archief/877/245&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A06957000058</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>c756f725-cef0-428d-a432-e25ae11eff86</identifier>
+        <datestamp>2021-08-12T02:29:08Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9fe14fa3-755c-4c2c-e053-b784100aafb6">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Floris Jansz</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Loosjes</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1699</a2a:Year>
+              <a2a:Month>1</a2a:Month>
+              <a2a:Day>25</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9fe14fa3-755c-4c2c-e053-b784100aafb6</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Getuige</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1699-01-25</a2a:From>
+              <a2a:To>1699-01-25</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1699</a2a:Year>
+              <a2a:Month>1</a2a:Month>
+              <a2a:Day>25</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Lidmatenregister Doopsgezinde Gemeente</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>877</a2a:Archive>
+              <a2a:Collection>Deel: 245, Periode: 1619-1822</a2a:Collection>
+              <a2a:Book>Lidmatenregister Doopsgezinde Gemeente</a2a:Book>
+              <a2a:Folio>p.57</a2a:Folio>
+              <a2a:RegistryNumber>245</a2a:RegistryNumber>
+              <a2a:DocumentNumber>Archief 877, invnr.245</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/1a6a12f2-f8d3-9f07-c229-7c2487fcd975.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/c756f725-cef0-428d-a432-e25ae11eff86</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/1a6a12f2-f8d3-9f07-c229-7c2487fcd975.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-12</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/c756f725-cef0-428d-a432-e25ae11eff86</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{c756f725-cef0-428d-a432-e25ae11eff86}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/877/245" target="_blank" title="https://archief.amsterdam/archief/877/245"&gt;https://archief.amsterdam/archief/877/245&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A06957000057</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>d9cfd055-2eb1-4e44-a0ed-5dec56d0c9be</identifier>
+        <datestamp>2021-08-12T02:29:08Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9fe14fa3-755b-4c2c-e053-b784100aafb6">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Abraham Pieterse</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Schellinger</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1718</a2a:Year>
+              <a2a:Month>10</a2a:Month>
+              <a2a:Day>30</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9fe14fa3-755b-4c2c-e053-b784100aafb6</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Getuige</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1718-10-30</a2a:From>
+              <a2a:To>1718-10-30</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1718</a2a:Year>
+              <a2a:Month>10</a2a:Month>
+              <a2a:Day>30</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Lidmatenregister Doopsgezinde Gemeente</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>877</a2a:Archive>
+              <a2a:Collection>Deel: 245, Periode: 1619-1822</a2a:Collection>
+              <a2a:Book>Lidmatenregister Doopsgezinde Gemeente</a2a:Book>
+              <a2a:Folio>p.56</a2a:Folio>
+              <a2a:RegistryNumber>245</a2a:RegistryNumber>
+              <a2a:DocumentNumber>Archief 877, invnr.245</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/e29cf8c9-b7a2-5a42-7740-be0feaa476e2.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/d9cfd055-2eb1-4e44-a0ed-5dec56d0c9be</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/e29cf8c9-b7a2-5a42-7740-be0feaa476e2.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-12</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/d9cfd055-2eb1-4e44-a0ed-5dec56d0c9be</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{d9cfd055-2eb1-4e44-a0ed-5dec56d0c9be}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/877/245" target="_blank" title="https://archief.amsterdam/archief/877/245"&gt;https://archief.amsterdam/archief/877/245&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A06957000056</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>6f5f6ad9-cf0d-41e2-a8c4-902866f329e1</identifier>
+        <datestamp>2021-08-12T02:29:08Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9fe14fa3-755a-4c2c-e053-b784100aafb6">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Claas</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Jacobsz</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+            <a2a:EventDate>
+              <a2a:Year>1693</a2a:Year>
+              <a2a:Month>4</a2a:Month>
+              <a2a:Day>12</a2a:Day>
+            </a2a:EventDate>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9fe14fa3-755a-4c2c-e053-b784100aafb6</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Getuige</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1693-04-12</a2a:From>
+              <a2a:To>1693-04-12</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceDate>
+              <a2a:Year>1693</a2a:Year>
+              <a2a:Month>4</a2a:Month>
+              <a2a:Day>12</a2a:Day>
+            </a2a:SourceDate>
+            <a2a:SourceType>other: Lidmatenregister Doopsgezinde Gemeente</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>877</a2a:Archive>
+              <a2a:Collection>Deel: 245, Periode: 1619-1822</a2a:Collection>
+              <a2a:Book>Lidmatenregister Doopsgezinde Gemeente</a2a:Book>
+              <a2a:Folio>p.55</a2a:Folio>
+              <a2a:RegistryNumber>245</a2a:RegistryNumber>
+              <a2a:DocumentNumber>Archief 877, invnr.245</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/6ec33b22-e172-8fc0-8b3f-248174787c1b.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/6f5f6ad9-cf0d-41e2-a8c4-902866f329e1</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/6ec33b22-e172-8fc0-8b3f-248174787c1b.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-12</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/6f5f6ad9-cf0d-41e2-a8c4-902866f329e1</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{6f5f6ad9-cf0d-41e2-a8c4-902866f329e1}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/877/245" target="_blank" title="https://archief.amsterdam/archief/877/245"&gt;https://archief.amsterdam/archief/877/245&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A06957000055</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>a039ba4d-ca48-455f-9baf-4939be7e0ebf</identifier>
+        <datestamp>2021-08-12T02:29:08Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9fe14fa3-7559-4c2c-e053-b784100aafb6">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Wijbrand Claasz</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Tollenaar</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9fe14fa3-7559-4c2c-e053-b784100aafb6</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Getuige</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1619-01-01</a2a:From>
+              <a2a:To>1822-12-31</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceType>other: Lidmatenregister Doopsgezinde Gemeente</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>877</a2a:Archive>
+              <a2a:Collection>Deel: 245, Periode: 1619-1822</a2a:Collection>
+              <a2a:Book>Lidmatenregister Doopsgezinde Gemeente</a2a:Book>
+              <a2a:Folio>p.53</a2a:Folio>
+              <a2a:RegistryNumber>245</a2a:RegistryNumber>
+              <a2a:DocumentNumber>Archief 877, invnr.245</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/38a38822-ff1a-14d5-8809-8b7d02f2c877.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/a039ba4d-ca48-455f-9baf-4939be7e0ebf</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/38a38822-ff1a-14d5-8809-8b7d02f2c877.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-12</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/a039ba4d-ca48-455f-9baf-4939be7e0ebf</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{a039ba4d-ca48-455f-9baf-4939be7e0ebf}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/877/245" target="_blank" title="https://archief.amsterdam/archief/877/245"&gt;https://archief.amsterdam/archief/877/245&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A06957000053</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>1b5ae81e-ce4f-4225-bc3b-bc49be0d8777</identifier>
+        <datestamp>2021-08-12T02:29:08Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9fe14fa3-7558-4c2c-e053-b784100aafb6">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Tetje</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Ridder</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9fe14fa3-7558-4c2c-e053-b784100aafb6</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Getuige</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1619-01-01</a2a:From>
+              <a2a:To>1822-12-31</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceType>other: Lidmatenregister Doopsgezinde Gemeente</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>877</a2a:Archive>
+              <a2a:Collection>Deel: 245, Periode: 1619-1822</a2a:Collection>
+              <a2a:Book>Lidmatenregister Doopsgezinde Gemeente</a2a:Book>
+              <a2a:Folio>p.50</a2a:Folio>
+              <a2a:RegistryNumber>245</a2a:RegistryNumber>
+              <a2a:DocumentNumber>Archief 877, invnr.245</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/88d1e3a9-3240-736f-f6a2-ea5d0779b481.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/1b5ae81e-ce4f-4225-bc3b-bc49be0d8777</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/88d1e3a9-3240-736f-f6a2-ea5d0779b481.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-12</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/1b5ae81e-ce4f-4225-bc3b-bc49be0d8777</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{1b5ae81e-ce4f-4225-bc3b-bc49be0d8777}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/877/245" target="_blank" title="https://archief.amsterdam/archief/877/245"&gt;https://archief.amsterdam/archief/877/245&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A06957000050</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>bc91fb09-f36d-4ddb-8cdf-95ebb51e1d98</identifier>
+        <datestamp>2021-08-12T02:29:08Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9fe14fa3-7557-4c2c-e053-b784100aafb6">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Trijntje</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Obbes</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9fe14fa3-7557-4c2c-e053-b784100aafb6</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Getuige</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1619-01-01</a2a:From>
+              <a2a:To>1822-12-31</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceType>other: Lidmatenregister Doopsgezinde Gemeente</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>877</a2a:Archive>
+              <a2a:Collection>Deel: 245, Periode: 1619-1822</a2a:Collection>
+              <a2a:Book>Lidmatenregister Doopsgezinde Gemeente</a2a:Book>
+              <a2a:Folio>p.50</a2a:Folio>
+              <a2a:RegistryNumber>245</a2a:RegistryNumber>
+              <a2a:DocumentNumber>Archief 877, invnr.245</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/88d1e3a9-3240-736f-f6a2-ea5d0779b481.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/bc91fb09-f36d-4ddb-8cdf-95ebb51e1d98</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/88d1e3a9-3240-736f-f6a2-ea5d0779b481.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-12</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/bc91fb09-f36d-4ddb-8cdf-95ebb51e1d98</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{bc91fb09-f36d-4ddb-8cdf-95ebb51e1d98}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/877/245" target="_blank" title="https://archief.amsterdam/archief/877/245"&gt;https://archief.amsterdam/archief/877/245&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A06957000050</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>e7dfb466-49ff-44aa-b1a8-0c96b4df4b6e</identifier>
+        <datestamp>2021-08-12T02:29:08Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9fe14fa3-7556-4c2c-e053-b784100aafb6">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Tettje Jans</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Aams</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9fe14fa3-7556-4c2c-e053-b784100aafb6</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Getuige</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1619-01-01</a2a:From>
+              <a2a:To>1822-12-31</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceType>other: Lidmatenregister Doopsgezinde Gemeente</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>877</a2a:Archive>
+              <a2a:Collection>Deel: 245, Periode: 1619-1822</a2a:Collection>
+              <a2a:Book>Lidmatenregister Doopsgezinde Gemeente</a2a:Book>
+              <a2a:Folio>p.49</a2a:Folio>
+              <a2a:RegistryNumber>245</a2a:RegistryNumber>
+              <a2a:DocumentNumber>Archief 877, invnr.245</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/6047ca14-3e98-0c6c-5b02-aecf6d18d069.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/e7dfb466-49ff-44aa-b1a8-0c96b4df4b6e</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/6047ca14-3e98-0c6c-5b02-aecf6d18d069.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-12</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/e7dfb466-49ff-44aa-b1a8-0c96b4df4b6e</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{e7dfb466-49ff-44aa-b1a8-0c96b4df4b6e}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/877/245" target="_blank" title="https://archief.amsterdam/archief/877/245"&gt;https://archief.amsterdam/archief/877/245&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A06957000049</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>858de075-23ba-42b6-ac76-b8c40915acbc</identifier>
+        <datestamp>2021-08-12T02:29:08Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9fe14fa3-7555-4c2c-e053-b784100aafb6">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Trijntje</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Juriaans</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9fe14fa3-7555-4c2c-e053-b784100aafb6</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Getuige</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1619-01-01</a2a:From>
+              <a2a:To>1822-12-31</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceType>other: Lidmatenregister Doopsgezinde Gemeente</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>877</a2a:Archive>
+              <a2a:Collection>Deel: 245, Periode: 1619-1822</a2a:Collection>
+              <a2a:Book>Lidmatenregister Doopsgezinde Gemeente</a2a:Book>
+              <a2a:Folio>p.49</a2a:Folio>
+              <a2a:RegistryNumber>245</a2a:RegistryNumber>
+              <a2a:DocumentNumber>Archief 877, invnr.245</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/6047ca14-3e98-0c6c-5b02-aecf6d18d069.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/858de075-23ba-42b6-ac76-b8c40915acbc</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/6047ca14-3e98-0c6c-5b02-aecf6d18d069.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-12</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/858de075-23ba-42b6-ac76-b8c40915acbc</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{858de075-23ba-42b6-ac76-b8c40915acbc}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/877/245" target="_blank" title="https://archief.amsterdam/archief/877/245"&gt;https://archief.amsterdam/archief/877/245&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A06957000049</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>751acda6-c8b1-4fbc-a28b-010e418b8b62</identifier>
+        <datestamp>2021-08-12T02:29:08Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9fe14fa3-7554-4c2c-e053-b784100aafb6">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Sara</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Pieters</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9fe14fa3-7554-4c2c-e053-b784100aafb6</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Getuige</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1619-01-01</a2a:From>
+              <a2a:To>1822-12-31</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceType>other: Lidmatenregister Doopsgezinde Gemeente</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>877</a2a:Archive>
+              <a2a:Collection>Deel: 245, Periode: 1619-1822</a2a:Collection>
+              <a2a:Book>Lidmatenregister Doopsgezinde Gemeente</a2a:Book>
+              <a2a:Folio>p.47</a2a:Folio>
+              <a2a:RegistryNumber>245</a2a:RegistryNumber>
+              <a2a:DocumentNumber>Archief 877, invnr.245</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/b4c9593d-4209-385b-2b7f-51154c25c2b6.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/751acda6-c8b1-4fbc-a28b-010e418b8b62</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/b4c9593d-4209-385b-2b7f-51154c25c2b6.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-12</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/751acda6-c8b1-4fbc-a28b-010e418b8b62</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{751acda6-c8b1-4fbc-a28b-010e418b8b62}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/877/245" target="_blank" title="https://archief.amsterdam/archief/877/245"&gt;https://archief.amsterdam/archief/877/245&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A06957000047</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>eee60182-c98a-4875-b49f-9935fb710a37</identifier>
+        <datestamp>2021-08-12T02:29:09Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9fe14fa3-7553-4c2c-e053-b784100aafb6">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Sijbrech</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Aukes</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9fe14fa3-7553-4c2c-e053-b784100aafb6</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Getuige</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1619-01-01</a2a:From>
+              <a2a:To>1822-12-31</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceType>other: Lidmatenregister Doopsgezinde Gemeente</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>877</a2a:Archive>
+              <a2a:Collection>Deel: 245, Periode: 1619-1822</a2a:Collection>
+              <a2a:Book>Lidmatenregister Doopsgezinde Gemeente</a2a:Book>
+              <a2a:Folio>p.47</a2a:Folio>
+              <a2a:RegistryNumber>245</a2a:RegistryNumber>
+              <a2a:DocumentNumber>Archief 877, invnr.245</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/b4c9593d-4209-385b-2b7f-51154c25c2b6.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/eee60182-c98a-4875-b49f-9935fb710a37</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/b4c9593d-4209-385b-2b7f-51154c25c2b6.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-12</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/eee60182-c98a-4875-b49f-9935fb710a37</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{eee60182-c98a-4875-b49f-9935fb710a37}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/877/245" target="_blank" title="https://archief.amsterdam/archief/877/245"&gt;https://archief.amsterdam/archief/877/245&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A06957000047</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>2a2cf4ba-17a8-40fe-b153-6541753a4efc</identifier>
+        <datestamp>2021-08-12T02:29:09Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9fe14fa3-7552-4c2c-e053-b784100aafb6">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Sikke</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Pieters</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9fe14fa3-7552-4c2c-e053-b784100aafb6</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Getuige</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1619-01-01</a2a:From>
+              <a2a:To>1822-12-31</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceType>other: Lidmatenregister Doopsgezinde Gemeente</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>877</a2a:Archive>
+              <a2a:Collection>Deel: 245, Periode: 1619-1822</a2a:Collection>
+              <a2a:Book>Lidmatenregister Doopsgezinde Gemeente</a2a:Book>
+              <a2a:Folio>p.46</a2a:Folio>
+              <a2a:RegistryNumber>245</a2a:RegistryNumber>
+              <a2a:DocumentNumber>Archief 877, invnr.245</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/7f94e951-e064-aec9-9d9e-f559b692d130.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/2a2cf4ba-17a8-40fe-b153-6541753a4efc</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/7f94e951-e064-aec9-9d9e-f559b692d130.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-12</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/2a2cf4ba-17a8-40fe-b153-6541753a4efc</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{2a2cf4ba-17a8-40fe-b153-6541753a4efc}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/877/245" target="_blank" title="https://archief.amsterdam/archief/877/245"&gt;https://archief.amsterdam/archief/877/245&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A06957000046</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>d548f3a2-d0a8-4def-a9e2-86f863e853bf</identifier>
+        <datestamp>2021-08-12T02:29:09Z</datestamp>
+      </header>
+      <metadata>
+        <a2a:A2A xmlns:a2a="http://Mindbus.nl/A2A" Version="1.7">
+          <a2a:Person pid="Person:9fe14fa3-7551-4c2c-e053-b784100aafb6">
+            <a2a:PersonName>
+              <a2a:PersonNameFirstName>Reijer Cornelisz</a2a:PersonNameFirstName>
+              <a2a:PersonNameLastName>Prins</a2a:PersonNameLastName>
+            </a2a:PersonName>
+            <a2a:Gender>Onbekend</a2a:Gender>
+          </a2a:Person>
+          <a2a:Event eid="Event1">
+            <a2a:EventType>Registratie</a2a:EventType>
+          </a2a:Event>
+          <a2a:RelationEP>
+            <a2a:PersonKeyRef>Person:9fe14fa3-7551-4c2c-e053-b784100aafb6</a2a:PersonKeyRef>
+            <a2a:EventKeyRef>Event1</a2a:EventKeyRef>
+            <a2a:RelationType>Getuige</a2a:RelationType>
+          </a2a:RelationEP>
+          <a2a:Source>
+            <a2a:SourcePlace>
+              <a2a:Place>Amsterdam</a2a:Place>
+            </a2a:SourcePlace>
+            <a2a:SourceIndexDate>
+              <a2a:From>1619-01-01</a2a:From>
+              <a2a:To>1822-12-31</a2a:To>
+            </a2a:SourceIndexDate>
+            <a2a:SourceType>other: Lidmatenregister Doopsgezinde Gemeente</a2a:SourceType>
+            <a2a:SourceReference>
+              <a2a:Place>Amsterdam</a2a:Place>
+              <a2a:InstitutionName>Stadsarchief Amsterdam</a2a:InstitutionName>
+              <a2a:Archive>877</a2a:Archive>
+              <a2a:Collection>Deel: 245, Periode: 1619-1822</a2a:Collection>
+              <a2a:Book>Lidmatenregister Doopsgezinde Gemeente</a2a:Book>
+              <a2a:Folio>p.44</a2a:Folio>
+              <a2a:RegistryNumber>245</a2a:RegistryNumber>
+              <a2a:DocumentNumber>Archief 877, invnr.245</a2a:DocumentNumber>
+            </a2a:SourceReference>
+            <a2a:SourceAvailableScans>
+              <a2a:Scan>
+                <a2a:OrderSequenceNumber>1</a2a:OrderSequenceNumber>
+                <a2a:Uri>https://images.memorix.nl/ams/thumb/640x480/7691e929-d471-893b-11c0-83ce9fb132dc.jpg</a2a:Uri>
+                <a2a:UriViewer>https://archief.amsterdam/indexen/deeds/d548f3a2-d0a8-4def-a9e2-86f863e853bf</a2a:UriViewer>
+                <a2a:UriPreview>https://images.memorix.nl/ams/thumb/250x250/7691e929-d471-893b-11c0-83ce9fb132dc.jpg</a2a:UriPreview>
+              </a2a:Scan>
+            </a2a:SourceAvailableScans>
+            <a2a:SourceLastChangeDate>2020-03-12</a2a:SourceLastChangeDate>
+            <a2a:SourceDigitalOriginal>https://archief.amsterdam/indexen/deeds/d548f3a2-d0a8-4def-a9e2-86f863e853bf</a2a:SourceDigitalOriginal>
+            <a2a:RecordGUID>{d548f3a2-d0a8-4def-a9e2-86f863e853bf}</a2a:RecordGUID>
+            <a2a:SourceRemark Key="Opmerking">
+              <a2a:Value>
+&lt;a href="https://archief.amsterdam/archief/877/245" target="_blank" title="https://archief.amsterdam/archief/877/245"&gt;https://archief.amsterdam/archief/877/245&lt;/a&gt;
+</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="AkteSoort">
+              <a2a:Value>Registratie</a2a:Value>
+            </a2a:SourceRemark>
+            <a2a:SourceRemark Key="filename">
+              <a2a:Value>A06957000044</a2a:Value>
+            </a2a:SourceRemark>
+          </a2a:Source>
+        </a2a:A2A>
+      </metadata>
+    </record>
+    <resumptionToken completeListSize="13834" cursor="0">eyJwYWdlIjoyLCJtZXRhZGF0YVByZWZpeCI6Im9haV9hMmEiLCJzZXQiOiIzMzQ5Y2RkZi1jMTc2LTc1ZTgtMDA1Zi03MDVkYmNhOTZjNGYifQ==</resumptionToken>
+  </ListRecords>
+</OAI-PMH>

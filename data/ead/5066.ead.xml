@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns:isbn="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.loc.gov/ead/ http://www.loc.gov/ead/ead.xsd" audience="external">
+<eadheader>
+<eadid identifier="b51b14e8836f9cc0c3190e6e7077124e">5066</eadid>
+<filedesc>
+<titlestmt>
+<titleproper>Inventaris van het Archief van de Schepenen: register van willige decreten van het Hof van Holland</titleproper>
+</titlestmt>
+<publicationstmt>
+<publisher>Stadsarchief Amsterdam</publisher>
+</publicationstmt>
+</filedesc>
+</eadheader>
+<archdesc level="fonds">
+<did id="NL-SAA-463540">
+<head>Inventaris</head>
+<unitid label="Toegangsnummer" identifier="ee8639008f91701d33f75b68c4b3da82">5066</unitid>
+<unittitle label="Naam">Archief van de Schepenen: register van willige decreten van het Hof van Holland</unittitle>
+<unitdate normal="1636/1805">1636 - 1805</unitdate>
+<langmaterial>dut</langmaterial>
+<repository><corpname>Stadsarchief Amsterdam</corpname></repository>
+<origination><corpname>Schepenen</corpname></origination>
+<abstract>
+Tot 1811 waren er zes manieren om onroerend goed rechtsgeldig te transporteren:<lb/>1. (ordinaris) kwijtschelding voor schepenen<lb/>2. kwijtschelding na executoriale verkoop<lb/>3. sententie van willig decreet van het Hof van Holland<lb/>4. sententie van onwillig decreet van het Hof<lb/>5. huisverkoping voor weesmeesteres<lb/>6. door huwelijk of vererving, waarbij eventueel notariële huwelijkse voorwaarden of boedelscheidingen konden zijn opgemaakt.<lb/><lb/>De mogelijkheden 2-4 gaven de koper volledige zekerheid; aanspraken op het goed konden na het transport niet meer op de koper worden verhaald, wel nog enige tijd op de ontvangen kooppenningen, die dan ook slechts onder borgstelling (cautie) werden afgegeven. De akten van cautie, opgemaakt voor schepenen, vindt men in deze registers afgeschreven na de desbetreffende sententie.<lb/><lb/>Het was vanwege deze mogelijkheid tot verhaal op de kooppenningen, dat deze registers door de stad werden bijgehouden. In de samenhangende registers van afschrijving werd de beta
+ling van gelden aan de rechthebbenden bijgehouden. De beide series (arch. 5066 en 5067) verwijzen naar elkaar.<lb/><lb/>Aan een sententie van willig decreet ging het volgende vooraf. Levering bij willig decreet werd meestal bedongen bij de koop. Dit kon onderhands zijn gebeurd (eventueel notariëel vastgelegd) of via een veiling. Koper of verkoper verkreeg (obtineerde, impetreerde) vervolgens van het Hof een mandement van willig decreet. Daarmee werd de deurwaarder van het Hof opdracht te geven op een openbare plaats bekend te maken, dat een ieder die meende rechten op het goed te kunnen laten gelden dit binnen een zekere termijn aan het Hof bekend moest maken. Als na de vierde dagvaarding niemand kwam opdagen (dit heet het 'vierde default'), dan diende de impetrant bij het Hof zijn eis of bewijsschrift in (intendit). Vervolgens sprak het hof het vonnis uit, sententie of interpositie van willig decreet geheten.<lb/><lb/>De sententiën zijn in deze registers niet geheel uit geschreven (1). De weggela
+ten gedeelten zijn slechts formulier en bevatten geen nadere informatie.
+Series registers van willige decreten in het archief van het Hof van Holland (Algemeen Rijksarchief) lopen van 1526-1810. Het eerste deel, dat in 1522 begon, is verloren gegaan (2). Van de Amsterdamse serie, die in 1636 begint, ontbreekt deel 59 over 1805-1810; in de afschrijvingsregisters wordt daarnaar verwezen.<lb/><lb/>De serie 'belastingboeken', waarnaar in de registers van sententiën soms wordt verwezen, is eveneens niet bewaard gebleven. Hierin werd aangegeven op welke wijze de goederen met schulden (renten, schepenkennissen) waren belast (3).<lb/><lb/>In de tekst van de sententie wordt aangegeven of er een publieke veiling aan vooraf is gegaan, met de datum; men kan dan de koopvoorwaarden vinden in de serie willige verkopingen (arch. 5068). De datum van de koop staat dikwijls ook in de marge in de afschrijvingsregisters.<lb/><lb/>De data in de volgende lijsten zijn tot 1655, die van het uitspreken (pronenciatie) van de sententie, vanaf 1656 de datum waarop de sententie te Amsterdam werd geregist
+reerd. Als data voor de afschrijvingsregisters werden eveneens gekozen de data van pronenciatie resp. registratie van de sententiën waarop de afschrijvingen betrekking hebben.<lb/><lb/>Een topografische index op de afschrijvingsregisters bevindt zich op de studiezaal. Deze registers (arch. 5067) verwijzen naar de sententiën (arch. 5066).<lb/><lb/>
+*Voetnoten*<lb/><lb/>1) Volledige tekst van het formulier in: W. van Alphen, Papegay ofte formulier-boek.. (Utrecht, 1740), deel 1, blz. 448-450.<lb/>2) Overzigt van het Nederlandsche rijks-archief, I ('s-Gravenhage, 1854), blz. 187-188; W. van Iterson, willig decreet in Holland en Utrecht (Haarlem, 1939), blz. 18.<lb/>3) Amsterdamsche secretary (Amsterdam, 1737), blz. 29 en 30.
+</abstract>
+</did>
+<dsc>
+<c level="otherlevel" otherlevel="filegrp">
+<did>
+<unitid label="Inventarisnummers" identifier="82cd17eaba5f8637f80ac4e6dd2e447b">1-58</unitid>
+<unittitle>
+Registers van sententiën van willig decreet van het Hof vanHolland, met bijbehorende akten van cautie voor schepenen van Amsterdam.
+</unittitle>
+<unitdate normal="1636/1805">1636 - 1805</unitdate>
+<physdesc>58 delen</physdesc>
+</did>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="ffac7be020b469c283bc019299a423c6">1</unitid>
+<unittitle>
+1636-1641 mei.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="bbed3eadc5a5c9f7a53c22067831187e">2</unitid>
+<unittitle>
+1641 juni-1643 september.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="253e0c1ecbc3e2b4f482c684cef4306f">3</unitid>
+<unittitle>
+1643 oktober-1646 mei 15.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="e2826833f5373854e166a5d068a6bf90">4</unitid>
+<unittitle>
+1646 mei 15-1648 december 21.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="52eee4781d085b6380ca561fdac54cf2">5</unitid>
+<unittitle>
+1648 december 16-1650 juli 1.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="309f98ce199c1e0949759a41c87c67cf">6</unitid>
+<unittitle>
+1650 juli 1-1651 juli 28.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="e35fcdaab52da50f8e087fa1f206ed9d">7</unitid>
+<unittitle>
+1651 juli 31-1652 oktober 22.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="8612ffc7cd015a44769e6cd0f792f52d">8</unitid>
+<unittitle>
+1652 oktober 3-1653 november 10.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="02c0c0b6c933f6f987eb482308c436e8">9</unitid>
+<unittitle>
+1653 december 19-1654 oktober 9.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="f2c49d8591b1acec0afd06113ce32348">10</unitid>
+<unittitle>
+1654 oktober 9-1655 oktober 2.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="5989e64092dbb224b35c24522996ca6f">11</unitid>
+<unittitle>
+1655 oktober 15-1656 september 22.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="f2fd61b8f63a83edf157736cbbb9797d">12</unitid>
+<unittitle>
+1656 oktober 19-1657 juni 28.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="1cd4398c2a9c0b5b91d10a0164d9b0c7">13</unitid>
+<unittitle>
+1657 juni 30-1658 maart 28.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="6ee08c6e5750398534517260b9e8c493">14</unitid>
+<unittitle>
+1658 april 13-1658 augustus 13.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="4694604e1caad9de5659f02c0fce4402">15</unitid>
+<unittitle>
+1658 augustus 14-1659 juli 22.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="75a2dcce1b00433d4b185e27af859932">16</unitid>
+<unittitle>
+1659 juli 22-1660 mei 4.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="cfdbbc7f2ee78c5c2bc94c4a0bfff640">17</unitid>
+<unittitle>
+1660 mei 10-1661 februari 12.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="35e7209ddaa3664225d3a9678475dfaf">18</unitid>
+<unittitle>
+1661 maart 1-1661 oktober 8.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="e2394280180a1e8251e942832c52ad7d">19</unitid>
+<unittitle>
+1661 oktober 16-1662 juli 20.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="ab26de9d27515684d5a595bb84160118">20</unitid>
+<unittitle>
+1662 juli 12-1663 april 21.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="d2e64922b2ed1555c1365c2bb93f901a">21</unitid>
+<unittitle>
+1663 mei 14-1663 november 18.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="f6206b7c8f18fa43e7074b9ada8de297">22</unitid>
+<unittitle>
+1663 december 5-1665 januari 22.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="4a722a0ed3814f2d2e23a7985c1260d4">23</unitid>
+<unittitle>
+1665 januari 27-1665 oktober 18.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="bd79fb53208fa40d4a2aeafc03397f8d">24</unitid>
+<unittitle>
+1665 november 10-1667 juni 15.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="5f228d4bc4cb017d44d9da8ad92ae9ec">25</unitid>
+<unittitle>
+1667 mei 26-1668 juli 1.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="9e2a6949e0d3c5cc25fb1b9d936b522d">26</unitid>
+<unittitle>
+1668 juni 25-1669 februari 20.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="1140c01995037b8db47675e255c8ae7c">27</unitid>
+<unittitle>
+1669 maart 6-1669 september 26.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="4776cecb3cf08a3df1884b7bf6e2816c">28</unitid>
+<unittitle>
+1669 september 27-1670 augustus 20.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="a4188b50c8636feac684d387f5e258ec">29</unitid>
+<unittitle>
+1670 augustus 20-1671 augustus 3.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="c9b3b207912c3dded61d02f3c6c3c81a">30</unitid>
+<unittitle>
+1671 augustus 1-1672 september 8.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="27a9fa32aeef31d7435a82b59e4b7729">31</unitid>
+<unittitle>
+1672 september 4-1674 september 19.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="fb69eb248de39ac8e0e60333f653e1a4">32</unitid>
+<unittitle>
+1674 oktober 1-1675 oktober 3.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="65a2732141428a905461cae5a21a96a3">33</unitid>
+<unittitle>
+1675 november 28-1676 oktober 23.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="4140ec82a99427649fc7d96d3aa4e361">34</unitid>
+<unittitle>
+1676 november 14-1678 augustus 19.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="2661d89b13e310a0604b6d4c4e48411d">35</unitid>
+<unittitle>
+1678 december 13-1679 november 28.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="e69508533b22f2f8839319841e664150">36</unitid>
+<unittitle>
+1679 november 28-1680 oktober 27.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="d6e5ce6ffe1d9bff99767b8abac3d262">37</unitid>
+<unittitle>
+1680 oktober 27-1681 augustus 2.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="36027ccf8e810c6f650b4cfbf1840135">38</unitid>
+<unittitle>
+1681 augustus 7-1682 mei 23.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="695d68c0c9de539533dbd34dc171e40d">39</unitid>
+<unittitle>
+1682 maart 6-1683 april 10.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="584425401731c15bf327c2d603483fc8">40</unitid>
+<unittitle>
+1683 april 21-1683 september 22.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="54f1cb60c77f4442da2fd7c7cd4d92b2">41</unitid>
+<unittitle>
+1683 november 28-1684 november 29.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="ddeca06f196442f81193e235d3a7a65f">42</unitid>
+<unittitle>
+1684 november 25-1685 november 20.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="c98b38843adc386fdc6a4f9e546a8fbe">43</unitid>
+<unittitle>
+1685 november 1-1687 juni 7.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="55f95f58a06b0b96fbf4863f9290ce0a">44</unitid>
+<unittitle>
+1687 juni 7-1688 december 1.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="49fa6ce9c8b76bfa370d2662ad6cc194">45</unitid>
+<unittitle>
+1688 december 1-1690 november 10.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="6ac7e7fd327237a7f74ac68ec4eb75d4">46</unitid>
+<unittitle>
+1690 november 10-1692 november 19.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="045b427783663eec1581a7d982d7bc58">47</unitid>
+<unittitle>
+1693 april 3-1695 januari 1.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="c78ebc70e3750df10eb6ed881f696926">48</unitid>
+<unittitle>
+1695 februari 8-1696 oktober 3.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="9a993b04e9e9fb8470cc1901a2a5c1bb">49</unitid>
+<unittitle>
+1696 oktober 13-1699 maart 27.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="63f2d3f452b8afa61fe13a5992cab7a1">50</unitid>
+<unittitle>
+1699 april 10-1701 februari 17.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="f253c478b34cfcf34eb503ea43b1b159">51</unitid>
+<unittitle>
+1701 april 6-1703 november 23.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="e98dabc6c0b583b5f6bddf52ad1d0dc2">52</unitid>
+<unittitle>
+1704 januari 23-1706 augustus 16.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="676187c072472bc3bb53c313177c128e">53</unitid>
+<unittitle>
+1706 september 30-1710 mei 23.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="b6afb6f41e138a3e73b44fce31a7420b">54</unitid>
+<unittitle>
+1710 juni 6-1714 augustus 7.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="9364251fdb5c0a26f2c8e8ef06002245">55</unitid>
+<unittitle>
+1714 augustus 9-1719 september 20.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="2a7abe13dc5d98a6741762b4b21befcb">56</unitid>
+<unittitle>
+1719 december 2-1744 december 10.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="f5c1be577a9921225a2beda3699c7bcf">57</unitid>
+<unittitle>
+1745 februari 19-1771 april 15.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="53e50ae22a7b540f23d2961fb32d3d65">58</unitid>
+<unittitle>
+1771 mei 15-1805 december 10.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="e3366de798d45fdb8036b8c2c55b8bbe">59</unitid>
+<unittitle>
+(1805-1810) ontbreekt.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+</dsc>
+</archdesc>
+</ead>

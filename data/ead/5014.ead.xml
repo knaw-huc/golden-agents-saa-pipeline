@@ -1,0 +1,1327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns:isbn="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.loc.gov/ead/ http://www.loc.gov/ead/ead.xsd" audience="external">
+<eadheader>
+<eadid identifier="26679d43f49fe377405b3f871947351e">5014</eadid>
+<filedesc>
+<titlestmt>
+<titleproper>Inventaris van het Archief van Burgemeesters: stadsrekeningen</titleproper>
+</titlestmt>
+<publicationstmt>
+<publisher>Stadsarchief Amsterdam</publisher>
+</publicationstmt>
+</filedesc>
+</eadheader>
+<archdesc level="fonds">
+<did id="NL-SAA-463540">
+<head>Inventaris</head>
+<unitid label="Toegangsnummer" identifier="86663c34e955be0ffbf5064a6f4d702e">5014</unitid>
+<unittitle label="Naam">Archief van Burgemeesters: stadsrekeningen</unittitle>
+<unitdate normal="1531/1805">1531 - 1805</unitdate>
+<langmaterial>dut</langmaterial>
+<repository><corpname>Stadsarchief Amsterdam</corpname></repository>
+<origination><corpname>Burgemeesters</corpname></origination>
+</did>
+<dsc>
+<c level="otherlevel" otherlevel="filegrp">
+<did>
+<unitid label="Inventarisnummers" identifier="b79a5dcbd3afa60017d9307a0d8e0d85">1-133</unitid>
+<unittitle>
+Stadsrekeningen
+N.B. Ontbreken 1536, 1565, 1577, 1631, 1650, 1720, 1754-1768, 1770-1788, 1793-1794.
+</unittitle>
+<unitdate normal="1531/1805">1531 - 1805</unitdate>
+<physdesc>131 delen en 2 pakken</physdesc>
+</did>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="51a98e1b58664c9e1c10eb8b6a0d2503">1</unitid>
+<unitdate normal="1531">1531</unitdate>
+</did>
+<odd><p>Filmnr. 497, 6257</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="1496dc5894707764b2d7abae948593fe">2</unitid>
+<unittitle>
+Met totaaloverzicht.
+</unittitle>
+<unitdate normal="1532">1532</unitdate>
+</did>
+<odd><p>Filmnr. 497, 6257</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="4f20113128b213032d0233d43d46626f">3</unitid>
+<unittitle>
+Met totaaloverzicht.
+</unittitle>
+<unitdate normal="1533">1533</unitdate>
+</did>
+<odd><p>Filmnr. 498, 6257</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="0aefd5a8af7822a0a8b66bfd29241934">4</unitid>
+<unitdate normal="1534">1534</unitdate>
+</did>
+<odd><p>Filmnr. 498, 6257</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="a96fd6e1460de35a8620fadf5de6e07c">5</unitid>
+<unittitle>
+Met totaaloverzicht.
+</unittitle>
+<unitdate normal="1535">1535</unitdate>
+</did>
+<odd><p>Filmnr. 498, 6257</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="6cfcaf7858e561464112ead54a1fdf74">6</unitid>
+<unitdate normal="1537">1537</unitdate>
+</did>
+<odd><p>Filmnr. 498, 6258</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="21a51f7ed897c5104d1040e0b8b9a10b">7</unitid>
+<unitdate normal="1538">1538</unitdate>
+</did>
+<odd><p>Filmnr. 498, 6258</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="9a8741e408683bbd26cdb78d8c031ad2">8</unitid>
+<unitdate normal="1539">1539</unitdate>
+</did>
+<odd><p>Filmnr. 498, 6258</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="ed645b216394ac78f34b68110690bb88">9</unitid>
+<unitdate normal="1540">1540</unitdate>
+</did>
+<odd><p>Filmnr. 498, 6258</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="16b9dd37e207b1a2c773e4e1fb7dae77">10</unitid>
+<unitdate normal="1541">1541</unitdate>
+</did>
+<odd><p>Filmnr. 498, 6258</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="621cd53aecd10304fbfa75b25a330d4e">11</unitid>
+<unittitle>
+Met totaaloverzicht.
+</unittitle>
+<unitdate normal="1542">1542</unitdate>
+</did>
+<odd><p>Filmnr. 498, 6258</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="a74e5cd3efddf9ebbb99e336805a40e1">12</unitid>
+<unittitle>
+Met totaaloverzicht.
+</unittitle>
+<unitdate normal="1543">1543</unitdate>
+</did>
+<odd><p>Filmnr. 499, 6258</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="a38373d2cf1454ed6ed7641f6e07790b">13</unitid>
+<unittitle>
+Met totaaloverzicht.
+</unittitle>
+<unitdate normal="1544">1544</unitdate>
+</did>
+<odd><p>Filmnr. 499, 6258</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="4452277849a24bec161dc680339d16ef">14</unitid>
+<unittitle>
+Met totaaloverzicht.
+</unittitle>
+<unitdate normal="1545">1545</unitdate>
+</did>
+<odd><p>Filmnr. 499, 6258, 6259</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="63bab06a6cd3580e8dd334e51df62b6f">15</unitid>
+<unittitle>
+Met totaaloverzicht.
+</unittitle>
+<unitdate normal="1546">1546</unitdate>
+</did>
+<odd><p>Filmnr. 499, 6259</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="a8e50b4abf22ff6164b479d100e62fa4">16</unitid>
+<unittitle>
+Met totaaloverzicht.
+</unittitle>
+<unitdate normal="1547">1547</unitdate>
+</did>
+<odd><p>Filmnr. 499, 6259</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="7839df73aacc5f1503bea1714c2fe404">17</unitid>
+<unittitle>
+Met totaaloverzicht.
+</unittitle>
+<unitdate normal="1548">1548</unitdate>
+</did>
+<odd><p>Filmnr. 499, 6259</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="a6fb94ec9ae6ac32200d0293f3f7b36e">18</unitid>
+<unittitle>
+Met totaaloverzicht.
+</unittitle>
+<unitdate normal="1549">1549</unitdate>
+</did>
+<odd><p>Filmnr. 499, 6259</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="b5cc782a1dcda7842d7e2b6d5bb612b4">19</unitid>
+<unittitle>
+Met totaaloverzicht.
+</unittitle>
+<unitdate normal="1550">1550</unitdate>
+</did>
+<odd><p>Filmnr. 500, 6259</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="f5c776ab68fff8abe6cd403f990d8265">20</unitid>
+<unittitle>
+Met totaaloverzicht.
+</unittitle>
+<unitdate normal="1551">1551</unitdate>
+</did>
+<odd><p>Filmnr. 500, 6259</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="de632102604f8dc9ec42d777ff7ba0d0">21</unitid>
+<unitdate normal="1552">1552</unitdate>
+</did>
+<odd><p>Filmnr. 500, 6260</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="4476162a16c0c54a36ac09a5d8cb920c">22</unitid>
+<unittitle>
+Met totaaloverzicht.
+</unittitle>
+<unitdate normal="1553">1553</unitdate>
+</did>
+<odd><p>Filmnr. 500, 6260</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="c8e78412a44d9ec4eab5b38c88b21ca4">23</unitid>
+<unittitle>
+Met totaaloverzicht.
+</unittitle>
+<unitdate normal="1554">1554</unitdate>
+</did>
+<odd><p>Filmnr. 500, 6260</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="52270eb016c03abf3692acf8d131c3d4">24</unitid>
+<unittitle>
+Met totaaloverzicht.
+</unittitle>
+<unitdate normal="1555">1555</unitdate>
+</did>
+<odd><p>Filmnr. 500, 6260</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="ada871aaa1a1fe5f0bb1cbe6d073c4dc">25</unitid>
+<unitdate normal="1556">1556</unitdate>
+</did>
+<odd><p>Filmnr. 500, 501, 6260</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="2a83b7726fd2bbb7471a3d6ed4b6db95">26</unitid>
+<unittitle>
+Met totaaloverzicht.
+</unittitle>
+<unitdate normal="1557">1557</unitdate>
+</did>
+<odd><p>Filmnr. 501, 6260</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="3a6b9f0116c88f95fcf11a3d38f8d874">27</unitid>
+<unitdate normal="1558">1558</unitdate>
+</did>
+<odd><p>Filmnr. 501, 6260</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="9f924456e319b52652719a1e788704d2">28</unitid>
+<unittitle>
+Met totaaloverzicht.
+</unittitle>
+<unitdate normal="1559">1559</unitdate>
+</did>
+<odd><p>Filmnr. 501, 6261</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="3ba14b546830d17e383b8cecf85f9dc6">29</unitid>
+<unittitle>
+Met totaaloverzicht.
+</unittitle>
+<unitdate normal="1560">1560</unitdate>
+</did>
+<odd><p>Filmnr. 501, 6261</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="8b697e3482c9ba61bbe027b61d7a814f">30</unitid>
+<unittitle>
+Met totaaloverzicht.
+</unittitle>
+<unitdate normal="1561">1561</unitdate>
+</did>
+<odd><p>Filmnr. 501, 6261</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="259ccd73237de2b1135bef908985e4dd">31</unitid>
+<unittitle>
+Afgehoord 17 november 1563.
+</unittitle>
+<unitdate normal="1562">1562</unitdate>
+</did>
+<odd><p>Filmnr. 501, 502, 6261</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="c93971e5c619a8eb0b9232a612fa79e1">32</unitid>
+<unittitle>
+Afgehoord 10 oktober 1564.
+</unittitle>
+<unitdate normal="1563">1563</unitdate>
+</did>
+<odd><p>Filmnr. 502, 6261, 6262</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="9f07873a1dbdd744b3aa83cfdb733203">33</unitid>
+<unittitle>
+Afgehoord 17 november 1565.
+</unittitle>
+<unitdate normal="1564">1564</unitdate>
+</did>
+<odd><p>Filmnr. 502, 6262</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="c49ea3cd0cfd1b94395c0dfc3700f2db">34</unitid>
+<unittitle>
+Afgehoord 3 oktober 1567. Met totaaloverzicht.
+</unittitle>
+<unitdate normal="1566">1566</unitdate>
+</did>
+<odd><p>Filmnr. 502, 6262</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="3c4e00a6c28c33a0c27f6f0d66d869ea">35</unitid>
+<unittitle>
+Met totaaloverzicht.
+</unittitle>
+<unitdate normal="1567">1567</unitdate>
+</did>
+<odd><p>Filmnr. 502, 6262</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="ee9879bf27a712835e2d3d965f8b738c">36</unitid>
+<unittitle>
+Met totaaloverzicht.
+</unittitle>
+<unitdate normal="1568">1568</unitdate>
+</did>
+<odd><p>Filmnr. 502, 503, 6262</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="98c6b29b48c86fb0f52ca1f3a3096bdf">37</unitid>
+<unittitle>
+Met totaaloverzicht.
+</unittitle>
+<unitdate normal="1569">1569</unitdate>
+</did>
+<odd><p>Filmnr. 503, 6262, 6263</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="72cf79df2ecd4c46f3d988ada8c21335">38</unitid>
+<unittitle>
+Afgehoord 29 december 1571. Met totaaloverzicht.
+</unittitle>
+<unitdate normal="1570">1570</unitdate>
+</did>
+<odd><p>Filmnr. 6263</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="3c4ca2b0c93dad9ac3f9c6e1ef542156">39</unitid>
+<unitdate normal="1571">1571</unitdate>
+</did>
+<odd><p>Filmnr. 6263</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="f8fd800a68743a839096beb107928521">40</unitid>
+<unitdate normal="1572">1572</unitdate>
+</did>
+<odd><p>Filmnr. 6263, 6264</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="752a385c8bc984162e840a38000d87c3">41</unitid>
+<unitdate normal="1573">1573</unitdate>
+</did>
+<odd><p>Filmnr. 6264</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="7ca73678f7ba53cd746d134a2f1a54ae">42</unitid>
+<unitdate normal="1574">1574</unitdate>
+</did>
+<odd><p>Filmnr. 6264</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="a7bf35635a73a4f1046c21603500eccd">43</unitid>
+<unitdate normal="1575">1575</unitdate>
+</did>
+<odd><p>Filmnr. 6264</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="db06d043e31a84dca7cde6e1df0d1bc3">44</unitid>
+<unitdate normal="1576">1576</unitdate>
+</did>
+<odd><p>Filmnr. 6264</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="d68cb47c1e0527d6035d5491eeba3dc0">45</unitid>
+<unittitle>
+Met los totaaloverzicht.
+</unittitle>
+<unitdate normal="1578">1578</unitdate>
+</did>
+<odd><p>Filmnr. 6264, 6265</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="73c0a7145d9ec08b591dbcbcf8755d62">46</unitid>
+<unitdate normal="1579">1579</unitdate>
+</did>
+<odd><p>Filmnr. 6265</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="2cf463e53d20dca5b95963642a37acf8">47</unitid>
+<unitdate normal="1580">1580</unitdate>
+</did>
+<odd><p>Filmnr. 6265</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="9e675e745075522aa4936bf2aac29a8b">48</unitid>
+<unitdate normal="1581">1581</unitdate>
+</did>
+<odd><p>Filmnr. 2014, 6265</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="94f9e719bcb54a66f1d5dd2f094640c4">49</unitid>
+<unitdate normal="1582">1582</unitdate>
+</did>
+<odd><p>Filmnr. 2014, 6265</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="dc56332cba84737f6a79fb04629a84ce">50</unitid>
+<unittitle>
+Met twee losse totaaloverzichten.
+</unittitle>
+<unitdate normal="1583">1583</unitdate>
+</did>
+<odd><p>Filmnr. 2014, 6266</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="4f3df4bc8516605b42f552febfaa0445">51</unitid>
+<unitdate normal="1584">1584</unitdate>
+</did>
+<odd><p>Filmnr. 2014, 6266</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="237b9f8db4c455daa108505cbce3af66">52</unitid>
+<unittitle>
+Met twee losse totaaloverzichten.
+</unittitle>
+<unitdate normal="1585">1585</unitdate>
+</did>
+<odd><p>Filmnr. 2014, 6266</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="ff9624a3b2f0ec78a424231f070abcc6">53</unitid>
+<unitdate normal="1586">1586</unitdate>
+</did>
+<odd><p>Filmnr. 2014, 6266</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="18fad6f131988195622bae50a2ca1588">54</unitid>
+<unitdate normal="1587">1587</unitdate>
+</did>
+<odd><p>Filmnr. 2014, 6266</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="3d918f2d0da68a5b5420cbd28ab98760">55</unitid>
+<unitdate normal="1588">1588</unitdate>
+</did>
+<odd><p>Filmnr. 2014, 6266, 6267</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="1e4759f9ac48083762316a97d68e1259">56</unitid>
+<unitdate normal="1589">1589</unitdate>
+</did>
+<odd><p>Filmnr. 2014, 6267</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="d0aaa282c5a50664d2a3c6fdf1b64f30">57</unitid>
+<unitdate normal="1590">1590</unitdate>
+</did>
+<odd><p>Filmnr. 2014, 6267</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="f6802bd8178268c9267b2583c2720d31">58</unitid>
+<unitdate normal="1591">1591</unitdate>
+</did>
+<odd><p>Filmnr. 2014, 6267</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="e7f18d1967b7820c7cc621c09ae7fb17">59</unitid>
+<unitdate normal="1592">1592</unitdate>
+</did>
+<odd><p>Filmnr. 2014, 6267</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="1e6116a2cfd5deb7a7eeaa88489f4727">60</unitid>
+<unitdate normal="1593">1593</unitdate>
+</did>
+<odd><p>Filmnr. 2014, 6267</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="7431a9fa36eb004b0ea4d32bb234b709">61</unitid>
+<unitdate normal="1594">1594</unitdate>
+</did>
+<odd><p>Filmnr. 2014, 6267</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="ab673127ab23a77d2630be5de4cad0f4">62</unitid>
+<unitdate normal="1595">1595</unitdate>
+</did>
+<odd><p>Filmnr. 2014, 6267</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="500264f014972e7635bc0c9be7c373b9">63</unitid>
+<unitdate normal="1596">1596</unitdate>
+</did>
+<odd><p>Filmnr. 2014, 6267, 6268</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="9bb8043890defa18901a21c75cda93d7">64</unitid>
+<unitdate normal="1597">1597</unitdate>
+</did>
+<odd><p>Filmnr. 2014, 6268</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="82bbf28a4bf69bb8277dd694069d2c88">65</unitid>
+<unitdate normal="1598">1598</unitdate>
+</did>
+<odd><p>Filmnr. 2014, 6268</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="823aae82b6ef84fe2a7ec344fdbc59ba">66</unitid>
+<unitdate normal="1599">1599</unitdate>
+</did>
+<odd><p>Filmnr. 2014, 6268</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="1b3e2dddb30a5f899df4503a213cd719">67</unitid>
+<unittitle>
+Met los totaaloverzicht.
+</unittitle>
+<unitdate normal="1600">1600</unitdate>
+</did>
+<odd><p>Filmnr. 2014, 6268</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="93cb2e21ada0f388fad492006df9454f">68</unitid>
+<unitdate normal="1601">1601</unitdate>
+</did>
+<odd><p>Filmnr. 2014, 6268</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="2198e3574a553544c8dbb49cbce6ab2a">69</unitid>
+<unitdate normal="1602">1602</unitdate>
+</did>
+<odd><p>Filmnr. 2014, 6268</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="51df8600c6ff6159e118e9194989b5c8">70</unitid>
+<unitdate normal="1603">1603</unitdate>
+</did>
+<odd><p>Filmnr. 2014, 6268</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="c955cd9663a9555ceb95044996de6d8f">71</unitid>
+<unitdate normal="1604">1604</unitdate>
+</did>
+<odd><p>Filmnr. 2014, 6268</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="6a57d5ebc2df453c1f02cd846717cba6">72</unitid>
+<unitdate normal="1605">1605</unitdate>
+</did>
+<odd><p>Filmnr. 2014, 6268</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="208a23ba35238225ad5dd777190e7d65">73</unitid>
+<unitdate normal="1606">1606</unitdate>
+</did>
+<odd><p>Filmnr. 2014, 6268</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="072df780798fc8c35acaf7e18d689739">74</unitid>
+<unitdate normal="1607">1607</unitdate>
+</did>
+<odd><p>Filmnr. 6269</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="ff2c3a41730050126908ed4c1993d390">75</unitid>
+<unitdate normal="1608">1608</unitdate>
+</did>
+<odd><p>Filmnr. 6269</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="b7dfb5274e53810346d2ef1fc4b85306">76</unitid>
+<unitdate normal="1609">1609</unitdate>
+</did>
+<odd><p>Filmnr. 6269</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="967e34de1de72729c9da415014ac59d5">77</unitid>
+<unitdate normal="1610">1610</unitdate>
+</did>
+<odd><p>Filmnr. 6269</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="f70b504d9f369d9c8617769d3916aab8">78</unitid>
+<unitdate normal="1611">1611</unitdate>
+</did>
+<odd><p>Filmnr. 6269</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="ce0965a959e8df8b75a827945cbdc4b0">79</unitid>
+<unitdate normal="1612">1612</unitdate>
+</did>
+<odd><p>Filmnr. 6269</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="dfac3e328bb134dd9a04644a1ed5da3c">80</unitid>
+<unitdate normal="1613">1613</unitdate>
+</did>
+<odd><p>Filmnr. 6269</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="bedda99c2cb57e2ff6d618926d56fe3c">81</unitid>
+<unitdate normal="1614">1614</unitdate>
+</did>
+<odd><p>Filmnr. 6269</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="410c6d3a06e1d4faf86bf8ec448407b1">82</unitid>
+<unitdate normal="1615">1615</unitdate>
+</did>
+<odd><p>Filmnr. 6269</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="78107db18e688e1fdc4a1619dacef7f9">83</unitid>
+<unitdate normal="1616">1616</unitdate>
+</did>
+<odd><p>Filmnr. 6269</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="2ec1d06d80cc8beb808656606de6e4a5">84</unitid>
+<unitdate normal="1617">1617</unitdate>
+</did>
+<odd><p>Filmnr. 6269</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="2757d01d44a5b871465189a5d1766cd1">85</unitid>
+<unitdate normal="1618">1618</unitdate>
+</did>
+<odd><p>Filmnr. 6270</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="fb6ab9333d8f50098bffec39cecaad4d">86</unitid>
+<unitdate normal="1619">1619</unitdate>
+</did>
+<odd><p>Filmnr. 6270</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="0fdda972fcc220932a4aef8821636ad2">87</unitid>
+<unitdate normal="1620">1620</unitdate>
+</did>
+<odd><p>Filmnr. 6270</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="d248b138860a851602746247254730cb">88</unitid>
+<unitdate normal="1621">1621</unitdate>
+</did>
+<odd><p>Filmnr. 6270</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="7625013c880773835b4e42c6f8d47eb9">89</unitid>
+<unitdate normal="1622">1622</unitdate>
+</did>
+<odd><p>Filmnr. 6270</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="9236d170c42a08bc81a699da23c18a99">90</unitid>
+<unitdate normal="1623">1623</unitdate>
+</did>
+<odd><p>Filmnr. 6270</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="9db78b9ed8a40ef0c6b2e7ae248d971f">91</unitid>
+<unitdate normal="1624">1624</unitdate>
+</did>
+<odd><p>Filmnr. 6270</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="1895e3bcc13e0086d46a9da4515816b8">92</unitid>
+<unitdate normal="1625">1625</unitdate>
+</did>
+<odd><p>Filmnr. 6270</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="0a24ded23d5ea18f2229c893fd36822d">93</unitid>
+<unitdate normal="1626">1626</unitdate>
+</did>
+<odd><p>Filmnr. 6270</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="861f9b6f904086a3707b68aa11f7d40b">94</unitid>
+<unittitle>
+Met totaaloverzicht.
+</unittitle>
+<unitdate normal="1627">1627</unitdate>
+</did>
+<odd><p>Filmnr. 6270</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="07fb7570177906b01e688641b72dc427">95</unitid>
+<unittitle>
+Met totaaloverzicht.
+</unittitle>
+<unitdate normal="1628">1628</unitdate>
+</did>
+<odd><p>Filmnr. 6270, 6271</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="55da6c5b3cf6fd68fd48158d55a94b7f">96</unitid>
+<unittitle>
+Met totaaloverzicht.
+</unittitle>
+<unitdate normal="1629">1629</unitdate>
+</did>
+<odd><p>Filmnr. 6271</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="89062518815ddaf3a6f5ce641f8f4d1e">97</unitid>
+<unittitle>
+Met totaaloverzicht.
+</unittitle>
+<unitdate normal="1630">1630</unitdate>
+</did>
+<odd><p>Filmnr. 6271</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="359e5fcf862939b4861b910ae06986f1">98</unitid>
+<unittitle>
+Met totaaloverzicht.
+</unittitle>
+<unitdate normal="1632">1632</unitdate>
+</did>
+<odd><p>Filmnr. 6271</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="632683d0559ecb4a93dbee0bb44ecc9e">99</unitid>
+<unittitle>
+Met totaaloverzicht.
+</unittitle>
+<unitdate normal="1633">1633</unitdate>
+</did>
+<odd><p>Filmnr. 6271</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="d86a6317b1c65a19236567c0d32c020d">100</unitid>
+<unittitle>
+Met totaaloverzicht.
+</unittitle>
+<unitdate normal="1634">1634</unitdate>
+</did>
+<odd><p>Filmnr. 6271</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="dc6bf52496123d6b504ff14b8cadb8fe">101</unitid>
+<unittitle>
+Met totaaloverzicht.
+</unittitle>
+<unitdate normal="1635">1635</unitdate>
+</did>
+<odd><p>Filmnr. 6271</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="edc3a4f6cbd516cfcefbcd81b366e090">102</unitid>
+<unittitle>
+Met totaaloverzicht.
+</unittitle>
+<unitdate normal="1636">1636</unitdate>
+</did>
+<odd><p>Filmnr. 6271</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="0d3d25944be090162abcafd6ab028d8d">103</unitid>
+<unittitle>
+Met totaaloverzicht.
+</unittitle>
+<unitdate normal="1637">1637</unitdate>
+</did>
+<odd><p>Filmnr. 6271, 6272</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="ec5a62188ed6ab2a51e6ac07d47b3bc6">104</unitid>
+<unittitle>
+Met totaaloverzicht.
+</unittitle>
+<unitdate normal="1638">1638</unitdate>
+</did>
+<odd><p>Filmnr. 6272</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="b4cfd24dd99ffd97c3e194ae87de9e3c">105</unitid>
+<unittitle>
+Met totaaloverzicht.
+</unittitle>
+<unitdate normal="1639">1639</unitdate>
+</did>
+<odd><p>Filmnr. 6272</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="8a595936aa6aca3757e0f4736e4be170">106</unitid>
+<unittitle>
+Met totaaloverzicht.
+</unittitle>
+<unitdate normal="1640">1640</unitdate>
+</did>
+<odd><p>Filmnr. 6272</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="06eb4c7873e7b9f02e9a3de000c6d4d2">107</unitid>
+<unittitle>
+Met totaaloverzicht.
+</unittitle>
+<unitdate normal="1641">1641</unitdate>
+</did>
+<odd><p>Filmnr. 6272</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="405669dad14b793102ad3e18feed9e29">108</unitid>
+<unittitle>
+Met totaaloverzicht.
+</unittitle>
+<unitdate normal="1642">1642</unitdate>
+</did>
+<odd><p>Filmnr. 6272</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="b275057427e864f3de74f8b3c27a8ed9">109</unitid>
+<unittitle>
+Met totaaloverzicht.
+</unittitle>
+<unitdate normal="1643">1643</unitdate>
+</did>
+<odd><p>Filmnr. 6273</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="f20f08ec627e920bab2da369e34290b0">110</unitid>
+<unittitle>
+Met totaaloverzicht.
+</unittitle>
+<unitdate normal="1644">1644</unitdate>
+</did>
+<odd><p>Filmnr. 6273</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="43efcd56d4740bd2c8af4ec9732d5fb1">111</unitid>
+<unittitle>
+Met totaaloverzicht.
+</unittitle>
+<unitdate normal="1645">1645</unitdate>
+</did>
+<odd><p>Filmnr. 6273</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="2bf605220987015a4f8fc30407630659">112</unitid>
+<unittitle>
+Met totaaloverzicht.
+</unittitle>
+<unitdate normal="1646">1646</unitdate>
+</did>
+<odd><p>Filmnr. 6273</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="abf080a8b446ada20688905e063bb18a">113</unitid>
+<unittitle>
+Met totaaloverzicht.
+</unittitle>
+<unitdate normal="1647">1647</unitdate>
+</did>
+<odd><p>Filmnr. 6273</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="c4ac366ce703c03ab703a59f71a5a615">114</unitid>
+<unittitle>
+Met totaaloverzicht.
+</unittitle>
+<unitdate normal="1648">1648</unitdate>
+</did>
+<odd><p>Filmnr. 6273, 6274</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="849d52d2d7f4637b1a9a991f69ecb9e5">115</unitid>
+<unittitle>
+Met totaaloverzicht.
+</unittitle>
+<unitdate normal="1649">1649</unitdate>
+</did>
+<odd><p>Filmnr. 6274</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="d9c001fae35cc04e59a16f2ffa4eed5c">116</unitid>
+<unittitle>
+Met totaaloverzicht.
+</unittitle>
+<unitdate normal="1651">1651</unitdate>
+</did>
+<odd><p>Filmnr. 6274</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="eca7322e175860e8b8a63fc9f80217fb">117</unitid>
+<unittitle>
+Met totaaloverzicht.
+</unittitle>
+<unitdate normal="1652">1652</unitdate>
+</did>
+<odd><p>Filmnr. 6274</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="ff2c7e6c0698e0d804fe6c0bf293c083">118</unitid>
+<unittitle>
+Met totaaloverzicht.
+</unittitle>
+<unitdate normal="1653">1653</unitdate>
+</did>
+<odd><p>Filmnr. 6274</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="ffc92625fac60fe72ce205f577b49f47">119</unitid>
+<unittitle>
+Met totaaloverzicht.
+</unittitle>
+<unitdate normal="1654">1654</unitdate>
+</did>
+<odd><p>Filmnr. 6274</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="dc7855ea8f7c57296ebcb4541a026298">120</unitid>
+<unittitle>
+Met totaaloverzicht.
+</unittitle>
+<unitdate normal="1655">1655</unitdate>
+</did>
+<odd><p>Filmnr. 6274</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="3b07687cd87b127a5e86e0d8c5ebde3d">121</unitid>
+<unittitle>
+Met totaaloverzicht.
+</unittitle>
+<unitdate normal="1656">1656</unitdate>
+</did>
+<odd><p>Filmnr. 6274</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="16b29a4cbf2320f08d5f555d86edd9af">122</unitid>
+<unittitle>
+Met totaaloverzicht.
+</unittitle>
+<unitdate normal="1657">1657</unitdate>
+</did>
+<odd><p>Filmnr. 6274</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="2f2dc08df9c0cd3ad2dd360ebe58cba4">123</unitid>
+<unittitle>
+Met totaaloverzicht.
+</unittitle>
+<unitdate normal="1658">1658</unitdate>
+</did>
+<odd><p>Filmnr. 6274</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="08d5a8b781c582653fa371f5f3fcc468">124</unitid>
+<unittitle>
+Met totaaloverzicht.
+</unittitle>
+<unitdate normal="1659">1659</unitdate>
+</did>
+<odd><p>Filmnr. 6274</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="98b45dbed9732a4c7040a1313645a190">125</unitid>
+<unittitle>
+Met totaaloverzichten over<lb/>    1660-1664 en1669.
+</unittitle>
+<unitdate normal="1660/1669">1660 - 1669</unitdate>
+</did>
+<odd><p>Filmnr. 6274, 6275</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="30e5442196fe6faf360a0ba56f8461d4">126</unitid>
+<unittitle>
+Met totaaloverzichten over<lb/>    1674-1678, waaronder drie losse.
+</unittitle>
+<unitdate normal="1670/1679">1670 - 1679</unitdate>
+</did>
+<odd><p>Filmnr. 6275</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="101a685d85b2c4375edf5a94118cee23">127</unitid>
+<unittitle>
+Met totaaloverzichten over 1681 en 1683-1685, waaronder zeven losse.
+</unittitle>
+<unitdate normal="1680/1689">1680 - 1689</unitdate>
+</did>
+<odd><p>Filmnr. 6275</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="bd69c0f91ac667de01d06c11b971ed08">128</unitid>
+<unittitle>
+Met totaaloverzichten over 1690-1698 en 1700- 1705.
+</unittitle>
+<unitdate normal="1690/1705">1690 - 1705</unitdate>
+</did>
+<odd><p>Filmnr. 6275</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="d15a8314e145bcf0b97440c35c956ddf">129</unitid>
+<unittitle>
+Met totaaloverzichten over 1706, 1707, en 1709- 1723.
+N.B. 1720 ontbreekt.
+</unittitle>
+<unitdate normal="1706/1723">1706 - 1723</unitdate>
+</did>
+<odd><p>Filmnr. 6275, 6276</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="e15bd080d01a638cf6caa5a8ba911ffd">130</unitid>
+<unittitle>
+Met losse totaaloverzichten over 1728-1731 en 1738.
+</unittitle>
+<unitdate normal="1724/1738">1724 - 1738</unitdate>
+</did>
+<odd><p>Filmnr. 6276</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="7944262a4d8f02d29a1cf20dacf6328e">131</unitid>
+<unittitle>
+Met los duplicaat over 1745 en totaaloverzichten over 1740-1742, 1744, 1746 en 1747, waaronder vijf losse.
+</unittitle>
+<unitdate normal="1739/1753">1739 - 1753</unitdate>
+</did>
+<odd><p>Filmnr. 6276</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="64167d244f39b8f9468f2ea9e44972de">132</unitid>
+<unittitle>
+1769, 1789-1792.
+</unittitle>
+<physdesc>1 pak</physdesc>
+</did>
+<odd><p>Filmnr. 6276</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="d24a6f3944e0469a11f33c89e12c0bfe">133</unitid>
+<unitdate normal="1795/1805">1795 - 1805</unitdate>
+<physdesc>1 pak</physdesc>
+</did>
+<odd><p>Filmnr. 6277</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="e271ad8d44e19dc58367c55f2ca02aaf">134</unitid>
+<unittitle>
+Register met ingeplakt exemplaar van de Inventaris van het Amsterdamsch archief, geschreven door P. Scheltema, 1870, tweede deel, met handgeschreven verwijzingen en aantekeningen
+</unittitle>
+<unitdate normal="1950">ca. 1950</unitdate>
+<physdesc>1 deel</physdesc>
+</did>
+</c>
+</dsc>
+</archdesc>
+</ead>

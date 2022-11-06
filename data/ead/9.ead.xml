@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns:isbn="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.loc.gov/ead/ http://www.loc.gov/ead/ead.xsd" audience="external">
+<eadheader>
+<eadid identifier="9713b85a78cecaeeffb330429155c9e7">9</eadid>
+<filedesc>
+<titlestmt>
+<titleproper>Inventaris van het Archief van het Genootschap Concordia et Libertate</titleproper>
+</titlestmt>
+<publicationstmt>
+<publisher>Stadsarchief Amsterdam</publisher>
+</publicationstmt>
+</filedesc>
+</eadheader>
+<archdesc level="fonds">
+<did id="NL-SAA-463540">
+<head>Inventaris</head>
+<unitid label="Toegangsnummer" identifier="156a08e768c178d5f091b54b7c61196f">9</unitid>
+<unittitle label="Naam">Archief van het Genootschap Concordia et Libertate</unittitle>
+<unitdate normal="1748/1825">1748 - 1825</unitdate>
+<langmaterial>dut</langmaterial>
+<repository><corpname>Stadsarchief Amsterdam</corpname></repository>
+<origination><corpname>Genootschap Concordia et Libertate</corpname></origination>
+</did>
+<dsc>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="77eb67e39657d5048b2b242dba544d43">1</unitid>
+<unittitle>
+Resolutieboek
+</unittitle>
+<unitdate normal="1748/1750">1748 - 1750</unitdate>
+<physdesc>1 deel</physdesc>
+</did>
+</c>
+<c level="otherlevel" otherlevel="filegrp">
+<did>
+<unitid label="Inventarisnummers" identifier="0a50941af5a72f59b3913c26103c557c">2-3</unitid>
+<unittitle>
+Chronologische registers van redevoeringen met vermelding van de sprekers
+</unittitle>
+<unitdate normal="1774/1793">1774 - 1793</unitdate>
+<physdesc>2 delen</physdesc>
+</did>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="af1087a89aa76d5a7a7b3c7a3b2b5ff0">2</unitid>
+<unitdate normal="1774-10-04/1784-04-27">4 Okt 1774 - 27 Apr 1784</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="00fecc68048224111d545488972f62d4">3</unitid>
+<unitdate normal="1785-10-11/1793-04-16">11 Okt 1785 - 16 Apr 1793</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="55eb48fbe505c97f156b56c32c379ab5">4</unitid>
+<unittitle>
+Naamlijst, chronologisch, van bestierden van het Genootschap. In tweevoud
+</unittitle>
+<unitdate normal="1748/1772">1748 - 1772</unitdate>
+<physdesc>2 omslagen</physdesc>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="f60dc4855bbeb7c6c22fb33c1db353dc">5</unitid>
+<unittitle>
+Ledenlijsten van het Genootschap. 1809, 1811, 1812 en 1825
+</unittitle>
+<physdesc>1 omslag</physdesc>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="089e7b6c61bedbb1d36f00ddf4f32e7c">6</unitid>
+<unittitle>
+Intekenlijsten van leden van het Genootschap tot het houden van 'vriendelijke soupers'
+</unittitle>
+<unitdate normal="1795/1806">1795 - 1806</unitdate>
+<physdesc>12 stukken en 1 omslag</physdesc>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="cdbf06ed1f4559b6130f9e44261bfc13">7</unitid>
+<unittitle>
+Stukken betreffende de door leden bijeengebrachte gelden tot verhoging van het handgeld voor de vrijwilligers der Nationale Militie. Dit geld terug te ontvangen en gestort tot 'stijving van 's lands schatkist'
+</unittitle>
+<physdesc>3 stukken en 1 omslag</physdesc>
+</did>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="41c5609414bc3406c1cc6da1d1c7c3b6">8</unitid>
+<unittitle>
+Stukken tot de rekening. 1751-1752 en 1801
+</unittitle>
+<physdesc>2 stukken en 1 omslag</physdesc>
+</did>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="c5f8a38bdc87df1cbd7d0e1f600740c7">9</unitid>
+<unittitle>
+Alfabetische naamlijst van de leden van het Genootschap, welke ten dezelve redevoeringen hebben gedaan
+</unittitle>
+<unitdate normal="1769/1806">1769 - 1806</unitdate>
+<physdesc>1 deel</physdesc>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="065c4cc2d881174fdf9c8625cb773649">10</unitid>
+<unittitle>
+Register met redevoeringen
+</unittitle>
+<physdesc>1 deel</physdesc>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+</dsc>
+</archdesc>
+</ead>

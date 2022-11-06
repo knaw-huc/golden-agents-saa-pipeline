@@ -1,0 +1,2251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns:isbn="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.loc.gov/ead/ http://www.loc.gov/ead/ead.xsd" audience="external">
+<eadheader>
+<eadid identifier="797871f96882c74a30d77b19832c3e31">5062</eadid>
+<filedesc>
+<titlestmt>
+<titleproper>Inventaris van het Archief van de Schepenen: kwijtscheldingsregisters</titleproper>
+</titlestmt>
+<publicationstmt>
+<publisher>Stadsarchief Amsterdam</publisher>
+</publicationstmt>
+</filedesc>
+</eadheader>
+<archdesc level="fonds">
+<did id="NL-SAA-463540">
+<head>Inventaris</head>
+<unitid label="Toegangsnummer" identifier="aecfdc0134c9692eb72e48c1f90a2912">5062</unitid>
+<unittitle label="Naam">Archief van de Schepenen: kwijtscheldingsregisters</unittitle>
+<unitdate normal="1563/1811">1563 - 1811</unitdate>
+<langmaterial>dut</langmaterial>
+<repository><corpname>Stadsarchief Amsterdam</corpname></repository>
+<origination><corpname>Schepenen</corpname></origination>
+</did>
+<dsc>
+<c level="otherlevel" otherlevel="filegrp">
+<did>
+<unitid label="Inventarisnummers" identifier="0e48ce2ba3e3d427d8b508247927bc69">1-30</unitid>
+<unittitle>
+Registers van kwijtschelding (transport) van onroerend goedbinnen de jurisdictie van de stad Amsterdam, oorspronkelijkgenummerd 1-43.
+</unittitle>
+<physdesc>30 banden</physdesc>
+</did>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="84287b9a2b3bb6108b99f6580532829f">1</unitid>
+<unittitle>
+Oud nr. 4. 4 december 1563-23 november 1564.*.
+</unittitle>
+</did>
+<odd><p>Filmnr. 527</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="045a6d16a3bbfd119634e144ed26c685">2</unitid>
+<unittitle>
+Oud nr. 5. 26 november 1564-13 juli 1565.*.
+</unittitle>
+</did>
+<odd><p>Filmnr. 527</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="3364520ce2d2c0394a8ed8540fc951cb">3</unitid>
+<unittitle>
+Oud nr. 8. 16 juli 1567-27 februari 1572.*.
+</unittitle>
+</did>
+<odd><p>Filmnr. 527, 528</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="1a455fef0dcd87252bc2a26c18a650e5">4</unitid>
+<unittitle>
+Oud nr. 10. 10 juni 1581-3 december 1584.
+</unittitle>
+</did>
+<odd><p>Filmnr. 528</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="f0810ba927e8f77281a311e79641a6a7">5</unitid>
+<unittitle>
+Oud nr. 11. 5 december 1584-4 mei 1587.
+</unittitle>
+</did>
+<odd><p>Filmnr. 528, 529</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="9afeba947484425e478d9280b945c8f6">6</unitid>
+<unittitle>
+Oud nr. 12. 5 mei 1587-14 juli 1588.
+</unittitle>
+</did>
+<odd><p>Filmnr. 529</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="fe83f4e447436972e3cd0b47aaf96f05">7</unitid>
+<unittitle>
+Oud nr. 14. 28 mei 1590-31 mei 1591.
+</unittitle>
+</did>
+<odd><p>Filmnr. 529, 530</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="90fc5637e895037c1ffa0765b42586c5">8</unitid>
+<unittitle>
+Oud nr. 15. 24 april 1591-13 februari 1592.
+</unittitle>
+</did>
+<odd><p>Filmnr. 530</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="9140d6bb6386abb38084e84d296dbcee">9</unitid>
+<unittitle>
+Oud nr. 16. 19 februari 1592-11 januari 1593.
+</unittitle>
+</did>
+<odd><p>Filmnr. 530, 531</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="ac33b0006245c93a0506af9b34220fe3">10</unitid>
+<unittitle>
+Oud nr. 20. 6 december 1595-20 december 1597.
+</unittitle>
+</did>
+<odd><p>Filmnr. 531, 532</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="6d98595600fa84a9f583dd6a55e6d243">11</unitid>
+<unittitle>
+Oud nr. 21. 23 december 1597-27 december 1599.
+</unittitle>
+</did>
+<odd><p>Filmnr. 532, 533</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="c3be816d65f986a48a244c2f1277f958">12</unitid>
+<unittitle>
+Oud nr. 22. 30 december 1599-5 september 1601.
+</unittitle>
+</did>
+<odd><p>Filmnr. 533</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="599ee5baebfaa79c686bf62896bf84fe">13</unitid>
+<unittitle>
+Oud nr. 24. 22 november 1602-9 december 1603.
+</unittitle>
+</did>
+<odd><p>Filmnr. 533, 534</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="763657c0bc44c8da4bc570e10f4af98a">14</unitid>
+<unittitle>
+Oud nr. 25. 11 december 1603-23 december 1604.
+</unittitle>
+</did>
+<odd><p>Filmnr. 534</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="d07c15766cc07aff3ac849af963d82f8">15</unitid>
+<unittitle>
+Oud nr. 26. 29 december 1604-4 januari 1606.
+</unittitle>
+</did>
+<odd><p>Filmnr. 534</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="b2228f72151e75762532561536131ac6">16</unitid>
+<unittitle>
+Oud nr. 27. 11 januari 1606-5 september 1606.
+</unittitle>
+</did>
+<odd><p>Filmnr. 534, 535</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="570b693a7a155451cf4ec4fa3ae2a284">17</unitid>
+<unittitle>
+Oud nr. 29. 8 februari 1608-30 juli 1608.
+</unittitle>
+</did>
+<odd><p>Filmnr. 535</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="0c9e90c4cb52e9ed79a8a9e2cb0b10bf">18</unitid>
+<unittitle>
+Oud nr. 30. 29 juli 1608-23 juni 1609.*.
+</unittitle>
+</did>
+<odd><p>Filmnr. 535, 536</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="f939460bf08f97701d4d7ea3712a3862">19</unitid>
+<unittitle>
+Oud nr. 31. 23 juni 1609-27 maart 1610.*.
+</unittitle>
+</did>
+<odd><p>Filmnr. 536</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="95d0e88b33b5a6a6b14dc717eacc9ac6">20</unitid>
+<unittitle>
+Oud nr. 32. 29 maart 1610-11 juni 1610.*.
+</unittitle>
+</did>
+<odd><p>Filmnr. 536</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="f94307096771bebcc49e6e7324bf8b8f">21</unitid>
+<unittitle>
+Oud nr. 33. 4 mei 1610-16 mei 1611.*.
+</unittitle>
+</did>
+<odd><p>Filmnr. 536, 537</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="c5fdf556d8f983b6cb77191a8f32cd43">22</unitid>
+<unittitle>
+Oud nr. 34. 17 mei 1611-5 mei 1612.*.
+</unittitle>
+</did>
+<odd><p>Filmnr. 537</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="14450783f7dfb123025d5d7cbe6d0894">23</unitid>
+<unittitle>
+Oud nr. 36. 5 december 1613-11 juni 1615.*.
+</unittitle>
+</did>
+<odd><p>Filmnr. 537, 538</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="de5be5b1575469397a7a6c4c94552b42">24</unitid>
+<unittitle>
+Oud nr. 37. 12 juni 1615-23 juli 1616.*.
+</unittitle>
+</did>
+<odd><p>Filmnr. 538</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="16ae00a8a7a1f7e3ab47f60327b30a46">25</unitid>
+<unittitle>
+Oud nr. 38. 23 juli 1616-5 september 1617.*.
+</unittitle>
+</did>
+<odd><p>Filmnr. 538, 539</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="456b0ad942c1dd527ff1fe23a939499c">26</unitid>
+<unittitle>
+Oud nr. 39. 25 augustus 1617-3 juni 1619.*.
+</unittitle>
+</did>
+<odd><p>Filmnr. 539</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="bbd0164c2fbd5429583e8f28712d8a70">27</unitid>
+<unittitle>
+Oud nr. 40. 7 mei 1619-18 augustus 1620.*.
+</unittitle>
+</did>
+<odd><p>Filmnr. 540</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="667a29ae17565783ee29a77b39b7d557">28</unitid>
+<unittitle>
+Oud nr. 41. 4 september 1620-3 december 1621.*.
+</unittitle>
+</did>
+<odd><p>Filmnr. 540</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="cc993bc453f286d61d132d39f7f69f94">29</unitid>
+<unittitle>
+Oud nr. 42. 2 december 1621-11 november 1622.*.
+</unittitle>
+</did>
+<odd><p>Filmnr. 540, 541</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="73995561c13197091bdbf08ad27560e0">30</unitid>
+<unittitle>
+Oud nr. 43. 14 november 1622-15 augustus 1623.*.
+</unittitle>
+</did>
+<odd><p>Filmnr. 541</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+</c>
+<c level="otherlevel" otherlevel="filegrp">
+<did>
+<unitid label="Inventarisnummers" identifier="8039431f59409ec932d652cad14405f0">31-182</unitid>
+<unittitle>
+Registers van kwijtschelding (transport) van onroerend goedbinnen de jurisdictie van de stad Amsterdam, oorspronkelijkgeletterd A-E7 (EEEEEEE).
+</unittitle>
+<physdesc>152 banden</physdesc>
+</did>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="298717a0cb61ad3f324ed9a14dd5c69e">31</unitid>
+<unittitle>
+Oud nr. A. 15 augustus 1623-11 januari 1625.
+</unittitle>
+</did>
+<odd><p>Filmnr. 541</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="b59dee52ee0871627a67c1c1537d95a4">32</unitid>
+<unittitle>
+Oud nr. B. 18 januari 1625-12 juni 1626.
+</unittitle>
+</did>
+<odd><p>Filmnr. 541, 542</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="44a733c3eaff463cfb0d6379da0b6537">33</unitid>
+<unittitle>
+Oud nr. C. 11 juni 1626-29 juni 1627.
+</unittitle>
+</did>
+<odd><p>Filmnr. 542</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="3a953a5b4a5e8225207c217e1af70510">34</unitid>
+<unittitle>
+Oud nr. E. 22 maart 1629-22 juni 1630.
+</unittitle>
+</did>
+<odd><p>Filmnr. 542</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="8a0b8bd68ac58ecddeb07034bd95246f">35</unitid>
+<unittitle>
+Oud nr. F. 15 juni 1630-9 januari 1632.
+</unittitle>
+</did>
+<odd><p>Filmnr. 542, 543</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="d228e37b7fe46b4017cbbe2c7298cb5b">36</unitid>
+<unittitle>
+Oud nr. N. 25 augustus 1637-24 augustus 1638.
+</unittitle>
+</did>
+<odd><p>Filmnr. 543</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="1fe81888462f5660a8ebba908ef914b7">37</unitid>
+<unittitle>
+Oud nr. O. 24 augustus 1638-1 september 1639.
+</unittitle>
+</did>
+<odd><p>Filmnr. 543, 544</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="4368305bce8302d534b8ff707d8d62b6">38</unitid>
+<unittitle>
+Oud nr. R. 16 april 1641-15 januari 1642.
+</unittitle>
+</did>
+<odd><p>Filmnr. 544</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="b48f610020b3fb8cb5fa3eeccad456d4">39</unitid>
+<unittitle>
+Oud nr. S. 16 januari 1642-24 oktober 1642.
+</unittitle>
+</did>
+<odd><p>Filmnr. 544</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="1ae9ce2c1a7bbe416f49ac37447301c4">40</unitid>
+<unittitle>
+Oud nr. V. 6 mei 1644-9 mei 1645.
+</unittitle>
+</did>
+<odd><p>Filmnr. 544, 545</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="c0d977e26916a0d277ea5770d46e28f3">41</unitid>
+<unittitle>
+Oud nr. W. 27 april 1645-9 juni 1646.
+</unittitle>
+</did>
+<odd><p>Filmnr. 545</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="d2cb83fbf9cee32809b9f07e40b08bf9">42</unitid>
+<unittitle>
+Oud nr. X. 27 april 1646-9 juni 1648.
+</unittitle>
+</did>
+<odd><p>Filmnr. 545, 546</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="e500864f9dc428c91df7f15f50b3b9d1">43</unitid>
+<unittitle>
+Oud nr. Y. 2 juni 1648-31 mei 1650.
+</unittitle>
+</did>
+<odd><p>Filmnr. 546</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="c02b61008ebabf0263d8eed2e25bd510">44</unitid>
+<unittitle>
+Oud nr. Z. 11 februari 1650-12 februari 1652.
+</unittitle>
+</did>
+<odd><p>Filmnr. 546</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="70a0911e443ef52b0d6d3579de1d3c70">45</unitid>
+<unittitle>
+Oud nr. A2. 12 juni 1651-21 juni 1653.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="cbbaed32ac36242244c5c0effa899872">46</unitid>
+<unittitle>
+Oud nr. B2. 1 april 1653-6 juli 1655.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="da78cc494b28682aff16800ee0bda5c3">47</unitid>
+<unittitle>
+Oud nr. C2. 1 mei 1655-8 juni 1656.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="5182059c626d2f9a261032686d229d21">48</unitid>
+<unittitle>
+Oud nr. D2. 1 juni 1656-8 juni 1657.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="2b0d65df5ef55595facc5acf7b4620d8">49</unitid>
+<unittitle>
+Oud nr. E2. 1 mei 1657-12 juli 1658.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="2728cfdc58738c805276cdd1bb30b5ae">50</unitid>
+<unittitle>
+Oud nr. F2. 2 mei 1658-23 april 1659.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="64bb3d31f09a792677250705e9a342c5">51</unitid>
+<unittitle>
+Oud nr. H2. 28 november 1659-1 april 1661.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="fb8cda931361a45cad4d6a96af7ffdd0">52</unitid>
+<unittitle>
+Oud nr. I2. 6 augustus 1660-29 maart 1662.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="9f7e09914fccbbc0fe944dc4a608b920">53</unitid>
+<unittitle>
+Oud nr. K2. 27 april 1662-30 augustus 1663.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="e858b6e993016dc70a6a905a46e2f712">54</unitid>
+<unittitle>
+Oud nr. L2. 6 april 1663-21 juli 1665.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="43269eff93d5748d255dd53427315602">55</unitid>
+<unittitle>
+Oud nr. O2. 18 maart 1667-7 maart 1670.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="07f5a1e1bf67c0486c75bf2569c8d086">56</unitid>
+<unittitle>
+Oud nr. R2. 9 augustus 1669-10 maart 1672.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="7cdc82496710e237e0de4f71b01cf32d">57</unitid>
+<unittitle>
+Oud nr. S2. 11 maart 1670-26 januari 1674.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="ac6eafdf23c9956473052e746ed53656">58</unitid>
+<unittitle>
+Oud nr. V2. 16 mei 1675-22 november 1679.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="c5649471653a392e6c8c8855368e4bae">59</unitid>
+<unittitle>
+Oud nr. X2. 13 januari 1679-6 juli 1680.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="9e38c9959bf29e9010ba21c7dee70863">60</unitid>
+<unittitle>
+Oud nr. Y2. 19 maart 1680-15 juli 1682.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="a9dd282dd977326938349b4780daaf58">61</unitid>
+<unittitle>
+Oud nr. Z2. 23 april 1681-22 mei 1683.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="5df2c5b0df7b3d442d95b4833a6adafe">62</unitid>
+<unittitle>
+Oud nr. A3. 28 januari 1682-22 december 1683.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="f3132baa37c5c2b33ffd8d3816f8e6eb">63</unitid>
+<unittitle>
+Oud nr. B3. 20 januari 1683-5 oktober 1685.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="3a9ebf8c19df04c7e3d320327566bfd1">64</unitid>
+<unittitle>
+Oud nr. C3. 23 mei 1680-11 maart 1686.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="b3f47ebb88dc347e37829129db591d6e">65</unitid>
+<unittitle>
+Oud nr. D3. 4 februari 1687-31 oktober 1687.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="7fb67b3e3e755f4ddf1e2e74e1e2cc60">66</unitid>
+<unittitle>
+Oud nr. E3. 6 januari 1688-25 november 1689.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="5a6faae4553e9c4b22954a2b1ef20977">67</unitid>
+<unittitle>
+Oud nr. F3. 17 januari 1688-15 juli 1693.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="82369eb6522f3b5ac924170eca0e5e41">68</unitid>
+<unittitle>
+Oud nr. G3. 1 december 1689-23 november 1690.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="3c6d7ece8399472255cf91404ef4ad67">69</unitid>
+<unittitle>
+Oud nr. H3. 24 maart 1691-3 maart 1693.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="c2566916e5559f604acd9d62856de702">70</unitid>
+<unittitle>
+Oud nr. K3. 
+</unittitle>
+<unitdate normal="1693">1693</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="3f28a46ff03c118fae2c0911c00f840c">71</unitid>
+<unittitle>
+Oud nr. L3. 
+</unittitle>
+<unitdate normal="1694">1694</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="f478bea504dc55a43e22cd1a9befbc71">72</unitid>
+<unittitle>
+Oud nr. N3. 
+</unittitle>
+<unitdate normal="1696">1696</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="cf21c1353c7d80128f992e457a3f4d76">73</unitid>
+<unittitle>
+Oud nr. P3. 
+</unittitle>
+<unitdate normal="1698">1698</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="938108c35a7c90af0397891f19e1b92b">74</unitid>
+<unittitle>
+Oud nr. R3. 
+</unittitle>
+<unitdate normal="1700">1700</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="b18fa489ab8d01a76a07988a5b6e894c">75</unitid>
+<unittitle>
+Oud nr. S3. 
+</unittitle>
+<unitdate normal="1701">1701</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="89ada831e43d6edbae462802704a81cc">76</unitid>
+<unittitle>
+Oud nr. T3. 
+</unittitle>
+<unitdate normal="1702">1702</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="158e235bf53b83ce0e3e25b850e938ee">77</unitid>
+<unittitle>
+Oud nr. V3. 
+</unittitle>
+<unitdate normal="1703">1703</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="99149dadcc775a02d14bd5a37b3509bd">78</unitid>
+<unittitle>
+Oud nr. W3. 
+</unittitle>
+<unitdate normal="1704">1704</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="0c8e30fa9f6c14709bd3667a27bf2174">79</unitid>
+<unittitle>
+Oud nr. X3. 
+</unittitle>
+<unitdate normal="1705">1705</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="bf9ccc8466caabaa83f055eff0bb3546">80</unitid>
+<unittitle>
+Oud nr. Y3. 
+</unittitle>
+<unitdate normal="1706">1706</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="ca9468103f9d0ef8797ea98446db3780">81</unitid>
+<unittitle>
+Oud nr. Z3. 
+</unittitle>
+<unitdate normal="1707">1707</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="2af2634931f958273b8df229e519d4d2">82</unitid>
+<unittitle>
+Oud nr. A4. 
+</unittitle>
+<unitdate normal="1708">1708</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="12a81b465f10b62350d8e7b386a00eaf">83</unitid>
+<unittitle>
+Oud nr. B4. 
+</unittitle>
+<unitdate normal="1709">1709</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="cb0d0191f8a44dc15ba877c53b446f0a">84</unitid>
+<unittitle>
+Oud nr. C4. 
+</unittitle>
+<unitdate normal="1710">1710</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="2e5bbe06bc307d4bbb252a981a13afea">85</unitid>
+<unittitle>
+Oud nr. D4. 
+</unittitle>
+<unitdate normal="1711">1711</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="9e2d4547c209b0b57309e5b8500516fc">86</unitid>
+<unittitle>
+Oud nr. E4. 
+</unittitle>
+<unitdate normal="1712">1712</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="472dce3659453406af1bb9e62cc52625">87</unitid>
+<unittitle>
+Oud nr. F4. 
+</unittitle>
+<unitdate normal="1713">1713</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="041bbb49e2fada3242bc7f7f420defca">88</unitid>
+<unittitle>
+Oud nr. G4. 
+</unittitle>
+<unitdate normal="1714">1714</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="0d8d1e67bef5661975d37b3ba7b158c7">89</unitid>
+<unittitle>
+Oud nr. H4. 
+</unittitle>
+<unitdate normal="1715">1715</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="c82156d53d74248d16efe04bf8938737">90</unitid>
+<unittitle>
+Oud nr. I4. 
+</unittitle>
+<unitdate normal="1716">1716</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="c9ce6b7b4b624f30cb5083ad967a89f7">91</unitid>
+<unittitle>
+Oud nr. K4. 
+</unittitle>
+<unitdate normal="1717">1717</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="93c9b6e6f3849e0804faa8995bd39f38">92</unitid>
+<unittitle>
+Oud nr. L4. 
+</unittitle>
+<unitdate normal="1718">1718</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="b9f47a8d7e6b100dd552eb946113e5f9">93</unitid>
+<unittitle>
+Oud nr. M4. 
+</unittitle>
+<unitdate normal="1719">1719</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="3ef2c7c88a610a8878e691c1e589a368">94</unitid>
+<unittitle>
+Oud nr. N4. 
+</unittitle>
+<unitdate normal="1720">1720</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="f8f6b5a88b0d85955ded3494f4f58016">95</unitid>
+<unittitle>
+Oud nr. O4. 
+</unittitle>
+<unitdate normal="1721">1721</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="f2be2adbe1f7cf4ee4f1f881f5aa1505">96</unitid>
+<unittitle>
+Oud nr. P4. 
+</unittitle>
+<unitdate normal="1722">1722</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="115f5491c1d367c4bc7e37addc631902">97</unitid>
+<unittitle>
+Oud nr. Q4. 
+</unittitle>
+<unitdate normal="1723">1723</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="8166be699e670fcdbd2f9d6bb27d9e32">98</unitid>
+<unittitle>
+Oud nr. R4. 
+</unittitle>
+<unitdate normal="1724">1724</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="8f64a584f49347233ead4b5ff16ba6ee">99</unitid>
+<unittitle>
+Oud nr. S4. 
+</unittitle>
+<unitdate normal="1725">1725</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="870a0e85afa3722c542cc9b7fc56136b">100</unitid>
+<unittitle>
+Oud nr. T4. 
+</unittitle>
+<unitdate normal="1726">1726</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="d56dca0312f511d2863e08b022e29905">101</unitid>
+<unittitle>
+Oud nr. V4. 
+</unittitle>
+<unitdate normal="1727">1727</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="7f13adb6cd417cdda2b71314c7e9d8fb">102</unitid>
+<unittitle>
+Oud nr. W4. 
+</unittitle>
+<unitdate normal="1728">1728</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="8e86ecae67281c68100c5d38b2d8c03c">103</unitid>
+<unittitle>
+Oud nr. X4. 
+</unittitle>
+<unitdate normal="1729">1729</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="95676056482ec27cfdebecfa6b36efd9">104</unitid>
+<unittitle>
+Oud nr. Y4. 
+</unittitle>
+<unitdate normal="1730">1730</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="1d650c84554586ee0f3cbc358a3c7f16">105</unitid>
+<unittitle>
+Oud nr. Z4. 
+</unittitle>
+<unitdate normal="1731">1731</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="64762f97a88b3263b2f964fc5936af26">106</unitid>
+<unittitle>
+Oud nr. A5. 
+</unittitle>
+<unitdate normal="1732">1732</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="d5d3e99ce6808a1405add9cfdb77ff66">107</unitid>
+<unittitle>
+Oud nr. B5. 
+</unittitle>
+<unitdate normal="1733">1733</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="1471d42309463dcb29d8d2cc9b194d99">108</unitid>
+<unittitle>
+Oud nr. C5. 
+</unittitle>
+<unitdate normal="1734">1734</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="acb65d3b5e89cefdd114e5827a0f1b9a">109</unitid>
+<unittitle>
+Oud nr. D5. 
+</unittitle>
+<unitdate normal="1735">1735</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="cf0f44af33be1ed1910d9d9f0cd0e97f">110</unitid>
+<unittitle>
+Oud nr. E5. 
+</unittitle>
+<unitdate normal="1736">1736</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="03d1e5724b37d860f4cb7a22eda8e8d5">111</unitid>
+<unittitle>
+Oud nr. F5. 
+</unittitle>
+<unitdate normal="1737">1737</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="8d3e3b572d33c6a09c56c8ad19dbdc6d">112</unitid>
+<unittitle>
+Oud nr. G5. 
+</unittitle>
+<unitdate normal="1738">1738</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="b1800e8f957f3e20d4ccb121e08f28da">113</unitid>
+<unittitle>
+Oud nr. H5. 
+</unittitle>
+<unitdate normal="1739">1739</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="002a38ca41e6d6fccfcb7ac08463be23">114</unitid>
+<unittitle>
+Oud nr. I5. 
+</unittitle>
+<unitdate normal="1740">1740</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="9635507acf41e960ba7eb128e0429ce1">115</unitid>
+<unittitle>
+Oud nr. K5. 
+</unittitle>
+<unitdate normal="1741">1741</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="860cbd8e9ed47a97736f86a9f83ed681">116</unitid>
+<unittitle>
+Oud nr. L5. 
+</unittitle>
+<unitdate normal="1742">1742</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="f7c255bed5ef8b6f5aa89a6a09296102">117</unitid>
+<unittitle>
+Oud nr. M5. 
+</unittitle>
+<unitdate normal="1743">1743</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="df58ecbe799ff5c7f31e3a2736d249e6">118</unitid>
+<unittitle>
+Oud nr. N5. 
+</unittitle>
+<unitdate normal="1744">1744</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="71158ced3c18b6e0e4a91d186a4b6191">119</unitid>
+<unittitle>
+Oud nr. O5. 
+</unittitle>
+<unitdate normal="1745">1745</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="5ac2775259cd8532f55e88367c9c72e5">120</unitid>
+<unittitle>
+Oud nr. P5. 
+</unittitle>
+<unitdate normal="1746">1746</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="302c60feb170d7ab1654cba2c1d2e7bd">121</unitid>
+<unittitle>
+Oud nr. Q5. 
+</unittitle>
+<unitdate normal="1747">1747</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="59d1ddd72c63516c02bf5f40965caccc">122</unitid>
+<unittitle>
+Oud nr. R5. 
+</unittitle>
+<unitdate normal="1748">1748</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="afc7a33387961d524a3fdc8f5940c6bc">123</unitid>
+<unittitle>
+Oud nr. S5. 
+</unittitle>
+<unitdate normal="1749">1749</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="ed0426cdf096742d1d556c6ad379e919">124</unitid>
+<unittitle>
+Oud nr. T5. 
+</unittitle>
+<unitdate normal="1750">1750</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="f7ad4b3acaafb6ffdc6280ba673df15a">125</unitid>
+<unittitle>
+Oud nr. V5. 
+</unittitle>
+<unitdate normal="1751">1751</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="5fbe9cd53022df19e001dc541f9cb0fd">126</unitid>
+<unittitle>
+Oud nr. W5. 
+</unittitle>
+<unitdate normal="1752">1752</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="c7dc972c37e2d82c076d27572086387f">127</unitid>
+<unittitle>
+Oud nr. X5. 
+</unittitle>
+<unitdate normal="1753">1753</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="29549327fd42218ade723eb312b71b8c">128</unitid>
+<unittitle>
+Oud nr. Y5. 
+</unittitle>
+<unitdate normal="1754">1754</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="6d99a4eee55a73ea0518ac7e2348ad57">129</unitid>
+<unittitle>
+Oud nr. Z5. 
+</unittitle>
+<unitdate normal="1755">1755</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="a01a21b0193db5749d7a58ed180b798e">130</unitid>
+<unittitle>
+Oud nr. A6. 
+</unittitle>
+<unitdate normal="1756">1756</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="278f0ad05d072064a332f4996eaefd31">131</unitid>
+<unittitle>
+Oud nr. B6. 
+</unittitle>
+<unitdate normal="1757">1757</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="32d3c5baef54acf0e347f0b88d933f2b">132</unitid>
+<unittitle>
+Oud nr. C6. 
+</unittitle>
+<unitdate normal="1758">1758</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="27f349b3d07156570887b6e595b915e0">133</unitid>
+<unittitle>
+Oud nr. D6. 
+</unittitle>
+<unitdate normal="1759">1759</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="19532e51c7b74c02e615f225a3abb38a">134</unitid>
+<unittitle>
+Oud nr. E6. 
+</unittitle>
+<unitdate normal="1760">1760</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="4afda0e39d39726db4db1371dbe5ac4f">135</unitid>
+<unittitle>
+Oud nr. F6. 
+</unittitle>
+<unitdate normal="1761">1761</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="095d24a335cfc22c7a48242a922389fc">136</unitid>
+<unittitle>
+Oud nr. G6. 
+</unittitle>
+<unitdate normal="1762">1762</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="8cdbbdee31ac977e236958ff4056091e">137</unitid>
+<unittitle>
+Oud nr. H6. 
+</unittitle>
+<unitdate normal="1763">1763</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="df0319e48de1defbbb14877d4543694a">138</unitid>
+<unittitle>
+Oud nr. I6. 
+</unittitle>
+<unitdate normal="1764">1764</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="c8ce1185db5c0009b77fed7570276ee5">139</unitid>
+<unittitle>
+Oud nr. K6. 
+</unittitle>
+<unitdate normal="1765">1765</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="822391979bb1d99a2f85c6b38c3631a3">140</unitid>
+<unittitle>
+Oud nr. L6. 
+</unittitle>
+<unitdate normal="1766">1766</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="347046491e67029cb58d77afb7ae2e16">141</unitid>
+<unittitle>
+Oud nr. M6. 
+</unittitle>
+<unitdate normal="1767">1767</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="4988f1201ce5707df8bcdc45eb4f8804">142</unitid>
+<unittitle>
+Oud nr. N6. 
+</unittitle>
+<unitdate normal="1768">1768</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="3004ee0b408d45090e4acdcfa9a5aad0">143</unitid>
+<unittitle>
+Oud nr. O6. 
+</unittitle>
+<unitdate normal="1769">1769</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="0fc2218dd1a5edb033b42f98c0c84351">144</unitid>
+<unittitle>
+Oud nr. P6. 
+</unittitle>
+<unitdate normal="1770">1770</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="5889989a1280ff12b954ece7bb128d01">145</unitid>
+<unittitle>
+Oud nr. Q6. 
+</unittitle>
+<unitdate normal="1771">1771</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="c9c1b4adb676b632130cf94403f954fd">146</unitid>
+<unittitle>
+Oud nr. R6. 
+</unittitle>
+<unitdate normal="1772">1772</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="25c4143914dfeae526b2ebcb78234892">147</unitid>
+<unittitle>
+Oud nr. S6. 
+</unittitle>
+<unitdate normal="1773">1773</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="fee000290d6d1063741f5beed335af9c">148</unitid>
+<unittitle>
+Oud nr. T6. 
+</unittitle>
+<unitdate normal="1774">1774</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="f3dd1895b89384249bc95eabe62c6a0e">149</unitid>
+<unittitle>
+Oud nr. V6. 
+</unittitle>
+<unitdate normal="1775">1775</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="15011871b722657eea2a5b6abcf9ec86">150</unitid>
+<unittitle>
+Oud nr. W6. 
+</unittitle>
+<unitdate normal="1776">1776</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="3ec815dc9b96c36d60d4b0d65eec745d">151</unitid>
+<unittitle>
+Oud nr. X6. 
+</unittitle>
+<unitdate normal="1777">1777</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="ae5f3a61c69ccfdcd5ba0c86b0b4ee3f">152</unitid>
+<unittitle>
+Oud nr. Y6. 
+</unittitle>
+<unitdate normal="1778">1778</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="afa572719d2f50f57525f7f684d4eb92">153</unitid>
+<unittitle>
+Oud nr. Z6. 
+</unittitle>
+<unitdate normal="1779">1779</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="0a7b45d05a1e1b8b2dd106f4ef596a6d">154</unitid>
+<unittitle>
+Oud nr. A7. 
+</unittitle>
+<unitdate normal="1780">1780</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="9b796b5e7fd392278b4973ad2a3e6e35">155</unitid>
+<unittitle>
+Oud nr. B7. 
+</unittitle>
+<unitdate normal="1781">1781</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="a048e864aca375741e6ffc7129ebb24f">156</unitid>
+<unittitle>
+Oud nr. C7. 
+</unittitle>
+<unitdate normal="1782">1782</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="a9477cd91cd38663e7f32ee2c053422e">157</unitid>
+<unittitle>
+Oud nr. D7. 
+</unittitle>
+<unitdate normal="1783">1783</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="18d1a0f79ac0f3f2a45dabd9e2d6376c">158</unitid>
+<unittitle>
+Oud nr. E7. 
+</unittitle>
+<unitdate normal="1784">1784</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="ff0bde0be8f9be19c0bcf90f28482dcf">159</unitid>
+<unittitle>
+Oud nr. F7. 
+</unittitle>
+<unitdate normal="1785">1785</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="eff4cae52703fa97e01a70e8f52c9646">160</unitid>
+<unittitle>
+Oud nr. G7. 
+</unittitle>
+<unitdate normal="1786">1786</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="6281b7d5e6aba2ea07996b879ec48b97">161</unitid>
+<unittitle>
+Oud nr. H7. 
+</unittitle>
+<unitdate normal="1787">1787</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="801cd51f6c322cda0cf4eb3418883ee2">162</unitid>
+<unittitle>
+Oud nr. I7. 
+</unittitle>
+<unitdate normal="1788">1788</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="9105f941e337262a519da42c0d422f69">163</unitid>
+<unittitle>
+Oud nr. K7. 
+</unittitle>
+<unitdate normal="1789">1789</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="24b2fba8819e3953e961491842899a6e">164</unitid>
+<unittitle>
+Oud nr. L7. 
+</unittitle>
+<unitdate normal="1790">1790</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="9cad0cda8d1c642df7d26c5ca186361d">165</unitid>
+<unittitle>
+Oud nr. M7. 
+</unittitle>
+<unitdate normal="1791">1791</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="22d64c0d934f31fb8c0b9025ad9191fc">166</unitid>
+<unittitle>
+Oud nr. N7. 
+</unittitle>
+<unitdate normal="1792">1792</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="bc39ec7915306a820fa5f393b28dc0fa">167</unitid>
+<unittitle>
+Oud nr. O7. 
+</unittitle>
+<unitdate normal="1793">1793</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="127de613d5f149473818246f72ee8367">168</unitid>
+<unittitle>
+Oud nr. P7. 
+</unittitle>
+<unitdate normal="1794">1794</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="03abac3a8605b02f9783af3f52d43f11">169</unitid>
+<unittitle>
+Oud nr. Q7. 
+</unittitle>
+<unitdate normal="1795">1795</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="c3f29c8c30d392ddcef70846818745fa">170</unitid>
+<unittitle>
+Oud nr. R7. 
+</unittitle>
+<unitdate normal="1796">1796</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="fd7e95bea0aed701b37d6789bc6a642e">171</unitid>
+<unittitle>
+Oud nr. S7. 
+</unittitle>
+<unitdate normal="1797">1797</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="7a783d224292221f6c7760b27753d1f3">172</unitid>
+<unittitle>
+Oud nr. T7. 
+</unittitle>
+<unitdate normal="1798">1798</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="1048037517bcfabb68da0f195be32976">173</unitid>
+<unittitle>
+Oud nr. V7. 
+</unittitle>
+<unitdate normal="1799">1799</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="dac7aca3011acb2c33553ea07adae135">174</unitid>
+<unittitle>
+Oud nr. W7. 
+</unittitle>
+<unitdate normal="1800">1800</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="a9f811fcbde62dbc3a0143c1b349e520">175</unitid>
+<unittitle>
+Oud nr. X7. 
+</unittitle>
+<unitdate normal="1801">1801</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="cb3c215db2853136e8b7a9b748d05e33">176</unitid>
+<unittitle>
+Oud nr. Y7. 
+</unittitle>
+<unitdate normal="1802">1802</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="df5fa01bebb71cf5577bc5a64422538b">177</unitid>
+<unittitle>
+Oud nr. Z7. 
+</unittitle>
+<unitdate normal="1803">1803</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="7b0b5747dde10023798f0656df8eb127">178</unitid>
+<unittitle>
+Oud nr. A8. 
+</unittitle>
+<unitdate normal="1804">1804</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="aa4e183c9497e292dfc2dc5ca73d38ed">179</unitid>
+<unittitle>
+Oud nr. B8. 
+</unittitle>
+<unitdate normal="1805">1805</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="10f4c13acb821b2fad862ea1c3037f82">180</unitid>
+<unittitle>
+Oud nr. C8. 
+</unittitle>
+<unitdate normal="1806">1806</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="717a3cadfdc4bf8f33c7ca475c62f8e8">181</unitid>
+<unittitle>
+Oud nr. D8. 
+</unittitle>
+<unitdate normal="1807">1807</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="fba71cb3c9cbc35a56cdacfae8fc3aa7">182</unitid>
+<unittitle>
+Oud nr. E8. 
+</unittitle>
+<unitdate normal="1808">1808</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+</c>
+<c level="otherlevel" otherlevel="filegrp">
+<did>
+<unitid label="Inventarisnummers" identifier="2b2553662078eee43fc872485706b1c3">183-200</unitid>
+<unittitle>
+Registers van kwijtschelding (transport) van onroerend goedbinnen de jurisdictie van de stad Amsterdam, met nummering van de akten per jaar.
+N.B. Deze registers hebben een aparte alfabetische index per jaar op koper en verkoper (inv.nrs. 217-220). 1808-1811.
+</unittitle>
+<physdesc>18 banden</physdesc>
+</did>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="17529d9b186abe1b61ebb64a017a1c4c">183</unitid>
+<unittitle>
+1808, deel I. Akten nrs. 1-178.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="34c3ca699b39c7b3e9c7e2bf2512d8d6">184</unitid>
+<unittitle>
+1808, deel II. Akten nrs. 179-292.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="ff7a46beaca99261617fa8e34ca4ef4b">185</unitid>
+<unittitle>
+1808, deel III. Akten nrs. 293-440.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="4725d3a29caa4150111393810b4edb33">186</unitid>
+<unittitle>
+ 1809, deel I. Akten nrs. 1-189.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="e35e0ba1dfc862f93b455362ff3b84b1">187</unitid>
+<unittitle>
+1809, deel II. Akten nrs. 190-379.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="0a9827da02c317c6be7bfddac351c039">188</unitid>
+<unittitle>
+1809, deel III. Akten nrs. 380-560.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="a7b8e918b4abc37dde6d07699615ece6">189</unitid>
+<unittitle>
+1809, deel IV. Akten nrs. 561-769.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="0f2bc62e095c5460439a8606d106777a">190</unitid>
+<unittitle>
+1809, deel V. Akten nrs. 770-949.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="68bac9f3f969b8451b44363dff91aa52">191</unitid>
+<unittitle>
+1809, deel VI. Akten nrs. 950-1126.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="0472dc8c21fa961258b6546acf955abf">192</unitid>
+<unittitle>
+1810, deel I. Akten nrs. 1-130.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="f5e712ff0f0fd54682716b9d24436a04">193</unitid>
+<unittitle>
+1810, deel II. Akten nrs. 131-258.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="1a1648875027bec81d211f931bed5a53">194</unitid>
+<unittitle>
+1810, deel III. Akten nrs. 259-387.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="11209fc3c797a6f42899acd239938fb5">195</unitid>
+<unittitle>
+1810, deel IV. Akten nrs. 388-519.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="ac045b5040e2a90f0efe16593965493d">196</unitid>
+<unittitle>
+1810, deel V. Akten nrs. 520-649.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="b9c9bd29c68c6aa13227d92e986a964d">197</unitid>
+<unittitle>
+1810, deel VI. Akten nrs. 650-779.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="64786b12cd6ab3f8f441cf86c3354abc">198</unitid>
+<unittitle>
+1810, deel VII. Akten nrs. 780-919.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="a631c0ab95b8ca274a9bbbf6e6628d9f">199</unitid>
+<unittitle>
+1810, deel VIII. Akten nrs. 920-1053.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="11205092e34ac5cd929b46cd7a8500ec">200</unitid>
+<unittitle>
+1811, deel I. Akten nrs. 1-184.
+</unittitle>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+</c>
+<c level="otherlevel" otherlevel="filegrp">
+<did>
+<unitid label="Inventarisnummers" identifier="ebeb0c7e8434dfc16a414bf30254bf49">201-204</unitid>
+<unittitle>
+Indices op de kwijtscheldingsregisters op de achternaam vande koper.
+N.B. Oorspronkelijk los inliggend in de bijbehorende kwijtscheldingsregisters. 1795-1798.
+</unittitle>
+<physdesc>4 katernen</physdesc>
+</did>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="df273c50bc7c1da632a513b38c77b12b">201</unitid>
+<unittitle>
+Index op inv.nr. 169. 
+</unittitle>
+<unitdate normal="1795">1795</unitdate>
+</did>
+<odd><p>Filmnr. 8333</p></odd>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="bdfa75553d54c68c438dfbb32346b876">202</unitid>
+<unittitle>
+Index op inv.nr. 170. 
+</unittitle>
+<unitdate normal="1796">1796</unitdate>
+</did>
+<odd><p>Filmnr. 8333</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="aa699076d63265457028a64856dc407c">203</unitid>
+<unittitle>
+Index op inv.nr. 171. 
+</unittitle>
+<unitdate normal="1797">1797</unitdate>
+</did>
+<odd><p>Filmnr. 8333</p></odd>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="0957ee4fb3e662c14deefa1856a174ff">204</unitid>
+<unittitle>
+Index op inv.nr. 172. 
+</unittitle>
+<unitdate normal="1798">1798</unitdate>
+</did>
+<odd><p>Filmnr. 8333</p></odd>
+</c>
+</c>
+<c level="otherlevel" otherlevel="filegrp">
+<did>
+<unitid label="Inventarisnummers" identifier="3542abbee4fa808ef220429388f207d8">205-220</unitid>
+<unittitle>
+Indices op de kwijtscheldingsregisters op achternaam van koper en verkoper.
+</unittitle>
+<unitdate normal="1795/1811">1795 - 1811</unitdate>
+<physdesc>16 omslagen</physdesc>
+</did>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="c9f2ec5eaaf4414ef7744d0b951bd03d">205</unitid>
+<unittitle>
+Index op inv.nr. 171. 
+</unittitle>
+<unitdate normal="1797">1797</unitdate>
+</did>
+<odd><p>Filmnr. 8334</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="b1cc28c87a50454a08216ec412f87eff">206</unitid>
+<unittitle>
+Index op inv.nr. 172. 
+</unittitle>
+<unitdate normal="1798">1798</unitdate>
+</did>
+<odd><p>Filmnr. 8334</p></odd>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="1facd3735133781cba6aabd014768f4f">207</unitid>
+<unittitle>
+Index op inv.nr. 173. 
+</unittitle>
+<unitdate normal="1799">1799</unitdate>
+</did>
+<odd><p>Filmnr. 8334</p></odd>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="10aac87338f15f29f877e43c2f757fb4">208</unitid>
+<unittitle>
+Index op inv.nr. 174. 
+</unittitle>
+<unitdate normal="1800">1800</unitdate>
+</did>
+<odd><p>Filmnr. 8334</p></odd>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="58e6a776c88287c0b0852ef6aa35ebd4">209</unitid>
+<unittitle>
+Index op inv.nr. 175. 
+</unittitle>
+<unitdate normal="1801">1801</unitdate>
+</did>
+<odd><p>Filmnr. 8334</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="7b26c0478b77fe51739c178acefcd95c">210</unitid>
+<unittitle>
+Index op inv.nr. 176. 
+</unittitle>
+<unitdate normal="1802">1802</unitdate>
+</did>
+<odd><p>Filmnr. 8334</p></odd>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="6d77a20cb66b69c601d027d6e7fbeab3">211</unitid>
+<unittitle>
+Index op inv.nr. 177. 
+</unittitle>
+<unitdate normal="1803">1803</unitdate>
+</did>
+<odd><p>Filmnr. 8334</p></odd>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="9743ea6891da76ac46d2bdb4a25b9f8b">212</unitid>
+<unittitle>
+Index op inv.nr. 178. 
+</unittitle>
+<unitdate normal="1804">1804</unitdate>
+</did>
+<odd><p>Filmnr. 8334</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="60ebea426656df092cc2f76c9500ebca">213</unitid>
+<unittitle>
+Index op inv.nr. 179. 
+</unittitle>
+<unitdate normal="1805">1805</unitdate>
+</did>
+<odd><p>Filmnr. 8334</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="f4a2bdcd834775a88b79e2b0c9fbd27c">214</unitid>
+<unittitle>
+Index op inv.nr. 180. 
+</unittitle>
+<unitdate normal="1806">1806</unitdate>
+</did>
+<odd><p>Filmnr. 8334</p></odd>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="26e66497ea1721aa5a0f972f0101428d">215</unitid>
+<unittitle>
+Index op inv.nr. 181. 
+</unittitle>
+<unitdate normal="1807">1807</unitdate>
+</did>
+<odd><p>Filmnr. 8335</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="79b91555f0c25c0c71df5e148613fcd2">216</unitid>
+<unittitle>
+Index op inv.nr. 182. 
+</unittitle>
+<unitdate normal="1808">1808</unitdate>
+</did>
+<odd><p>Filmnr. 8335</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="aa3587536589a1d37def59141fb773ff">217</unitid>
+<unittitle>
+Index op inv.nrs. 183-185. 
+</unittitle>
+<unitdate normal="1808">1808</unitdate>
+</did>
+<odd><p>Filmnr. 8335</p></odd>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="159f972ea3325c4093aea4d20d8205a7">218</unitid>
+<unittitle>
+Index op inv.nrs. 186-191. 
+</unittitle>
+<unitdate normal="1809">1809</unitdate>
+</did>
+<odd><p>Filmnr. 8335</p></odd>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="d72db5d0195bdf4d78329136bed8ad0d">219</unitid>
+<unittitle>
+Index op inv.nrs. 192-199. 
+</unittitle>
+<unitdate normal="1810">1810</unitdate>
+</did>
+<odd><p>Filmnr. 8335</p></odd>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="e62e6f82070ac9e1fd839f6effab5fd4">220</unitid>
+<unittitle>
+Index op inv.nr. 200. 
+</unittitle>
+<unitdate normal="1811">1811</unitdate>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+</c>
+<c level="file">
+<did>
+<unitid label="Inventarisnummer" identifier="d15ce63e379ac81824c0fd8d9e1ba1f9">221</unitid>
+<unittitle>
+Index op achternaam van koper en verkoper, met vermelding van het wijknummer en het oude verpondingsnummer van het overgedragen perceel. 
+</unittitle>
+<unitdate normal="1806/1809">1806 - 1809</unitdate>
+<physdesc>1 deel</physdesc>
+</did>
+<accessrestrict type="accessible"><p>Niet raadpleegbaar</p></accessrestrict>
+</c>
+</dsc>
+</archdesc>
+</ead>

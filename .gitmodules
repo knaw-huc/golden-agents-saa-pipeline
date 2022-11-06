@@ -1,0 +1,6 @@
+[submodule "pya2a"]
+	path = pya2a
+	url = https://github.com/LvanWissen/pya2a.git
+[submodule "RDFAlchemy"]
+	path = RDFAlchemy
+	url = https://github.com/LvanWissen/RDFAlchemy.git

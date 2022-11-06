@@ -1,0 +1,13 @@
+data/begraafregisters/SAA_Index_op_begraafregisters_voor_1811_DUBBELE__20190227_001.xml filter=lfs diff=lfs merge=lfs -text
+data/begraafregisters/SAA_Index_op_begraafregisters_voor_1811_DUBBELE__20190227_002.xml filter=lfs diff=lfs merge=lfs -text
+data/begraafregisters/SAA_Index_op_begraafregisters_voor_1811_DUBBELE__20190227_003.xml filter=lfs diff=lfs merge=lfs -text
+data/begraafregisters/SAA_Index_op_begraafregisters_voor_1811_DUBBELE__20190227_004.xml filter=lfs diff=lfs merge=lfs -text
+data/begraafregisters/SAA_Index_op_begraafregisters_voor_1811_DUBBELE__20190227_005.xml filter=lfs diff=lfs merge=lfs -text
+data/begraafregisters/SAA_Index_op_begraafregisters_voor_1811_DUBBELE__20190227_006.xml filter=lfs diff=lfs merge=lfs -text
+data/begraafregisters/SAA_Index_op_begraafregisters_voor_1811_DUBBELE__20190227_007.xml filter=lfs diff=lfs merge=lfs -text
+data/begraafregisters/SAA_Index_op_begraafregisters_voor_1811_DUBBELE__20190227_008.xml filter=lfs diff=lfs merge=lfs -text
+data/begraafregisters/SAA_Index_op_begraafregisters_voor_1811_DUBBELE__20190227_009.xml filter=lfs diff=lfs merge=lfs -text
+data/begraafregisters/SAA_Index_op_begraafregisters_voor_1811_DUBBELE__20190227_010.xml filter=lfs diff=lfs merge=lfs -text
+data/concordance/source2physicalUri.json filter=lfs diff=lfs merge=lfs -text 
+data/concordance/saaid2source.json filter=lfs diff=lfs merge=lfs -text 
+data/jiw/jiw_ga.json filter=lfs diff=lfs merge=lfs -text 

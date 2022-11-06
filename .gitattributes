@@ -8,3 +8,5 @@ data/begraafregisters/SAA_Index_op_begraafregisters_voor_1811_DUBBELE__20190227_
 data/begraafregisters/SAA_Index_op_begraafregisters_voor_1811_DUBBELE__20190227_008.xml filter=lfs diff=lfs merge=lfs -text
 data/begraafregisters/SAA_Index_op_begraafregisters_voor_1811_DUBBELE__20190227_009.xml filter=lfs diff=lfs merge=lfs -text
 data/begraafregisters/SAA_Index_op_begraafregisters_voor_1811_DUBBELE__20190227_010.xml filter=lfs diff=lfs merge=lfs -text
+data/concordance/source2physicalUri.json
+data/concordance/saaid2source.json

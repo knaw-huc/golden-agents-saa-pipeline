@@ -11,3 +11,6 @@ data/begraafregisters/SAA_Index_op_begraafregisters_voor_1811_DUBBELE__20190227_
 data/concordance/source2physicalUri.json filter=lfs diff=lfs merge=lfs -text 
 data/concordance/saaid2source.json filter=lfs diff=lfs merge=lfs -text 
 data/jiw/jiw_ga.json filter=lfs diff=lfs merge=lfs -text 
+data/concordance/5001_identifier2physicalBook.json filter=lfs diff=lfs merge=lfs -text 
+data/concordance/5001_identifier2book.json filter=lfs diff=lfs merge=lfs -text 
+data/concordance/bg_mapping_index_guid.json filter=lfs diff=lfs merge=lfs -text 

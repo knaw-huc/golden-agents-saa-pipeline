@@ -12,7 +12,7 @@
 
 ## Introduction
 
-The Golden Agents - SAA Pipeline is a set of data and scripts designed to generate linked open data in RDF format for several datasets from the Golden Agents project. The purpose of this pipeline is to make available as open data various sources of historical information about Amsterdam, such as notary archives, baptism and marriage registers, and burial registries, among others. 
+The Golden Agents - SAA Pipeline is a set of data and scripts designed to generate linked open data in RDF format for several datasets for the Golden Agents project. The purpose of this pipeline is to make available as open data various sources of historical information about Amsterdam, such as notary archives, baptism and marriage registers, and burial registries, among others. 
 
 This repository contains the scripts and data-(pointers) for the Golden Agents project's SAA (StadsArchief Amsterdam) pipeline that converts historical archival data from the Amsterdam City Archives into Linked Open Data (LOD/RDF) in the Golden Agents Archival Ontology ROAR++. The data is part of the Golden Agents research infrastructure.
 
@@ -74,7 +74,9 @@ The script takes in data that is based on an identical earlier as CC-BY 4.0 shar
 
 ## Linked Open Data / RDF
 
-The scripts produce RDF in TriG format (https://www.w3.org/TR/trig/). These files are not included in this repository due to their size, but can be downloaded from the deposited release on Zenodo. The files are available as five separate downloads:
+The scripts produce RDF in TriG format (https://www.w3.org/TR/trig/). These files are not included in this repository due to their size, but can be downloaded from the deposited release on Zenodo: <doi>. 
+
+The files are available as five separate downloads:
 * `ga_saa_a2a_2022.zip`
 * `ga_saa_begraafregisters_2022.zip`
 * `ga_saa_ead_2022.zip`
@@ -87,4 +89,4 @@ A live version of this data should be available at: https://data.goldenagents.or
 
 This data is licensed under CC-BY 4.0. Please also cite the [authors of the Ja, ik wil!](https://doi.org/10.25397/eur.14049842.v1) data if you use this data.
 
-* 
+* Golden Agents project. (2022). Golden Agents - SAA Pipeline (Version v1.0) [Data set]. <doi>

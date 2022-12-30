@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+title: Golden Agents - SAA Pipeline
+message: >-
+  If you use this dataset, please cite it using the
+  metadata from this file.
+type: dataset
+authors:
+  - name: Golden Agents project
+identifiers:
+  - type: doi
+    value:
+    description: URL for release of data
+repository-code: "https://github.com/knaw-huc/golden-agents-saa-pipeline/"
+abstract: >-
+  Pipeline to transform the Amsterdam City Archives data into RDF for usage in the Golden Agents research infrastructure
+keywords:
+  - Golden Agents
+  - Linked Open Data
+  - Archival Sources
+license: CC-BY-4.0
+version: v1.0
+date-released: "2022-12-30"

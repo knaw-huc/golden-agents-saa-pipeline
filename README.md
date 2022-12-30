@@ -12,6 +12,8 @@
 
 ## Introduction
 
+The Golden Agents - SAA Pipeline is a set of data and scripts designed to generate linked open data in RDF format for several datasets from the Golden Agents project. The purpose of this pipeline is to make available as open data various sources of historical information about Amsterdam, such as notary archives, baptism and marriage registers, and burial registries, among others. 
+
 This repository contains the scripts and data-(pointers) for the Golden Agents project's SAA (StadsArchief Amsterdam) pipeline that converts historical archival data from the Amsterdam City Archives into Linked Open Data (LOD/RDF) in the Golden Agents Archival Ontology ROAR++. The data is part of the Golden Agents research infrastructure.
 
 The materials in this repository are for three datasets: 

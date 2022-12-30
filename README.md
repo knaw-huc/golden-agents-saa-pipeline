@@ -74,7 +74,7 @@ The script takes in data that is based on an identical earlier as CC-BY 4.0 shar
 
 ## Linked Open Data / RDF
 
-The scripts produce RDF in TriG format (https://www.w3.org/TR/trig/). These files are not included in this repository due to their size, but can be downloaded from the deposited release on Zenodo: <doi>. 
+The scripts produce RDF in TriG format (https://www.w3.org/TR/trig/). These files are not included in this repository due to their size, but can be downloaded from the deposited release on Zenodo: https://doi.org/10.5281/zenodo.7662716. 
 
 The files are available as five separate downloads:
 * `ga_saa_a2a_2022.zip`
@@ -89,4 +89,4 @@ A live version of this data should be available at: https://data.goldenagents.or
 
 This data is licensed under CC-BY 4.0. Please also cite the [authors of the Ja, ik wil!](https://doi.org/10.25397/eur.14049842.v1) data if you use this data.
 
-* Golden Agents project. (2022). Golden Agents - SAA Pipeline (Version v1.0) [Data set]. <doi>
+* Golden Agents project. (2022). Golden Agents - SAA Pipeline (Version v1.0) [Data set]. https://doi.org/10.5281/zenodo.7662716

@@ -1,0 +1,1812 @@
+@prefix : <https://data.goldenagents.org/ontology/rpp/> .
+@prefix as: <https://www.w3.org/ns/activitystreams#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pnv: <https://w3id.org/pnv#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rpp: <https://data.goldenagents.org/ontology/rpp/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/spec/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@base <https://data.goldenagents.org/ontology/rpp/> .
+
+<https://data.goldenagents.org/ontology/rpp/> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://purl.org/dc/terms/partOf
+dcterms:partOf rdf:type owl:ObjectProperty ;
+               rdfs:domain oa:AnnotationPage ;
+               rdfs:range oa:AnnotationCollection ;
+               rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+               rdfs:label "dcterms:partOf" .
+
+
+###  http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+rdf:type rdf:type owl:ObjectProperty ;
+         rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+         rdfs:label "rdf:type" .
+
+
+###  http://www.w3.org/ns/oa#hasBody
+oa:hasBody rdf:type owl:ObjectProperty ;
+           rdfs:domain oa:Annotation ;
+           rdfs:range rpp:Analiticclinformation ;
+           rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+           rdfs:label "oa:hasBody" .
+
+
+###  http://www.w3.org/ns/oa#hasSelector
+oa:hasSelector rdf:type owl:ObjectProperty ;
+               rdfs:domain oa:SpecificResource ;
+               rdfs:range oa:Selector ;
+               rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+               rdfs:label "oa:hasSelector" .
+
+
+###  http://www.w3.org/ns/oa#hasTarget
+oa:hasTarget rdf:type owl:ObjectProperty ;
+             rdfs:domain oa:Annotation ;
+             rdfs:range oa:SpecificResource ;
+             rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+             rdfs:label "oa:hasTarget" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/carriedby
+rpp:carriedby rdf:type owl:ObjectProperty ;
+              rdfs:domain rpp:Role ;
+              rdfs:range rpp:Rolebearer ;
+              rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+              rdfs:label "carriedBy" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/carriedin
+rpp:carriedin rdf:type owl:ObjectProperty ;
+              rdfs:domain rpp:Role ;
+              rdfs:range rpp:Event ;
+              rdfs:comment "A specific role is being carried in an Event." ;
+              rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+              rdfs:label "carriedIn" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/classifiedas
+rpp:classifiedas rdf:type owl:ObjectProperty ;
+                 rdfs:domain <http://www.cidoc-crm.org/cidoc-crm/E22_Human-Made_Object> ;
+                 rdfs:range rpp:Classificationtype ;
+                 rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                 rdfs:label "classifiedAs" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/hasColor
+rpp:hasColor rdf:type owl:ObjectProperty ;
+             rdfs:domain rpp:Objectrole ;
+             rdfs:range rpp:Color ;
+             rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+             rdfs:label "hasColor" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/hasDepiction
+rpp:hasDepiction rdf:type owl:ObjectProperty ;
+                 rdfs:domain rpp:Objectrole ;
+                 rdfs:range rpp:Depiction ;
+                 rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                 rdfs:label "hasDepiction" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/hasMaterial
+rpp:hasMaterial rdf:type owl:ObjectProperty ;
+                rdfs:domain rpp:Objectrole ;
+                rdfs:range rpp:Material_5af6a438-1d60-4fab-92e2-030895021610 ;
+                rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                rdfs:label "hasMaterial" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/hasPart
+rpp:hasPart rdf:type owl:ObjectProperty ;
+            rdfs:domain rpp:Inventorybook ;
+            rdfs:range rpp:Document ;
+            rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+            rdfs:label "hasPart" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/hasQualification
+rpp:hasQualification rdf:type owl:ObjectProperty ;
+                     rdfs:domain rpp:Objectrole ;
+                     rdfs:range rpp:Qualification ;
+                     rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                     rdfs:label "hasQualification" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/hasValuation
+rpp:hasValuation rdf:type owl:ObjectProperty ;
+                 rdfs:domain [ rdf:type owl:Class ;
+                               owl:unionOf ( rpp:Listitem
+                                             rpp:Objectrole
+                                           )
+                             ] ;
+                 rdfs:range rpp:Valuation ;
+                 rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                 rdfs:label "hasValuation" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/hascontent
+rpp:hascontent rdf:type owl:ObjectProperty ;
+               rdfs:domain rpp:Document ;
+               rdfs:range rpp:Information ;
+               rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+               rdfs:label "hasContent" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/hasdigitalrepresentation
+rpp:hasdigitalrepresentation rdf:type owl:ObjectProperty ;
+                             rdfs:domain rpp:Inventorybook ;
+                             rdfs:range rpp:Scancollection ;
+                             rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                             rdfs:label "hasDigitalRepresentation" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/hasgender
+rpp:hasgender rdf:type owl:ObjectProperty ;
+              rdfs:domain rpp:PersonRole ;
+              rdfs:range rpp:Gender ;
+              rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+              rdfs:label "hasGender" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/hasindex
+rpp:hasindex rdf:type owl:ObjectProperty ;
+             rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+             rdfs:label "hasIndex" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/hasinput
+rpp:hasinput rdf:type owl:ObjectProperty ;
+             rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+             rdfs:label "hasInput" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/haslocation
+rpp:haslocation rdf:type owl:ObjectProperty ;
+                rdfs:domain rpp:AgentRole ;
+                rdfs:range rpp:Locationrole ;
+                rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                rdfs:label "hasLocation" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/hasmember
+rpp:hasmember rdf:type owl:ObjectProperty ;
+              rdfs:comment "la:member" ;
+              rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+              rdfs:label "hasMember" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/hasname
+rpp:hasname rdf:type owl:ObjectProperty ;
+            rdfs:domain rpp:PersonRole ;
+            rdfs:range pnv:PersonName ;
+            rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+            rdfs:label "hasName" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/hasoutput
+rpp:hasoutput rdf:type owl:ObjectProperty ;
+              rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+              rdfs:label "hasOutput" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/haspart
+rpp:haspart rdf:type owl:ObjectProperty ;
+            rdfs:domain rpp:Document ;
+            rdfs:range rpp:Fragment ;
+            rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+            rdfs:label "hasPart" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/hasrelation
+rpp:hasrelation rdf:type owl:ObjectProperty ;
+                rdfs:domain rpp:AgentRole ;
+                rdfs:range rpp:RelationRole ;
+                rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                rdfs:label "hasRelation" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/hasreligion
+rpp:hasreligion rdf:type owl:ObjectProperty ;
+                rdfs:domain [ rdf:type owl:Class ;
+                              owl:unionOf ( rpp:AgentRole
+                                            rpp:Event
+                                          )
+                            ] ;
+                rdfs:range rpp:ReligionRole ;
+                rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                rdfs:label "hasReligion" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/hasscan
+rpp:hasscan rdf:type owl:ObjectProperty ;
+            rdfs:domain rpp:Document ;
+            rdfs:range rpp:Scan ;
+            rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+            rdfs:label "hasScan" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/hassection
+rpp:hassection rdf:type owl:ObjectProperty ;
+               rdfs:domain rpp:IndexInventoryOfGoods ;
+               rdfs:range rpp:Section ;
+               rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+               rdfs:label "hasSection" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/hasstatus
+rpp:hasstatus rdf:type owl:ObjectProperty ;
+              rdfs:domain rpp:AgentRole ;
+              rdfs:range rpp:StatusRole ;
+              rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+              rdfs:label "hasStatus" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/hassubcollection
+rpp:hassubcollection rdf:type owl:ObjectProperty ;
+                     rdfs:domain rpp:Indexcollection ;
+                     rdfs:range rpp:Indexcollection ;
+                     rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                     rdfs:label "hasSubCollection" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/hastype
+rpp:hastype rdf:type owl:ObjectProperty ;
+            rdfs:domain rpp:Objectrole ;
+            rdfs:range rpp:Objecttype ;
+            rdfs:comment "crm:P2_has_type" ;
+            rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+            rdfs:label "hasType" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/indexof
+rpp:indexof rdf:type owl:ObjectProperty ;
+            rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+            rdfs:label "indexOf" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/isabout
+rpp:isabout rdf:type owl:ObjectProperty ;
+            rdfs:domain rpp:Information ;
+            rdfs:range rpp:Substantial ;
+            rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+            rdfs:label "isAbout" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/items
+rpp:items rdf:type owl:ObjectProperty ;
+          rdfs:domain rpp:Inventory ;
+          rdfs:range rpp:Itemsset ;
+          rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+          rdfs:label "items" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/label
+rpp:label rdf:type owl:ObjectProperty ;
+          rdfs:domain rpp:Listitem ;
+          rdfs:range rpp:Transcription_8645ff08-e8d4-4dc6-a658-757df948590c ;
+          rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+          rdfs:label "label" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/listitems
+rpp:listitems rdf:type owl:ObjectProperty ;
+              rdfs:domain rpp:Inventory ;
+              rdfs:range rpp:Listitem ;
+              rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+              rdfs:label "listItems" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/memberof
+rpp:memberof rdf:type owl:ObjectProperty ;
+             rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+             rdfs:label "memberOf" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/mentionsEvent
+rpp:mentionsEvent rdf:type owl:ObjectProperty ;
+                  rdfs:domain rpp:IndexDocument ;
+                  rdfs:range rpp:Event ;
+                  rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                  rdfs:label "mentionsEvent" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/mentionsInventory
+rpp:mentionsInventory rdf:type owl:ObjectProperty ;
+                      rdfs:domain rpp:IndexInventoryOfGoods ;
+                      rdfs:range rpp:Inventory ;
+                      rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                      rdfs:label "mentionsInventory" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/mentionsLocation
+rpp:mentionsLocation rdf:type owl:ObjectProperty ;
+                     rdfs:domain rpp:IndexDocument ;
+                     rdfs:range rpp:Location ;
+                     rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                     rdfs:label "mentionsLocation" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/mentionsObject
+rpp:mentionsObject rdf:type owl:ObjectProperty ;
+                   rdfs:domain rpp:IndexDocument ;
+                   rdfs:range rpp:Object ;
+                   rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                   rdfs:label "mentionsObject" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/mentionsOccupation
+rpp:mentionsOccupation rdf:type owl:ObjectProperty ;
+                       rdfs:domain rpp:IndexDocument ;
+                       rdfs:range rpp:Occupation ;
+                       rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                       rdfs:label "mentionsOccupation" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/mentionsOrganization
+rpp:mentionsOrganization rdf:type owl:ObjectProperty ;
+                         rdfs:domain rpp:IndexDocument ;
+                         rdfs:range rpp:Organization ;
+                         rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                         rdfs:label "mentionsOrganization" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/mentionsPerson
+rpp:mentionsPerson rdf:type owl:ObjectProperty ;
+                   rdfs:domain rpp:IndexDocument ;
+                   rdfs:range rpp:Person ;
+                   rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                   rdfs:label "mentionsPerson" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/mentionsRelation
+rpp:mentionsRelation rdf:type owl:ObjectProperty ;
+                     rdfs:domain rpp:IndexDocument ;
+                     rdfs:range rpp:Relation ;
+                     rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                     rdfs:label "mentionsRelation" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/mentionsReligion
+rpp:mentionsReligion rdf:type owl:ObjectProperty ;
+                     rdfs:domain rpp:IndexDocument ;
+                     rdfs:range rpp:Religion ;
+                     rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                     rdfs:label "mentionsReligion" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/mentionsStatus
+rpp:mentionsStatus rdf:type owl:ObjectProperty ;
+                   rdfs:domain rpp:IndexDocument ;
+                   rdfs:range rpp:Status ;
+                   rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                   rdfs:label "mentionsStatus" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/occursat
+rpp:occursat rdf:type owl:ObjectProperty ;
+             rdfs:domain rpp:Event ;
+             rdfs:range rpp:Location ;
+             rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+             rdfs:label "occursAt" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/participatesin
+rpp:participatesin rdf:type owl:ObjectProperty ;
+                   rdfs:domain rpp:Rolebearer ;
+                   rdfs:range rpp:Event ;
+                   rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                   rdfs:label "participatesIn" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/partof
+rpp:partof rdf:type owl:ObjectProperty ;
+           rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+           rdfs:label "partOf" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/preambule
+rpp:preambule rdf:type owl:ObjectProperty ;
+              rdfs:domain rpp:IndexInventoryOfGoods ;
+              rdfs:range rpp:Preamble ;
+              rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+              rdfs:label "preambule" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/producedby
+rpp:producedby rdf:type owl:ObjectProperty ;
+               rdfs:domain <http://www.cidoc-crm.org/cidoc-crm/E22_Human-Made_Object> ;
+               rdfs:range <http://www.cidoc-crm.org/cidoc-crm/E12_Production> ;
+               rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+               rdfs:label "producedBy" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/refersToEntity
+rpp:refersToEntity rdf:type owl:ObjectProperty ;
+                   rdfs:domain rpp:Analiticclreference ;
+                   rdfs:range rpp:Rolebearer ;
+                   rdfs:comment "Shortcut for the refersToRole/carriedBy" ;
+                   rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                   rdfs:label "refersToEntity" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/refersToRole
+rpp:refersToRole rdf:type owl:ObjectProperty ;
+                 rdfs:domain rpp:Analiticclreference ;
+                 rdfs:range rpp:Role ;
+                 rdfs:comment "Points to the contextual entity (entity in a specific role)." ;
+                 rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                 rdfs:label "refersToRole" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/registers
+rpp:registers rdf:type owl:ObjectProperty ;
+              rdfs:domain rpp:Registrationevent ;
+              rdfs:range rpp:Event ;
+              rdfs:comment "The happening of something else is usually registered in a RegistrationEvent, such as a Baptism or Birth in a BirthRegistration or BaptismRegistration. It's the RegistrationEvent that creates a document with the proof of this registration." ;
+              rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+              rdfs:label "registers" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/relatedto
+rpp:relatedto rdf:type owl:ObjectProperty ;
+              rdfs:domain rpp:RelationRole ;
+              rdfs:range rpp:AgentRole ;
+              rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+              rdfs:label "relatedTo" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/sectiontype
+rpp:sectiontype rdf:type owl:ObjectProperty ;
+                rdfs:domain rpp:Section ;
+                rdfs:range rpp:Category ;
+                rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                rdfs:label "sectionType" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/wasderivedfrom
+rpp:wasderivedfrom rdf:type owl:ObjectProperty ;
+                   rdfs:domain rpp:Reconstruction ;
+                   rdfs:range rpp:Observation ;
+                   rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                   rdfs:label "wasDerivedFrom" .
+
+
+###  https://www.w3.org/ns/activitystreams#items
+as:items rdf:type owl:ObjectProperty ;
+         rdfs:domain oa:AnnotationPage ;
+         rdfs:range oa:Annotation ;
+         rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+         rdfs:label "as:items" .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.w3.org/ns/oa#hasSource
+oa:hasSource rdf:type owl:DatatypeProperty ;
+             rdfs:domain oa:SpecificResource ;
+             rdfs:range xsd:anyURI ;
+             rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+             rdfs:label "oa:hasSource" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/attribute1_attr-25691fe3-fed4-429e-92bb-db101b7d48ca
+rpp:attribute1_attr-25691fe3-fed4-429e-92bb-db101b7d48ca rdf:type owl:DatatypeProperty ;
+                                                         rdfs:domain rpp:Count ;
+                                                         rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                                                         rdfs:label "attribute1" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/currency
+rpp:currency rdf:type owl:DatatypeProperty ;
+             rdfs:domain rpp:Valuation ;
+             rdfs:range xsd:string ;
+             rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+             rdfs:label "currency" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/gulden
+rpp:gulden rdf:type owl:DatatypeProperty ;
+           rdfs:domain rpp:Valuation ;
+           rdfs:range xsd:decimal ;
+           rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+           rdfs:label "gulden" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/originalitemnumber
+rpp:originalitemnumber rdf:type owl:DatatypeProperty ;
+                       rdfs:domain rpp:Listitem ;
+                       rdfs:comment "The original numbering or index in the inventory, as shown in the document." ;
+                       rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                       rdfs:label "originalItemNumber" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/penning
+rpp:penning rdf:type owl:DatatypeProperty ;
+            rdfs:domain rpp:Valuation ;
+            rdfs:range xsd:decimal ;
+            rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+            rdfs:label "penning" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/stuiver
+rpp:stuiver rdf:type owl:DatatypeProperty ;
+            rdfs:domain rpp:Valuation ;
+            rdfs:range xsd:decimal ;
+            rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+            rdfs:label "stuiver" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/value
+rpp:value rdf:type owl:DatatypeProperty ;
+          rdfs:domain rpp:Valuation ;
+          rdfs:range xsd:decimal ;
+          rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+          rdfs:label "value" .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.cidoc-crm.org/cidoc-crm/E12_Production
+<http://www.cidoc-crm.org/cidoc-crm/E12_Production> rdf:type owl:Class ;
+                                                    rdfs:comment "crm:E12_Production" ;
+                                                    rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                                                    rdfs:label "Production" .
+
+
+###  http://www.cidoc-crm.org/cidoc-crm/E22_Human-Made_Object
+<http://www.cidoc-crm.org/cidoc-crm/E22_Human-Made_Object> rdf:type owl:Class ;
+                                                           rdfs:comment "crm:E22_Human-Made_Object" ;
+                                                           rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                                                           rdfs:label "HumanMadeObject" .
+
+
+###  http://www.w3.org/ns/oa#Annotation
+oa:Annotation rdf:type owl:Class ;
+              rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+              rdfs:label "oa:Annotation" .
+
+
+###  http://www.w3.org/ns/oa#AnnotationCollection
+oa:AnnotationCollection rdf:type owl:Class ;
+                        rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                        rdfs:label "oa:AnnotationCollection" .
+
+
+###  http://www.w3.org/ns/oa#AnnotationPage
+oa:AnnotationPage rdf:type owl:Class ;
+                  rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                  rdfs:label "oa:AnnotationPage" .
+
+
+###  http://www.w3.org/ns/oa#Selector
+oa:Selector rdf:type owl:Class ;
+            rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+            rdfs:label "oa:Selector" .
+
+
+###  http://www.w3.org/ns/oa#SpecificResource
+oa:SpecificResource rdf:type owl:Class ;
+                    rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                    rdfs:label "oa:SpecificResource" .
+
+
+###  http://www.w3.org/ns/oa#SpecificResource_bcfa36ac-44da-4108-bd6e-48d117cfdcd7
+oa:SpecificResource_bcfa36ac-44da-4108-bd6e-48d117cfdcd7 rdf:type owl:Class ;
+                                                         rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                                                         rdfs:label "oa:SpecificResource" .
+
+
+###  http://www.w3.org/ns/oa#TextualBody
+oa:TextualBody rdf:type owl:Class ;
+               rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+               rdfs:label "oa:TextualBody" .
+
+
+###  https://data.goldenagents.org/ontology/ga/Type
+<https://data.goldenagents.org/ontology/ga/Type> rdf:type owl:Class ;
+                                                 rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                                                 rdfs:label "Type" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Agent
+rpp:Agent rdf:type owl:Class ;
+          rdfs:subClassOf rpp:Rolebearer ;
+          rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+          rdfs:label "Agent" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/AgentRole
+rpp:AgentRole rdf:type owl:Class ;
+              rdfs:subClassOf rpp:Role ;
+              rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+              rdfs:label "AgentRole" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Analiticclfactoid
+rpp:Analiticclfactoid rdf:type owl:Class ;
+                      rdfs:subClassOf oa:TextualBody ,
+                                      rpp:Analiticclinformation ;
+                      rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                      rdfs:label "analiticcl:Factoid" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Analiticclinformation
+rpp:Analiticclinformation rdf:type owl:Class ;
+                          rdfs:comment "Look into Factoid Prosopography Ontology (FPO)" ;
+                          rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                          rdfs:label "analiticcl:Information" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Analiticclreference
+rpp:Analiticclreference rdf:type owl:Class ;
+                        rdfs:subClassOf oa:SpecificResource_bcfa36ac-44da-4108-bd6e-48d117cfdcd7 ,
+                                        rpp:Analiticclinformation ;
+                        rdfs:comment "Only when there is a reference to an external entity. Compare to fpo:Reference." ;
+                        rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                        rdfs:label "analiticcl:Reference" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Auctioninventoryitem
+rpp:Auctioninventoryitem rdf:type owl:Class ;
+                         rdfs:subClassOf rpp:Objectrole ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty rdf:type ;
+                                           owl:someValuesFrom rpp:InventoryItemType
+                                         ] ;
+                         rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                         rdfs:label "AuctionInventoryItem" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Baptism
+rpp:Baptism rdf:type owl:Class ;
+            rdfs:subClassOf rpp:Event ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty rdf:type ;
+                              owl:someValuesFrom rpp:EventType
+                            ] ;
+            rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+            rdfs:label "Baptism" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Begraafregistratie
+rpp:Begraafregistratie rdf:type owl:Class ;
+                       rdfs:subClassOf rpp:Registrationevent ,
+                                       [ rdf:type owl:Restriction ;
+                                         owl:onProperty rdf:type ;
+                                         owl:someValuesFrom rpp:RegistrationEventType
+                                       ] ;
+                       rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                       rdfs:label "Begraafregistratie" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Birth
+rpp:Birth rdf:type owl:Class ;
+          rdfs:subClassOf rpp:Event ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty rdf:type ;
+                            owl:someValuesFrom rpp:EventType
+                          ] ;
+          rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+          rdfs:label "Birth" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Birthlocation
+rpp:Birthlocation rdf:type owl:Class ;
+                  rdfs:subClassOf rpp:Locationrole ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty rdf:type ;
+                                    owl:someValuesFrom rpp:RoleType
+                                  ] ;
+                  rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                  rdfs:label "BirthLocation" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Boedelinventaris
+rpp:Boedelinventaris rdf:type owl:Class ;
+                     rdfs:subClassOf rpp:Document ,
+                                     [ rdf:type owl:Restriction ;
+                                       owl:onProperty rdf:type ;
+                                       owl:someValuesFrom rpp:Documenttype
+                                     ] ;
+                     rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                     rdfs:label "Boedelinventaris" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Bookindex
+rpp:Bookindex rdf:type owl:Class ;
+              rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                owl:onProperty rpp:indexof ;
+                                owl:someValuesFrom rpp:Inventorybook
+                              ] ,
+                              [ rdf:type owl:Restriction ;
+                                owl:onProperty rpp:memberof ;
+                                owl:someValuesFrom rpp:Indexcollection
+                              ] ;
+              rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+              rdfs:label "BookIndex" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Bruid
+rpp:Bruid rdf:type owl:Class ;
+          rdfs:subClassOf rpp:AgentRole ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty rdf:type ;
+                            owl:someValuesFrom rpp:RoleType
+                          ] ;
+          rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+          rdfs:label "Bruid" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Bruidegom
+rpp:Bruidegom rdf:type owl:Class ;
+              rdfs:subClassOf rpp:AgentRole ,
+                              [ rdf:type owl:Restriction ;
+                                owl:onProperty rdf:type ;
+                                owl:someValuesFrom rpp:RoleType
+                              ] ;
+              rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+              rdfs:label "Bruidegom" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Burrial
+rpp:Burrial rdf:type owl:Class ;
+            rdfs:subClassOf rpp:Event ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty rdf:type ;
+                              owl:someValuesFrom rpp:EventType
+                            ] ;
+            rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+            rdfs:label "Burrial" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Category
+rpp:Category rdf:type owl:Class ;
+             rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+             rdfs:label "Category" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Classificationtype
+rpp:Classificationtype rdf:type owl:Class ;
+                       rdfs:comment "A type from a thesaurus or a collection of types, such as the AAT or the CHT." ;
+                       rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                       rdfs:label "ClassificationType" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Collection
+rpp:Collection rdf:type owl:Class ;
+               rdfs:subClassOf rpp:Itemsset ;
+               rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+               rdfs:label "Collection" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Color
+rpp:Color rdf:type owl:Class ;
+          rdfs:subClassOf rpp:ItemProperty ;
+          rdfs:comment "Dutch: Kleur" ;
+          rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+          rdfs:label "Color" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Count
+rpp:Count rdf:type owl:Class ;
+          rdfs:subClassOf rpp:Units ;
+          rdfs:comment "Dutch: Aantal" ;
+          rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+          rdfs:label "Count" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Curtain
+rpp:Curtain rdf:type owl:Class ;
+            rdfs:subClassOf [ rdf:type owl:Restriction ;
+                              owl:onProperty rdf:type ;
+                              owl:someValuesFrom rpp:Objecttype
+                            ] ;
+            rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+            rdfs:label "Curtain" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Death
+rpp:Death rdf:type owl:Class ;
+          rdfs:subClassOf rpp:Event ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty rdf:type ;
+                            owl:someValuesFrom rpp:EventType
+                          ] ;
+          rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+          rdfs:label "Death" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Depiction
+rpp:Depiction rdf:type owl:Class ;
+              rdfs:subClassOf rpp:ItemProperty ;
+              rdfs:comment "E.g. a scene it depicts: 'The annunciation of Mary', or a reference to ICONCLASS (Iconography)." ;
+              rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+              rdfs:label "Depiction" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Document
+rpp:Document rdf:type owl:Class ;
+             rdfs:subClassOf rpp:Rolebearer ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty rpp:hasindex ;
+                               owl:someValuesFrom rpp:IndexDocument
+                             ] ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty rpp:partof ;
+                               owl:someValuesFrom rpp:Inventorybook
+                             ] ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty rpp:hasscan ;
+                               owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                               owl:onClass rpp:Scan
+                             ] ;
+             rdfs:comment "A document is anything that can act as primary source. It is not restricted to textual material. This class is meant for the physical object. If you have metadata on a Document, then you have made an IndexDocument." ;
+             rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+             rdfs:label "Document" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Documenttype
+rpp:Documenttype rdf:type owl:Class ;
+                 rdfs:subClassOf <https://data.goldenagents.org/ontology/ga/Type> ;
+                 rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                 rdfs:label "DocumentType" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Doopregistratie
+rpp:Doopregistratie rdf:type owl:Class ;
+                    rdfs:subClassOf rpp:Registrationevent ,
+                                    [ rdf:type owl:Restriction ;
+                                      owl:onProperty rdf:type ;
+                                      owl:someValuesFrom rpp:RegistrationEventType
+                                    ] ;
+                    rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                    rdfs:label "Doopregistratie" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Dopeling
+rpp:Dopeling rdf:type owl:Class ;
+             rdfs:subClassOf rpp:AgentRole ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty rdf:type ;
+                               owl:someValuesFrom rpp:RoleType
+                             ] ;
+             rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+             rdfs:label "Dopeling" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/DtbBegraven
+rpp:DtbBegraven rdf:type owl:Class ;
+                rdfs:subClassOf rpp:Document ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty rdf:type ;
+                                  owl:someValuesFrom rpp:Documenttype
+                                ] ;
+                rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                rdfs:label "DTB Begraven" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/DtbDopen
+rpp:DtbDopen rdf:type owl:Class ;
+             rdfs:subClassOf rpp:Document ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty rdf:type ;
+                               owl:someValuesFrom rpp:Documenttype
+                             ] ;
+             rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+             rdfs:label "DTB Dopen" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/DtbOndertrouw
+rpp:DtbOndertrouw rdf:type owl:Class ;
+                  rdfs:subClassOf rpp:Document ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty rdf:type ;
+                                    owl:someValuesFrom rpp:Documenttype
+                                  ] ;
+                  rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                  rdfs:label "DTB Ondertrouw" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Event
+rpp:Event rdf:type owl:Class ;
+          rdfs:subClassOf rpp:Substantial ;
+          rdfs:comment "Generic type of event." ;
+          rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+          rdfs:label "Event" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/EventType
+rpp:EventType rdf:type owl:Class ;
+              rdfs:subClassOf <https://data.goldenagents.org/ontology/ga/Type> ;
+              rdfs:comment "Contains all resources that are types of events. All specific events (e.g. 'Marriage') are an instance of this class." ;
+              rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+              rdfs:label "EventType" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Eventlocation
+rpp:Eventlocation rdf:type owl:Class ;
+                  rdfs:subClassOf rpp:Locationrole ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty rdf:type ;
+                                    owl:someValuesFrom rpp:RoleType
+                                  ] ;
+                  rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                  rdfs:label "EventLocation" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Eventreligion
+rpp:Eventreligion rdf:type owl:Class ;
+                  rdfs:subClassOf rpp:ReligionRole ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty rdf:type ;
+                                    owl:someValuesFrom rpp:RoleType
+                                  ] ;
+                  rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                  rdfs:label "EventReligion" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Female
+rpp:Female rdf:type owl:Class ;
+           rdfs:subClassOf rpp:Gender ,
+                           [ rdf:type owl:Restriction ;
+                             owl:onProperty rdf:type ;
+                             owl:someValuesFrom rpp:Gendertype
+                           ] ;
+           rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+           rdfs:label "Female" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Fragment
+rpp:Fragment rdf:type owl:Class ;
+             rdfs:subClassOf [ rdf:type owl:Restriction ;
+                               owl:onProperty rpp:partof ;
+                               owl:someValuesFrom rpp:Document
+                             ] ;
+             rdfs:comment "A fragment of a physical document. Multiple fragments (or: document parts) can make up for the entire document." ;
+             rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+             rdfs:label "Fragment?" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Gender
+rpp:Gender rdf:type owl:Class ;
+           rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+           rdfs:label "Gender" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Gendertype
+rpp:Gendertype rdf:type owl:Class ;
+               rdfs:subClassOf <https://data.goldenagents.org/ontology/ga/Type> ;
+               rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+               rdfs:label "GenderType" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Geregistreerde
+rpp:Geregistreerde rdf:type owl:Class ;
+                   rdfs:subClassOf rpp:AgentRole ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty rdf:type ;
+                                     owl:someValuesFrom rpp:RoleType
+                                   ] ;
+                   rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                   rdfs:label "Geregistreerde" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Getuige
+rpp:Getuige rdf:type owl:Class ;
+            rdfs:subClassOf rpp:AgentRole ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty rdf:type ;
+                              owl:someValuesFrom rpp:RoleType
+                            ] ;
+            rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+            rdfs:label "Getuige" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Homelocation
+rpp:Homelocation rdf:type owl:Class ;
+                 rdfs:subClassOf rpp:Locationrole ,
+                                 [ rdf:type owl:Restriction ;
+                                   owl:onProperty rdf:type ;
+                                   owl:someValuesFrom rpp:RoleType
+                                 ] ;
+                 rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                 rdfs:label "HomeLocation" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Huwelijksestaat
+rpp:Huwelijksestaat rdf:type owl:Class ;
+                    rdfs:subClassOf rpp:StatusRole ,
+                                    [ rdf:type owl:Restriction ;
+                                      owl:onProperty rdf:type ;
+                                      owl:someValuesFrom rpp:RoleType
+                                    ] ;
+                    rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                    rdfs:label "HuwelijkseStaat" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/IndexDocument
+rpp:IndexDocument rdf:type owl:Class ;
+                  rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                    owl:onProperty rpp:indexof ;
+                                    owl:someValuesFrom rpp:Document
+                                  ] ;
+                  rdfs:comment "An IndexDocument contains all the information about a physical Document that is not directly related to the object itself. This is for instance an entry to an inventory number in an archival description." ;
+                  rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                  rdfs:label "IndexDocument" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/IndexInventoryOfGoods
+rpp:IndexInventoryOfGoods rdf:type owl:Class ;
+                          rdfs:subClassOf rpp:IndexDocument ;
+                          rdfs:comment "The index on the probate/estate inventory" ;
+                          rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                          rdfs:label "IndexInventoryOfGoods" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Indexcollection
+rpp:Indexcollection rdf:type owl:Class ;
+                    rdfs:subClassOf rpp:Collection ,
+                                    [ rdf:type owl:Restriction ;
+                                      owl:onProperty rpp:hasmember ;
+                                      owl:someValuesFrom rpp:Bookindex
+                                    ] ,
+                                    [ rdf:type owl:Restriction ;
+                                      owl:onProperty rpp:indexof ;
+                                      owl:someValuesFrom rpp:Inventorycollection
+                                    ] ;
+                    rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                    rdfs:label "IndexCollection" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Information
+rpp:Information rdf:type owl:Class ;
+                rdfs:subClassOf rpp:Rolebearer ;
+                rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                rdfs:label "Information" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Interpretationevent
+rpp:Interpretationevent rdf:type owl:Class ;
+                        rdfs:subClassOf rpp:Event ,
+                                        [ rdf:type owl:Restriction ;
+                                          owl:onProperty rpp:hasinput ;
+                                          owl:someValuesFrom rpp:Information
+                                        ] ,
+                                        [ rdf:type owl:Restriction ;
+                                          owl:onProperty rpp:hasoutput ;
+                                          owl:someValuesFrom rpp:Observation
+                                        ] ;
+                        rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                        rdfs:label "InterpretationEvent" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Inventory
+rpp:Inventory rdf:type owl:Class ;
+              rdfs:subClassOf rpp:Section ;
+              rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+              rdfs:label "Inventory" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/InventoryItemType
+rpp:InventoryItemType rdf:type owl:Class ;
+                      rdfs:subClassOf <https://data.goldenagents.org/ontology/ga/Type> ;
+                      rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                      rdfs:label "InventoryItemType" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Inventorybook
+rpp:Inventorybook rdf:type owl:Class ;
+                  rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                    owl:onProperty rpp:hasindex ;
+                                    owl:someValuesFrom rpp:Bookindex
+                                  ] ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty rpp:memberof ;
+                                    owl:someValuesFrom rpp:Inventorycollection
+                                  ] ;
+                  rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                  rdfs:label "InventoryBook" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Inventorycollection
+rpp:Inventorycollection rdf:type owl:Class ;
+                        rdfs:subClassOf rpp:Collection ,
+                                        [ rdf:type owl:Restriction ;
+                                          owl:onProperty rpp:hasindex ;
+                                          owl:someValuesFrom rpp:Indexcollection
+                                        ] ,
+                                        [ rdf:type owl:Restriction ;
+                                          owl:onProperty rpp:hasmember ;
+                                          owl:someValuesFrom rpp:Inventorybook
+                                        ] ;
+                        rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                        rdfs:label "InventoryCollection" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Inventorycontent
+rpp:Inventorycontent rdf:type owl:Class ;
+                     rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                     rdfs:label "InventoryContent" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/ItemProperty
+rpp:ItemProperty rdf:type owl:Class ;
+                 rdfs:comment "Dutch: Eigenschappen. All these properties should come from a thesaurus." ;
+                 rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                 rdfs:label "ItemProperty" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Itemreference
+rpp:Itemreference rdf:type owl:Class ;
+                  rdfs:subClassOf rpp:Fragment ;
+                  rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                  rdfs:label "ItemReference" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Itemsset
+rpp:Itemsset rdf:type owl:Class ;
+             rdfs:subClassOf [ rdf:type owl:Restriction ;
+                               owl:onProperty rpp:hasmember ;
+                               owl:someValuesFrom rpp:Listitem
+                             ] ;
+             rdfs:comment "la:Set" ;
+             rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+             rdfs:label "ItemsSet" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Kind
+rpp:Kind rdf:type owl:Class ;
+         rdfs:subClassOf rpp:AgentRole ,
+                         [ rdf:type owl:Restriction ;
+                           owl:onProperty rdf:type ;
+                           owl:someValuesFrom rpp:RoleType
+                         ] ;
+         rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+         rdfs:label "Kind" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Koper
+rpp:Koper rdf:type owl:Class ;
+          rdfs:subClassOf rpp:AgentRole ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty rdf:type ;
+                            owl:someValuesFrom rpp:RoleType
+                          ] ;
+          rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+          rdfs:label "Koper" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Lampetkan
+rpp:Lampetkan rdf:type owl:Class ;
+              rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                owl:onProperty rdf:type ;
+                                owl:someValuesFrom rpp:Objecttype
+                              ] ;
+              rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+              rdfs:label "Lampetkan" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Listitem
+rpp:Listitem rdf:type owl:Class ;
+             rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+             rdfs:label "ListItem" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Location
+rpp:Location rdf:type owl:Class ;
+             rdfs:subClassOf rpp:Rolebearer ;
+             rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+             rdfs:label "Location" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/LocationReligion
+rpp:LocationReligion rdf:type owl:Class ;
+                     rdfs:subClassOf rpp:ReligionRole ,
+                                     [ rdf:type owl:Restriction ;
+                                       owl:onProperty rdf:type ;
+                                       owl:someValuesFrom rpp:RoleType
+                                     ] ;
+                     rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                     rdfs:label "LocationReligion" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Locationrole
+rpp:Locationrole rdf:type owl:Class ;
+                 rdfs:subClassOf rpp:Role ;
+                 rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                 rdfs:label "LocationRole" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Male
+rpp:Male rdf:type owl:Class ;
+         rdfs:subClassOf rpp:Gender ,
+                         [ rdf:type owl:Restriction ;
+                           owl:onProperty rdf:type ;
+                           owl:someValuesFrom rpp:Gendertype
+                         ] ;
+         rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+         rdfs:label "Male" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Marriage
+rpp:Marriage rdf:type owl:Class ;
+             rdfs:subClassOf rpp:Event ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty rdf:type ;
+                               owl:someValuesFrom rpp:EventType
+                             ] ;
+             rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+             rdfs:label "Marriage" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Material
+rpp:Material rdf:type owl:Class ;
+             rdfs:subClassOf rpp:Category ;
+             rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+             rdfs:label "Material" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Material_5af6a438-1d60-4fab-92e2-030895021610
+rpp:Material_5af6a438-1d60-4fab-92e2-030895021610 rdf:type owl:Class ;
+                                                  rdfs:subClassOf rpp:ItemProperty ;
+                                                  rdfs:comment "Dutch: Materiaal" ;
+                                                  rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                                                  rdfs:label "Material" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Moeder
+rpp:Moeder rdf:type owl:Class ;
+           rdfs:subClassOf rpp:AgentRole ,
+                           [ rdf:type owl:Restriction ;
+                             owl:onProperty rdf:type ;
+                             owl:someValuesFrom rpp:RoleType
+                           ] ;
+           rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+           rdfs:label "Moeder" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Notaris
+rpp:Notaris rdf:type owl:Class ;
+            rdfs:subClassOf rpp:AgentRole ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty rdf:type ;
+                              owl:someValuesFrom rpp:RoleType
+                            ] ;
+            rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+            rdfs:label "Notaris" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Object
+rpp:Object rdf:type owl:Class ;
+           rdfs:subClassOf rpp:Rolebearer ;
+           rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+           rdfs:label "Object" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Objectrole
+rpp:Objectrole rdf:type owl:Class ;
+               rdfs:subClassOf rpp:Role ;
+               rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+               rdfs:label "ObjectRole" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Objecttype
+rpp:Objecttype rdf:type owl:Class ;
+               rdfs:subClassOf <https://data.goldenagents.org/ontology/ga/Type> ,
+                               rpp:Classificationtype ;
+               rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+               rdfs:label "ObjectType" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Observation
+rpp:Observation rdf:type owl:Class ;
+                rdfs:comment "Any entity you extract from an archival source is an Observation." ;
+                rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                rdfs:label "Observation" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Occupation
+rpp:Occupation rdf:type owl:Class ;
+               rdfs:subClassOf rpp:Rolebearer ;
+               rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+               rdfs:label "Occupation" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Occupationrole
+rpp:Occupationrole rdf:type owl:Class ;
+                   rdfs:subClassOf rpp:Role ;
+                   rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                   rdfs:label "OccupationRole" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Ondertrouwregistratie
+rpp:Ondertrouwregistratie rdf:type owl:Class ;
+                          rdfs:subClassOf rpp:Registrationevent ,
+                                          [ rdf:type owl:Restriction ;
+                                            owl:onProperty rdf:type ;
+                                            owl:someValuesFrom rpp:RegistrationEventType
+                                          ] ;
+                          rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                          rdfs:label "Ondertrouwregistratie" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Organization
+rpp:Organization rdf:type owl:Class ;
+                 rdfs:subClassOf rpp:Agent ;
+                 rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                 rdfs:label "Organization" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/OrganizationRole
+rpp:OrganizationRole rdf:type owl:Class ;
+                     rdfs:subClassOf rpp:AgentRole ;
+                     rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                     rdfs:label "OrganizationRole" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Other
+rpp:Other rdf:type owl:Class ;
+          rdfs:subClassOf rpp:Gender ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty rdf:type ;
+                            owl:someValuesFrom rpp:Gendertype
+                          ] ;
+          rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+          rdfs:label "Other" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Painting
+rpp:Painting rdf:type owl:Class ;
+             rdfs:subClassOf [ rdf:type owl:Restriction ;
+                               owl:onProperty rdf:type ;
+                               owl:someValuesFrom rpp:Objecttype
+                             ] ;
+             rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+             rdfs:label "Painting" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Partner
+rpp:Partner rdf:type owl:Class ;
+            rdfs:subClassOf rpp:AgentRole ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty rdf:type ;
+                              owl:someValuesFrom rpp:RoleType
+                            ] ;
+            rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+            rdfs:label "Partner" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Person
+rpp:Person rdf:type owl:Class ;
+           rdfs:subClassOf rpp:Agent ;
+           rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+           rdfs:label "Person" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/PersonRole
+rpp:PersonRole rdf:type owl:Class ;
+               rdfs:subClassOf rpp:AgentRole ;
+               rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+               rdfs:label "PersonRole" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Personoccupation
+rpp:Personoccupation rdf:type owl:Class ;
+                     rdfs:subClassOf rpp:Occupationrole ,
+                                     [ rdf:type owl:Restriction ;
+                                       owl:onProperty rdf:type ;
+                                       owl:someValuesFrom rpp:RoleType
+                                     ] ;
+                     rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                     rdfs:label "PersonOccupation" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Personrelation
+rpp:Personrelation rdf:type owl:Class ;
+                   rdfs:subClassOf rpp:RelationRole ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty rdf:type ;
+                                     owl:someValuesFrom rpp:RoleType
+                                   ] ;
+                   rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                   rdfs:label "PersonRelation" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Personreligion
+rpp:Personreligion rdf:type owl:Class ;
+                   rdfs:subClassOf rpp:ReligionRole ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty rdf:type ;
+                                     owl:someValuesFrom rpp:RoleType
+                                   ] ;
+                   rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                   rdfs:label "PersonReligion" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Preamble
+rpp:Preamble rdf:type owl:Class ;
+             rdfs:subClassOf rpp:Section ;
+             rdfs:comment "A specific section/part of the physical document (the intro, usually listing the owners of the probate inventory and other persons involved)." ;
+             rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+             rdfs:label "Preamble" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Preamble_360ca0a5-4321-4d63-8023-86047d736162
+rpp:Preamble_360ca0a5-4321-4d63-8023-86047d736162 rdf:type owl:Class ;
+                                                  rdfs:subClassOf rpp:Fragment ;
+                                                  rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                                                  rdfs:label "Preamble" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Probateinventoryitem
+rpp:Probateinventoryitem rdf:type owl:Class ;
+                         rdfs:subClassOf rpp:Objectrole ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty rdf:type ;
+                                           owl:someValuesFrom rpp:InventoryItemType
+                                         ] ;
+                         rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                         rdfs:label "ProbateInventoryItem" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Qualification
+rpp:Qualification rdf:type owl:Class ;
+                  rdfs:subClassOf rpp:ItemProperty ;
+                  rdfs:comment "Dutch: Kwalificatie" ;
+                  rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                  rdfs:label "Qualification" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Reconstruction
+rpp:Reconstruction rdf:type owl:Class ;
+                   rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                     owl:onProperty rpp:wasderivedfrom ;
+                                     owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                     owl:onClass rpp:Observation
+                                   ] ;
+                   rdfs:comment "A Reconstruction serves as a selection or aggregation mechanism for one or more Observations or existing Reconstructions. It allows for a selection of properties that are modelled from several archival documents, based on a particular idea, or interpretation. By making a Reconstruction, you construct a 'most-probable' or 'digital-copy' of an entity. In the case of a Person, you construct the lifeline or biography of this person." ;
+                   rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                   rdfs:label "Reconstruction" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Reconstructionevent
+rpp:Reconstructionevent rdf:type owl:Class ;
+                        rdfs:subClassOf rpp:Event ,
+                                        [ rdf:type owl:Restriction ;
+                                          owl:onProperty rpp:hasinput ;
+                                          owl:someValuesFrom rpp:Observation
+                                        ] ,
+                                        [ rdf:type owl:Restriction ;
+                                          owl:onProperty rpp:hasoutput ;
+                                          owl:someValuesFrom rpp:Reconstruction
+                                        ] ,
+                                        [ rdf:type owl:Restriction ;
+                                          owl:onProperty rpp:hasinput ;
+                                          owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                          owl:onClass rpp:Observation
+                                        ] ;
+                        rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                        rdfs:label "ReconstructionEvent" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Reference
+rpp:Reference rdf:type owl:Class ;
+              rdfs:subClassOf rpp:Information ;
+              rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+              rdfs:label "Reference" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Referenceindex
+rpp:Referenceindex rdf:type owl:Class ;
+                   rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                   rdfs:label "ReferenceIndex" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Registeredobject
+rpp:Registeredobject rdf:type owl:Class ;
+                     rdfs:subClassOf rpp:Objectrole ,
+                                     [ rdf:type owl:Restriction ;
+                                       owl:onProperty rdf:type ;
+                                       owl:someValuesFrom rpp:InventoryItemType
+                                     ] ;
+                     rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                     rdfs:label "RegisteredObject" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/RegistrationEventType
+rpp:RegistrationEventType rdf:type owl:Class ;
+                          rdfs:subClassOf rpp:EventType ;
+                          rdfs:comment "A RegistrationEventType holds resources that are registration event types. All registration events (e.g. 'Registration of Baptism') are an instance of this class." ;
+                          rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                          rdfs:label "RegistrationEventType" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Registrationevent
+rpp:Registrationevent rdf:type owl:Class ;
+                      rdfs:subClassOf rpp:Event ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty rpp:hasoutput ;
+                                        owl:someValuesFrom rpp:Document
+                                      ] ;
+                      rdfs:comment "Parent class for all registration events. A registration event is an event in which an archival document is made and that optionally registers another event (e.g. the registration of a baptism and the baptism itself)." ;
+                      rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                      rdfs:label "RegistrationEvent" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Relation
+rpp:Relation rdf:type owl:Class ;
+             rdfs:subClassOf rpp:Rolebearer ;
+             rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+             rdfs:label "Relation" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/RelationRole
+rpp:RelationRole rdf:type owl:Class ;
+                 rdfs:subClassOf rpp:Role ;
+                 rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                 rdfs:label "RelationRole" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Religion
+rpp:Religion rdf:type owl:Class ;
+             rdfs:subClassOf rpp:Rolebearer ;
+             rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+             rdfs:label "Religion" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/ReligionRole
+rpp:ReligionRole rdf:type owl:Class ;
+                 rdfs:subClassOf rpp:Role ;
+                 rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                 rdfs:label "ReligionRole" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/ReligionType
+rpp:ReligionType rdf:type owl:Class ;
+                 rdfs:subClassOf <https://data.goldenagents.org/ontology/ga/Type> ;
+                 rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                 rdfs:label "ReligionType" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Role
+rpp:Role rdf:type owl:Class ;
+         rdfs:comment "Entities are observed in a context in a certain Role. This serves as an abstract class which MUST be subclassed to specify the actual role of an entity (e.g. Witness). These specialisations can come from a thesaurus." ;
+         rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+         rdfs:label "Role" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/RoleType
+rpp:RoleType rdf:type owl:Class ;
+             rdfs:subClassOf <https://data.goldenagents.org/ontology/ga/Type> ;
+             rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+             rdfs:label "RoleType" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Rolebearer
+rpp:Rolebearer rdf:type owl:Class ;
+               rdfs:subClassOf rpp:Substantial ;
+               rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+               rdfs:label "RoleBearer" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Room
+rpp:Room rdf:type owl:Class ;
+         rdfs:subClassOf rpp:Category ;
+         rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+         rdfs:label "Room" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Sale
+rpp:Sale rdf:type owl:Class ;
+         rdfs:subClassOf rpp:Event ,
+                         [ rdf:type owl:Restriction ;
+                           owl:onProperty rdf:type ;
+                           owl:someValuesFrom rpp:EventType
+                         ] ;
+         rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+         rdfs:label "Sale" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Scan
+rpp:Scan rdf:type owl:Class ;
+         rdfs:subClassOf [ rdf:type owl:Restriction ;
+                           owl:onProperty rpp:memberof ;
+                           owl:someValuesFrom rpp:Scancollection
+                         ] ;
+         rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+         rdfs:label "Scan" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Scancollection
+rpp:Scancollection rdf:type owl:Class ;
+                   rdfs:subClassOf rpp:Collection ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty rpp:hasmember ;
+                                     owl:someValuesFrom rpp:Scan
+                                   ] ;
+                   rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                   rdfs:label "ScanCollection" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Schatster
+rpp:Schatster rdf:type owl:Class ;
+              rdfs:subClassOf rpp:AgentRole ,
+                              [ rdf:type owl:Restriction ;
+                                owl:onProperty rdf:type ;
+                                owl:someValuesFrom rpp:RoleType
+                              ] ;
+              rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+              rdfs:label "Schatster" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Schipper
+rpp:Schipper rdf:type owl:Class ;
+             rdfs:subClassOf rpp:AgentRole ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty rdf:type ;
+                               owl:someValuesFrom rpp:RoleType
+                             ] ;
+             rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+             rdfs:label "Schipper" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Section
+rpp:Section rdf:type owl:Class ;
+            rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+            rdfs:label "Section" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Set
+rpp:Set rdf:type owl:Class ;
+        rdfs:subClassOf [ rdf:type owl:Restriction ;
+                          owl:onProperty rpp:hasmember ;
+                          owl:someValuesFrom <http://www.cidoc-crm.org/cidoc-crm/E22_Human-Made_Object>
+                        ] ,
+                        [ rdf:type owl:Restriction ;
+                          owl:onProperty rpp:hasmember ;
+                          owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                          owl:onClass <http://www.cidoc-crm.org/cidoc-crm/E22_Human-Made_Object>
+                        ] ;
+        rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+        rdfs:label "Set" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Status
+rpp:Status rdf:type owl:Class ;
+           rdfs:subClassOf rpp:Rolebearer ;
+           rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+           rdfs:label "Status" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/StatusRole
+rpp:StatusRole rdf:type owl:Class ;
+               rdfs:subClassOf rpp:Role ;
+               rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+               rdfs:label "StatusRole" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Substantial
+rpp:Substantial rdf:type owl:Class ;
+                rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                rdfs:label "Substantial" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Transcription
+rpp:Transcription rdf:type owl:Class ;
+                  rdfs:subClassOf rpp:Information ;
+                  rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                  rdfs:label "Transcription?" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Transcription_8645ff08-e8d4-4dc6-a658-757df948590c
+rpp:Transcription_8645ff08-e8d4-4dc6-a658-757df948590c rdf:type owl:Class ;
+                                                       rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                                                       rdfs:label "Transcription" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Units
+rpp:Units rdf:type owl:Class ;
+          rdfs:comment "Dutch: Eenheden" ;
+          rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+          rdfs:label "Units" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Vader
+rpp:Vader rdf:type owl:Class ;
+          rdfs:subClassOf rpp:AgentRole ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty rdf:type ;
+                            owl:someValuesFrom rpp:RoleType
+                          ] ;
+          rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+          rdfs:label "Vader" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Valuation
+rpp:Valuation rdf:type owl:Class ;
+              rdfs:subClassOf rpp:Units ,
+                              [ rdf:type owl:Restriction ;
+                                owl:onProperty rpp:currency ;
+                                owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                owl:onDataRange xsd:string
+                              ] ,
+                              [ rdf:type owl:Restriction ;
+                                owl:onProperty rpp:gulden ;
+                                owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                owl:onDataRange xsd:decimal
+                              ] ,
+                              [ rdf:type owl:Restriction ;
+                                owl:onProperty rpp:penning ;
+                                owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                owl:onDataRange xsd:decimal
+                              ] ,
+                              [ rdf:type owl:Restriction ;
+                                owl:onProperty rpp:stuiver ;
+                                owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                owl:onDataRange xsd:decimal
+                              ] ;
+              rdfs:comment "Class to store the value that is given to a single (list)item in a probate inventory. Valuation in the seventeenth and eighteenth century in The Netherlands is usually given in an amount of guilders, stuivers, and penningen. These are available as attributes on this class and allow you to enter a decimal value. Use the currency and value attributes for other monetary systems. It is strongly advised to enter the valuation as a number (e.g. decimal or integer) so that these can be aggregated in a query." ;
+              rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+              rdfs:label "Valuation" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Verkoper
+rpp:Verkoper rdf:type owl:Class ;
+             rdfs:subClassOf rpp:AgentRole ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty rdf:type ;
+                               owl:someValuesFrom rpp:RoleType
+                             ] ;
+             rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+             rdfs:label "Verkoper" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Weight
+rpp:Weight rdf:type owl:Class ;
+           rdfs:subClassOf rpp:Units ;
+           rdfs:comment "Dutch: Gewicht" ;
+           rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+           rdfs:label "Weight" .
+
+
+###  https://data.goldenagents.org/ontology/rpp/Worklocation
+rpp:Worklocation rdf:type owl:Class ;
+                 rdfs:subClassOf rpp:Locationrole ,
+                                 [ rdf:type owl:Restriction ;
+                                   owl:onProperty rdf:type ;
+                                   owl:someValuesFrom rpp:RoleType
+                                 ] ;
+                 rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+                 rdfs:label "WorkLocation" .
+
+
+###  https://w3id.org/pnv#PersonName
+pnv:PersonName rdf:type owl:Class ;
+               rdfs:isDefinedBy <https://data.goldenagents.org/ontology/rpp/> ;
+               rdfs:label "pnv:PersonName" .
+
+
+#################################################################
+#    Annotations
+#################################################################
+
+<https://data.goldenagents.org/ontology/rpp/> rdfs:comment "" ;
+                                              rdfs:label "Golden Agents ROAR++" .
+
+
+###  Generated by the OWL API (version 5.1.17) https://github.com/owlcs/owlapi/
